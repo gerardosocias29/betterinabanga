@@ -235,21 +235,26 @@ export default function HomePage() {
                     <div className="text-[11px] font-bold text-rose-700 px-3 py-1 uppercase font-heading">
                       Emergency Hotlines ({matchingHotlines.length})
                     </div>
-                    {matchingHotlines.map((h) => (
-                      <a
-                        key={h.id}
-                        href={`tel:${h.number.replace(/[^0-9]/g, '')}`}
-                        className="block px-3 py-2 hover:bg-rose-50 rounded-xl text-sm transition-colors group"
-                      >
-                        <div className="font-bold text-slate-900 font-heading flex items-center justify-between">
-                          <span>{h.name}</span>
-                          <span className="text-xs font-mono font-bold text-rose-600 bg-rose-100 px-2 py-0.5 rounded-md">
-                            {h.number}
-                          </span>
-                        </div>
-                        <div className="text-xs text-slate-500 mt-0.5">{h.available}</div>
-                      </a>
-                    ))}
+                    {matchingHotlines.map((h) => {
+                      const contactNumber = h.mobile?.[0] || h.landline || '';
+                      return (
+                        <a
+                          key={h.id}
+                          href={`tel:${contactNumber.replace(/[^0-9]/g, '')}`}
+                          className="block px-3 py-2 hover:bg-rose-50 rounded-xl text-sm transition-colors group"
+                        >
+                          <div className="font-bold text-slate-900 font-heading flex items-center justify-between">
+                            <span>{h.name}</span>
+                            {contactNumber && (
+                              <span className="text-xs font-mono font-bold text-rose-600 bg-rose-100 px-2 py-0.5 rounded-md">
+                                {contactNumber}
+                              </span>
+                            )}
+                          </div>
+                          <div className="text-xs text-slate-500 mt-0.5">{h.available}</div>
+                        </a>
+                      );
+                    })}
                   </div>
                 )}
 

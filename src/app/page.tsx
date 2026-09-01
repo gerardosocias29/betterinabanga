@@ -274,15 +274,15 @@ export default function HomePage() {
             )}
           </div>
 
-          {/* Key Metrics / Highlights Bar - Icons on Left, Bigger & Vertically Centered */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 max-w-5xl lg:max-w-6xl mx-auto pt-4 text-left">
+          {/* Key Metrics / Highlights Bar - No Overlap, Balanced Layout */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5 max-w-6xl xl:max-w-7xl mx-auto pt-4 text-left">
             {/* Card 1: Barangays */}
-            <div className="bg-white rounded-2xl p-5 sm:p-6 shadow-xl border border-white/80 hover:scale-[1.02] transition-transform flex items-center gap-4 sm:gap-5">
-              <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-2xl bg-inabanga-50 text-inabanga-800 flex items-center justify-center shadow-xs border border-inabanga-100 shrink-0">
-                <MapPin className="w-7 h-7 sm:w-8 sm:h-8 text-inabanga-700" />
+            <div className="bg-white rounded-2xl p-4 sm:p-5 shadow-xl border border-white/80 hover:scale-[1.02] transition-transform flex items-center gap-3.5 sm:gap-4">
+              <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-2xl bg-inabanga-50 text-inabanga-800 flex items-center justify-center shadow-xs border border-inabanga-100 shrink-0">
+                <MapPin className="w-6 h-6 sm:w-7 sm:h-7 text-inabanga-700" />
               </div>
               <div className="min-w-0 flex flex-col justify-center">
-                <span className="text-3xl sm:text-4xl font-black text-inabanga-900 font-heading leading-none">50</span>
+                <span className="text-2xl sm:text-3xl lg:text-3xl font-black text-inabanga-900 font-heading leading-none">50</span>
                 <span className="text-[11px] sm:text-xs text-slate-700 font-bold uppercase tracking-wide font-heading pt-1.5 leading-tight">
                   Barangays Connected
                 </span>
@@ -290,12 +290,12 @@ export default function HomePage() {
             </div>
 
             {/* Card 2: Annual Budget */}
-            <div className="bg-white rounded-2xl p-5 sm:p-6 shadow-xl border border-white/80 hover:scale-[1.02] transition-transform flex items-center gap-4 sm:gap-5">
-              <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-2xl bg-amber-50 text-amber-800 flex items-center justify-center shadow-xs border border-amber-100 shrink-0">
-                <Coins className="w-7 h-7 sm:w-8 sm:h-8 text-amber-600" />
+            <div className="bg-white rounded-2xl p-4 sm:p-5 shadow-xl border border-white/80 hover:scale-[1.02] transition-transform flex items-center gap-3.5 sm:gap-4">
+              <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-2xl bg-amber-50 text-amber-800 flex items-center justify-center shadow-xs border border-amber-100 shrink-0">
+                <Coins className="w-6 h-6 sm:w-7 sm:h-7 text-amber-600" />
               </div>
               <div className="min-w-0 flex flex-col justify-center">
-                <span className="text-2xl sm:text-3xl lg:text-4xl font-black text-inabanga-900 font-heading whitespace-nowrap leading-none">₱248.6M</span>
+                <span className="text-xl sm:text-2xl lg:text-3xl font-black text-inabanga-900 font-heading whitespace-nowrap leading-none">₱248.6M</span>
                 <span className="text-[11px] sm:text-xs text-slate-700 font-bold uppercase tracking-wide font-heading pt-1.5 leading-tight">
                   Annual Budget Disclosed
                 </span>
@@ -303,12 +303,12 @@ export default function HomePage() {
             </div>
 
             {/* Card 3: Emergency Dispatch */}
-            <div className="bg-white rounded-2xl p-5 sm:p-6 shadow-xl border border-white/80 hover:scale-[1.02] transition-transform flex items-center gap-4 sm:gap-5">
-              <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-2xl bg-rose-50 text-rose-800 flex items-center justify-center shadow-xs border border-rose-100 shrink-0">
-                <PhoneCall className="w-7 h-7 sm:w-8 sm:h-8 text-rose-600" />
+            <div className="bg-white rounded-2xl p-4 sm:p-5 shadow-xl border border-white/80 hover:scale-[1.02] transition-transform flex items-center gap-3.5 sm:gap-4">
+              <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-2xl bg-rose-50 text-rose-800 flex items-center justify-center shadow-xs border border-rose-100 shrink-0">
+                <PhoneCall className="w-6 h-6 sm:w-7 sm:h-7 text-rose-600" />
               </div>
               <div className="min-w-0 flex flex-col justify-center">
-                <span className="text-3xl sm:text-4xl font-black text-rose-600 font-heading whitespace-nowrap leading-none">24 / 7</span>
+                <span className="text-2xl sm:text-3xl lg:text-3xl font-black text-rose-600 font-heading whitespace-nowrap leading-none">24 / 7</span>
                 <span className="text-[11px] sm:text-xs text-slate-700 font-bold uppercase tracking-wide font-heading pt-1.5 leading-tight">
                   Emergency Dispatch
                 </span>
@@ -316,12 +316,12 @@ export default function HomePage() {
             </div>
 
             {/* Card 4: Public Open Data */}
-            <div className="bg-white rounded-2xl p-5 sm:p-6 shadow-xl border border-white/80 hover:scale-[1.02] transition-transform flex items-center gap-4 sm:gap-5">
-              <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-2xl bg-emerald-50 text-emerald-800 flex items-center justify-center shadow-xs border border-emerald-100 shrink-0">
-                <CheckCircle className="w-7 h-7 sm:w-8 sm:h-8 text-emerald-600" />
+            <div className="bg-white rounded-2xl p-4 sm:p-5 shadow-xl border border-white/80 hover:scale-[1.02] transition-transform flex items-center gap-3.5 sm:gap-4">
+              <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-2xl bg-emerald-50 text-emerald-800 flex items-center justify-center shadow-xs border border-emerald-100 shrink-0">
+                <CheckCircle className="w-6 h-6 sm:w-7 sm:h-7 text-emerald-600" />
               </div>
               <div className="min-w-0 flex flex-col justify-center">
-                <span className="text-3xl sm:text-4xl font-black text-inabanga-900 font-heading leading-none">100%</span>
+                <span className="text-2xl sm:text-3xl lg:text-3xl font-black text-inabanga-900 font-heading leading-none">100%</span>
                 <span className="text-[11px] sm:text-xs text-slate-700 font-bold uppercase tracking-wide font-heading pt-1.5 leading-tight">
                   Public Open Data
                 </span>

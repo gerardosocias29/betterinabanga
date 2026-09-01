@@ -1,0 +1,16 @@
+{
+  "name": "BetterInabanga | Civic Transparency Portal",
+  "short_name": "BetterInabanga",
+  "description": "Civic Transparency and Public Services Portal for LGU Inabanga, Bohol",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0c3d70",
+  "theme_color": "#0c3d70",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ]
+}

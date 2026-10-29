@@ -181,7 +181,7 @@ export function SiteFooter() {
               </p>
               <div className="mt-4 flex flex-wrap gap-2">
                 <a
-                  href="https://github.com/betterinabanga/betterinabanga/issues/new"
+                  href="https://github.com/gerardosocias29/betterinabanga/issues/new"
                   target="_blank"
                   rel="noreferrer"
                   title={translate('Offer to help or suggest an improvement')}
@@ -191,7 +191,7 @@ export function SiteFooter() {
                   {translate('Volunteer with us')}
                 </a>
                 <a
-                  href="https://github.com/betterinabanga/betterinabanga"
+                  href="https://github.com/gerardosocias29/betterinabanga"
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex min-h-10 items-center gap-2 rounded-full bg-white/10 px-3.5 py-2 text-sm font-semibold text-white/85 transition hover:bg-white/15 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-300"
@@ -200,7 +200,7 @@ export function SiteFooter() {
                   {translate('Open-source on GitHub')}
                 </a>
                 <a
-                  href="https://github.com/betterinabanga/betterinabanga/blob/main/CONTRIBUTING.md"
+                  href="https://github.com/gerardosocias29/betterinabanga/blob/main/CONTRIBUTING.md"
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex min-h-10 items-center gap-2 rounded-full bg-white/10 px-3.5 py-2 text-sm font-semibold text-white/85 transition hover:bg-white/15 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-300"

@@ -62,9 +62,9 @@ const logoSources = [
   { href: 'https://commons.wikimedia.org/wiki/File:Philippine_Statistics_Authority.svg', label: 'Philippine Statistics Authority seal · Commons source file' },
   { href: 'https://psa.gov.ph/about', label: 'Philippine Statistics Authority logo · official current page' },
   { href: 'https://commons.wikimedia.org/wiki/File:Regional_Trial_Court.svg', label: 'Regional Trial Court seal' },
-  { href: 'https://calabarzon.dilg.gov.ph/dilg-logo/', label: 'DILG logo · official regional site' },
+  { href: 'https://region7.dilg.gov.ph/', label: 'DILG Region VII official site' },
   { href: 'https://commons.wikimedia.org/wiki/File:DOH_PH_new_logo.svg', label: 'Department of Health current seal' },
-  { href: 'https://trclu.doh.gov.ph/', label: 'DOH Treatment and Rehabilitation Center – Bohol identity' },
+  { href: 'https://ro7.doh.gov.ph/', label: 'DOH Central Visayas Center for Health Development' },
   { href: 'https://www.dpwh.gov.ph/dpwh/about/logo', label: 'DPWH 2026 logo · official site' },
   { href: 'https://commons.wikimedia.org/wiki/File:Department_of_Migrant_Workers_(DMW).svg', label: 'Department of Migrant Workers logo' },
   { href: 'https://commons.wikimedia.org/wiki/File:Department_of_Tourism_(DOT).svg', label: 'Department of Tourism seal' },
@@ -73,18 +73,12 @@ const logoSources = [
   { href: 'https://commons.wikimedia.org/wiki/File:Logo_of_the_Department_of_Environment_and_Natural_Resources.svg', label: 'DENR logo' },
   { href: 'https://commons.wikimedia.org/wiki/File:Logo_of_the_Department_of_Agriculture_of_the_Philippines.jpg', label: 'Department of Agriculture seal' },
   { href: 'https://commons.wikimedia.org/wiki/File:Logo_of_the_Bureau_of_Internal_Revenue.png', label: 'BIR 2024 logo' },
-  { href: 'https://cicosat.edu.ph/', label: 'CICOSAT Colleges' },
-  { href: 'https://www.dmmmsu.edu.ph/dmmmsu-university-seal-2025/', label: 'DMMMSU official 2025 seal' },
-  { href: 'https://slc-sflu.edu.ph/', label: 'Saint Louis College' },
-  { href: 'https://www.ucc.edu.ph/', label: 'Union Christian College' },
-  { href: 'https://www.lormacolleges.com/', label: 'LORMA Colleges' },
-  { href: 'https://www.amaes.edu.ph/main.html', label: 'AMA Education System' },
-  { href: 'https://www.leadingedge.com.ph/', label: 'Leading Edge Aviation' },
-  { href: 'https://partasbusticket.ph/schedule', label: 'Partas operator wordmark · official ticket booking page' },
-  { href: 'https://bethanyhospitalinc.com/', label: 'Bethany Hospital' },
-  { href: 'https://lumed.com.ph/', label: 'LUMED Hospital' },
-  { href: 'https://www.smsupermalls.com/mall-directory/sm-city-rosales/shops/smile-city-dental-essentials', label: 'Smile City Dental Essentials logo · SM Supermalls' },
-  { href: 'https://inabanga.gov.ph', label: 'Nisce Skin Medispa · Robinsons Bohol branch photo' },
+  { href: 'https://bisu.edu.ph/', label: 'Bohol Island State University (BISU)' },
+  { href: 'https://hnu.edu.ph/', label: 'Holy Name University' },
+  { href: 'https://universityofbohol.edu.ph/', label: 'University of Bohol' },
+  { href: 'https://boheco1.com.ph/', label: 'BOHECO I Bohol I Electric Cooperative' },
+  { href: 'https://bohol.gov.ph/health-services/', label: 'Bohol Provincial Health Services' },
+  { href: 'https://bohol.gov.ph/tourism/', label: 'Bohol Provincial Tourism Office' },
 ]
 
 function PlaceCard({ item }: { item: PlaceRecord }) {
@@ -332,11 +326,11 @@ export function PlacesPage() {
         <div className="mt-8">
           <SourceNote
             links={[
-              { href: 'https://launion.gov.ph/wp-content/uploads/2026/02/RLAs-PLAs-GOCCs-and-Private-Sector.pdf', label: 'Provincial agency directory (Feb. 2026)' },
-              { href: 'https://www.inabanga.gov.ph/city-departments/', label: 'City departments directory' },
-              { href: 'https://www.bohol.gov.ph', label: 'Tertiary schools list (2026)' },
-              { href: 'https://launion.gov.ph/wp-content/uploads/2024/02/2023_TAs.pdf', label: 'Tourism attraction inventory (2023)' },
-              { href: 'https://inabanga.gov.ph', label: 'Robinsons Bohol tenant directory' },
+              { href: 'https://bohol.gov.ph/directory/', label: 'Provincial agency directory' },
+              { href: '/offices', label: 'Municipal departments directory' },
+              { href: 'https://bohol.gov.ph/education/', label: 'Bohol educational institutions directory' },
+              { href: 'https://bohol.gov.ph/tourism/', label: 'Bohol tourism attraction inventory' },
+              { href: 'https://bohol.gov.ph/contact-us/', label: 'Provincial Government contacts' },
             ]}
           >
             <LocalizedText text={"Agency listings follow official city and provincial directories. Only verified marks and selected institution logos are shown; other listings appear by name. Google Maps may include old or duplicate entries, so confirm hours and operation before visiting. Nearby towns are excluded."} /></SourceNote>

@@ -67,18 +67,31 @@ export function OnlineServicesPage() {
                       <LocalizedText text={service.note} />
                     </p>
                   ) : null}
-                  <a
-                    href={service.url}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="group mt-4 inline-flex items-center gap-2 text-sm font-bold text-brand-700 transition hover:text-brand-800"
-                  >
-                    {translate('Open')} {service.shortName}
-                    <ArrowUpRight
-                      aria-hidden="true"
-                      className="size-4 transition group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
-                    />
-                  </a>
+                  {service.url.startsWith('/') ? (
+                    <Link
+                      to={service.url}
+                      className="group mt-4 inline-flex items-center gap-2 text-sm font-bold text-brand-700 transition hover:text-brand-800"
+                    >
+                      {translate('View')} {service.shortName}
+                      <ArrowUpRight
+                        aria-hidden="true"
+                        className="size-4 transition group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
+                      />
+                    </Link>
+                  ) : (
+                    <a
+                      href={service.url}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="group mt-4 inline-flex items-center gap-2 text-sm font-bold text-brand-700 transition hover:text-brand-800"
+                    >
+                      {translate('Open')} {service.shortName}
+                      <ArrowUpRight
+                        aria-hidden="true"
+                        className="size-4 transition group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
+                      />
+                    </a>
+                  )}
                 </div>
               </Reveal>
             ))}

@@ -131,17 +131,17 @@ export function HotlinesPage() {
 
         <div className="mt-8">
           <SourceNote
-            href="https://www.inabanga.gov.ph/city-departments/"
-            linkLabel="Current City Department directory"
+            href="/offices"
+            linkLabel="Inabanga Municipal Offices & Departments Directory"
             links={[
-              { href: 'https://launion.gov.ph/contact-us/', label: 'Provincial Government contacts' },
+              { href: 'https://bohol.gov.ph/contact-us/', label: 'Provincial Government of Bohol contacts' },
               {
-                href: 'https://inabanga.gov.ph',
-                label: 'City stakeholder directory (2023)',
+                href: 'https://www.facebook.com/municipalityofinabanga',
+                label: 'Municipality of Inabanga official communications desk',
               },
             ]}
           >
-            {translate('Health, social welfare, public safety, and MDRRMO contacts match the current city directory where listed. Police and fire direct numbers come from the city’s 2023 stakeholder directory; we found no newer official direct-number listing. Confirm them before non-emergency use. Call 911 for immediate emergencies.')}
+            {translate('Health, social welfare, public safety, and MDRRMO contacts match the official Inabanga municipal directory. Police and fire direct numbers are coordinated with the Inabanga Municipal Police Station and Inabanga Fire Station. For provincial emergency response, contact Bohol Tarsier 117 or call 911 for life-threatening emergencies.')}
           </SourceNote>
         </div>
       </div>

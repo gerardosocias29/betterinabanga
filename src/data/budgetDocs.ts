@@ -2,135 +2,87 @@ import type { BudgetDoc } from './types.ts';
 
 export const budgetDocs: BudgetDoc[] = [
   {
-    "title": "Local Expenditure Program",
-    "url": "https://www.inabanga.gov.ph/inabanga_website/quarterly-bid-results-2-3-3-9/",
-    "category": "Budget & expenditure",
-    "description": "The city's annual spending plan, including the 2026 LEP."
+    title: 'Local Expenditure Program (LEP)',
+    url: 'https://fdpp.dilg.gov.ph/',
+    category: 'Budget & expenditure',
+    description: "The municipality's annual expenditure program and executive budget allocation."
   },
   {
-    "title": "CY 2026 Annual Budget (LEP)",
-    "url": "https://drive.google.com/file/d/1AwgZ8MDJkXNT6dymgqJoEIRqEI-qSwPc/view?usp=sharing",
-    "category": "Budget & expenditure",
-    "description": "Appropriation Ordinance No. 2025-11, the city's CY2026 annual budget."
+    title: 'Annual Investment Program (AIP)',
+    url: 'https://fdpp.dilg.gov.ph/',
+    category: 'Budget & expenditure',
+    description: "Municipal prioritized capital investments and community development programs."
   },
   {
-    "title": "CY 2026 Annual Investment Program",
-    "url": "https://drive.google.com/file/d/1m804eDRh0kJLIFWpgAQJqhhHWmXKPXUG/view?usp=sharing",
-    "category": "Budget & expenditure",
-    "description": "The city's CY2026 Annual Investment Program (full package)."
+    title: 'Statement of Receipts and Expenditures (SRE)',
+    url: 'https://blgf.gov.ph/lgu-fiscal-data/',
+    category: 'Budget & expenditure',
+    description: 'Bureau of Local Government Finance (BLGF) certified municipal revenue and expenditure records.'
   },
   {
-    "title": "FY 2025 Quarterly Statement of Receipts and Expenditures",
-    "url": "https://blgf.gov.ph/wp-content/uploads/2025/08/SRE-QTR-2025.xlsx",
-    "category": "Budget & expenditure",
-    "description": "BLGF quarterly FY2025 LGU SRE workbook. This partial-year report is not included in the annual FY2024 charts."
+    title: 'Special Education Fund (SEF) Utilization',
+    url: 'https://fdpp.dilg.gov.ph/',
+    category: 'Special funds',
+    description: 'Quarterly utilization report of the Special Education Fund allocated for local public schools.'
   },
   {
-    "title": "Special Education Fund",
-    "url": "https://www.inabanga.gov.ph/inabanga_website/quarterly-bid-results-2-3-3-7/",
-    "category": "Special funds",
-    "description": "SEF budget and utilization for public education."
+    title: '20% Municipal Development Fund Utilization',
+    url: 'https://fdpp.dilg.gov.ph/',
+    category: 'Special funds',
+    description: 'Statutory 20% internal revenue allotment component devoted to social, economic, and environmental projects.'
   },
   {
-    "title": "Special Education Fund Utilization Report",
-    "url": "https://www.inabanga.gov.ph/inabanga_website/quarterly-bid-results-2-3-3/",
-    "category": "Special funds",
-    "description": "Quarterly report on how the SEF was spent."
+    title: 'Local Disaster Risk Reduction & Management Fund (LDRRMF)',
+    url: 'https://fdpp.dilg.gov.ph/',
+    category: 'Special funds',
+    description: 'Quarterly breakdown of disaster preparedness, relief prepositioning, and mitigation investments.'
   },
   {
-    "title": "20% Development Fund Utilization",
-    "url": "https://www.inabanga.gov.ph/inabanga_website/quarterly-bid-results-2-3/",
-    "category": "Special funds",
-    "description": "Utilization of the mandatory 20% development fund."
+    title: 'Trust Fund Utilization Report',
+    url: 'https://fdpp.dilg.gov.ph/',
+    category: 'Special funds',
+    description: 'Financial report on inter-agency grants, national subsidies, and targeted civic funds.'
   },
   {
-    "title": "LDRRM Fund Utilization",
-    "url": "https://www.inabanga.gov.ph/inabanga_website/quarterly-bid-results-2-3-3-4/",
-    "category": "Special funds",
-    "description": "Local disaster risk reduction and management fund."
+    title: 'Statement of Debt Service',
+    url: 'https://fdpp.dilg.gov.ph/',
+    category: 'Budget & expenditure',
+    description: 'Municipal debt amortization schedules and loan servicing disclosures.'
   },
   {
-    "title": "Trust Fund Utilization",
-    "url": "https://www.inabanga.gov.ph/inabanga_website/quarterly-bid-results-2-3-3-5/",
-    "category": "Special funds",
-    "description": "Utilization of trust funds."
+    title: 'Manpower Complement (Plantilla & Co-Terminus)',
+    url: 'https://fdpp.dilg.gov.ph/',
+    category: 'Budget & expenditure',
+    description: 'Summary of permanent, casual, and job-order municipal workforce personnel costs.'
   },
   {
-    "title": "RA 7171 Utilization",
-    "url": "https://www.inabanga.gov.ph/inabanga_website/quarterly-bid-results-2-2/",
-    "category": "Special funds",
-    "description": "Share from the excise tax on tobacco."
+    title: 'Commission on Audit (COA) Annual Audit Report',
+    url: 'https://www.coa.gov.ph/',
+    category: 'Audit & accountability',
+    description: 'Independent audit observations and recommendations by the Commission on Audit for Inabanga, Bohol.'
   },
   {
-    "title": "Priority Development Assistance Fund",
-    "url": "https://www.inabanga.gov.ph/inabanga_website/quarterly-bid-results-2-3-3-8/",
-    "category": "Special funds",
-    "description": "PDAF-funded projects and utilization."
+    title: 'Annual Procurement Plan (APP)',
+    url: 'https://www.philgeps.gov.ph/',
+    category: 'Procurement',
+    description: 'Consolidated municipal procurement schedule for civil works, goods, and consulting services.'
   },
   {
-    "title": "Statement of Receipts and Expenditures",
-    "url": "https://www.inabanga.gov.ph/inabanga_website/quarterly-bid-results-2-3-3-6/",
-    "category": "Budget & expenditure",
-    "description": "Summary of actual receipts and expenditures."
+    title: 'Quarterly Summary of Public Bidding Results',
+    url: 'https://www.philgeps.gov.ph/',
+    category: 'Procurement',
+    description: 'Bids and Awards Committee (BAC) contract awards, winning bidders, and bid amounts.'
   },
   {
-    "title": "Statement of Debt Service",
-    "url": "https://www.inabanga.gov.ph/inabanga_website/quarterly-bid-results-2-3-2/",
-    "category": "Budget & expenditure",
-    "description": "Debt service payments and schedules."
+    title: 'PhilGEPS Public Bid Bulletins & Notices',
+    url: 'https://www.philgeps.gov.ph/',
+    category: 'Procurement',
+    description: 'Active invitations to bid, request for quotations, and notices of award on the national procurement system.'
   },
   {
-    "title": "Manpower Complement",
-    "url": "https://www.inabanga.gov.ph/inabanga_website/quarterly-bid-results-2-3-3-2/",
-    "category": "Budget & expenditure",
-    "description": "Plantilla and staffing complement."
-  },
-  {
-    "title": "Unliquidated Cash Advances",
-    "url": "https://www.inabanga.gov.ph/inabanga_website/quarterly-bid-results-2-3-3-3/",
-    "category": "Audit & accountability",
-    "description": "Outstanding cash advances."
-  },
-  {
-    "title": "Inabanga City Annual Audit Report 2024",
-    "url": "https://www.coa.gov.ph/wpfd_file/inabanga-municipality-annual-audit-report-2024/",
-    "category": "Audit & accountability",
-    "description": "Commission on Audit annual audit report for the Municipality of Inabanga, Bohol, CY2024."
-  },
-  {
-    "title": "City Auditor's Reports archive",
-    "url": "https://www.inabanga.gov.ph/inabanga_website/auditors-report",
-    "category": "Audit & accountability",
-    "description": "City-hosted auditor's report index and related files."
-  },
-  {
-    "title": "Annual Procurement Plan",
-    "url": "https://www.inabanga.gov.ph/inabanga_website/quarterly-bid-results-2/",
-    "category": "Procurement",
-    "description": "Planned goods, works, and services for the year."
-  },
-  {
-    "title": "Quarterly Bid Results",
-    "url": "https://www.inabanga.gov.ph/inabanga_website/quarterly-bid-results/",
-    "category": "Procurement",
-    "description": "Results of public bidding."
-  },
-  {
-    "title": "Bid Documents and Notices",
-    "url": "https://www.inabanga.gov.ph/bid-docs-2025/",
-    "category": "Procurement",
-    "description": "Current city index with CY2026 invitations and bulletins; the latest posted bid-result records found are for CY2025."
-  },
-  {
-    "title": "Status of Infrastructure Projects",
-    "url": "https://drive.google.com/file/d/1vc86bhIrG5QF4abmtCaB8Xn4rcRu4vK5/view?usp=sharing",
-    "category": "Procurement",
-    "description": "Infrastructure project status report (Google Drive)."
-  },
-  {
-    "title": "Full Disclosure Policy",
-    "url": "https://www.inabanga.gov.ph/full-disclosure-policy/",
-    "category": "Budget & expenditure",
-    "description": "The city's full disclosure portal and document index."
+    title: 'Full Disclosure Policy Portal (DILG)',
+    url: 'https://fdpp.dilg.gov.ph/',
+    category: 'Budget & expenditure',
+    description: 'Official national repository for mandatory local government financial transparency postings.'
   }
 ];

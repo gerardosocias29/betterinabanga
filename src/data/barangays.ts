@@ -27,7 +27,7 @@ export const barangays: Barangay[] = [
       "Virgilio Dañucop"
     ],
     "skChairperson": "Rolando Nuera",
-    "sourceUrl": "https://inabanga.gov.ph/barangays/anonang",
+    "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/0701224000",
     "dilgSourceUrl": "https://beta.dilg.gov.ph/barangay-officials-directory"
   },
   {
@@ -54,7 +54,7 @@ export const barangays: Barangay[] = [
       "Jose Cenabre"
     ],
     "skChairperson": "Carmelita Cenabre",
-    "sourceUrl": "https://inabanga.gov.ph/barangays/bahan",
+    "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/0701224000",
     "dilgSourceUrl": "https://beta.dilg.gov.ph/barangay-officials-directory"
   },
   {
@@ -81,7 +81,7 @@ export const barangays: Barangay[] = [
       "Rolando Bongato"
     ],
     "skChairperson": "Lito Coscos",
-    "sourceUrl": "https://inabanga.gov.ph/barangays/badiang",
+    "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/0701224000",
     "dilgSourceUrl": "https://beta.dilg.gov.ph/barangay-officials-directory"
   },
   {
@@ -108,7 +108,7 @@ export const barangays: Barangay[] = [
       "Nestor Villamor"
     ],
     "skChairperson": "Vicente Logroño",
-    "sourceUrl": "https://inabanga.gov.ph/barangays/baguhan",
+    "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/0701224000",
     "dilgSourceUrl": "https://beta.dilg.gov.ph/barangay-officials-directory"
   },
   {
@@ -135,7 +135,7 @@ export const barangays: Barangay[] = [
       "Diosdado Dañucop"
     ],
     "skChairperson": "Flordeliza Caresosa",
-    "sourceUrl": "https://inabanga.gov.ph/barangays/banahao",
+    "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/0701224000",
     "dilgSourceUrl": "https://beta.dilg.gov.ph/barangay-officials-directory"
   },
   {
@@ -162,7 +162,7 @@ export const barangays: Barangay[] = [
       "Gina Sanchez"
     ],
     "skChairperson": "Salvador Estillore",
-    "sourceUrl": "https://inabanga.gov.ph/barangays/baogo",
+    "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/0701224000",
     "dilgSourceUrl": "https://beta.dilg.gov.ph/barangay-officials-directory"
   },
   {
@@ -189,7 +189,7 @@ export const barangays: Barangay[] = [
       "Virgilio Orevillo"
     ],
     "skChairperson": "Edgar Mumar",
-    "sourceUrl": "https://inabanga.gov.ph/barangays/bugang",
+    "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/0701224000",
     "dilgSourceUrl": "https://beta.dilg.gov.ph/barangay-officials-directory"
   },
   {
@@ -216,7 +216,7 @@ export const barangays: Barangay[] = [
       "Roberto Cano"
     ],
     "skChairperson": "Elena Gementiza",
-    "sourceUrl": "https://inabanga.gov.ph/barangays/cagawasan",
+    "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/0701224000",
     "dilgSourceUrl": "https://beta.dilg.gov.ph/barangay-officials-directory"
   },
   {
@@ -243,7 +243,7 @@ export const barangays: Barangay[] = [
       "Ramil Gementiza"
     ],
     "skChairperson": "Gina Cano",
-    "sourceUrl": "https://inabanga.gov.ph/barangays/cagayan",
+    "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/0701224000",
     "dilgSourceUrl": "https://beta.dilg.gov.ph/barangay-officials-directory"
   },
   {
@@ -270,7 +270,7 @@ export const barangays: Barangay[] = [
       "Flordeliza Vallespin"
     ],
     "skChairperson": "Lito Salera",
-    "sourceUrl": "https://inabanga.gov.ph/barangays/cambitoon",
+    "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/0701224000",
     "dilgSourceUrl": "https://beta.dilg.gov.ph/barangay-officials-directory"
   },
   {
@@ -297,7 +297,7 @@ export const barangays: Barangay[] = [
       "Rosario Fortich"
     ],
     "skChairperson": "Maria Fortich",
-    "sourceUrl": "https://inabanga.gov.ph/barangays/canlinte",
+    "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/0701224000",
     "dilgSourceUrl": "https://beta.dilg.gov.ph/barangay-officials-directory"
   },
   {
@@ -324,7 +324,7 @@ export const barangays: Barangay[] = [
       "Lourdes Caresosa"
     ],
     "skChairperson": "Lito Jumamoy",
-    "sourceUrl": "https://inabanga.gov.ph/barangays/cawayan",
+    "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/0701224000",
     "dilgSourceUrl": "https://beta.dilg.gov.ph/barangay-officials-directory"
   },
   {
@@ -351,7 +351,7 @@ export const barangays: Barangay[] = [
       "Danilo Caresosa"
     ],
     "skChairperson": "Vicente Mumar",
-    "sourceUrl": "https://inabanga.gov.ph/barangays/cogon",
+    "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/0701224000",
     "dilgSourceUrl": "https://beta.dilg.gov.ph/barangay-officials-directory"
   },
   {
@@ -378,7 +378,7 @@ export const barangays: Barangay[] = [
       "Salvador Salera"
     ],
     "skChairperson": "Reynaldo Bongato",
-    "sourceUrl": "https://inabanga.gov.ph/barangays/cuaming",
+    "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/0701224000",
     "dilgSourceUrl": "https://beta.dilg.gov.ph/barangay-officials-directory"
   },
   {
@@ -405,7 +405,7 @@ export const barangays: Barangay[] = [
       "Jose Gultiano"
     ],
     "skChairperson": "Reynaldo Vallespin",
-    "sourceUrl": "https://inabanga.gov.ph/barangays/dagnawan",
+    "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/0701224000",
     "dilgSourceUrl": "https://beta.dilg.gov.ph/barangay-officials-directory"
   },
   {
@@ -432,7 +432,7 @@ export const barangays: Barangay[] = [
       "Marilou Gultiano"
     ],
     "skChairperson": "Lito Lendio",
-    "sourceUrl": "https://inabanga.gov.ph/barangays/dagohoy",
+    "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/0701224000",
     "dilgSourceUrl": "https://beta.dilg.gov.ph/barangay-officials-directory"
   },
   {
@@ -459,7 +459,7 @@ export const barangays: Barangay[] = [
       "Rosario Torrefiel"
     ],
     "skChairperson": "Zenaida Fortich",
-    "sourceUrl": "https://inabanga.gov.ph/barangays/dait-sur",
+    "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/0701224000",
     "dilgSourceUrl": "https://beta.dilg.gov.ph/barangay-officials-directory"
   },
   {
@@ -486,7 +486,7 @@ export const barangays: Barangay[] = [
       "Felix Baguio"
     ],
     "skChairperson": "Salvador Caresosa",
-    "sourceUrl": "https://inabanga.gov.ph/barangays/datag",
+    "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/0701224000",
     "dilgSourceUrl": "https://beta.dilg.gov.ph/barangay-officials-directory"
   },
   {
@@ -513,7 +513,7 @@ export const barangays: Barangay[] = [
       "Rolando Aurestila"
     ],
     "skChairperson": "Flordeliza Melencion",
-    "sourceUrl": "https://inabanga.gov.ph/barangays/fatima",
+    "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/0701224000",
     "dilgSourceUrl": "https://beta.dilg.gov.ph/barangay-officials-directory"
   },
   {
@@ -540,7 +540,7 @@ export const barangays: Barangay[] = [
       "Jaime Logroño"
     ],
     "skChairperson": "Virgilio Caresosa",
-    "sourceUrl": "https://inabanga.gov.ph/barangays/hambongan",
+    "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/0701224000",
     "dilgSourceUrl": "https://beta.dilg.gov.ph/barangay-officials-directory"
   },
   {
@@ -567,7 +567,7 @@ export const barangays: Barangay[] = [
       "Flordeliza Suello"
     ],
     "skChairperson": "Arnel Cenabre",
-    "sourceUrl": "https://inabanga.gov.ph/barangays/ilaud",
+    "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/0701224000",
     "dilgSourceUrl": "https://beta.dilg.gov.ph/barangay-officials-directory"
   },
   {
@@ -594,7 +594,7 @@ export const barangays: Barangay[] = [
       "Nestor Nuera"
     ],
     "skChairperson": "Joel Nuera",
-    "sourceUrl": "https://inabanga.gov.ph/barangays/ilaya",
+    "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/0701224000",
     "dilgSourceUrl": "https://beta.dilg.gov.ph/barangay-officials-directory"
   },
   {
@@ -621,7 +621,7 @@ export const barangays: Barangay[] = [
       "Gina Divinagracia"
     ],
     "skChairperson": "Maria Lendio",
-    "sourceUrl": "https://inabanga.gov.ph/barangays/ilihan",
+    "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/0701224000",
     "dilgSourceUrl": "https://beta.dilg.gov.ph/barangay-officials-directory"
   },
   {
@@ -648,7 +648,7 @@ export const barangays: Barangay[] = [
       "Noel Lendio"
     ],
     "skChairperson": "Danilo Lendio",
-    "sourceUrl": "https://inabanga.gov.ph/barangays/lapacan-norte",
+    "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/0701224000",
     "dilgSourceUrl": "https://beta.dilg.gov.ph/barangay-officials-directory"
   },
   {
@@ -675,7 +675,7 @@ export const barangays: Barangay[] = [
       "Flordeliza Gementiza"
     ],
     "skChairperson": "Gerardo Vallespin",
-    "sourceUrl": "https://inabanga.gov.ph/barangays/lapacan-sur",
+    "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/0701224000",
     "dilgSourceUrl": "https://beta.dilg.gov.ph/barangay-officials-directory"
   },
   {
@@ -702,7 +702,7 @@ export const barangays: Barangay[] = [
       "Zenaida Fortich"
     ],
     "skChairperson": "Rosario Nuera",
-    "sourceUrl": "https://inabanga.gov.ph/barangays/lawis",
+    "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/0701224000",
     "dilgSourceUrl": "https://beta.dilg.gov.ph/barangay-officials-directory"
   },
   {
@@ -729,7 +729,7 @@ export const barangays: Barangay[] = [
       "Roberto Bongato"
     ],
     "skChairperson": "Danilo Auxtero",
-    "sourceUrl": "https://inabanga.gov.ph/barangays/liloan-norte",
+    "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/0701224000",
     "dilgSourceUrl": "https://beta.dilg.gov.ph/barangay-officials-directory"
   },
   {
@@ -756,7 +756,7 @@ export const barangays: Barangay[] = [
       "Zenaida Abisado"
     ],
     "skChairperson": "Lourdes Millor",
-    "sourceUrl": "https://inabanga.gov.ph/barangays/liloan-sur",
+    "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/0701224000",
     "dilgSourceUrl": "https://beta.dilg.gov.ph/barangay-officials-directory"
   },
   {
@@ -783,7 +783,7 @@ export const barangays: Barangay[] = [
       "Felix Gultiano"
     ],
     "skChairperson": "Felix Orevillo",
-    "sourceUrl": "https://inabanga.gov.ph/barangays/lomboy",
+    "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/0701224000",
     "dilgSourceUrl": "https://beta.dilg.gov.ph/barangay-officials-directory"
   },
   {
@@ -810,7 +810,7 @@ export const barangays: Barangay[] = [
       "Lito Torrefiel"
     ],
     "skChairperson": "Manuel Nuera",
-    "sourceUrl": "https://inabanga.gov.ph/barangays/lonoy-cainsican",
+    "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/0701224000",
     "dilgSourceUrl": "https://beta.dilg.gov.ph/barangay-officials-directory"
   },
   {
@@ -837,7 +837,7 @@ export const barangays: Barangay[] = [
       "Nestor Dañucop"
     ],
     "skChairperson": "Rolando Gultiano",
-    "sourceUrl": "https://inabanga.gov.ph/barangays/lonoy-roma",
+    "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/0701224000",
     "dilgSourceUrl": "https://beta.dilg.gov.ph/barangay-officials-directory"
   },
   {
@@ -864,7 +864,7 @@ export const barangays: Barangay[] = [
       "Vicente Auxtero"
     ],
     "skChairperson": "Rosario Bongato",
-    "sourceUrl": "https://inabanga.gov.ph/barangays/lutao",
+    "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/0701224000",
     "dilgSourceUrl": "https://beta.dilg.gov.ph/barangay-officials-directory"
   },
   {
@@ -891,7 +891,7 @@ export const barangays: Barangay[] = [
       "Jaime Millor"
     ],
     "skChairperson": "Jose Divinagracia",
-    "sourceUrl": "https://inabanga.gov.ph/barangays/luyo",
+    "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/0701224000",
     "dilgSourceUrl": "https://beta.dilg.gov.ph/barangay-officials-directory"
   },
   {
@@ -918,7 +918,7 @@ export const barangays: Barangay[] = [
       "Lito Gultiano"
     ],
     "skChairperson": "Elena Villamor",
-    "sourceUrl": "https://inabanga.gov.ph/barangays/mabuhay",
+    "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/0701224000",
     "dilgSourceUrl": "https://beta.dilg.gov.ph/barangay-officials-directory"
   },
   {
@@ -945,7 +945,7 @@ export const barangays: Barangay[] = [
       "Elena Ancla"
     ],
     "skChairperson": "Roberto Bongato",
-    "sourceUrl": "https://inabanga.gov.ph/barangays/maria-rosario",
+    "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/0701224000",
     "dilgSourceUrl": "https://beta.dilg.gov.ph/barangay-officials-directory"
   },
   {
@@ -972,7 +972,7 @@ export const barangays: Barangay[] = [
       "Rolando Vallespin"
     ],
     "skChairperson": "Gerardo Divinagracia",
-    "sourceUrl": "https://inabanga.gov.ph/barangays/nabuad",
+    "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/0701224000",
     "dilgSourceUrl": "https://beta.dilg.gov.ph/barangay-officials-directory"
   },
   {
@@ -999,7 +999,7 @@ export const barangays: Barangay[] = [
       "Diosdado Ancla"
     ],
     "skChairperson": "Salvador Millor",
-    "sourceUrl": "https://inabanga.gov.ph/barangays/napo",
+    "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/0701224000",
     "dilgSourceUrl": "https://beta.dilg.gov.ph/barangay-officials-directory"
   },
   {
@@ -1026,7 +1026,7 @@ export const barangays: Barangay[] = [
       "Gina Torrefiel"
     ],
     "skChairperson": "Lito Mumar",
-    "sourceUrl": "https://inabanga.gov.ph/barangays/ondol",
+    "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/0701224000",
     "dilgSourceUrl": "https://beta.dilg.gov.ph/barangay-officials-directory"
   },
   {
@@ -1053,7 +1053,7 @@ export const barangays: Barangay[] = [
       "Salvador Nuera"
     ],
     "skChairperson": "Manuel Ancla",
-    "sourceUrl": "https://inabanga.gov.ph/barangays/poblacion",
+    "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/0701224000",
     "dilgSourceUrl": "https://beta.dilg.gov.ph/barangay-officials-directory"
   },
   {
@@ -1080,7 +1080,7 @@ export const barangays: Barangay[] = [
       "Danilo Coscos"
     ],
     "skChairperson": "Rolando Cano",
-    "sourceUrl": "https://inabanga.gov.ph/barangays/riverside",
+    "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/0701224000",
     "dilgSourceUrl": "https://beta.dilg.gov.ph/barangay-officials-directory"
   },
   {
@@ -1107,7 +1107,7 @@ export const barangays: Barangay[] = [
       "Felix Caresosa"
     ],
     "skChairperson": "Virgilio Logroño",
-    "sourceUrl": "https://inabanga.gov.ph/barangays/saa",
+    "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/0701224000",
     "dilgSourceUrl": "https://beta.dilg.gov.ph/barangay-officials-directory"
   },
   {
@@ -1134,7 +1134,7 @@ export const barangays: Barangay[] = [
       "Elena Cenabre"
     ],
     "skChairperson": "Gerardo Petecio",
-    "sourceUrl": "https://inabanga.gov.ph/barangays/san-isidro",
+    "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/0701224000",
     "dilgSourceUrl": "https://beta.dilg.gov.ph/barangay-officials-directory"
   },
   {
@@ -1161,7 +1161,7 @@ export const barangays: Barangay[] = [
       "Roberto Gultiano"
     ],
     "skChairperson": "Rosario Torrefiel",
-    "sourceUrl": "https://inabanga.gov.ph/barangays/san-jose",
+    "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/0701224000",
     "dilgSourceUrl": "https://beta.dilg.gov.ph/barangay-officials-directory"
   },
   {
@@ -1188,7 +1188,7 @@ export const barangays: Barangay[] = [
       "Edgar Estillore"
     ],
     "skChairperson": "Lourdes Villamor",
-    "sourceUrl": "https://inabanga.gov.ph/barangays/santo-ni-o",
+    "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/0701224000",
     "dilgSourceUrl": "https://beta.dilg.gov.ph/barangay-officials-directory"
   },
   {
@@ -1215,7 +1215,7 @@ export const barangays: Barangay[] = [
       "Joel Coscos"
     ],
     "skChairperson": "Zenaida Salera",
-    "sourceUrl": "https://inabanga.gov.ph/barangays/santo-rosario",
+    "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/0701224000",
     "dilgSourceUrl": "https://beta.dilg.gov.ph/barangay-officials-directory"
   },
   {
@@ -1242,7 +1242,7 @@ export const barangays: Barangay[] = [
       "Maria Logroño"
     ],
     "skChairperson": "Arnel Fortich",
-    "sourceUrl": "https://inabanga.gov.ph/barangays/sua",
+    "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/0701224000",
     "dilgSourceUrl": "https://beta.dilg.gov.ph/barangay-officials-directory"
   },
   {
@@ -1269,7 +1269,7 @@ export const barangays: Barangay[] = [
       "Diosdado Divinagracia"
     ],
     "skChairperson": "Felix Petecio",
-    "sourceUrl": "https://inabanga.gov.ph/barangays/tambook",
+    "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/0701224000",
     "dilgSourceUrl": "https://beta.dilg.gov.ph/barangay-officials-directory"
   },
   {
@@ -1296,7 +1296,7 @@ export const barangays: Barangay[] = [
       "Roberto Orevillo"
     ],
     "skChairperson": "Danilo Celmar",
-    "sourceUrl": "https://inabanga.gov.ph/barangays/tungod",
+    "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/0701224000",
     "dilgSourceUrl": "https://beta.dilg.gov.ph/barangay-officials-directory"
   },
   {
@@ -1323,7 +1323,7 @@ export const barangays: Barangay[] = [
       "Nestor Ancla"
     ],
     "skChairperson": "Gerardo Melencion",
-    "sourceUrl": "https://inabanga.gov.ph/barangays/u-og",
+    "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/0701224000",
     "dilgSourceUrl": "https://beta.dilg.gov.ph/barangay-officials-directory"
   },
   {
@@ -1350,7 +1350,7 @@ export const barangays: Barangay[] = [
       "Lito Bongato"
     ],
     "skChairperson": "Arnel Estillore",
-    "sourceUrl": "https://inabanga.gov.ph/barangays/ubujan",
+    "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/0701224000",
     "dilgSourceUrl": "https://beta.dilg.gov.ph/barangay-officials-directory"
   }
 ];

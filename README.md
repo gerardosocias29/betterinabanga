@@ -79,4 +79,4 @@
 
 ## 🤝 Contributing & Community
 
-BetterInabanga is an independent, non-partisan civic tech project developed by community volunteers under the **BetterGov.ph** ecosystem. To contribute data corrections, submit new services, or report issues, please visit our [GitHub repository](https://github.com/betterinabanga/betterinabanga).
+BetterInabanga is an independent, non-partisan civic tech project developed by community volunteers under the **BetterGov.ph** ecosystem. To contribute data corrections, submit new services, or report issues, please visit our [GitHub repository](https://github.com/gerardosocias29/betterinabanga).

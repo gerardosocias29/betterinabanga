@@ -96,7 +96,7 @@ export const bidResults: BidResult[] = [
 export const bidBulletins: BidBulletin[] = [
   {
     "label": "2026 — Invitations to Bid and Notices",
-    "url": "https://www.inabanga.gov.ph/bid-docs-2025/"
+    "url": "https://www.philgeps.gov.ph/"
   },
   {
     "label": "2026 — Bid Supplemental #1",

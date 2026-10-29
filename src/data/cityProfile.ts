@@ -266,23 +266,23 @@ export const history: TimelineItem[] = [
 
 export const mapLinks = [
   {
-    "label": "Municipal comprehensive land use map",
-    "url": "https://inabanga.gov.ph/transparency/"
+    "label": "National Geoportal municipal base mapping",
+    "url": "https://geoportal.gov.ph/"
   },
   {
-    "label": "Inabanga River flood hazard map (MDRRMO / MGB)",
-    "url": "https://inabanga.gov.ph/transparency/"
+    "label": "Inabanga River flood hazard map (MDRRMO / HazardHunterPH)",
+    "url": "https://hazardhunter.georisk.gov.ph/"
   },
   {
-    "label": "Danajon Bank marine sanctuary and coastal zone map",
-    "url": "https://inabanga.gov.ph/transparency/"
+    "label": "Danajon Bank marine sanctuary and coastal zone inventory",
+    "url": "https://bmb.gov.ph/"
   },
   {
-    "label": "Official 50 barangay boundaries map",
-    "url": "https://inabanga.gov.ph/barangays/"
+    "label": "Official 50 barangay registry and PSGC boundaries",
+    "url": "https://psa.gov.ph/classification/psgc/barangays/0701224000"
   },
   {
-    "label": "Municipal road network and bridge infrastructure map",
-    "url": "https://inabanga.gov.ph/projects/"
+    "label": "Municipal road network and bridge infrastructure map (DPWH)",
+    "url": "https://dpwh.gov.ph/"
   }
 ];

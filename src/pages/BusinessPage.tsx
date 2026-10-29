@@ -225,14 +225,14 @@ export function BusinessPage() {
                 </span>
                 <h3 className="mt-4 text-base font-extrabold tracking-tight text-ink-950"><LocalizedText text={"Electricity tariffs"} /></h3>
                 <p className="mt-2 text-sm leading-6 text-ink-600">
-                  <LocalizedText text={"LUECO publishes a tariff schedule by billing period. Check the latest schedule and the rate class that applies to your account."} /></p>
+                  <LocalizedText text={"BOHECO I publishes monthly power rate advisories and tariff schedules for residential and commercial connections in Inabanga."} /></p>
                 <a
-                  href="https://www.luecoinc.com/rates/"
+                  href="https://boheco1.com.ph"
                   target="_blank"
                   rel="noreferrer"
                   className="mt-4 inline-flex items-center gap-1.5 text-sm font-bold text-brand-700 hover:text-brand-800"
                 >
-                  <LocalizedText text={"View current LUECO rates"} /><ExternalLink aria-hidden="true" className="size-3.5" />
+                  <LocalizedText text={"View BOHECO I power rates"} /><ExternalLink aria-hidden="true" className="size-3.5" />
                 </a>
               </div>
             </Reveal>
@@ -362,18 +362,18 @@ export function BusinessPage() {
 
           <div className="mt-10">
             <SourceNote
-              href="https://www.inabanga.gov.ph/business-in-the-city/"
-              linkLabel="Business in the City on the city website"
+              href="https://business.gov.ph"
+              linkLabel="Central Business Portal (eBPLS)"
               links={[
-                { href: 'https://nwpc.dole.gov.ph/region-i/', label: 'NWPC Region I wage rates' },
-                { href: 'https://www.luecoinc.com/rates/', label: 'LUECO tariff schedule' },
+                { href: 'https://nwpc.dole.gov.ph/region-vii/', label: 'NWPC Region VII wage rates' },
+                { href: 'https://boheco1.com.ph', label: 'BOHECO I power rates' },
                 {
-                  href: 'https://inabanga.gov.ph',
-                  label: 'SM Prime opening announcement',
+                  href: 'https://bohol.gov.ph',
+                  label: 'Bohol Investment Promotion Center',
                 },
               ]}
             >
-              <LocalizedText text={"Investment priorities, rankings, and rental reference ranges are published by the Municipal Government of Inabanga. The city’s wage figures were outdated, so the current NWPC order is used above; LUECO tariffs are linked to its live schedule. Rental figures have no stated effective date."} /></SourceNote>
+              <LocalizedText text={"Investment priorities, business procedures, and commercial guidelines for the Municipality of Inabanga. Wage rates follow the current DOLE Region VII Regional Tripartite Wages and Productivity Board order; electric power rates follow BOHECO I monthly advisories."} /></SourceNote>
           </div>
         </div>
       </section>

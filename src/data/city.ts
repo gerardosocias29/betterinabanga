@@ -30,7 +30,7 @@ export const city = {
   "citizensCharter": "https://inabanga.gov.ph/citizens-charter",
   "sanggunian": "https://inabanga.gov.ph/sangguniang-bayan",
   "archives": "https://inabanga.gov.ph/transparency",
-  "facebook": "https://www.facebook.com/inabangaboholofficial",
+  "facebook": "https://www.facebook.com/municipalityofinabanga",
   "incomeClass": "3rd class municipality",
   "povertyIncidence": "16.4%",
   "povertyYear": 2023,

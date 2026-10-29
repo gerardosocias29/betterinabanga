@@ -13,7 +13,7 @@ export const offices: Office[] = [
     "address": "Municipality of Inabanga, Bohol",
     "locals": "131",
     "serviceCount": 3,
-    "ccUrl": "https://cc.inabanga.gov.ph/bac/",
+    "ccUrl": "https://inabanga.gov.ph/citizens-charter",
     "sourceUrl": "https://www.inabanga.gov.ph/city-departments/"
   },
   {
@@ -28,7 +28,7 @@ export const offices: Office[] = [
     "address": "3rd Floor Annex, Municipal Hall Building, Municipality of Inabanga, Bohol",
     "locals": "164 / 113 / 139",
     "serviceCount": 10,
-    "ccUrl": "https://cc.inabanga.gov.ph/cicto/",
+    "ccUrl": "https://inabanga.gov.ph/citizens-charter",
     "sourceUrl": "https://www.inabanga.gov.ph/city-departments/"
   },
   {
@@ -43,7 +43,7 @@ export const offices: Office[] = [
     "address": "Ground Floor Annex, Municipal Hall Building, Municipality of Inabanga, Bohol",
     "locals": "146",
     "serviceCount": 10,
-    "ccUrl": "https://cc.inabanga.gov.ph/reg/",
+    "ccUrl": "https://inabanga.gov.ph/citizens-charter",
     "sourceUrl": "https://www.inabanga.gov.ph/city-departments/"
   },
   {
@@ -58,7 +58,7 @@ export const offices: Office[] = [
     "address": "Municipal Hall Annex Building, Municipality of Inabanga, Bohol",
     "locals": "154 / 114",
     "serviceCount": 10,
-    "ccUrl": "https://cc.inabanga.gov.ph/office-of-the-city-general-services-officer/",
+    "ccUrl": "https://inabanga.gov.ph/citizens-charter",
     "sourceUrl": "https://www.inabanga.gov.ph/city-departments/"
   },
   {
@@ -73,7 +73,7 @@ export const offices: Office[] = [
     "address": "2nd Floor Annex, Municipal Hall Building, Municipality of Inabanga, Bohol",
     "locals": "134 / 158",
     "serviceCount": 10,
-    "ccUrl": "https://cc.inabanga.gov.ph/hrmo/",
+    "ccUrl": "https://inabanga.gov.ph/citizens-charter",
     "sourceUrl": "https://www.inabanga.gov.ph/city-departments/"
   },
   {
@@ -88,7 +88,7 @@ export const offices: Office[] = [
     "address": "*",
     "locals": "",
     "serviceCount": 1,
-    "ccUrl": "https://cc.inabanga.gov.ph/iao/",
+    "ccUrl": "https://inabanga.gov.ph/citizens-charter",
     "sourceUrl": "https://www.inabanga.gov.ph/city-departments/"
   },
   {
@@ -103,7 +103,7 @@ export const offices: Office[] = [
     "address": "2nd Floor Annex, Municipal Hall, Municipality of Inabanga, Bohol",
     "locals": "687-81-00 / 107 / 105 / 128/ 103",
     "serviceCount": 7,
-    "ccUrl": "https://cc.inabanga.gov.ph/adm/",
+    "ccUrl": "https://inabanga.gov.ph/citizens-charter",
     "sourceUrl": "https://www.inabanga.gov.ph/city-departments/"
   },
   {
@@ -118,7 +118,7 @@ export const offices: Office[] = [
     "address": "Municipal Hall Annex Building, Municipality of Inabanga, Bohol",
     "locals": "137 / 132",
     "serviceCount": 6,
-    "ccUrl": "https://cc.inabanga.gov.ph/clo/",
+    "ccUrl": "https://inabanga.gov.ph/citizens-charter",
     "sourceUrl": "https://www.inabanga.gov.ph/city-departments/"
   },
   {
@@ -133,7 +133,7 @@ export const offices: Office[] = [
     "address": "2nd Floor, Municipal Hall Building, Municipality of Inabanga, Bohol",
     "locals": "109 / 104",
     "serviceCount": 5,
-    "ccUrl": "https://cc.inabanga.gov.ph/ocm/",
+    "ccUrl": "https://inabanga.gov.ph/citizens-charter",
     "sourceUrl": "https://www.inabanga.gov.ph/city-departments/"
   },
   {
@@ -148,7 +148,7 @@ export const offices: Office[] = [
     "address": "2nd Floor, Legislative Wing, Inabanga Municipal Hall, Poblacion, Inabanga, Bohol",
     "locals": "145",
     "serviceCount": 3,
-    "ccUrl": "https://cc.inabanga.gov.ph/ocvm/",
+    "ccUrl": "https://inabanga.gov.ph/citizens-charter",
     "sourceUrl": "https://www.inabanga.gov.ph/city-departments/"
   },
   {
@@ -178,7 +178,7 @@ export const offices: Office[] = [
     "address": "Legislative Wing, Inabanga Municipal Hall, Poblacion, Inabanga, Bohol",
     "locals": "111",
     "serviceCount": 3,
-    "ccUrl": "https://cc.inabanga.gov.ph/ossp/",
+    "ccUrl": "https://inabanga.gov.ph/citizens-charter",
     "sourceUrl": "https://www.inabanga.gov.ph/city-departments/"
   },
   {
@@ -193,7 +193,7 @@ export const offices: Office[] = [
     "address": "2nd Floor Annex, Municipal Hall Building, Municipality of Inabanga, Bohol",
     "locals": "120",
     "serviceCount": 4,
-    "ccUrl": "https://cc.inabanga.gov.ph/cpdo/",
+    "ccUrl": "https://inabanga.gov.ph/citizens-charter",
     "sourceUrl": "https://www.inabanga.gov.ph/city-departments/"
   },
   {
@@ -208,7 +208,7 @@ export const offices: Office[] = [
     "address": "*",
     "locals": "106 / 152",
     "serviceCount": 2,
-    "ccUrl": "https://cc.inabanga.gov.ph/osm/",
+    "ccUrl": "https://inabanga.gov.ph/citizens-charter",
     "sourceUrl": "https://www.inabanga.gov.ph/city-departments/"
   },
   {
@@ -223,7 +223,7 @@ export const offices: Office[] = [
     "address": "2nd Floor Annex, Municipal Hall Building, Municipality of Inabanga, Bohol",
     "locals": "(038) 510-8164 / 165 / 133/ 139",
     "serviceCount": 5,
-    "ccUrl": "https://cc.inabanga.gov.ph/aca/",
+    "ccUrl": "https://inabanga.gov.ph/citizens-charter",
     "sourceUrl": "https://www.inabanga.gov.ph/city-departments/"
   },
   {
@@ -238,7 +238,7 @@ export const offices: Office[] = [
     "address": "Ground Floor Annex, Municipal Hall Building, Municipality of Inabanga, Bohol",
     "locals": "126 / 153",
     "serviceCount": 8,
-    "ccUrl": "https://cc.inabanga.gov.ph/oca/",
+    "ccUrl": "https://inabanga.gov.ph/citizens-charter",
     "sourceUrl": "https://www.inabanga.gov.ph/city-departments/"
   },
   {
@@ -253,7 +253,7 @@ export const offices: Office[] = [
     "address": "2nd Floor Annex, Municipal Hall Building, Municipality of Inabanga, Bohol",
     "locals": "130 / 131",
     "serviceCount": 6,
-    "ccUrl": "https://cc.inabanga.gov.ph/cbo/",
+    "ccUrl": "https://inabanga.gov.ph/citizens-charter",
     "sourceUrl": "https://www.inabanga.gov.ph/city-departments/"
   },
   {
@@ -268,7 +268,7 @@ export const offices: Office[] = [
     "address": "Ground Floor, Municipal Hall Building, Municipality of Inabanga, Bohol",
     "locals": "119 / 125",
     "serviceCount": 7,
-    "ccUrl": "https://cc.inabanga.gov.ph/cto/",
+    "ccUrl": "https://inabanga.gov.ph/citizens-charter",
     "sourceUrl": "https://www.inabanga.gov.ph/city-departments/"
   },
   {
@@ -298,7 +298,7 @@ export const offices: Office[] = [
     "address": "Ground Floor, Municipal Hall Building, Municipality of Inabanga, Bohol",
     "locals": "142 / 121",
     "serviceCount": 1,
-    "ccUrl": "https://cc.inabanga.gov.ph/cro/",
+    "ccUrl": "https://inabanga.gov.ph/citizens-charter",
     "sourceUrl": "https://www.inabanga.gov.ph/city-departments/"
   },
   {
@@ -343,7 +343,7 @@ export const offices: Office[] = [
     "address": "Inabanga Municipal Hall Compound, Poblacion, Inabanga, Bohol",
     "locals": "116",
     "serviceCount": 15,
-    "ccUrl": "https://cc.inabanga.gov.ph/agr/",
+    "ccUrl": "https://inabanga.gov.ph/citizens-charter",
     "sourceUrl": "https://www.inabanga.gov.ph/city-departments/"
   },
   {
@@ -358,7 +358,7 @@ export const offices: Office[] = [
     "address": "Tanqui, Municipality of Inabanga, Bohol",
     "locals": "607-8949",
     "serviceCount": 10,
-    "ccUrl": "https://cc.inabanga.gov.ph/vet/",
+    "ccUrl": "https://inabanga.gov.ph/citizens-charter",
     "sourceUrl": "https://www.inabanga.gov.ph/city-departments/"
   },
   {
@@ -388,7 +388,7 @@ export const offices: Office[] = [
     "address": "Ground Floor Annex, Municipal Hall Building, Municipality of Inabanga, Bohol",
     "locals": "115 / 150",
     "serviceCount": 13,
-    "ccUrl": "https://cc.inabanga.gov.ph/lebdo/",
+    "ccUrl": "https://inabanga.gov.ph/citizens-charter",
     "sourceUrl": "https://www.inabanga.gov.ph/city-departments/"
   },
   {
@@ -403,7 +403,7 @@ export const offices: Office[] = [
     "address": "*",
     "locals": "",
     "serviceCount": 4,
-    "ccUrl": "https://cc.inabanga.gov.ph/peso/",
+    "ccUrl": "https://inabanga.gov.ph/citizens-charter",
     "sourceUrl": "https://www.inabanga.gov.ph/city-departments/"
   },
   {
@@ -418,7 +418,7 @@ export const offices: Office[] = [
     "address": "Tanqui, Municipality of Inabanga, Bohol",
     "locals": "687-1914",
     "serviceCount": 11,
-    "ccUrl": "https://cc.inabanga.gov.ph/oce/",
+    "ccUrl": "https://inabanga.gov.ph/citizens-charter",
     "sourceUrl": "https://www.inabanga.gov.ph/city-departments/"
   },
   {
@@ -433,7 +433,7 @@ export const offices: Office[] = [
     "address": "Inabanga Municipal Health Complex, Poblacion, Inabanga, Bohol",
     "locals": "123 / 163 / 072-888-6914",
     "serviceCount": 29,
-    "ccUrl": "https://cc.inabanga.gov.ph/cho/",
+    "ccUrl": "https://inabanga.gov.ph/citizens-charter",
     "sourceUrl": "https://www.inabanga.gov.ph/city-departments/"
   },
   {
@@ -448,7 +448,7 @@ export const offices: Office[] = [
     "address": "Inabanga Community Center, Poblacion, Inabanga, Bohol",
     "locals": "147",
     "serviceCount": 4,
-    "ccUrl": "https://cc.inabanga.gov.ph/lib/",
+    "ccUrl": "https://inabanga.gov.ph/citizens-charter",
     "sourceUrl": "https://www.inabanga.gov.ph/city-departments/"
   },
   {
@@ -463,7 +463,7 @@ export const offices: Office[] = [
     "address": "2nd Floor Annex, Municipal Hall Building, Municipality of Inabanga, Bohol",
     "locals": "117 / 160",
     "serviceCount": 28,
-    "ccUrl": "https://cc.inabanga.gov.ph/cswdo/",
+    "ccUrl": "https://inabanga.gov.ph/citizens-charter",
     "sourceUrl": "https://www.inabanga.gov.ph/city-departments/"
   },
   {
@@ -478,7 +478,7 @@ export const offices: Office[] = [
     "address": "Ground Floor, Municipal Hall Building, Municipality of Inabanga, Bohol",
     "locals": "142 / 121",
     "serviceCount": 3,
-    "ccUrl": "https://cc.inabanga.gov.ph/gad/",
+    "ccUrl": "https://inabanga.gov.ph/citizens-charter",
     "sourceUrl": "https://www.inabanga.gov.ph/city-departments/"
   },
   {
@@ -493,7 +493,7 @@ export const offices: Office[] = [
     "address": "Cadaclan, Municipality of Inabanga, Bohol",
     "locals": "",
     "serviceCount": 1,
-    "ccUrl": "https://cc.inabanga.gov.ph/luscm/",
+    "ccUrl": "https://inabanga.gov.ph/citizens-charter",
     "sourceUrl": "https://www.inabanga.gov.ph/city-departments/"
   },
   {
@@ -508,7 +508,7 @@ export const offices: Office[] = [
     "address": "Inabanga Municipal Hall Compound, Poblacion, Inabanga, Bohol",
     "locals": "160",
     "serviceCount": 4,
-    "ccUrl": "https://cc.inabanga.gov.ph/lydo/",
+    "ccUrl": "https://inabanga.gov.ph/citizens-charter",
     "sourceUrl": "https://www.inabanga.gov.ph/city-departments/"
   },
   {
@@ -538,7 +538,7 @@ export const offices: Office[] = [
     "address": "Municipal Hall Annex Building, Municipality of Inabanga, Bohol",
     "locals": "7005100",
     "serviceCount": 8,
-    "ccUrl": "https://cc.inabanga.gov.ph/cdrrmo/",
+    "ccUrl": "https://inabanga.gov.ph/citizens-charter",
     "sourceUrl": "https://www.inabanga.gov.ph/city-departments/"
   },
   {
@@ -553,7 +553,7 @@ export const offices: Office[] = [
     "address": "Municipal Hall Annex Building, Municipality of Inabanga, Bohol",
     "locals": "151 / 159",
     "serviceCount": 6,
-    "ccUrl": "https://cc.inabanga.gov.ph/ops/",
+    "ccUrl": "https://inabanga.gov.ph/citizens-charter",
     "sourceUrl": "https://www.inabanga.gov.ph/city-departments/"
   },
   {
@@ -568,7 +568,7 @@ export const offices: Office[] = [
     "address": "2nd Floor Annex, Municipal Hall Building, Municipality of Inabanga, Bohol",
     "locals": "110 / 155",
     "serviceCount": 12,
-    "ccUrl": "https://cc.inabanga.gov.ph/cenro/",
+    "ccUrl": "https://inabanga.gov.ph/citizens-charter",
     "sourceUrl": "https://www.inabanga.gov.ph/city-departments/"
   }
 ];

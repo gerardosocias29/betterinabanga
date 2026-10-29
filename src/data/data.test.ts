@@ -70,7 +70,7 @@ describe('services', () => {
       expect(service.summary.trim()).not.toBe('')
       expect(isDate(service.lastVerified)).toBe(true)
       expect(http.test(service.sourceUrl)).toBe(true)
-      for (const pdf of service.pdfs) expect(http.test(pdf)).toBe(true)
+      for (const pdf of service.pdfs) expect(http.test(pdf) || pdf.startsWith('/forms/')).toBe(true)
     }
   })
 

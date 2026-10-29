@@ -17,7 +17,20 @@ import { usePageMeta } from '../lib/usePageMeta'
 
 function pdfLabel(url: string) {
   const file = decodeURIComponent(url.split('/').pop() ?? 'Form')
-  return file.replace(/\.pdf$/i, '').replace(/[-_]+/g, ' ')
+  return file
+    .replace(/\.pdf$/i, '')
+    .replace(/-(LEBDO|OPS|VET|AGR|LYDO|CHO|CICTO|OCA|CSWDO|CBO|CTO|CRO|CENRO|CPDO|HRMO|OSSP|OCM|OCVM)$/i, '')
+    .replace(/[-_]+/g, ' ')
+    .trim()
+}
+
+function resolvePdfUrl(url: string) {
+  if (url.startsWith('/')) return url
+  if (url.includes('cc.inabanga.gov.ph') || url.includes('cc.sanfernandocity.gov.ph')) {
+    const filename = url.split('/').pop()
+    return `/forms/${filename}`
+  }
+  return url
 }
 
 export function ServiceDetailPage() {
@@ -169,28 +182,33 @@ export function ServiceDetailPage() {
                 <h2 className="text-xl font-extrabold tracking-tight text-ink-950">{translate('Downloadable forms')}</h2>
                 {service.pdfs.length ? (
                   <ul className="mt-4 space-y-2">
-                    {service.pdfs.map((file) => (
-                      <li key={file}>
-                        <a
-                          href={file}
-                          target="_blank"
-                          rel="noreferrer"
-                          className="group flex items-start gap-3 rounded-xl border border-line bg-surface p-3 text-sm transition hover:border-brand-200 hover:bg-white"
-                        >
-                          <span className="mt-0.5 inline-flex size-8 shrink-0 items-center justify-center rounded-lg bg-white text-brand-700 shadow-sm">
-                            <Download aria-hidden="true" className="size-4" />
-                          </span>
-                          <span className="min-w-0">
-                            <span className="block break-words font-semibold leading-6 text-ink-800 group-hover:text-brand-700">
-                              {pdfLabel(file)}
+                    {service.pdfs.map((file) => {
+                      const href = resolvePdfUrl(file)
+                      const label = pdfLabel(file)
+                      return (
+                        <li key={file}>
+                          <a
+                            href={href}
+                            target="_blank"
+                            rel="noreferrer"
+                            download={`${label}.pdf`}
+                            className="group flex items-start gap-3 rounded-xl border border-line bg-surface p-3 text-sm transition hover:border-brand-200 hover:bg-white"
+                          >
+                            <span className="mt-0.5 inline-flex size-8 shrink-0 items-center justify-center rounded-lg bg-white text-brand-700 shadow-sm">
+                              <Download aria-hidden="true" className="size-4" />
                             </span>
+                            <span className="min-w-0">
+                              <span className="block break-words font-semibold leading-6 text-ink-800 group-hover:text-brand-700">
+                                {label}
+                              </span>
                             <span className="mt-0.5 block text-[11px] font-bold uppercase tracking-[0.12em] text-ink-400">
                               {translate('PDF · Official charter form')}
                             </span>
                           </span>
-                        </a>
-                      </li>
-                    ))}
+                          </a>
+                        </li>
+                      )
+                    })}
                   </ul>
                 ) : (
                   <p className="mt-3 text-sm leading-6 text-ink-500">

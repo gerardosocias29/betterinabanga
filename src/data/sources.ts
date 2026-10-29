@@ -8,7 +8,7 @@ export const sources: Source[] = [
   },
   {
     "name": "Citizens' Charter",
-    "url": "https://cc.inabanga.gov.ph",
+    "url": "https://inabanga.gov.ph/citizens-charter",
     "note": "242 services with requirements, fees, and steps"
   },
   {

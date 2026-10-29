@@ -14,10 +14,10 @@ export const services: Service[] = [
     "summary": "Complaints – clients who file formal complaints to the office",
     "fees": "VIOLATIONS\nCODE\nPENALTY\nDriving while under the influence of liquor or prohibited drugs\nA-5\n2000.00\nNo sticker issued by the Municipal Government\nC-4\n5000.00\nArrogance or discourtesy\n1-28\n500.00\nReckless driving\n1-31\n500.00\nRefusal to convey passenger to proper destination (trip cutting)\n1-38\n1000.00\nRefusal to render service to the public\n1-39\n2000.00\nOvercharging\n1-43\n2000.00\nNo Fare Matrix\n1-46\n500.00\nOverloading of passenger/s\nH-3\n1000.00\nNo Individual Working Permit\nH-9\n1000.00\nTOTAL\n15,500.00",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Action-on-Complaints-against-Drivers-and-Operators-of-Public-Utility-Vehicles-and-Motorized-REQUIREMENTS-OPS.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Action-on-Complaints-against-Drivers-and-Operators-of-Public-Utility-Vehicles-and-Motorized-STEPS-OPS.pdf"
+      "/forms/Action-on-Complaints-against-Drivers-and-Operators-of-Public-Utility-Vehicles-and-Motorized-REQUIREMENTS-OPS.pdf",
+      "/forms/Action-on-Complaints-against-Drivers-and-Operators-of-Public-Utility-Vehicles-and-Motorized-STEPS-OPS.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/27/action-on-complaints-against-drivers-and-operators-of-public-utility-vehicles-and-motorized-tricycles/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -33,10 +33,10 @@ export const services: Service[] = [
     "summary": "The Office of the Building Official acts on complaints on violations or perceived violations to the provisions of the National Building Code located within the jurisdiction of the City of…",
     "fees": "NO FEES TO BE PAID",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/10/Untitled13.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/10/Untitled14.pdf"
+      "/forms/Untitled13.pdf",
+      "/forms/Untitled14.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/06/action-on-complaints-on-violations-of-the-national-building-code/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -52,10 +52,10 @@ export const services: Service[] = [
     "summary": "Duly registered cooperatives/ associations, Rural Improvement Club (RIC), 4-H Club, registered irrigators, farmers, and fisherfolks",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Agricultural-and-Aqua-cultural-Machineries-Facilities-and-Utilities-REQUIREMENTS-AGR.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Agricultural-and-Aqua-cultural-Machineries-Facilities-and-Utilities-STEPS-AGR.pdf"
+      "/forms/Agricultural-and-Aqua-cultural-Machineries-Facilities-and-Utilities-REQUIREMENTS-AGR.pdf",
+      "/forms/Agricultural-and-Aqua-cultural-Machineries-Facilities-and-Utilities-STEPS-AGR.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/21/agricultural-and-aqua-cultural-machineries-facilities-and-utilities/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -71,10 +71,10 @@ export const services: Service[] = [
     "summary": "Those who are interested in agriculture and aquaculture",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Agricultural-and-Aqua-cultural-Materials-and-other-Inputs-REQUIREMENTS-AGR.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Agricultural-and-Aqua-cultural-Materials-and-other-Inputs-STEPS-AGR.pdf"
+      "/forms/Agricultural-and-Aqua-cultural-Materials-and-other-Inputs-REQUIREMENTS-AGR.pdf",
+      "/forms/Agricultural-and-Aqua-cultural-Materials-and-other-Inputs-STEPS-AGR.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/21/agricultural-and-aqua-cultural-materials-and-other-inputs/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -90,10 +90,10 @@ export const services: Service[] = [
     "summary": "The conference room is designed to provide a quiet environment or venue for meetings, conferences, training, and seminars which allows the client to focus and work without distractions.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Agtutubo-Conference-Room-Reservation-REQUIREMENTS-LYDO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Agtutubo-Conference-Room-Reservation-STEPS-LYDO.pdf"
+      "/forms/Agtutubo-Conference-Room-Reservation-REQUIREMENTS-LYDO.pdf",
+      "/forms/Agtutubo-Conference-Room-Reservation-STEPS-LYDO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/27/agtutubo-conference-room-reservation/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -109,10 +109,10 @@ export const services: Service[] = [
     "summary": "The Municipal Government through the Office of the Municipal Veterinarian provides animal dispersal and re-dispersal service as livelihood assistance to interested and qualified independent livestock…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Animal-Dispersal-and-Re-dispersal-REQUIREMENTS-VET.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Animal-Dispersal-and-Re-dispersal-STEPS-VET.pdf"
+      "/forms/Animal-Dispersal-and-Re-dispersal-REQUIREMENTS-VET.pdf",
+      "/forms/Animal-Dispersal-and-Re-dispersal-STEPS-VET.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/28/animal-dispersal-and-re-dispersal/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -128,10 +128,10 @@ export const services: Service[] = [
     "summary": "The Office of the Municipal Assessor annotates/cancels encumbrances on the tax declaration such as mortgage/loan, adverse claims, hold in abeyance, notice of lis pendens, contracts, bail bonds,…",
     "fees": "PhP 60.00 per Annotation / Cancellation",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/AnnotatingCancelling-of-Encumbrances-on-the-Tax-Declaration-REQUIREMENTS-OCA.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/AnnotatingCancelling-of-Encumbrances-on-the-Tax-Declaration-STEPS-OCA.pdf"
+      "/forms/AnnotatingCancelling-of-Encumbrances-on-the-Tax-Declaration-REQUIREMENTS-OCA.pdf",
+      "/forms/AnnotatingCancelling-of-Encumbrances-on-the-Tax-Declaration-STEPS-OCA.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/27/annotating-cancelling-of-encumbrances-on-the-tax-declaration/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -147,10 +147,10 @@ export const services: Service[] = [
     "summary": "Leave of absence is generally defined as the right granted to officials and employees not to report for work with or without pay as may be provided by law and as the rules prescribed in…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Application-for-Leave-REQUIREMENTS-HRMO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Application-for-Leave-STEPS-HRMO.pdf"
+      "/forms/Application-for-Leave-REQUIREMENTS-HRMO.pdf",
+      "/forms/Application-for-Leave-STEPS-HRMO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/25/application-for-leave/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -166,10 +166,10 @@ export const services: Service[] = [
     "summary": "Where a marriage license is required, each of the contracting parties shall file separately a sworn application for such license with the proper civil registrar.",
     "fees": "CHARGEABLE FEES\n● Pursuant to City Ordinance 2015-01, Series of 2015\nMarriage Application Fee P 200.00\nMarriage License P 200.00\nMarriage License Form P 2.00\nMarriage Solemnization Fee P 500.00\nFamily Planning Certificate P 150.00\nMarriage Counseling Fee P 250.00",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Application-for-Marriage-License-REQUIREMENTS-REG.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Application-for-Marriage-License-STEPS-REG.pdf"
+      "/forms/Application-for-Marriage-License-REQUIREMENTS-REG.pdf",
+      "/forms/Application-for-Marriage-License-STEPS-REG.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/28/application-for-marriage-license/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -185,10 +185,10 @@ export const services: Service[] = [
     "summary": "The Mayor’s Clearance is issued to individuals who need it for foreign/local employment; to operators/drivers of motorized tricycle for hire; and to others who need it as requirement for…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Application-for-Mayors-Clearance-REQUIREMENTS-LEBDO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Application-for-Mayors-Clearance-STEPS-LEBDO.pdf"
+      "/forms/Application-for-Mayors-Clearance-REQUIREMENTS-LEBDO.pdf",
+      "/forms/Application-for-Mayors-Clearance-STEPS-LEBDO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/24/application-for-mayors-clearance/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -204,10 +204,10 @@ export const services: Service[] = [
     "summary": "Assist in the installation of the application systems.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Application-Systems-Deployment-for-DevelopedOutsourced-Applications-REQUIREMENTS-CICTO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Application-Systems-Deployment-for-DevelopedOutsourced-Applications-STEPS-CICTO.pdf"
+      "/forms/Application-Systems-Deployment-for-DevelopedOutsourced-Applications-REQUIREMENTS-CICTO.pdf",
+      "/forms/Application-Systems-Deployment-for-DevelopedOutsourced-Applications-STEPS-CICTO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/23/application-systems-deployment-for-developed-outsourced-applications/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -223,10 +223,10 @@ export const services: Service[] = [
     "summary": "This process is done in compliance with providing parameters and guidelines in the design and development and application systems.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Application-Systems-Design-and-Development-Outsourcing-REQUIREMENTS-CICTO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Application-Systems-Design-and-Development-Outsourcing-STEPS-CICTO.pdf"
+      "/forms/Application-Systems-Design-and-Development-Outsourcing-REQUIREMENTS-CICTO.pdf",
+      "/forms/Application-Systems-Design-and-Development-Outsourcing-STEPS-CICTO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/23/application-systems-design-and-development-outsourcing/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -242,10 +242,10 @@ export const services: Service[] = [
     "summary": "Arranging a Tour at the Bohol Science Centrum and Museum (LUSCM) at the Bohol Science Centrum and Museum.",
     "fees": "General Admission: PhP 10.00\nStudents/ Senior Citizens: PhP 5.00\n4 years old and below; Persons with Disability; Teachers: Free Admission",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Arranging-a-Tour-at-the-Inabanga-Raffia-Weaving-And-Heritage-Museum-LUSCM-REQUIREMENTS-LUSCM.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Arranging-a-Tour-at-the-Inabanga-Raffia-Weaving-And-Heritage-Museum-LUSCM-STEPS-LUSCM.pdf"
+      "/forms/Arranging-a-Tour-at-the-Inabanga-Raffia-Weaving-And-Heritage-Museum-LUSCM-REQUIREMENTS-LUSCM.pdf",
+      "/forms/Arranging-a-Tour-at-the-Inabanga-Raffia-Weaving-And-Heritage-Museum-LUSCM-STEPS-LUSCM.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/27/arranging-a-tour-at-the-inabanga-raffia-weaving-and-heritage-museum-luscm/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -261,10 +261,10 @@ export const services: Service[] = [
     "summary": "Genetic upgrading of native livestock is one of the City’s concerns since some of the farmers cannot afford to maintain a buck, bull or boar due to higher cost and maintenance.",
     "fees": "P500.00 per head, free for the second Artificial Insemination if not impregnated after the first Artificial Insemination for cattle/carabao",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Artificial-Insemination-of-Livestock-REQUIREMENTS-VET.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Artificial-Insemination-of-Livestock-STEPS-VET.pdf"
+      "/forms/Artificial-Insemination-of-Livestock-REQUIREMENTS-VET.pdf",
+      "/forms/Artificial-Insemination-of-Livestock-STEPS-VET.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/28/artificial-insemination-of-livestock/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -280,10 +280,10 @@ export const services: Service[] = [
     "summary": "The Office of the Municipal Assessor issues assessment form for Real Property Back Tax to be paid at the Municipal Treasurer’s Office.",
     "fees": "Computation of Back Tax: Total Assesses Value x Basic Tax (3%)* 2018 onwards issued Notice of Assessment with Back Taxes are subject for 2% Penalty per month after the first quarter upon receipt of Notice.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Assessment-of-Real-Property-Back-Tax-Order-of-Payment-REQUIREMENTS-OCA.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Assessment-of-Real-Property-Back-Tax-Order-of-Payment-STEPS-OCA.pdf"
+      "/forms/Assessment-of-Real-Property-Back-Tax-Order-of-Payment-REQUIREMENTS-OCA.pdf",
+      "/forms/Assessment-of-Real-Property-Back-Tax-Order-of-Payment-STEPS-OCA.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/27/assessment-of-real-property-back-tax-order-of-payment/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -299,10 +299,10 @@ export const services: Service[] = [
     "summary": "The Office of the Municipal Assessor issues assessment form for Real Property Tax to be paid at the Office of the Municipal Treasurer.",
     "fees": "Computation of Real Property Tax\n-3% of the Assessed Value (Tax Rate)\nDistribution:\n2% Basic Tax\n1% Special Educational Fund\nPenalty applies if not paid within the 1 st quarter of the year",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Assessment-of-Real-Property-Tax-Order-of-Payment-REQUIREMENTS-OCA.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Assessment-of-Real-Property-Tax-Order-of-Payment-STEPS-OCA.pdf"
+      "/forms/Assessment-of-Real-Property-Tax-Order-of-Payment-REQUIREMENTS-OCA.pdf",
+      "/forms/Assessment-of-Real-Property-Tax-Order-of-Payment-STEPS-OCA.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/27/assessment-of-real-property-tax-order-of-payment/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -318,10 +318,10 @@ export const services: Service[] = [
     "summary": "The Municipal Health Office assists in the delivery of babies.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Assist-in-the-Delivery-of-Neonate-REQUIREMENTS-CHO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Assist-in-the-Delivery-of-Neonate-STEPS-CHO.pdf"
+      "/forms/Assist-in-the-Delivery-of-Neonate-REQUIREMENTS-CHO.pdf",
+      "/forms/Assist-in-the-Delivery-of-Neonate-STEPS-CHO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/26/assist-in-the-delivery-of-neonate/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -337,10 +337,10 @@ export const services: Service[] = [
     "summary": "The City Budget Office assists the barangay in the preparation of their Annual Budget which is subjected to the review of the Sangguniang Bayan (SP) to determine whether the…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Assist-in-the-Preparation-and-Review-of-Annual-Barangay-Budgets-REQUIREMENTS-CBO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Assist-in-the-Preparation-and-Review-of-Annual-Barangay-Budgets-STEPS-CBO.pdf"
+      "/forms/Assist-in-the-Preparation-and-Review-of-Annual-Barangay-Budgets-REQUIREMENTS-CBO.pdf",
+      "/forms/Assist-in-the-Preparation-and-Review-of-Annual-Barangay-Budgets-STEPS-CBO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/23/assist-in-the-preparation-and-review-of-annual-barangay/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -356,10 +356,10 @@ export const services: Service[] = [
     "summary": "The Sangguniang Bayan shall review the ordinance authorizing supplemental appropriations of barangays.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Assist-in-the-Review-of-Supplemental-Barangay-Budgets-REQUIREMENTS-CBO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Assist-in-the-Review-of-Supplemental-Barangay-Budgets-STEPS-CBO.pdf"
+      "/forms/Assist-in-the-Review-of-Supplemental-Barangay-Budgets-REQUIREMENTS-CBO.pdf",
+      "/forms/Assist-in-the-Review-of-Supplemental-Barangay-Budgets-STEPS-CBO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/23/assist-in-the-review-of-supplemental-barangay-budget-s/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -375,10 +375,10 @@ export const services: Service[] = [
     "summary": "The Municipal Health Office provides assistance in dispensing prescribed medicines and monitoring of referred patients with mental health problems.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Assistance-to-Referred-Patients-with-Mental-Health-Problem-REQUIREMENTS-CHO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Assistance-to-Referred-Patients-with-Mental-Health-Problem-STEPS-CHO.pdf"
+      "/forms/Assistance-to-Referred-Patients-with-Mental-Health-Problem-REQUIREMENTS-CHO.pdf",
+      "/forms/Assistance-to-Referred-Patients-with-Mental-Health-Problem-STEPS-CHO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/26/assistance-to-referred-patients-with-mental-health-problem/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -394,10 +394,10 @@ export const services: Service[] = [
     "summary": "The CITY SOCIAL WELFARE AND DEVELOPMENT OFFICE (CSWDO) provides organizational services and orientation for the formation and strengthening of Senior Citizens’ Association.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/FEDERATION-OF-SENIOR-CITIZENS-ASSOCIATION-OF-THE-PHILIPPINES-FSCAP-REQUIREMENTS-CSWDO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/FEDERATION-OF-SENIOR-CITIZENS-ASSOCIATION-OF-THE-PHILIPPINES-FSCAP-STEPS-CSWDO.pdf"
+      "/forms/FEDERATION-OF-SENIOR-CITIZENS-ASSOCIATION-OF-THE-PHILIPPINES-FSCAP-REQUIREMENTS-CSWDO.pdf",
+      "/forms/FEDERATION-OF-SENIOR-CITIZENS-ASSOCIATION-OF-THE-PHILIPPINES-FSCAP-STEPS-CSWDO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/06/01/association-for-senior-citizen-federation-of-senior-citizens-association-of-the-philippines-fscap/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -413,10 +413,10 @@ export const services: Service[] = [
     "summary": "The CITY SOCIAL WELFARE AND DEVELOPMENT OFFICE (CSWDO) provides organizational services and orientation for the formation and strengthening of Persons with Disabilities.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Association-for-Women-Kalipunan-ng-Liping-Pilipina-Inc.-KALIPI-REQUIREMENTS-CSWDO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Association-for-Women-Kalipunan-ng-Liping-Pilipina-Inc.-KALIPI-STEPS-CSWDO.pdf"
+      "/forms/Association-for-Women-Kalipunan-ng-Liping-Pilipina-Inc.-KALIPI-REQUIREMENTS-CSWDO.pdf",
+      "/forms/Association-for-Women-Kalipunan-ng-Liping-Pilipina-Inc.-KALIPI-STEPS-CSWDO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/06/01/association-for-women-kalipunan-ng-liping-pilipina-inc-kalipi/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -432,10 +432,10 @@ export const services: Service[] = [
     "summary": "This procedure is to provide financial assistance to the barangay/s of the Municipality of Inabanga, Bohol operating their own barangay garbage truck in subsidizing the cost of fuel and…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Availing-of-Garbage-Collection-Subsidy-REQUIREMENTS-CENRO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Availing-of-Garbage-Collection-Subsidy-STEPS-CENRO.pdf"
+      "/forms/Availing-of-Garbage-Collection-Subsidy-REQUIREMENTS-CENRO.pdf",
+      "/forms/Availing-of-Garbage-Collection-Subsidy-STEPS-CENRO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/23/availing-of-garbage-collection-subsidy/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -451,10 +451,10 @@ export const services: Service[] = [
     "summary": "City residents and other clients may request the City Mayor for referrals, recommendations, endorsements or communications for the following:",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Availing-of-Public-Customer-Assistance-REQUIREMENTS-OCM.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Availing-of-Public-Customer-Assistance-STEPS-OCM.pdf"
+      "/forms/Availing-of-Public-Customer-Assistance-REQUIREMENTS-OCM.pdf",
+      "/forms/Availing-of-Public-Customer-Assistance-STEPS-OCM.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/28/availing-of-public-customer-assistance/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -470,10 +470,10 @@ export const services: Service[] = [
     "summary": "This procedure is to provide financial assistance to the barangay/s of the Municipality of Inabanga, Bohol operating their own barangay garbage truck in subsidizing the cost of fuel and…",
     "fees": "Depends on the schedule of the payment.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Availing-of-Truck-Loan-For-Purchase-of-Garbage-Truck-of-the-Barangays-REQUIREMENTS-CENRO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Availing-of-Truck-Loan-For-Purchase-of-Garbage-Truck-of-the-Barangays-STEPS-CENRO.pdf"
+      "/forms/Availing-of-Truck-Loan-For-Purchase-of-Garbage-Truck-of-the-Barangays-REQUIREMENTS-CENRO.pdf",
+      "/forms/Availing-of-Truck-Loan-For-Purchase-of-Garbage-Truck-of-the-Barangays-STEPS-CENRO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/23/availing-of-truck-loan-for-purchase-of-garbage-truck-of-the-barangays/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -489,10 +489,10 @@ export const services: Service[] = [
     "summary": "The Municipal Government of Inabanga provides an interment area and the usage of this facility is being regulated through the Municipal Health Office.",
     "fees": "Adult Condominium lot for 5 years contract: PhP 9,000.00\nChildren’ s lot: PhP 300.00\nBone Niche: PhP 1,000.00",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Availment-of-Interment-Area-at-Lingsat-Public-Cemetery-REQUIREMENTS-CHO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Availment-of-Interment-Area-at-Lingsat-Public-Cemetery-STEPS-CHO.pdf"
+      "/forms/Availment-of-Interment-Area-at-Lingsat-Public-Cemetery-REQUIREMENTS-CHO.pdf",
+      "/forms/Availment-of-Interment-Area-at-Lingsat-Public-Cemetery-STEPS-CHO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/26/availment-of-interment-area-at-inabanga-municipal-cemetery/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -508,10 +508,10 @@ export const services: Service[] = [
     "summary": "City residents may avail/request the City Vice Mayor for referrals, recommendations, and endorsement of their application for employment to private companies’ agencies located in the city.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Availment-of-RecommendationEndorsement-Letter-REQUIREMENTS-OCVM.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Availment-of-RecommendationEndorsement-Letter-STEPS-OCVM.pdf"
+      "/forms/Availment-of-RecommendationEndorsement-Letter-REQUIREMENTS-OCVM.pdf",
+      "/forms/Availment-of-RecommendationEndorsement-Letter-STEPS-OCVM.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/27/availment-of-recommendation-endorsement-letter/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -527,10 +527,10 @@ export const services: Service[] = [
     "summary": "The Investment Promotions and Tourism Unit aims to attract new investments, both local and foreign, keep and retain existing investments and encourage their expansion by creating a…",
     "fees": "Micro: PhP 1,000.00\nSmall, Medium, and Large: PhP 2,000.00",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Availment-of-the-City-Investment-and-Incentives-REQUIREMENTS-LEBDO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Availment-of-the-City-Investment-and-Incentives-STEPS-LEBDO.pdf"
+      "/forms/Availment-of-the-City-Investment-and-Incentives-REQUIREMENTS-LEBDO.pdf",
+      "/forms/Availment-of-the-City-Investment-and-Incentives-STEPS-LEBDO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/24/availment-of-the-city-investment-and-incentives/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -546,10 +546,10 @@ export const services: Service[] = [
     "summary": "The CSWDO provides educational assistance to persons with disability for them to pursue primary, secondary, tertiary, post tertiary as well as vocational and technical education in both…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Availment-of-Tuloy-Aral-Walang-Sagabal-TAWAG-REQUIREMENTS-CSWDO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Availment-of-Tuloy-Aral-Walang-Sagabal-TAWAG-STEPS-CSWDO.pdf"
+      "/forms/Availment-of-Tuloy-Aral-Walang-Sagabal-TAWAG-REQUIREMENTS-CSWDO.pdf",
+      "/forms/Availment-of-Tuloy-Aral-Walang-Sagabal-TAWAG-STEPS-CSWDO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/06/01/availment-of-tuloy-aral-walang-sagabal-tawag/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -565,10 +565,10 @@ export const services: Service[] = [
     "summary": "In accordance with Republic Act 9147 otherwise known as Wildlife Resources Conservation and Protection Act of 2001, the Municipal Government of Inabanga through the City ENRO, offers…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Biodiversity-Rescue-Services-Provision-REQUIREMENTS-CENRO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Biodiversity-Rescue-Services-Provision-STEPS-CENRO.pdf"
+      "/forms/Biodiversity-Rescue-Services-Provision-REQUIREMENTS-CENRO.pdf",
+      "/forms/Biodiversity-Rescue-Services-Provision-STEPS-CENRO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/23/biodiversity-rescue-services-provision/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -584,10 +584,10 @@ export const services: Service[] = [
     "summary": "The Municipality of Inabanga Library is an essential repository of reading materials and materials can be photocopied and borrowed for home use.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Borrowing-and-Returning-of-BooksReading-Materials-REQUIREMENTS-LIB.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Borrowing-and-Returning-of-BooksReading-Materials-STEPS-LIB.pdf"
+      "/forms/Borrowing-and-Returning-of-BooksReading-Materials-REQUIREMENTS-LIB.pdf",
+      "/forms/Borrowing-and-Returning-of-BooksReading-Materials-STEPS-LIB.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/27/borrowing-and-returning-of-books-reading-materials/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -603,10 +603,10 @@ export const services: Service[] = [
     "summary": "The City Disaster Risk Reduction Management Office aims to provide quality service in all thematic areas of DRRM: Prevention and Mitigation, Preparedness, Response and Rehabilitation and…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Borrowing-Of-Disaster-Equipment-and-Materials-for-DRRM-Purposes-REQUIREMENTS-CDRRMO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Borrowing-Of-Disaster-Equipment-and-Materials-for-DRRM-Purposes-STEPS-CDRRMO.pdf"
+      "/forms/Borrowing-Of-Disaster-Equipment-and-Materials-for-DRRM-Purposes-REQUIREMENTS-CDRRMO.pdf",
+      "/forms/Borrowing-Of-Disaster-Equipment-and-Materials-for-DRRM-Purposes-STEPS-CDRRMO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/23/borrowing-of-disaster-equipment-and-materials-for-drrm-purposes/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -622,10 +622,10 @@ export const services: Service[] = [
     "summary": "All unbranded cattle no less than two years old found within the jurisdiction of the City shall be branded on the right hip with the registered brand of the owner and counter branded on the…",
     "fees": "Prescribed Fees: PhP 32.00 per animal",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Branding-of-Cattle-and-Caraba-REQUIREMENTS-VET.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Branding-of-Cattle-and-Caraba-STEPS-VET.pdf"
+      "/forms/Branding-of-Cattle-and-Caraba-REQUIREMENTS-VET.pdf",
+      "/forms/Branding-of-Cattle-and-Caraba-STEPS-VET.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/28/branding-of-cattle-and-carabao/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -641,10 +641,10 @@ export const services: Service[] = [
     "summary": "Under the Consumer Act of the Philippines, the Office of the Municipal Treasurer shall be responsible for testing, calibration, sealing and licensing of weights and measures in all…",
     "fees": "License Fee: PhP 150.00\nCalibration / Sealing Fee: PhP 100.00\nTotal Fee: PhP 250.00 per unit",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Calibration-and-Sealing-of-Weighing-Scales-and-Collection-of-Corresponding-Fees-REQUIREMENTS-CTO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Calibration-and-Sealing-of-Weighing-Scales-and-Collection-of-Corresponding-Fees-STEPS-CTO.pdf"
+      "/forms/Calibration-and-Sealing-of-Weighing-Scales-and-Collection-of-Corresponding-Fees-REQUIREMENTS-CTO.pdf",
+      "/forms/Calibration-and-Sealing-of-Weighing-Scales-and-Collection-of-Corresponding-Fees-STEPS-CTO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/28/calibration-and-sealing-of-weighing-scales-and-collection-of-corresponding-fees/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -660,10 +660,10 @@ export const services: Service[] = [
     "summary": "CCTV Clearance at the Office for Public Safety.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/CCTV-Clearance-REQUIREMENTS-OPS.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/CCTV-Clearance-STEPS-OPS.pdf"
+      "/forms/CCTV-Clearance-REQUIREMENTS-OPS.pdf",
+      "/forms/CCTV-Clearance-STEPS-OPS.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/27/cctv-clearance/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -679,10 +679,10 @@ export const services: Service[] = [
     "summary": "The CITY SOCIAL WELFARE AND DEVELOPMENT OFFICE (CSWDO) provide benefits to Filipino Centenarians/ Senior Citizens aged 100 years old and above from the Municipality of Inabanga, Bohol.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Centenarian-Cash-Gift-REQUIREMENTS-CSWDO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Centenarian-Cash-Gift-STEPS-CSWDO.pdf"
+      "/forms/Centenarian-Cash-Gift-REQUIREMENTS-CSWDO.pdf",
+      "/forms/Centenarian-Cash-Gift-STEPS-CSWDO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/06/01/centenarian-cash-gift/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -698,10 +698,10 @@ export const services: Service[] = [
     "summary": "The Municipal Accountant shall take charge in the pre-audit and certify to the correctness and completeness of the supporting documents on all financial claims.",
     "fees": "NO FEES AND CHARGES REQUIRED",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Certification-and-preparation-REQUIREMENTS-ACA.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Certification-and-preparation-STEPS-ACA.pdf"
+      "/forms/Certification-and-preparation-REQUIREMENTS-ACA.pdf",
+      "/forms/Certification-and-preparation-STEPS-ACA.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/15/certification-and-preparation-of-net-take-home-pay-of-city-government-employees-loan-applicants/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -717,10 +717,10 @@ export const services: Service[] = [
     "summary": "The CITY SOCIAL WELFARE AND DEVELOPMENT OFFICE (CSWDO) provides counselling services to parent/s regarding the care and custody of their child/children.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Childs-Custody-Concerns-REQUIREMENTS-CSWDO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Childs-Custody-Concerns-STEPS-CSWDO.pdf"
+      "/forms/Childs-Custody-Concerns-REQUIREMENTS-CSWDO.pdf",
+      "/forms/Childs-Custody-Concerns-STEPS-CSWDO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/06/01/childs-custody-concerns/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -736,10 +736,10 @@ export const services: Service[] = [
     "summary": "Mortuary Benefit is an assistance derived from the collective contributions of city officials and employees.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Claim-for-Mortuary-Benefit-REQUIREMENTS-HRMO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Claim-for-Mortuary-Benefit-STEPS-HRMO.pdf"
+      "/forms/Claim-for-Mortuary-Benefit-REQUIREMENTS-HRMO.pdf",
+      "/forms/Claim-for-Mortuary-Benefit-STEPS-HRMO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/25/claim-for-mortuary-benefit/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -755,10 +755,10 @@ export const services: Service[] = [
     "summary": "Terminal Leave Benefit is the actual money value of the officials/employees accumulated leave credits.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Claim-for-Terminal-Leave-Benefit-REQUIREMENTS-HRMO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Claim-for-Terminal-Leave-Benefit-STEPS-HRMO.pdf"
+      "/forms/Claim-for-Terminal-Leave-Benefit-REQUIREMENTS-HRMO.pdf",
+      "/forms/Claim-for-Terminal-Leave-Benefit-STEPS-HRMO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/25/claim-for-terminal-leave-benefit/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -774,11 +774,11 @@ export const services: Service[] = [
     "summary": "For each stall in the public market, there is a corresponding stall rental with a yearly escalation of 10% as provided for in Sections IVN.09, IVN.16 and IVN.19 of the Revenue Code of 1993.",
     "fees": "No fee information is published on the service page.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Collection-of-Market-Stall-Rental-Fees-CTO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Collection-of-Market-Stall-Rental-REQUIREMENTS-CTO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Collection-of-Market-Stall-Rental-STEPS-CTO.pdf"
+      "/forms/Collection-of-Market-Stall-Rental-Fees-CTO.pdf",
+      "/forms/Collection-of-Market-Stall-Rental-REQUIREMENTS-CTO.pdf",
+      "/forms/Collection-of-Market-Stall-Rental-STEPS-CTO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/29/collection-of-market-stall-rental/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -794,10 +794,10 @@ export const services: Service[] = [
     "summary": "A tax is imposed and shall be collected from persons engaged in the exercise or practice of profession requiring government examination.",
     "fees": "Prescribed Fees: PhP 300.00",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Collection-of-Professional-Tax-REQUIREMENTS-CTO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Collection-of-Professional-Tax-STEPS-CTO.pdf"
+      "/forms/Collection-of-Professional-Tax-REQUIREMENTS-CTO.pdf",
+      "/forms/Collection-of-Professional-Tax-STEPS-CTO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/28/collection-of-professional-tax/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -813,10 +813,10 @@ export const services: Service[] = [
     "summary": "The Office of the Municipal Assessor computes for the Transfer Tax to be paid at the Municipal Treasurer’s Office for all transfer of ownership.",
     "fees": "1/2 of 1% of the Market Value appearing in the Tax Declaration\nMinimum transfer fee – P15.00/Tax Declaration\nPenalty is imposed if the date of notarization on the Mode of Conveyance exceeds 60 days; 2%/month and maximum of 36 months plus 25% additional penalty\nPenalty of P500.00 for late submission of documents for processing",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Computation-of-Transfer-Tax-REQUIREMENTS-OCA.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Computation-of-Transfer-Tax-STEPS-OCA.pdf"
+      "/forms/Computation-of-Transfer-Tax-REQUIREMENTS-OCA.pdf",
+      "/forms/Computation-of-Transfer-Tax-STEPS-OCA.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/27/computation-of-transfer-tax/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -832,10 +832,10 @@ export const services: Service[] = [
     "summary": "Any couple who has applied for their license to marry can request the City Mayor to solemnize their marriage.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Conduct-of-Marriage-Solemnization-REQUIREMENTS-OCM.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Conduct-of-Marriage-Solemnization-STEPS-OCM.pdf"
+      "/forms/Conduct-of-Marriage-Solemnization-REQUIREMENTS-OCM.pdf",
+      "/forms/Conduct-of-Marriage-Solemnization-STEPS-OCM.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/28/conduct-of-marriage-solemnization/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -851,10 +851,10 @@ export const services: Service[] = [
     "summary": "The CITY SOCIAL WELFARE AND DEVELOPMENT OFFICE (CSWDO) conducts the Reach Out activity that would safeguard the children from further harm in the streets to provide them the necessary…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Conduct-of-Reach-out-to-Street-Children-REQUIREMENTS-CSWDO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Conduct-of-Reach-out-to-Street-Children-STEPS-CSWDO.pdf"
+      "/forms/Conduct-of-Reach-out-to-Street-Children-REQUIREMENTS-CSWDO.pdf",
+      "/forms/Conduct-of-Reach-out-to-Street-Children-STEPS-CSWDO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/06/01/conduct-of-reach-out-to-street-children/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -870,10 +870,10 @@ export const services: Service[] = [
     "summary": "The CITY SOCIAL WELFARE AND DEVELOPMENT OFFICE (CSWDO) assists in the conduct of rescue operations for children-at-risk and VAWC clients.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Conduct-of-Rescue-for-Victims-of-Child-Abuse-VAWC-REQUIREMENTS-CSWDO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Conduct-of-Rescue-for-Victims-of-Child-Abuse-VAWC-STEPS-CSWDO.pdf"
+      "/forms/Conduct-of-Rescue-for-Victims-of-Child-Abuse-VAWC-REQUIREMENTS-CSWDO.pdf",
+      "/forms/Conduct-of-Rescue-for-Victims-of-Child-Abuse-VAWC-STEPS-CSWDO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/06/01/conduct-of-rescue-for-victims-of-child-abuse-vawc/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -889,10 +889,10 @@ export const services: Service[] = [
     "summary": "Special Recruitment Activities shall only be conducted at the venue stated in the SRA and under the supervision of duly authorized representatives of the Philippine Overseas Employment…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Conduct-of-Special-Recruitment-Activity-SRA-Overseas-Employment-REQUIREMENTS-PESO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Conduct-of-Special-Recruitment-Activity-SRA-Overseas-Employment-STEPS-PESO.pdf"
+      "/forms/Conduct-of-Special-Recruitment-Activity-SRA-Overseas-Employment-REQUIREMENTS-PESO.pdf",
+      "/forms/Conduct-of-Special-Recruitment-Activity-SRA-Overseas-Employment-STEPS-PESO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/28/conduct-of-special-recruitment-activity-sra-overseas-employment/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -908,10 +908,10 @@ export const services: Service[] = [
     "summary": "City Disaster Risk Reduction Management Office conducts contact tracing pertaining to case review, informing and profiling, coordination to other respective cluster teams.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Contact-Tracing-and-Case-Interview-REQUIREMENTS-CDRRMO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Contact-Tracing-and-Case-Interview-STEPS-CDRRMO.pdf"
+      "/forms/Contact-Tracing-and-Case-Interview-REQUIREMENTS-CDRRMO.pdf",
+      "/forms/Contact-Tracing-and-Case-Interview-STEPS-CDRRMO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/23/contact-tracing-and-case-interview/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -927,10 +927,10 @@ export const services: Service[] = [
     "summary": "Article 376 of the Civil Code provides that “No person can change his name or surname without judicial authority.” Article 412 of the same code provides that “No entry in a civil register…",
     "fees": "CHARGEABLE FEES\n· Pursuant to the Implementing Rules & regulations of R.A. – 9048/R.A.10172:\no Correction of Clerical or Typographical Error P1,000.00\nRA 9048\no Correction of Clerical or Typographical Error P3,000.00\nRA 10172\no Service Fee (Migrant Petitioner) P 500.00\no Change of First Name P3,000.00\no Service Fee (Migrant Petitioner) P1,000.00\n· Pursuant to City Tax Ord. No. 2015-01, Series of 2015\no Certification Fee P100.00\no Documentary Stamp Tax P 30.00",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Correction-of-Clerical-Error-Change-of-First-Name-REQUIREMENTS-REG.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Correction-of-Clerical-Error-Change-of-First-Name-STEPS-REG.pdf"
+      "/forms/Correction-of-Clerical-Error-Change-of-First-Name-REQUIREMENTS-REG.pdf",
+      "/forms/Correction-of-Clerical-Error-Change-of-First-Name-STEPS-REG.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/28/correction-of-clerical-error-change-of-first-name/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -946,10 +946,10 @@ export const services: Service[] = [
     "summary": "Creates and grants user privilege identified by a password and giving them access to an in-housed developed application software assigned to him/her.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Creation-of-User-Account-for-In-House-Developed-Application-Users-REQUIREMENTS-CICTO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Creation-of-User-Account-for-In-House-Developed-Application-Users-STEPS.-CICTOdocx.pdf"
+      "/forms/Creation-of-User-Account-for-In-House-Developed-Application-Users-REQUIREMENTS-CICTO.pdf",
+      "/forms/Creation-of-User-Account-for-In-House-Developed-Application-Users-STEPS.-CICTOdocx.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/23/creation-of-user-account-for-in-house-developed-application-users/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -965,10 +965,10 @@ export const services: Service[] = [
     "summary": "Provide necessary network installation/assistance service.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Data-Network-and-Telephone-Services-Cable-Installation-Line-Check-REQUIREMENTS-CICTO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Data-Network-and-Telephone-Services-Cable-Installation-Line-Check-STEPS-CICTO.pdf"
+      "/forms/Data-Network-and-Telephone-Services-Cable-Installation-Line-Check-REQUIREMENTS-CICTO.pdf",
+      "/forms/Data-Network-and-Telephone-Services-Cable-Installation-Line-Check-STEPS-CICTO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/23/data-network-and-telephone-services-cable-installation-line-check/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -984,10 +984,10 @@ export const services: Service[] = [
     "summary": "All who are interested (individual / barangay) in agriculture and aquaculture",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/DEMOFARMFarmers-Field-School-REQUIREMENTS-AGR.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/STEPS-Demofarn-AGR-.pdf"
+      "/forms/DEMOFARMFarmers-Field-School-REQUIREMENTS-AGR.pdf",
+      "/forms/STEPS-Demofarn-AGR-.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/21/technical-consultation-services/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -1003,10 +1003,10 @@ export const services: Service[] = [
     "summary": "One of the duties and functions of the Municipal Legal Officer is to draft ordinances, contracts, bonds, lease and other instruments involving any interest of the City when required by the City…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Drafting-of-Legal-DocumentsInstruments-REQUIREMENTS-CLO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Drafting-of-Legal-DocumentsInstruments-STEPS-CLO.pdf"
+      "/forms/Drafting-of-Legal-DocumentsInstruments-REQUIREMENTS-CLO.pdf",
+      "/forms/Drafting-of-Legal-DocumentsInstruments-STEPS-CLO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/23/drafting-of-legal-documents-instruments/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -1022,10 +1022,10 @@ export const services: Service[] = [
     "summary": "As the City’s legal counsel, the Municipal Legal Officer is depended upon by the City Mayor, various city departments and the barangays on issues involving interpretation or applicability of the…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Drafting-of-Legal-Opinion-REQUIREMENTS-CLO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Drafting-of-Legal-Opinion-STEPS-CLO.pdf"
+      "/forms/Drafting-of-Legal-Opinion-REQUIREMENTS-CLO.pdf",
+      "/forms/Drafting-of-Legal-Opinion-STEPS-CLO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/23/drafting-of-legal-opinion/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -1041,10 +1041,10 @@ export const services: Service[] = [
     "summary": "Inabanga City Public Library is providing access to the internet to enhance the information and learning opportunities of the citizens to address their educational, vocational, cultural…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/E-Library-Service-REQUIREMENTS-LIB.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/E-Library-Service-STEPS-LIB.pdf"
+      "/forms/E-Library-Service-REQUIREMENTS-LIB.pdf",
+      "/forms/E-Library-Service-STEPS-LIB.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/27/e-library-service/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -1060,10 +1060,10 @@ export const services: Service[] = [
     "summary": "Educational Assistance Program at the Office of the Municipal Vice Mayor.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Educational-Assistance-Program-REQUIREMENTS-OCVM.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Educational-Assistance-Program-STEPS-OCVM.pdf"
+      "/forms/Educational-Assistance-Program-REQUIREMENTS-OCVM.pdf",
+      "/forms/Educational-Assistance-Program-STEPS-OCVM.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/27/educational-assistance-program/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -1079,10 +1079,10 @@ export const services: Service[] = [
     "summary": "The City Disaster Risk Reduction Management Office aims to provide quality service in all thematic areas of DRRM: Prevention and Mitigation, Preparedness, Response and Rehabilitation and…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Emergency-Response-REQUIREMENTS-CDRRMO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Emergency-Response-STEPS-CDRRMO.pdf"
+      "/forms/Emergency-Response-REQUIREMENTS-CDRRMO.pdf",
+      "/forms/Emergency-Response-STEPS-CDRRMO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/23/emergency-response/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -1098,10 +1098,10 @@ export const services: Service[] = [
     "summary": "The CITY SOCIAL WELFARE AND DEVELOPMENT OFFICE (CSWDO) provide an array of social welfare service to those affected by mandate and natural calamities in the City.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Emergency-Shelter-Assistance-ESA-REQUIREMENTS-CSWDO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Emergency-Shelter-Assistance-ESA-STEPS-CSWDO.pdf"
+      "/forms/Emergency-Shelter-Assistance-ESA-REQUIREMENTS-CSWDO.pdf",
+      "/forms/Emergency-Shelter-Assistance-ESA-STEPS-CSWDO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/06/01/emergency-shelter-assistance-esa/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -1117,10 +1117,10 @@ export const services: Service[] = [
     "summary": "Public Employment Service Office (PESO) provides a venue where people could explore various employment options and serve as referral and information center for the various employment…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Employment-Referral-Service-REQUIREMENTS-PESO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Employment-Referral-Service-STEPS-PESO.pdf"
+      "/forms/Employment-Referral-Service-REQUIREMENTS-PESO.pdf",
+      "/forms/Employment-Referral-Service-STEPS-PESO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/28/employment-referral-service/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -1136,10 +1136,10 @@ export const services: Service[] = [
     "summary": "The Municipal Environment and Natural Resources Office responds to environmental issues/pollution complaints as part of the Municipal Government’s campaign towards environmental protection.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Environmental-IssuesPollution-Complaint-REQUIREMENTS-CENRO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Environmental-IssuesPollution-Complaint-STEPS-CENRO.pdf"
+      "/forms/Environmental-IssuesPollution-Complaint-REQUIREMENTS-CENRO.pdf",
+      "/forms/Environmental-IssuesPollution-Complaint-STEPS-CENRO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/23/environmental-issues-pollution-complaint/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -1155,10 +1155,10 @@ export const services: Service[] = [
     "summary": "Bonafide residents of the City who are interested on livestock production for additional source of income",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Farmers-Livestock-School-and-Demonstration-Farms-REQUIREMENTS-VET.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Farmers-Livestock-School-and-Demonstration-Farms-STEPS-VET.pdf"
+      "/forms/Farmers-Livestock-School-and-Demonstration-Farms-REQUIREMENTS-VET.pdf",
+      "/forms/Farmers-Livestock-School-and-Demonstration-Farms-STEPS-VET.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/28/farmers-livestock-school-and-demonstration-farms/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -1174,9 +1174,9 @@ export const services: Service[] = [
     "summary": "The Office of the Municipal Assessor conducts field inspection to check, validate and verify lot disputes and to assess the value of a property.",
     "fees": "PhP 120.00 per Inspection",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Field-Inspection-STEPS-OCA.pdf"
+      "/forms/Field-Inspection-STEPS-OCA.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/27/field-inspection/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -1192,10 +1192,10 @@ export const services: Service[] = [
     "summary": "The Municipality of Inabanga through the Office of the City Agriculturist (AGR) allocates and provides city for livelihood projects to registered cooperatives and associations.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Financial-Loan-Assistance-Program-REQUIREMENTS-AGR.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Financial-Loan-Assistance-Program-STEPS-AGR.pdf"
+      "/forms/Financial-Loan-Assistance-Program-REQUIREMENTS-AGR.pdf",
+      "/forms/Financial-Loan-Assistance-Program-STEPS-AGR.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/22/financial-loan-assistance-program/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -1211,10 +1211,10 @@ export const services: Service[] = [
     "summary": "The Office of the City Agriculturist maintains the profile of all the fisherfolks/fishermen of the Municipality of Inabanga in compliance to the Provision of the Coastal Resource Management and…",
     "fees": "Total Prescribed Fees: PhP 20.00",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Fisherfolks-Registration-REQUIREMENTS-AGR.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Fisherfolks-Registration-STEPS-AGR.pdf"
+      "/forms/Fisherfolks-Registration-REQUIREMENTS-AGR.pdf",
+      "/forms/Fisherfolks-Registration-STEPS-AGR.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/22/fisherfolks-registration/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -1230,10 +1230,10 @@ export const services: Service[] = [
     "summary": "All residents of the Municipality of Inabanga",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Forest-Trees-and-Agroforestry-Species-SaplingsSeedlings-Provision-REQUIREMENTS-CENRO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Forest-Trees-and-Agroforestry-Species-SaplingsSeedlings-Provision-STEPS-CENRO.pdf"
+      "/forms/Forest-Trees-and-Agroforestry-Species-SaplingsSeedlings-Provision-REQUIREMENTS-CENRO.pdf",
+      "/forms/Forest-Trees-and-Agroforestry-Species-SaplingsSeedlings-Provision-STEPS-CENRO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/23/forest-trees-and-agroforestry-species-saplings-seedlings-provision/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -1249,10 +1249,10 @@ export const services: Service[] = [
     "summary": "This is legal aid for constituents in need of professional advice on their legal queries and problems.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Free-Legal-Counseling-REQUIREMENTS-CLO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Free-Legal-Counseling-STEPS-CLO.pdf"
+      "/forms/Free-Legal-Counseling-REQUIREMENTS-CLO.pdf",
+      "/forms/Free-Legal-Counseling-STEPS-CLO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/23/free-legal-counseling/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -1268,10 +1268,10 @@ export const services: Service[] = [
     "summary": "The law provides that the Sangguniang Bayan shall authorize expenditures in the barangays as well ensure that regulatory, supervisory and management controls/measures in the barangay…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Grant-of-Preliminary-ApprovalFinal-Approval-of-Proposed-Subdivisions-REQUIREMENTS-OSSP.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Grant-of-Preliminary-ApprovalFinal-Approval-of-Proposed-Subdivisions-STEPS-OSSP.pdf"
+      "/forms/Grant-of-Preliminary-ApprovalFinal-Approval-of-Proposed-Subdivisions-REQUIREMENTS-OSSP.pdf",
+      "/forms/Grant-of-Preliminary-ApprovalFinal-Approval-of-Proposed-Subdivisions-STEPS-OSSP.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/27/grant-of-preliminary-approval-final-approval-of-proposed-subdivisions/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -1287,10 +1287,10 @@ export const services: Service[] = [
     "summary": "Officers of the local government unit authorized to receive and collect monies arising from taxes, revenues, or receipts of any kind shall remit the full amount received and collected to…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Collection-and-Remittance-Procedure-REQUIREMENTS-CTO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Collection-and-Remittance-Procedure-STEPS-CTO.pdf"
+      "/forms/Collection-and-Remittance-Procedure-REQUIREMENTS-CTO.pdf",
+      "/forms/Collection-and-Remittance-Procedure-STEPS-CTO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/24/collection-and-remittance-procedure/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -1306,10 +1306,10 @@ export const services: Service[] = [
     "summary": "A petty cash advance is an amount issued from petty cash fund to allow an employee to pay for an organization-related expense.",
     "fees": "Any amoung in excess of the actual expense otherwise none.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Granting-and-Liquidating-of-Petty-Cash-Advance-REQUIREMENTS-CTO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Granting-and-Liquidating-of-Petty-Cash-Advance-STEPS-CTO.pdf"
+      "/forms/Granting-and-Liquidating-of-Petty-Cash-Advance-REQUIREMENTS-CTO.pdf",
+      "/forms/Granting-and-Liquidating-of-Petty-Cash-Advance-STEPS-CTO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/24/granting-and-liquidating-of-petty-cash-advance/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -1325,10 +1325,10 @@ export const services: Service[] = [
     "summary": "As per provision of the National Building Code of the Philippines (P.D.",
     "fees": "NEW SCHEDULE OF FEES AND OTHER CHARGES\n1. Bases of assessment\na. Character of occupancy or use of building/structure\nb. Cost of construction\nc. Floor area\nd. Height\n2. Regardless of the type of construction, the cost of construction of any building/structure for the purpose of assessing the corresponding fees shall be based on the following table:\nTable II. G.1. On Fixed Cost of Construction per Sq. Meter\nLOCATION GROUP\nAll Cities and Municipalities A, B, C, D, E, G, H, I F J\nPhp 10,000.00Php 8,000.00Php 6,000.00\n3. Construction/addition/renovation/alteration of buildings/structures under Group/s and Sub-Divisions shall be assessed as follows:\na. Division A-1\nArea in sq. meters Fee per sq. meter\ni. Original complete construction up to 20.00 sq. meters – – – – – – – – – – – – P 2.00\nii. Additional/renovation/alteration up to 20.00 sq. meters regardless\nof floor area of original construction – – – – – – – – – – – – – – – – – – – – – – – – – – 2.40\niii. Above 20.00 sq. meters to 50.00 sq. meters – – – – – – – – – – – – – – – – – – – – 3.40\niv. Above 50.00 sq. meters to 100 sq. meters – – – – – – – – – – – – – – – – – – – – – 4.80\nv. Above 100 sq. meters to 150 sq. meters – – – – – – – – – – – – – – – – – – – – – – – 6.00\nvi. Above 150.00 sq. meters – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – 7.20\nSample Computation for Building Fee for a 75.00 sq. meters floor are:\nFloor area = 75.00 sq. meters\nTherefore, area bracket is 3.a. iv.\nFee = P 4.80/sq. meter\nBuilding fee = 75.00 x 4.80 = P 360.00\nb. Division A-2\nArea in sq. meters Fee per sq. meter\ni. Origina…",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/10/Untitled3.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/10/Untitled4.pdf"
+      "/forms/Untitled3.pdf",
+      "/forms/Untitled4.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/2024/09/27/granting-of-business-permits/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-24",
     "dataNote": "The official page heading says “Granting of Business Permits,” but its body describes building permits and the National Building Code. The service details here follow that body; confirm the page heading with the Office of the Municipal Engineer."
   },
@@ -1345,10 +1345,10 @@ export const services: Service[] = [
     "summary": "As per provision of the National Building Code of the Philippines (P.D.",
     "fees": "NEW SCHEDULE OF FEES AND OTHER CHARGES\n1. Certificates of Use or Occupancy (Table II.G.1. for fixed costing)\na. Division A-1 and A-2 Buildings:\ni. Costing up to P 150,000.00 – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – P 100.00\nii. Costing more than P 150,000.00 up to P 400,000.00 – – – – – – – – – – – – – – – – 200.00\niii. Costing more than P 400,000.00 up to P 850,000.00 – – – – – – – – – – – – – – – – 400.00\niv. Costing more than P 850,000.00 up to P 1,200,000.00 – – – – – – – – – – – – – – – 800.00\nv. Every million or portion thereof in excess of P 1,200,000.00 – – – – – – – – – – – 800.00\nb. Divisions B-1/E-1, 2, 3/F-1/G-1, 2, 3, 4, 5/H-1, 2, 3, 4/and I-1 Buildings:\ni. Costing up to P 150,000.00 – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – P 200.00\nii. Costing more than P 150,000.00 up to P 400,000.00 – – – – – – – – – – – – – – – – 400.00\niii. Costing more than P 400,000.00 up to P 850,000.00 – – – – – – – – – – – – – – – – 800.00\niv. Costing more than P 850,000.00 up to P 1,200,000.00 – – – – – – – – – – – – – – – 1,000.00\nv. Every million or portion thereof in excess of P 1,200,000.00 – – – – – – – – – – – 1,000.00\nc. Divisions C-1, 2/D-1, 2, 3 Buildings:\ni. Costing up to P 150,000.00 – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – P 150.00\nii. Costing more than P 150,000.00 up to P 400,000.00 – – – – – – – – – – – – – – – – 250.00\niii. Costing more than P 400,000.00 up to P 850,000.00 – – – – – – – – – – – – – – – – 600.00\niv. Costing more than P 850,000.00 up to P 1,200,000.00 – – – – – – – – – – – – – –…",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/10/Untitled5.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/10/Untitled6.pdf"
+      "/forms/Untitled5.pdf",
+      "/forms/Untitled6.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/06/granting-of-certificate-of-occupancy/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -1364,10 +1364,10 @@ export const services: Service[] = [
     "summary": "As provided by Tax Ordinance 001-2010, a Mayor’s Permit must be secured before the conduct of promotional activity within the city, using advertisement materials, drop-down banner,…",
     "fees": "Tarpaulin Fee with 30 Days Duration: PhP 1,000.00 (for products)\nBond Deposit: PhP 750.00 (for events)",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Granting-of-Permit-to-Install-REQUIREMENTS-ADM.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Granting-of-Permit-to-Install-STEPS-ADM.pdf"
+      "/forms/Granting-of-Permit-to-Install-REQUIREMENTS-ADM.pdf",
+      "/forms/Granting-of-Permit-to-Install-STEPS-ADM.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/20/granting-of-permit-to-install-advertisement-materials-drop-down-banners-tarpaulin/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -1383,10 +1383,10 @@ export const services: Service[] = [
     "summary": "One of the main roles of the Office of the Municipal Administrator is to provide support to the Office of the Municipal Mayor, the office receives, processes, and releases correspondence from…",
     "fees": "NO FEES AND CHARGES REQUIRED",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Granting-of-Permits-for-the-use-of-Governments-REQUIREMENTS-ADM.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/STEPS-Permits-for-the-use-ADM.pdf"
+      "/forms/Granting-of-Permits-for-the-use-of-Governments-REQUIREMENTS-ADM.pdf",
+      "/forms/STEPS-Permits-for-the-use-ADM.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/20/granting-of-permits-for-the-use-of-city-government-facilities-and-equipment/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -1402,10 +1402,10 @@ export const services: Service[] = [
     "summary": "As provided by Tax Ordinance 01-2009, persons, corporations, clubs, organizations, or associations who intend to solicit or receive contributions for charitable, public welfare or conduct…",
     "fees": "A service fee of PhP 500.00 is applied but the service is FREE FOR barangay and religious purposes.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Granting-Permit-for-Benefit-REQUIREMENTS-ADM.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Granting-Permit-for-Benefit-STEPS-ADM.pdf"
+      "/forms/Granting-Permit-for-Benefit-REQUIREMENTS-ADM.pdf",
+      "/forms/Granting-Permit-for-Benefit-STEPS-ADM.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/20/granting-permit-for-benefit-fundraising/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -1421,10 +1421,10 @@ export const services: Service[] = [
     "summary": "As provided by Tax Ordinance 01-2009, a permit must be secured before the conduct of special promotional activity within the city such as product sampling and special offers.",
     "fees": "Prescribed Fee/s: PhP 500.00 (per Day)",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Granting-Permit-for-Special-Promotional-REQUIREMENTS-ADM.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Granting-Permit-for-Special-Promotional-STEPS-ADM.pdf"
+      "/forms/Granting-Permit-for-Special-Promotional-REQUIREMENTS-ADM.pdf",
+      "/forms/Granting-Permit-for-Special-Promotional-STEPS-ADM.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/20/granting-permit-for-special-promotional-activities/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -1440,10 +1440,10 @@ export const services: Service[] = [
     "summary": "As provided by Tax Ordinance 01-2009, a permit must be secured before the conduct of parades, motorcades, or processions and fun run within the city.",
     "fees": "Service fee of PhP 500.00 per Day is applied but the service is FREE FOR civil and military parades and religious processions.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Granting-Permit-to-Conduct-REQUIREMENTS-ADM.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/STEPS-Granting-permit-to-conduct-ADM.pdf"
+      "/forms/Granting-Permit-to-Conduct-REQUIREMENTS-ADM.pdf",
+      "/forms/STEPS-Granting-permit-to-conduct-ADM.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/20/granting-permit-to-conduct-parade-procession-motorcade-fun-run-bike/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -1459,10 +1459,10 @@ export const services: Service[] = [
     "summary": "This procedure defines the actions and responsibilities of newly hired employees as well as the HRMO in the deployment of the former.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Handling-of-Newly-Hired-and-Promoted-Employees-REQUIREMENTS-HRMO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Handling-of-Newly-Hired-and-Promoted-Employees-STEPS-HRMO.pdf"
+      "/forms/Handling-of-Newly-Hired-and-Promoted-Employees-REQUIREMENTS-HRMO.pdf",
+      "/forms/Handling-of-Newly-Hired-and-Promoted-Employees-STEPS-HRMO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/25/handling-of-newly-hired-and-promoted-employees/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -1478,10 +1478,10 @@ export const services: Service[] = [
     "summary": "For health and safety reasons, the City Pound Keeper under the Office of the Municipal Veterinarian impounds stray animals as mandated by City Ordinance No.",
     "fees": "Impounding Fee:\nSmall animals (dogs, cats, goats and poultry) – Php 500.00\nLarge animals (cattle, carabao and horses) – Php 500.00\nFor every succeeding day per animal – Php 50.00\nPenalties shall be imposed for violation of the City Ordinance",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Impounding-and-Release-of-Impounded-Stray-Animal-REQUIREMENTS-VET.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Impounding-and-Release-of-Impounded-Stray-Animal-STEPS-VET.pdf"
+      "/forms/Impounding-and-Release-of-Impounded-Stray-Animal-REQUIREMENTS-VET.pdf",
+      "/forms/Impounding-and-Release-of-Impounded-Stray-Animal-STEPS-VET.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/28/impounding-and-release-of-impounded-stray-animal/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -1497,10 +1497,10 @@ export const services: Service[] = [
     "summary": "Meat vendors with business permits and meat stalls at the Auxiliary wet market",
     "fees": "SLAUGHTER FEES\nHOG\nCATTLE/CARABAO\nGOAT\nSLAUGHTER FEE per head\n25.00\n40.00\n25.00\nMAYOR’S PERMIT FEE per head\n30.00\n45.00\n25.00\nCORRAL FEE per head\n25.00\n40.00\n25.00\nDELIVERY FEE per head\n20.00\n35.00\n20.00\nMAINTENANCE FEE per head\n50.00\n75.00\n50.00\nANTE-MORTEM INSPECTION FEE per head\n3.00\n5.00\n3.00\nPOST-MORTEM INSPECTION FEE per kilo dressed weight\n0.25/kg\n0.25/kg\n0.25/kg",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Inspection-and-Slaughter-of-Food-Animals-REQUIREMENTS-VET.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Inspection-and-Slaughter-of-Food-Animals-STEPS-VET.pdf"
+      "/forms/Inspection-and-Slaughter-of-Food-Animals-REQUIREMENTS-VET.pdf",
+      "/forms/Inspection-and-Slaughter-of-Food-Animals-STEPS-VET.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/28/inspection-and-slaughter-of-food-animals/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -1516,10 +1516,10 @@ export const services: Service[] = [
     "summary": "Meat vendors with meat stalls at the market",
     "fees": "PhP 0.50/kilogram for meat products/frozen meat\nPhP 1.00/ kg for dressed chicken",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Inspection-of-Frozen-ImportedExternally-Slaughtered-Food-AnimalsMeat-REQUIREMENTS-VET.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Inspection-of-Frozen-ImportedExternally-Slaughtered-Food-AnimalsMeat-STEPS-VET.pdf"
+      "/forms/Inspection-of-Frozen-ImportedExternally-Slaughtered-Food-AnimalsMeat-REQUIREMENTS-VET.pdf",
+      "/forms/Inspection-of-Frozen-ImportedExternally-Slaughtered-Food-AnimalsMeat-STEPS-VET.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/28/inspection-of-frozen-imported-externally-slaughtered-food-animals-meat/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -1535,10 +1535,10 @@ export const services: Service[] = [
     "summary": "IT inspector will be responding to inspect and verify if the delivered IT equipment and peripherals delivery based on PO or contract are correct.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Inspection-of-IT-Equipment-and-Peripherals-Delivery-based-on-Purchase-Order-and-Contract-REQUIREMENTS-CICTO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Inspection-of-IT-Equipment-and-Peripherals-Delivery-based-on-Purchase-Order-and-Contract-STEPS-CICTO.pdf"
+      "/forms/Inspection-of-IT-Equipment-and-Peripherals-Delivery-based-on-Purchase-Order-and-Contract-REQUIREMENTS-CICTO.pdf",
+      "/forms/Inspection-of-IT-Equipment-and-Peripherals-Delivery-based-on-Purchase-Order-and-Contract-STEPS-CICTO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/23/inspection-of-it-equipment-and-peripherals-delivery-based-on-purchase-order-and-contract/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -1554,10 +1554,10 @@ export const services: Service[] = [
     "summary": "All residents of the Municipality of Inabanga",
     "fees": "NO FEES AND CHARGES REQUIRED",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Inspection-of-Trees-for-Cutting-and-Issuance-of-Certificate-of-No-Objection-REQUIREMENTS-CENRO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Inspection-of-Trees-for-Cutting-and-Issuance-of-Certificate-of-No-Objection-STEPS-CENRO.pdf"
+      "/forms/Inspection-of-Trees-for-Cutting-and-Issuance-of-Certificate-of-No-Objection-REQUIREMENTS-CENRO.pdf",
+      "/forms/Inspection-of-Trees-for-Cutting-and-Issuance-of-Certificate-of-No-Objection-STEPS-CENRO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/23/inspection-of-trees-for-cutting-and-issuance-of-certificate-of-no-objection/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -1573,10 +1573,10 @@ export const services: Service[] = [
     "summary": "Internal Audit Service at the Internal Audit Office.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Internal-Audit-Service-REQUIREMENTS-IAO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Internal-Audit-Service-STEPS-IAO.pdf"
+      "/forms/Internal-Audit-Service-REQUIREMENTS-IAO.pdf",
+      "/forms/Internal-Audit-Service-STEPS-IAO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/27/internal-audit-service/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -1592,10 +1592,10 @@ export const services: Service[] = [
     "summary": "Provide internet access through the municipal government portal.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Internet-Access-Commissioning-STEPS-CICTO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Technical-Assistance-and-Support-REQUIREMENTS-CICTO.pdf"
+      "/forms/Internet-Access-Commissioning-STEPS-CICTO.pdf",
+      "/forms/Technical-Assistance-and-Support-REQUIREMENTS-CICTO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/23/internet-access-commissioning/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -1611,10 +1611,10 @@ export const services: Service[] = [
     "summary": "The CITY SOCIAL WELFARE AND DEVELOPMENT OFFICE (CSWDO) provide a social intervention program for Children in Conflict with the Law (CICL) and Child at Risk (CAR).",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/InterventionDiversion-to-Child-at-Risk-Car-And-Child-in-Conflict-with-The-Law-CICL-REQUIREMENTS-CSWDO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/InterventionDiversion-to-Child-at-Risk-Car-And-Child-in-Conflict-with-The-Law-CICL-STEPS-CSWDO.pdf"
+      "/forms/InterventionDiversion-to-Child-at-Risk-Car-And-Child-in-Conflict-with-The-Law-CICL-REQUIREMENTS-CSWDO.pdf",
+      "/forms/InterventionDiversion-to-Child-at-Risk-Car-And-Child-in-Conflict-with-The-Law-CICL-STEPS-CSWDO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/06/01/intervention-diversion-to-child-at-risk-car-and-child-in-conflict-with-the-law-cicl/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -1630,10 +1630,10 @@ export const services: Service[] = [
     "summary": "A procedure for determining whether or not an employee has violated Civil Service rules, regulation, and related policies and issuances.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Investigation-of-City-Government-Employees-for-Administrative-Neglect-or-Misconduct-in-the-OfficeSTEPS-CLO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Investigation-of-City-Government-Employees-for-Administrative-Neglect-or-Misconduct-in-theREQUIREMENTS-CLO.pdf"
+      "/forms/Investigation-of-City-Government-Employees-for-Administrative-Neglect-or-Misconduct-in-the-OfficeSTEPS-CLO.pdf",
+      "/forms/Investigation-of-City-Government-Employees-for-Administrative-Neglect-or-Misconduct-in-theREQUIREMENTS-CLO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/23/investigation-of-city-government-employees-for-administrative-neglect-or-misconduct-in-the-office/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -1649,10 +1649,10 @@ export const services: Service[] = [
     "summary": "Clients can secure a burial permit before the interment of their departed loved ones.",
     "fees": "Prescribed Fees: PhP 100.00",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Burial-Permit-REQUIREMENTS-CHO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Burial-Permit-STEPS-CHO.pdf"
+      "/forms/Issuance-of-Burial-Permit-REQUIREMENTS-CHO.pdf",
+      "/forms/Issuance-of-Burial-Permit-STEPS-CHO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/26/issuance-of-burial-permit/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -1668,10 +1668,10 @@ export const services: Service[] = [
     "summary": "Any person who shall establish, operate or conduct any business, trade or activity shall first obtain a Mayor’s Permit and pay the corresponding fees.",
     "fees": "NEW:\nCapitalization x 1/10 of 1% + Regulatory Fees\nRENEWAL :\nOn Manufacturers\nGross Sales/Receipts (By category)\nLess than 10,000.00 to 5,000,000.00 or more but less than 6,500,000.00\n6,500,000.00 or more at a rate not exceeding thirty seven and a half percent (371/2%) of one percent (1%)\nOn Wholesalers, distributors or dealers\nGross Sales/Receipts (By category)\nLess than 10,000 to more than 1,000,000 but less than 2,000,000.00\n2,000,000.00 or more at a rate not exceeding fifty percent (50%) of one percent (1%)\nOn exporters at a rate not exceeding one-half (1/2) of the rates prescribed\nOn retailers Gross sales/Receipts 400,000.00 or less 2% more than 400,000.00 1%\nOn contractors\nGross Sales/Receipts (By category)\nLess than 5,000.00 to 1,000,000.00 or more but less than 2,000,000.00\n2,000,000.00 or more at the rate not exceeding fifty percent (50%) of one percent (1%)\n6. On banks and other financial institutions at a rate not exceeding fifty percent (50%) of one percent (1%) on the gross\nreceipts of the preceding calendar year.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Business-Permits-REQUIREMENTS-LEBDO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Business-Permits-STEPS-LEBDO.pdf"
+      "/forms/Issuance-of-Business-Permits-REQUIREMENTS-LEBDO.pdf",
+      "/forms/Issuance-of-Business-Permits-STEPS-LEBDO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/24/issuance-of-business-permits/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -1687,10 +1687,10 @@ export const services: Service[] = [
     "summary": "Any person who shall establish, operate or conduct any business, trade or activity shall first obtain a Mayor’s Permit and pay the corresponding fees.",
     "fees": "NEW:\nCapitalization x 1/10 of 1% + Regulatory Fees\nRENEWAL :\nOn Manufacturers\nGross Sales/Receipts (By category)\nLess than 10,000.00 to 5,000,000.00 or more but less than 6,500,000.00\n6,500,000.00 or more at a rate not exceeding thirty seven and a half percent (371/2%) of one percent (1%)\nOn Wholesalers, distributors or dealers\nGross Sales/Receipts (By category)\nLess than 10,000 to more than 1,000,000 but less than 2,000,000.00\n2,000,000.00 or more at a rate not exceeding fifty percent (50%) of one percent (1%)\nOn exporters at a rate not exceeding one-half (1/2) of the rates prescribed\nOn retailers Gross sales/Receipts 400,000.00 or less 2% more than 400,000.00 1%\nOn contractors\nGross Sales/Receipts (By category)\nLess than 5,000.00 to 1,000,000.00 or more but less than 2,000,000.00\n2,000,000.00 or more at the rate not exceeding fifty percent (50%) of one percent (1%)\n6. On banks and other financial institutions at a rate not exceeding fifty percent (50%) of one percent (1%) on the gross\nreceipts of the preceding calendar year.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Business-Permits-Online-Application-REQUIREMENTS-LEBDO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Business-Permits-Online-Application-STEPS-LEBDO-1.pdf"
+      "/forms/Issuance-of-Business-Permits-Online-Application-REQUIREMENTS-LEBDO.pdf",
+      "/forms/Issuance-of-Business-Permits-Online-Application-STEPS-LEBDO-1.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/24/issuance-of-business-permints-online-application/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -1706,10 +1706,10 @@ export const services: Service[] = [
     "summary": "The Local Economic and Business Development Office issues a Certification to the owner/operator for retirement of business.",
     "fees": "Fees to be paid depends on the computation.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Business-Retirement-Certificate-REQUIREMENTS-LEBDO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Business-Retirement-Certificate-STEPS-LEBDO.pdf"
+      "/forms/Issuance-of-Business-Retirement-Certificate-REQUIREMENTS-LEBDO.pdf",
+      "/forms/Issuance-of-Business-Retirement-Certificate-STEPS-LEBDO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/24/issuance-of-business-retirement-certificate/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -1725,10 +1725,10 @@ export const services: Service[] = [
     "summary": "Issuance of CCTV Compliance Certificate at the Office for Public Safety.",
     "fees": "If the business establishment did not comply with the notice of compliance within 15 working days\nFine: PhP 5,000.00",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-CCTV-Compliance-Certificate-REQUIREMENTS-OPS.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-CCTV-Compliance-Certificate-STEPS-OPS.pdf"
+      "/forms/Issuance-of-CCTV-Compliance-Certificate-REQUIREMENTS-OPS.pdf",
+      "/forms/Issuance-of-CCTV-Compliance-Certificate-STEPS-OPS.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/27/issuance-of-cctv-compliance-certificate/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -1744,10 +1744,10 @@ export const services: Service[] = [
     "summary": "Issuance of Certificate of Final Electrical Inspection for Electric Meter Connection at the Office of the Municipal Engineer.",
     "fees": "Electrical Fees\nThe following schedule shall be used for computing electrical fees in residential, institutional, commercial and industrial structures:\ng. Total Connected Load (kVA)\nFee\nvii. 5 kVA or less – – – – – – – – – – – – – – – – – – – – – – – – – – – P 200.00\nviii. Over 5 kVA to 50 kVA – – – – – – – – – – – – – – – – – – – – – 200.00 + P 20.00/kVA\nix. Over 50 kVA to 300 kVA – – – – – – – – – – – – – – – – – – – – 1,100.00 + 10.00/kVA\nx. Over 300 kVA to 1,500 kVA – – – – – – – – – – – – – – – – – – 3,600.00 + 5.00/kVA\nxi. Over 1,500 kVA to 6,000 kVA – – – – – – – – – – – – – – – – -9,600.00 + 2.50/kVA\nxii. Over 6,000 kVA – – – – – – – – – – – – – – – – – – – – – – – – – -20,850.00 + 1.25/kVA\nNOTE: Total Connected Load as shown in the load schedule.\nh. Total Transformer/Uninterrupted Power Supply (UPS)/Generator Capacity (kVA)\nFee\nvii. 5 kVA or less – – – – – – – – – – – – – – – – – – – – – – – – – – – P 40.00\nviii. Over 5 kVA to 50 kVA – – – – – – – – – – – – – – – – – – – – – 40.00 + P 4.00/kVA\nix. Over 50 kVA to 300 kVA – – – – – – – – – – – – – – – – – – – – 220.00 + 2.00/kVA\nx. Over 300 kVA to 1,500 kVA – – – – – – – – – – – – – – – – – – 720.00 + 1.00/kVA\nxi. Over 1,500 kVA to 6,000 kVA – – – – – – – – – – – – – – – – -1,920.00 + 0.50/kVA\nxii. Over 6,000 kVA – – – – – – – – – – – – – – – – – – – – – – – – – – 4,170.00 + 0.25/kVA\nNOTE: Total Transformer/UPS/Generator Capacity shall include all transformer, UPS and generators which are owned/installed by the owner/applicant as shown in the electrical plans and specifications.\ni. Pole/Attachment Location Plan Permi…",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/10/Untitled7.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/10/Untitled8.pdf"
+      "/forms/Untitled7.pdf",
+      "/forms/Untitled8.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/06/issuance-of-certificate-of-final-electrical-inspection-for-electric-meter-connection/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -1763,10 +1763,10 @@ export const services: Service[] = [
     "summary": "Request a tax-withheld certification from the Office of the Municipal Accountant.",
     "fees": "NO FEES AND CHARGES REQUIRED",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Tax-REQUIREMENTS-ACA.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Tax-STEPS-ACA.pdf"
+      "/forms/Issuance-of-Tax-REQUIREMENTS-ACA.pdf",
+      "/forms/Issuance-of-Tax-STEPS-ACA.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/aca/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-24",
     "dataNote": "The specific charter post associated with this title currently displays an Office of the Municipal Engineer electrical-inspection record. The Municipal Accountant’s index lists the service; confirm requirements and fees with the Municipal Accountant."
   },
@@ -1783,10 +1783,10 @@ export const services: Service[] = [
     "summary": "The Office of the City General Services Officer is in charge in the issuance of Certificate of Unavailability of Stocks of commonly used supplies to all Offices/Departments of the City and…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Certificate-of-Unavailability-of-Stock-of-Common-Use-Supplies-REQUIREMENTS-GSO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Certificate-of-Unavailability-of-Stock-of-Common-Use-Supplies-STEPS-GSO.pdf"
+      "/forms/Issuance-of-Certificate-of-Unavailability-of-Stock-of-Common-Use-Supplies-REQUIREMENTS-GSO.pdf",
+      "/forms/Issuance-of-Certificate-of-Unavailability-of-Stock-of-Common-Use-Supplies-STEPS-GSO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/25/issuance-of-certificate-of-unavailability-of-stock-of-common-use-supplies/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -1802,10 +1802,10 @@ export const services: Service[] = [
     "summary": "After recording appropriations in the proper registries, the City Budget Office provides services for the release of allotments, the certification of available appropriations, and the…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Certification-of-Availability-of-Appropriation-and-Processing-of-Obligation-Request-STEPS-CBO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Certification-of-Availability-of-Appropriation-and-Processing-of-Obligation-Requ-REQUIREMENTS-CBO.pdf"
+      "/forms/Issuance-of-Certification-of-Availability-of-Appropriation-and-Processing-of-Obligation-Request-STEPS-CBO.pdf",
+      "/forms/Issuance-of-Certification-of-Availability-of-Appropriation-and-Processing-of-Obligation-Requ-REQUIREMENTS-CBO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/23/issuance-of-certification-of-availability-of-appropriation-and-processing-of-obligation-request/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -1821,10 +1821,10 @@ export const services: Service[] = [
     "summary": "Persons applying for loan using real property",
     "fees": "Certification Fee: PhP 60.00\nDocumentary Stamp Tax Fee: PhP 30.00\nTotal Fees: PhP 90.00 per copy",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Certification-on-Real-Property-Tax-Payments-REQUIREMENTS-CTO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Certification-on-Real-Property-Tax-Payments-STEPS-CTO.pdf"
+      "/forms/Issuance-of-Certification-on-Real-Property-Tax-Payments-REQUIREMENTS-CTO.pdf",
+      "/forms/Issuance-of-Certification-on-Real-Property-Tax-Payments-STEPS-CTO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/28/issuance-of-certification-on-real-property-tax-payments/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -1840,10 +1840,10 @@ export const services: Service[] = [
     "summary": "The Office issues the following certifications and clearances to former or current officials or employees as well as judicial staff personnel for purposes of…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Certifications-and-Clearances-REQUIREMENTS-HRMO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Certifications-and-Clearances-STEPS-HRMO.pdf"
+      "/forms/Issuance-of-Certifications-and-Clearances-REQUIREMENTS-HRMO.pdf",
+      "/forms/Issuance-of-Certifications-and-Clearances-STEPS-HRMO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/2024/05/25/issuance-of-certifications-and-clearances/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-24"
   },
   {
@@ -1859,10 +1859,10 @@ export const services: Service[] = [
     "summary": "The Local Economic and Business Development Office issues a Certification to the owner/operator for retirement of business.",
     "fees": "PhP 100.00 per copy.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Certified-True-Copy-Photocopy-of-Business-Permit-and-Other-Documents-REQUIREMENTS-LEBDO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Certified-True-Copy-Photocopy-of-Business-Permit-and-Other-Documents-STEPS-LEBDO.pdf"
+      "/forms/Issuance-of-Certified-True-Copy-Photocopy-of-Business-Permit-and-Other-Documents-REQUIREMENTS-LEBDO.pdf",
+      "/forms/Issuance-of-Certified-True-Copy-Photocopy-of-Business-Permit-and-Other-Documents-STEPS-LEBDO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/24/issuance-of-certified-true-copy-photocopy-of-business-permit-and-other-documents/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -1878,10 +1878,10 @@ export const services: Service[] = [
     "summary": "The Office of the Municipal Assessor issues certified true copy/photocopy of Tax Declaration and other documents such as Mode of Transfer of Ownership (e.g.",
     "fees": "PhP 60.00 per Certified Photocopy\n(P30.00 for CTC Documentary stamp)",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Certified-True-Copy-Photocopy-of-Tax-Declaration-and-Other-Documents-such-as-Mode-STEPS-OCA.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Certified-True-Copy-Photocopy-of-Tax-Declaration-and-Other-Documents-such-as-ModREQUIREMENTS-OCA.pdf"
+      "/forms/Issuance-of-Certified-True-Copy-Photocopy-of-Tax-Declaration-and-Other-Documents-such-as-Mode-STEPS-OCA.pdf",
+      "/forms/Issuance-of-Certified-True-Copy-Photocopy-of-Tax-Declaration-and-Other-Documents-such-as-ModREQUIREMENTS-OCA.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/27/issuance-of-certified-true-copy-photocopy-of-tax-declaration-and-other-documents-such-as-mode-of-transfer-of-ownership-history-verification-and-vicinity-maps/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -1897,10 +1897,10 @@ export const services: Service[] = [
     "summary": "Certified true copies are issued if the record is available in the Registry Books while Certified Machine Copies are issued based on the original copy of the document filed and kept in this…",
     "fees": "Prescribed Fees: PhP 130.00 (Local); PhP 180.00 (Abroad)",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Certified-True-CopyMachine-Copy-of-Birth-Death-Marriage-Certificate-and-OthREQUIREMENTS-REG.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Certified-True-CopyMachine-Copy-of-Birth-Death-Marriage-Certificate-and-OthSTEPS-REG.pdf"
+      "/forms/Issuance-of-Certified-True-CopyMachine-Copy-of-Birth-Death-Marriage-Certificate-and-OthREQUIREMENTS-REG.pdf",
+      "/forms/Issuance-of-Certified-True-CopyMachine-Copy-of-Birth-Death-Marriage-Certificate-and-OthSTEPS-REG.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/28/issuance-of-certified-true-copy-machine-copy-of-birth-death-marriage-certificate-and-other-registrable-civil-registry-documents/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -1916,10 +1916,10 @@ export const services: Service[] = [
     "summary": "Issuance of Community Tax Certificate (CEDULA) at the Office of the Municipal Treasurer.",
     "fees": "Individual\nCorporation\nMinimum Basic Community Tax\nP 5.00\nMinimum Basic Community Tax\nP500.00\nAdditional Individual Tax\nAdditional Community Tax\nFor every P 1,000.00 of gross income during the preceding year\nP1.00\nFor every P5,000.00 of gross income during the preceding year\nP2.00\nFor every P1,000.00 aggregate assessed value of real property\nP 1.00\nFor every P2,000.00 aggregate assessed\nvalue of real property\nP2.00\n***The additional Individual Community Tax shall in no case exceed Five Thousand Pesos (P5,000.00)\n***The Additional Community Tax for Corporation shall in no\ncase exceed ten thousand pesos (P10,000.00)",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Community-Tax-Certificate-CEDULA-REQUIREMENTS-CTO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Community-Tax-Certificate-CEDULA-STEPS-CTO.pdf"
+      "/forms/Issuance-of-Community-Tax-Certificate-CEDULA-REQUIREMENTS-CTO.pdf",
+      "/forms/Issuance-of-Community-Tax-Certificate-CEDULA-STEPS-CTO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/28/issuance-of-community-tax-certificate-cedula/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -1935,10 +1935,10 @@ export const services: Service[] = [
     "summary": "Certifications of data or information related to Building Permits and Engineering Works is granted by the Office of the Municipal Engineer/Building Official for various purposes such as for…",
     "fees": "NO FEES TO BE PAID",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/10/Untitled10.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/10/Untitled9.pdf"
+      "/forms/Untitled10.pdf",
+      "/forms/Untitled9.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/06/issuance-of-engineering-and-building-data-certifications/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -1954,10 +1954,10 @@ export const services: Service[] = [
     "summary": "The Office of the Municipal Engineer conducts inspection/evaluation/assessment and makes recommendations to the City Mayor for the issuance of Work Permit to excavate portions of the road…",
     "fees": "No FEES TO BE PAID",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/10/Untitled11.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/10/Untitled12.pdf"
+      "/forms/Untitled11.pdf",
+      "/forms/Untitled12.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/06/issuance-of-evaluation-and-recommendations-on-excavations-in-the-road-right-of-way-within-the-jurisdiction-of-the-city/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -1973,10 +1973,10 @@ export const services: Service[] = [
     "summary": "The Municipal Health Office issues an exhumation permit to all residents whose relatives or loved ones are interred at the Inabanga Municipal Cemetery.",
     "fees": "PhP 150.00 per name to be exhumed.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Exhumation-Permit-Conduct-of-Exhumation-REQUIREMENTS-CHO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Exhumation-Permit-Conduct-of-Exhumation-STEPS-CHO.pdf"
+      "/forms/Issuance-of-Exhumation-Permit-Conduct-of-Exhumation-REQUIREMENTS-CHO.pdf",
+      "/forms/Issuance-of-Exhumation-Permit-Conduct-of-Exhumation-STEPS-CHO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/26/issuance-of-exhumation-permit-conduct-of-exhumation/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -1992,10 +1992,10 @@ export const services: Service[] = [
     "summary": "The Municipal Health Office issues health certificates to all food handlers applying for work in the Municipality of Inabanga.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Health-Certificate-Health-Card-for-Food-Handlers-REQUIREMENTS-CHO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Health-Certificate-Health-Card-for-Food-Handlers-STEPS-CHO.pdf"
+      "/forms/Issuance-of-Health-Certificate-Health-Card-for-Food-Handlers-REQUIREMENTS-CHO.pdf",
+      "/forms/Issuance-of-Health-Certificate-Health-Card-for-Food-Handlers-STEPS-CHO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/26/issuance-of-health-certificate-health-card-for-food-handlers/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -2011,10 +2011,10 @@ export const services: Service[] = [
     "summary": "The Municipal Health Office issues health certificate to all persons applying for work in the Municipality of Inabanga as per City Ordinance No.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Health-Certificate-Health-Card-for-Non-Food-Handlers-REQUIREMENTS-CHO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Health-Certificate-Health-Card-for-Non-Food-Handlers-STEPS-CHO.pdf"
+      "/forms/Issuance-of-Health-Certificate-Health-Card-for-Non-Food-Handlers-REQUIREMENTS-CHO.pdf",
+      "/forms/Issuance-of-Health-Certificate-Health-Card-for-Non-Food-Handlers-STEPS-CHO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/26/issuance-of-health-certificate-health-card-for-non-food-handlers/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -2030,10 +2030,10 @@ export const services: Service[] = [
     "summary": "The CITY SOCIAL WELFARE AND DEVELOPMENT OFFICE (CSWDO) issues identification cards/booklets to all Persons with Disability (PWDs) residing in the City for them to avail of the privileges…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Issuance-of-Identification-CardBooklets-for-PWDs-REQUIREMENTS-CSWDO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Issuance-of-Identification-CardBooklets-for-PWDs-STEPS-CSWDO.pdf"
+      "/forms/Issuance-of-Identification-CardBooklets-for-PWDs-REQUIREMENTS-CSWDO.pdf",
+      "/forms/Issuance-of-Identification-CardBooklets-for-PWDs-STEPS-CSWDO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/06/01/issuance-of-identification-card-booklets-for-pwds/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -2049,10 +2049,10 @@ export const services: Service[] = [
     "summary": "Employees or workers in generally considered offensive and dangerous business establishments",
     "fees": "1 Year: PhP 150.00\n3 Years: PhP 450.00\nPenalty & Surcharge: PhP 535.00",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Individual-Work-Permit-REQUIREMENTS-LEBDO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Individual-Work-Permit-STEPS-LEBDO.pdf"
+      "/forms/Issuance-of-Individual-Work-Permit-REQUIREMENTS-LEBDO.pdf",
+      "/forms/Issuance-of-Individual-Work-Permit-STEPS-LEBDO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/24/issuance-of-individual-work-permit/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -2068,10 +2068,10 @@ export const services: Service[] = [
     "summary": "The Office of the Municipal Engineer issues an Inspection Report after the project has been found to be satisfactorily completed in accordance with the plans and specifications.",
     "fees": "NO FEES TO BE PAID",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/10/Untitled15.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/10/Untitled16.pdf"
+      "/forms/Untitled15.pdf",
+      "/forms/Untitled16.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/06/issuance-of-inspection-report-for-barangay-projects/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -2087,10 +2087,10 @@ export const services: Service[] = [
     "summary": "Library Cards are issued to interested clientele.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Library-Card-for-New-Clients-REQUIREMENTS-LIB.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Library-Card-for-New-Clients-STEPS-LIB.pdf"
+      "/forms/Issuance-of-Library-Card-for-New-Clients-REQUIREMENTS-LIB.pdf",
+      "/forms/Issuance-of-Library-Card-for-New-Clients-STEPS-LIB.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/27/issuance-of-library-card-for-new-clients/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -2106,10 +2106,10 @@ export const services: Service[] = [
     "summary": "Issuance of Locational Clearances / Zoning Compliance Certificate for Buildings / Structures Application at the Municipal Planning and Development Office.",
     "fees": "Schedule of Fees:\nLOCATIONAL CLEARANCE\nSingle residential structure attached/detached, the project cost of which is:\nP100,000.00 and below …………………………………P 240.00\nOver P100,000.00 to P200, 000.00 ……………………….P 480.00\nOver P200,000.00 ………………………………………..P 600.00 + (1/10 of 1% of cost in excess of P200.000.00)\nApartments/Townhouses, the project cost of which is:\nP500,000.00 and below …………………………………P 1,200.00\nOver P500.000.00 to P2 Million…….…………………..P 1,800.00\nOver P2 Million ……………………………………………..P 3,000.00 + (1/10 of 1% of cost in excess of P2 Million regardless of the number of doors)\nDormitories, the project cost of which is:\nP2 Million and below……………………………………..P 3,000,00\nOver P2 Million……………………………………………P 3,000.00 + (1/10 of 1% of cost in excess of P2 Million regardless of the number of doors)\nInstitutional, the project cost of which is:\nP2 Million and below…………………………………….P 2,400.00\nOver P2 Million……………………………………………P 2,400.00 + (1/10 of 1% of cost in excess of P2 Million)\nCommercial, Industrial, Agro-Industrial, the project cost of which is:\nP 100,000.00 and below…………………………………P 1,200.00\nOver P 100,000.00- P500.000.00 ………………………P 1,800.00\nOver P500,000.00 – P1 Million …………………………P 2,400.00\nOver P1 Million – P2 Million …………………………….P 3,600.00\nOver P2 Million ……………………………………………P 6,000.00 + (1/10 of 1% of cost in excess of P2 Million)\nSpecial Uses/Special Projects (Gasoline station, cell sites, slaughterhouse, treatment plant, etc.), the project cost of which is:\nBelow P2 Million …………………………………………P 6,000.00\nOver P2 Million …………………………………………..P 6,000.00 + 1/10 of 1% of cost in excess of P2 Mil…",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Locational-ClearancesZoning-Compliance-Certificate-for-Buildings-Structures-REQUIREMENTS-CPDO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Locational-ClearancesZoning-Compliance-Certificate-for-Buildings-Structures-STEPS-CPDO.pdf"
+      "/forms/Issuance-of-Locational-ClearancesZoning-Compliance-Certificate-for-Buildings-Structures-REQUIREMENTS-CPDO.pdf",
+      "/forms/Issuance-of-Locational-ClearancesZoning-Compliance-Certificate-for-Buildings-Structures-STEPS-CPDO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/23/issuance-of-locational-clearances-zoning-compliance-certificate-for-buildings-structures-application/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -2125,10 +2125,10 @@ export const services: Service[] = [
     "summary": "As per City Revenue Code of 1993 (as amended under Tax Ordinance No.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Locational-ClearancesZoning-Compliance-Certificates-for-New-Business-Applicant-REQUIREMENTS-CPDO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Locational-ClearancesZoning-Compliance-Certificates-for-New-Business-Applicant-STEPS-CPDO.pdf"
+      "/forms/Issuance-of-Locational-ClearancesZoning-Compliance-Certificates-for-New-Business-Applicant-REQUIREMENTS-CPDO.pdf",
+      "/forms/Issuance-of-Locational-ClearancesZoning-Compliance-Certificates-for-New-Business-Applicant-STEPS-CPDO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/23/issuance-of-locational-clearances-zoning-compliance-certificates-for-new-business-applicant/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -2144,10 +2144,10 @@ export const services: Service[] = [
     "summary": "The Mayor’s Clearance is issued to individuals who need it for foreign/local employment; to operators/drivers of motorized tricycle for hire; and to others who need it as a requirement for…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Mayors-Clearance-REQUIREMENTS-OCM.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Mayors-Clearance-STEPS-OCM.pdf"
+      "/forms/Issuance-of-Mayors-Clearance-REQUIREMENTS-OCM.pdf",
+      "/forms/Issuance-of-Mayors-Clearance-STEPS-OCM.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/28/issuance-of-mayors-clearance/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -2163,10 +2163,10 @@ export const services: Service[] = [
     "summary": "This permit is applicable to all operators of motorized tricycles whether for hire or for private use.",
     "fees": "Annual Fixed Tax: PhP 300.00\nGarbage Fee: PhP 60.00",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Mayors-Permit-and-Stickers-of-Motorized-Tricycle-for-Hire-REQUIREMENTS-LEBDO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Mayors-Permit-and-Stickers-of-Motorized-Tricycle-for-Hire-STEPS-LEBDO.pdf"
+      "/forms/Issuance-of-Mayors-Permit-and-Stickers-of-Motorized-Tricycle-for-Hire-REQUIREMENTS-LEBDO.pdf",
+      "/forms/Issuance-of-Mayors-Permit-and-Stickers-of-Motorized-Tricycle-for-Hire-STEPS-LEBDO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/24/issuance-of-mayors-permit-and-sticers-of-motorized-tricycle-for-hire/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -2182,10 +2182,10 @@ export const services: Service[] = [
     "summary": "The City Heath Office issues Medico-legal certificates for use in legal decisions or settlements.",
     "fees": "Prescribed Fees: PhP 100.00",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Medico-legal-Certificate-REQUIREMENTS-CHO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Medico-legal-Certificate-STEPS-CHO.pdf"
+      "/forms/Issuance-of-Medico-legal-Certificate-REQUIREMENTS-CHO.pdf",
+      "/forms/Issuance-of-Medico-legal-Certificate-STEPS-CHO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/26/issuance-of-medico-legal-certificate/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -2201,10 +2201,10 @@ export const services: Service[] = [
     "summary": "Employees or workers in generally considered offensive and dangerous business establishments",
     "fees": "1 Year: PhP 150.00\n3 Years: PhP 450.00\nPenalty & Surcharge: PhP 535.00",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Online-Individual-Work-Permit-REQUIREMENTS-LEBDO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Online-Individual-Work-Permit-STEPS-LEBDO.pdf"
+      "/forms/Issuance-of-Online-Individual-Work-Permit-REQUIREMENTS-LEBDO.pdf",
+      "/forms/Issuance-of-Online-Individual-Work-Permit-STEPS-LEBDO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/24/issuance-of-online-individual-work-permit/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -2220,10 +2220,10 @@ export const services: Service[] = [
     "summary": "This is a procedure to define the processes involved in the issuance of People’s Law Enforcement Board (PLEB) clearance to all requesting Philippine National Police (PNP) personnel assigned…",
     "fees": "Service Fee: PhP 150.00",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Peoples-Law-Enforcement-Board-PLEB-Clearance-REQUIREMENTS-CLO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Peoples-Law-Enforcement-Board-PLEB-Clearance-STEPS-CLO.pdf"
+      "/forms/Issuance-of-Peoples-Law-Enforcement-Board-PLEB-Clearance-REQUIREMENTS-CLO.pdf",
+      "/forms/Issuance-of-Peoples-Law-Enforcement-Board-PLEB-Clearance-STEPS-CLO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/23/issuance-of-peoples-law-enforcement-board-pleb-clearance/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -2239,10 +2239,10 @@ export const services: Service[] = [
     "summary": "The Service Record is a documentary of an employee’s employment history in the Municipal Government or other government institutions.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Service-Record-REQUIREMENTS-HRMO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Service-Record-STEPS-HRMO-1.pdf"
+      "/forms/Issuance-of-Service-Record-REQUIREMENTS-HRMO.pdf",
+      "/forms/Issuance-of-Service-Record-STEPS-HRMO-1.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/2024/05/25/issuance-of-service-record/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-24"
   },
   {
@@ -2258,10 +2258,10 @@ export const services: Service[] = [
     "summary": "The Municipal Health Office through its Social Hygiene Clinic Issues Smear Card otherwise known as Pink Card to all registered entertainers as a requirement for their Individual Work Permit…",
     "fees": "Total Fees: PhP 100.00",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Smear-Card-Pink-Card-REQUIREMENTS-CHO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Smear-Card-Pink-Card-STEPS-CHO.pdf"
+      "/forms/Issuance-of-Smear-Card-Pink-Card-REQUIREMENTS-CHO.pdf",
+      "/forms/Issuance-of-Smear-Card-Pink-Card-STEPS-CHO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/26/issuance-of-smear-card-pink-card/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -2277,10 +2277,10 @@ export const services: Service[] = [
     "summary": "The CITY SOCIAL WELFARE AND DEVELOPMENT OFFICE (CSWDO) issues social case study reports for those clients who are availing social services in the Drug Treatment and Rehabilitation Center…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Drug-Treatment-Rehabilitation-Center-Requirement-REQUIREMENTS-CSWDO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Drug-Treatment-Rehabilitation-Center-Requirement-STEPS-CSWDO.pdf"
+      "/forms/Drug-Treatment-Rehabilitation-Center-Requirement-REQUIREMENTS-CSWDO.pdf",
+      "/forms/Drug-Treatment-Rehabilitation-Center-Requirement-STEPS-CSWDO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/06/01/issuance-of-social-case-study-report-drug-treatment-rehabilitation-center-requirement/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -2296,10 +2296,10 @@ export const services: Service[] = [
     "summary": "The CITY SOCIAL WELFARE AND DEVELOPMENT OFFICE (CSWDO) issues Social Case Study Report (SCSR) for individuals which is a prerequisite in availing financial/medical assistance from…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Referral-for-FinancialMedical-Assistance-REQUIREMENTS-CSWDO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Referral-for-FinancialMedical-Assistance-STEPS-CSWDO.pdf"
+      "/forms/Referral-for-FinancialMedical-Assistance-REQUIREMENTS-CSWDO.pdf",
+      "/forms/Referral-for-FinancialMedical-Assistance-STEPS-CSWDO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/06/01/issuance-of-social-case-study-report-referral-for-financial-medical-assistance/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -2315,10 +2315,10 @@ export const services: Service[] = [
     "summary": "The CITY SOCIAL WELFARE AND DEVELOPMENT OFFICE (CSWDO) issues Social Case Study Reports (SCSRs) relative to abandoned minors with alleged missing parents securing Minor Travelling Abroad…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Issuance-of-Social-Case-Study-Report-for-Abandoned-Minors-DSWD-Minor-Travelling-Abroad-REQUIREMENTS-CSWDO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Issuance-of-Social-Case-Study-Report-for-Abandoned-Minors-DSWD-Minor-Travelling-Abroad-STEPS-CSWDO.pdf"
+      "/forms/Issuance-of-Social-Case-Study-Report-for-Abandoned-Minors-DSWD-Minor-Travelling-Abroad-REQUIREMENTS-CSWDO.pdf",
+      "/forms/Issuance-of-Social-Case-Study-Report-for-Abandoned-Minors-DSWD-Minor-Travelling-Abroad-STEPS-CSWDO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/06/01/issuance-of-social-case-study-report-for-abandoned-minors-dswd-minor-travelling-abroad-requirement/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -2334,10 +2334,10 @@ export const services: Service[] = [
     "summary": "The CITY SOCIAL WELFARE AND DEVELOPMENT OFFICE (CSWDO) issues identification cards to all solo parents residing in the City to enable them to avail of benefits provided by law.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Issuance-of-Solo-Parent-Identification-Card-REQUIREMENTS-CSWDO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Issuance-of-Solo-Parent-Identification-Card-STEPS-CSWDO.pdf"
+      "/forms/Issuance-of-Solo-Parent-Identification-Card-REQUIREMENTS-CSWDO.pdf",
+      "/forms/Issuance-of-Solo-Parent-Identification-Card-STEPS-CSWDO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/06/01/issuance-of-solo-parent-identification-card/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -2353,10 +2353,10 @@ export const services: Service[] = [
     "summary": "Baratillo and Flea Market shall refer to a type of bazaar or shopping market where inexpensive goods are sold.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Special-Permit-for-the-Operation-of-Baratillos-Flea-Market-Nightmarkets-Trade-Fairs-REQUIREMENTS-LEBDO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Special-Permit-for-the-Operation-of-Baratillos-Flea-Market-Nightmarkets-Trade-Fairs-STEPS-LEBDO.pdf"
+      "/forms/Issuance-of-Special-Permit-for-the-Operation-of-Baratillos-Flea-Market-Nightmarkets-Trade-Fairs-REQUIREMENTS-LEBDO.pdf",
+      "/forms/Issuance-of-Special-Permit-for-the-Operation-of-Baratillos-Flea-Market-Nightmarkets-Trade-Fairs-STEPS-LEBDO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/24/issuance-of-special-permit-for-the-operation-of-baratillos-flea-market-nightmarkets-trade-fairs-and-other-seasonal-businesses-in-the-city/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -2372,10 +2372,10 @@ export const services: Service[] = [
     "summary": "Issuance of Sticker to Hauling / Delivery Truck / Van at the Local Economic and Business Development Office.",
     "fees": "Hauling (Truck, Van, Tricycle for distilled spirits, fermented liquors, softdrinks, cigars and cigarettes): Php 550.00 per unit\nTrailers: Php 600.00\n10 Wheeler: Php 400.00\nElf and other: Php 300.00\nOther products not enumerated: Php 330.00 per unit",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Sticker-to-HaulingDelivery-TruckVan-REQUIREMENTS-LEBDO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Sticker-to-HaulingDelivery-TruckVan-STEPS-LEBDO.pdf"
+      "/forms/Issuance-of-Sticker-to-HaulingDelivery-TruckVan-REQUIREMENTS-LEBDO.pdf",
+      "/forms/Issuance-of-Sticker-to-HaulingDelivery-TruckVan-STEPS-LEBDO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/24/issuance-of-sticker-to-hauling-delivery-truck-van/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -2391,10 +2391,10 @@ export const services: Service[] = [
     "summary": "Pursuant to Article I Section 31.01 of Chapter 3 Public Utility Vehicle Operations, there shall be levied annual sticker fee per unit on proprietors or operators of Common Carriers.",
     "fees": "Annual Sticker Fee: PhP 250.00\nGarbage Fee: PhP 60.00",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Stickers-for-PUJPUB-REQUIREMENTS-LEBDO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Stickers-for-PUJPUB-STEPS-LEBDO.pdf"
+      "/forms/Issuance-of-Stickers-for-PUJPUB-REQUIREMENTS-LEBDO.pdf",
+      "/forms/Issuance-of-Stickers-for-PUJPUB-STEPS-LEBDO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/24/issuance-of-stickers-for-puj-pub/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -2410,10 +2410,10 @@ export const services: Service[] = [
     "summary": "A Supplemental Report using the appropriate form (Certificate of Live Birth, Certificate of Death, Certificate of Fetal Death or Certificate of Marriage) may be filed to supply information…",
     "fees": "Required Fees: PhP 500.00",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Supplemental-Report-REQUIREMENTS-REG.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Supplemental-Report-STEPS-REG.pdf"
+      "/forms/Issuance-of-Supplemental-Report-REQUIREMENTS-REG.pdf",
+      "/forms/Issuance-of-Supplemental-Report-STEPS-REG.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/28/issuance-of-supplemental-report/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -2429,10 +2429,10 @@ export const services: Service[] = [
     "summary": "Issuance of Tax Declaration and Cancelation of Assessment / Tax Declaration at the Office of the Municipal Assessor.",
     "fees": "PhP 60.00 per Tax Declaration or Service Request",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Tax-Declaration-and-Cancelation-of-Assessment-Tax-Declaration-REQUIREMENTS-OCA.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Tax-Declaration-and-Cancelation-of-Assessment-Tax-Declaration-STEPS-OCA.pdf"
+      "/forms/Issuance-of-Tax-Declaration-and-Cancelation-of-Assessment-Tax-Declaration-REQUIREMENTS-OCA.pdf",
+      "/forms/Issuance-of-Tax-Declaration-and-Cancelation-of-Assessment-Tax-Declaration-STEPS-OCA.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/27/issuance-of-tax-declaration-and-cancelation-of-assessment-tax-declaration/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -2448,10 +2448,10 @@ export const services: Service[] = [
     "summary": "The Municipal Health Office issues transfer permits for the transfer of cadavers and bones.",
     "fees": "Prescribed Fees: PhP 100.00",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Transfer-Permit-REQUIREMENTS-CHO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Transfer-Permit-STEPS-CHO.pdf"
+      "/forms/Issuance-of-Transfer-Permit-REQUIREMENTS-CHO.pdf",
+      "/forms/Issuance-of-Transfer-Permit-STEPS-CHO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/26/issuance-of-transfer-permit/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -2467,10 +2467,10 @@ export const services: Service[] = [
     "summary": "The Local Economic and Business Development Office issues Motorized Tricycle Franchise to qualified applicants.",
     "fees": "Franchise Fee: PhP 1,000.00\nFilling Fee: PhP 300.00",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Tricycle-Franchise-REQUIREMENTS-LEBDO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Tricycle-Franchise-STEPS-LEBDO.pdf"
+      "/forms/Issuance-of-Tricycle-Franchise-REQUIREMENTS-LEBDO.pdf",
+      "/forms/Issuance-of-Tricycle-Franchise-STEPS-LEBDO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/24/issuance-of-tricycle-franchise/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -2486,10 +2486,10 @@ export const services: Service[] = [
     "summary": "The issuance of Veterinary Health Certificate for animals to be shipped out of the City is necessary to avoid possible spread of diseases to their final destination.",
     "fees": "Prescribed Fees: PhP 90.00",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Veterinary-Health-Certificate-REQUIREMENTS-VET.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Veterinary-Health-Certificate-STEPS-VET.pdf"
+      "/forms/Issuance-of-Veterinary-Health-Certificate-REQUIREMENTS-VET.pdf",
+      "/forms/Issuance-of-Veterinary-Health-Certificate-STEPS-VET.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/28/issuance-of-veterinary-health-certificate/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -2505,10 +2505,10 @@ export const services: Service[] = [
     "summary": "As requested by the client, the Municipal Planning and Development Office may issue Zoning Certification as a requirement for the reclassification of lots and applications for free patents and…",
     "fees": "PhP 500.00",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Zoning-Certifications-for-other-purposes-REQUIREMENTS-CPDO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Zoning-Certifications-for-other-purposes-STEPS-CPDO.pdf"
+      "/forms/Issuance-of-Zoning-Certifications-for-other-purposes-REQUIREMENTS-CPDO.pdf",
+      "/forms/Issuance-of-Zoning-Certifications-for-other-purposes-STEPS-CPDO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/23/issuance-of-zoning-certifications-for-other-purposes/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -2524,10 +2524,10 @@ export const services: Service[] = [
     "summary": "Provide the necessary specifications for proper equipment and software based on the nature of work or function of the requesting department/office.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/IT-Equipment-and-Software-Recommendation-REQUIREMENTS-CICTO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/IT-Equipment-and-Software-Recommendation-STEPS-CICTO.pdf"
+      "/forms/IT-Equipment-and-Software-Recommendation-REQUIREMENTS-CICTO.pdf",
+      "/forms/IT-Equipment-and-Software-Recommendation-STEPS-CICTO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/23/it-equipment-and-software-recommendation/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -2543,10 +2543,10 @@ export const services: Service[] = [
     "summary": "Late registration applies to events (birth, death, marriage, and court decrees that are not yet registered the after thirty (30) day reglementary period after the occurrence of the event.",
     "fees": "Required Fees: PhP 300.00",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Late-Registration-of-Birth-Death-or-Marriage-or-Any-Other-Civil-Registration-Document-REQUIREMENTS-REG.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Late-Registration-of-Birth-Death-or-Marriage-or-Any-Other-Civil-Registration-Document-STEPS-REG.pdf"
+      "/forms/Late-Registration-of-Birth-Death-or-Marriage-or-Any-Other-Civil-Registration-Document-REQUIREMENTS-REG.pdf",
+      "/forms/Late-Registration-of-Birth-Death-or-Marriage-or-Any-Other-Civil-Registration-Document-STEPS-REG.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/28/late-registration-of-birth-death-or-marriage-or-any-other-civil-registration-document/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -2562,10 +2562,10 @@ export const services: Service[] = [
     "summary": "All patients with leprosy symptomatic like, skin discoloration and loss of skin sensation",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Leprosy-Diagnostic-and-Medication-REQUIREMENTS-CHO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Leprosy-Diagnostic-and-Medication-STEPS-CHO.pdf"
+      "/forms/Leprosy-Diagnostic-and-Medication-REQUIREMENTS-CHO.pdf",
+      "/forms/Leprosy-Diagnostic-and-Medication-STEPS-CHO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/26/leprosy-diagnostic-and-medication/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -2581,10 +2581,10 @@ export const services: Service[] = [
     "summary": "Local recruitment activities shall only be conducted at the venue stated in the LRA and under the supervision of duly authorized representatives from the DOLE Regional Office or appropriate…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Local-Recruitment-Activity-LRA-Local-Employment-REQUIREMENTS-PESO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Local-Recruitment-Activity-LRA-Local-Employment-STEPS-PESO.pdf"
+      "/forms/Local-Recruitment-Activity-LRA-Local-Employment-REQUIREMENTS-PESO.pdf",
+      "/forms/Local-Recruitment-Activity-LRA-Local-Employment-STEPS-PESO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/28/local-recruitment-activity-lra-local-employment/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -2600,10 +2600,10 @@ export const services: Service[] = [
     "summary": "With the zeal to achieve a safe space for the youth and future generations to come and in compliance to the constitutional mandate, the Municipal Government of Inabanga through its Local…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Local-Youth-Development-Council-Membership-REQUIREMENTS-LYDO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Local-Youth-Development-Council-Membership-STEPS-LYDO.pdf"
+      "/forms/Local-Youth-Development-Council-Membership-REQUIREMENTS-LYDO.pdf",
+      "/forms/Local-Youth-Development-Council-Membership-STEPS-LYDO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/27/local-youth-development-council-membership/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -2619,10 +2619,10 @@ export const services: Service[] = [
     "summary": "The Office of the City General Services Officer assists in providing logistical support services during official activities/events of the City.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Logistical-Support-Services-REQUIREMENTS-GSO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Logistical-Support-Services-STEPS-GSO.pdf"
+      "/forms/Logistical-Support-Services-REQUIREMENTS-GSO.pdf",
+      "/forms/Logistical-Support-Services-STEPS-GSO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/25/logistical-support-services/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -2638,10 +2638,10 @@ export const services: Service[] = [
     "summary": "Provide semestral preventive maintenance in all workstations and data centers.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Maintenance-of-IT-Equipment-REQUIREMENTS-CICTO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Maintenance-of-IT-Equipment-STEPS-CICTO.pdf"
+      "/forms/Maintenance-of-IT-Equipment-REQUIREMENTS-CICTO.pdf",
+      "/forms/Maintenance-of-IT-Equipment-STEPS-CICTO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/23/maintenance-of-it-equipment/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -2657,10 +2657,10 @@ export const services: Service[] = [
     "summary": "The Office of the City General Services Officer is in charge in the inspection and maintenance of all facilities of the City.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Management-of-City-Facilities-REQUIREMENTS-GSO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Management-of-City-Facilities-STEPS-GSO.pdf"
+      "/forms/Management-of-City-Facilities-REQUIREMENTS-GSO.pdf",
+      "/forms/Management-of-City-Facilities-STEPS-GSO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/25/management-of-city-facilities/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -2676,10 +2676,10 @@ export const services: Service[] = [
     "summary": "With its mandate to establish, manage and protect the mangrove ecosystems, the City ENRO is strengthening its campaign towards mangrove rehabilitation and reforestation.",
     "fees": "For mangrove rehabilitation/reforestation: PhP 10.00/mangrove seedling (new accredited groups/organization)\nFor mangrove destruction/cutting: pay the damage and rehabilitation costs (depending on the extent of damage)\n*subject for computation\nPenalties: Php50,000.00 – Php1,000,000.00 under National Law\nPhp1,000.00 – Php5,000.00 each under LGU Code",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Mangrove-Destruction-Inspection-REQUIREMENTS-CENRO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Mangrove-Destruction-Inspection-STEPS-CENRO.pdf"
+      "/forms/Mangrove-Destruction-Inspection-REQUIREMENTS-CENRO.pdf",
+      "/forms/Mangrove-Destruction-Inspection-STEPS-CENRO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/23/mangrove-destruction-inspection/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -2695,10 +2695,10 @@ export const services: Service[] = [
     "summary": "Monetization of Leave Credits at the Human Resource Management Office.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Monetization-of-Leave-Credits-REQUIREMENTS-HRMO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Monetization-of-Leave-Credits-STEPS-HRMO.pdf"
+      "/forms/Monetization-of-Leave-Credits-REQUIREMENTS-HRMO.pdf",
+      "/forms/Monetization-of-Leave-Credits-STEPS-HRMO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/25/monetization-of-leave-credits/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -2714,10 +2714,10 @@ export const services: Service[] = [
     "summary": "The CITY SOCIAL WELFARE AND DEVELOPMENT OFFICE (CSWDO) provides organizational services and orientation for the formation and strengthening of Women with Disabilities.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Association-for-PWD-Association-of-Women-with-Disability-AWWD-REQUIREMENTS-CSWDO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Association-for-PWD-Association-of-Women-with-Disability-AWWD-STEPS-CSWDO.pdf"
+      "/forms/Association-for-PWD-Association-of-Women-with-Disability-AWWD-REQUIREMENTS-CSWDO.pdf",
+      "/forms/Association-for-PWD-Association-of-Women-with-Disability-AWWD-STEPS-CSWDO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/06/01/organization-services-association-for-pwd-association-of-women-with-disability-awwd/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -2733,10 +2733,10 @@ export const services: Service[] = [
     "summary": "All who are interested to form a cooperative or associations for farmers, fisher folks, irrigators, rural women and youth in the City",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Organizational-Services-REQUIREMENTS-AGR.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Provision-of-Secretariat-Services-STEPS-ADM.pdf"
+      "/forms/Organizational-Services-REQUIREMENTS-AGR.pdf",
+      "/forms/Provision-of-Secretariat-Services-STEPS-ADM.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/21/organizational-services/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -2752,10 +2752,10 @@ export const services: Service[] = [
     "summary": "Out-of-town reporting/registration occurs when the Certificate of Live Birth, Death, or Marriage is presented to the Civil Registrar of a City or Municipality which is not the place of…",
     "fees": "Required Fees: PhP 300.00",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Out-of-Town-ReportingRegistration-of-Birth-Marriage-and-Death-Certificate-REQUIREMENTS-REG.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Out-of-Town-ReportingRegistration-of-Birth-Marriage-and-Death-Certificate-STEPS-REG.pdf"
+      "/forms/Out-of-Town-ReportingRegistration-of-Birth-Marriage-and-Death-Certificate-REQUIREMENTS-REG.pdf",
+      "/forms/Out-of-Town-ReportingRegistration-of-Birth-Marriage-and-Death-Certificate-STEPS-REG.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/28/out-of-town-reporting-registration-of-birth-marriage-and-death-certificate/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -2771,10 +2771,10 @@ export const services: Service[] = [
     "summary": "The Pag-asa Youth Association of the Philippines (PYAP) Inc.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Pag-Asa-Youth-Association-of-the-Philippines-PYAP-Inc.-Membership-REQUIREMENTS-CSWDO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Pag-Asa-Youth-Association-of-the-Philippines-PYAP-Inc.-Membership-STEPS-CSWDO.pdf"
+      "/forms/Pag-Asa-Youth-Association-of-the-Philippines-PYAP-Inc.-Membership-REQUIREMENTS-CSWDO.pdf",
+      "/forms/Pag-Asa-Youth-Association-of-the-Philippines-PYAP-Inc.-Membership-STEPS-CSWDO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/06/01/pag-asa-youth-association-of-the-philippines-pyap-inc-membership/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -2790,10 +2790,10 @@ export const services: Service[] = [
     "summary": "The CITY SOCIAL WELFARE AND DEVELOPMENT OFFICE (CSWDO) through the Child Development Workers provides Parent Effectiveness Service (PES) to all parents of Day Care Children.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Parent-Effectiveness-Seminar-PES-REQUIREMENTS-CSWDO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Parent-Effectiveness-Seminar-PES-STEPS-CSWDO.pdf"
+      "/forms/Parent-Effectiveness-Seminar-PES-REQUIREMENTS-CSWDO.pdf",
+      "/forms/Parent-Effectiveness-Seminar-PES-STEPS-CSWDO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/06/01/parent-effectiveness-seminar-pes/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -2809,10 +2809,10 @@ export const services: Service[] = [
     "summary": "Whether a patient is being admitted for emergency treatment or ongoing care, the patient admissions process is a crucial component of providing appropriate medical care.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Patient-Admission-for-Health-Services-REQUIREMENTS-CHO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Patient-Admission-for-Health-Services-STEPS-CHO.pdf"
+      "/forms/Patient-Admission-for-Health-Services-REQUIREMENTS-CHO.pdf",
+      "/forms/Patient-Admission-for-Health-Services-STEPS-CHO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/26/patient-admission-for-health-services/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -2828,10 +2828,10 @@ export const services: Service[] = [
     "summary": "This is to ensure the collection of Tipping Fee pursuant to City Ordinace 2008-010 otherwise known as an ordinance imposing Tipping Fee on the disposal of solid waste at the engineered…",
     "fees": "FEE\nEquivalent Volume in Cu. Meter Weight (Tons) Fee\nFrom To\n0.45 0.001 0.100 P80.00\n0.90 0.101 0.200 P160.00\n1.35 0.201 0.300 P240.00\n1.79 0.301 0.400 P320.00\n2.24 0.401 0.500 P400.00\n2.69 0.501 0.600 P480.00\n3.14 0.601 0.700 P560.00\n3.59 0.701 0.800 P640.00\n4.04 0.801 0.900 P720.00\n4.48 0.901 1.000 P800.00\n4.93 1.001 1.100 P880.00\n5.38 1.101 1.200 P960.00\n5.83 1.201 1.300 P1,040.00\n6.28 1.301 1.400 P1,120.00\n6.73 1.401 1.500 P1,200.00\n7.17 1.501 1.600 P1,280.00\n7.62 1.601 1.700 P1,360.00\n8.07 1.701 1.800 P1,440.00\n8.52 1.801 1.900 P1,520.00\n8.97 1.901 2.000 P1,600.00\n9.42 2.001 2.100 P1,680.00\n9.87 2.101 2.200 P1,760.00\n10.31 2.201 2.300 P1,840.00\n10.76 2.301 2.400 P1,940.00\n11.21 2.401 2.500 P2,000.00\n11.66 2.501 2.600 P2,080.00\n12.11 2.601 2.700 P2,160.00\n12.56 2.701 2.800 P2,240\n13.00 2.801 2.900 P2,320.00\n13.45 2.901 3.000 P2,400.00\n13.90 3.001 3.100 P2,480.00\n14.35 3.101 3.200 P2560.00\n14.80 3.201 3.300 P2,640.00\n15.25 3.301 3.400 P2,720.00\n15.70 3.401 3.500 P2,800.00\n16.14 3.501 3.600 P2,880.00\n16.59 3.601 3.700 P2,960.00\n17.04 3.701 3.800 P3,040\n17.49 3.801 3.800 P3,120.00\n17.94 3.901 4.000 P3,200.00\n18.39 4.001 4.100 P3,280.00\n18.83 4.101 4.200 P3,360.00\n19.28 4.201 4.300 P3,440.00\n19.73 4.301 4.400 P3,520.00\n20.18 4.401 4.500 P3,600.00\n20.63 4.501 4.600 P3,680.00\n21.08 4.601 4.700 P3,760.00\n21.52 4.701 4.800 P3,840.00\n21.97 4.801 4.900 P3,920.00\n22.42 4.901 5.000 P4,000.00\n22.87 5.001 5.100 P4,080.00\n23.32 5.101 5.200 P4,160.00\n23.77 5.201 5.300 P4,240.00\n24.22 5.301 5.400 P4,320.00\n24.66 5.401 5.500 P4,400.00\n25.11 5.501 5.600 P4,480.00",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Payment-of-Tipping-Fee-REQUIREMENTS-CENRO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Payment-of-Tipping-Fee-STEPS-CENRO.pdf"
+      "/forms/Payment-of-Tipping-Fee-REQUIREMENTS-CENRO.pdf",
+      "/forms/Payment-of-Tipping-Fee-STEPS-CENRO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/23/payment-of-tipping-fee/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -2847,10 +2847,10 @@ export const services: Service[] = [
     "summary": "Payment of utilities (telephone, water and electric bills) is done monthly.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Payment-of-Utilities-REQUIREMENTS-GSO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Payment-of-Utilities-STEPS-GSO.pdf"
+      "/forms/Payment-of-Utilities-REQUIREMENTS-GSO.pdf",
+      "/forms/Payment-of-Utilities-STEPS-GSO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/25/payment-of-utilities/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -2866,10 +2866,10 @@ export const services: Service[] = [
     "summary": "Farmers, City stakeholders, Environmental Partners",
     "fees": "NO FEES AND CHARGES REQUIRED",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Plantation-Design-and-Management-Project-Plan-REQUIREMENTS-CENRO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Plantation-Design-and-Management-Project-Plan-STEPS-CENRO.pdf"
+      "/forms/Plantation-Design-and-Management-Project-Plan-REQUIREMENTS-CENRO.pdf",
+      "/forms/Plantation-Design-and-Management-Project-Plan-STEPS-CENRO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/23/plantation-design-and-management-project-plan/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -2885,10 +2885,10 @@ export const services: Service[] = [
     "summary": "Accomplished Complaint Response-Feedback Form",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Pollution-Inspection-Request-REQUIREMENTS-CENRO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Pollution-Inspection-Request-STEPS-CENRO.pdf"
+      "/forms/Pollution-Inspection-Request-REQUIREMENTS-CENRO.pdf",
+      "/forms/Pollution-Inspection-Request-STEPS-CENRO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/23/pollution-inspection-request/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -2904,10 +2904,10 @@ export const services: Service[] = [
     "summary": "The Municipal Accountant shall take charge in the pre-audit and certify to the correctness and completeness of the supporting documents on all financial claims.",
     "fees": "NO FEES AND CHARGES REQUIRED",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Pre-audit-of-payrolls-REQUIREMENTS-ACA.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Pre-audit-of-payrolls-STEPS-ACA.pdf"
+      "/forms/Pre-audit-of-payrolls-REQUIREMENTS-ACA.pdf",
+      "/forms/Pre-audit-of-payrolls-STEPS-ACA.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/2024/05/06/pre-audit-of-payrolls-vouchers-and-other-financial-claims/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-24"
   },
   {
@@ -2923,10 +2923,10 @@ export const services: Service[] = [
     "summary": "The Office of the Municipal Accountant shall prepare and process salaries and wages and other remunerations of the Municipal Government Employees.",
     "fees": "NO FEES AND CHARGES REQUIRED",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Preparation-and-processing-REQUIREMENTS-ACA.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Preparation-and-processing-STEPS-ACA.pdf"
+      "/forms/Preparation-and-processing-REQUIREMENTS-ACA.pdf",
+      "/forms/Preparation-and-processing-STEPS-ACA.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/2024/05/15/preparation-and-processing-of-payrolls-and-vouchers-for-salaries-and-other-remunerations/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-24"
   },
   {
@@ -2942,10 +2942,10 @@ export const services: Service[] = [
     "summary": "The City Budget Office as part of the Local Finance Committee (LFC) reviews and consolidates the budget proposals of different departments and offices of the LGU relative to the preparation…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Preparation-and-Submission-of-Annual-Budget-REQUIREMENTS-CBO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Preparation-and-Submission-of-Annual-Budget-STEPS-CBO.pdf"
+      "/forms/Preparation-and-Submission-of-Annual-Budget-REQUIREMENTS-CBO.pdf",
+      "/forms/Preparation-and-Submission-of-Annual-Budget-STEPS-CBO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/23/preparation-and-submission-of-annual-budget/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -2961,10 +2961,10 @@ export const services: Service[] = [
     "summary": "The City Budget Office as member of the Local Finance Committee assists the Sanggunian in the analysis and review of the annual and supplemental budgets to determine compliance with…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Assisting-in-the-Authorization-of-AnnualSupplemental-Budgets-REQUIREMENTS-CBO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Assisting-in-the-Authorization-of-AnnualSupplemental-Budgets-STEPS-CBO.pdf"
+      "/forms/Assisting-in-the-Authorization-of-AnnualSupplemental-Budgets-REQUIREMENTS-CBO.pdf",
+      "/forms/Assisting-in-the-Authorization-of-AnnualSupplemental-Budgets-STEPS-CBO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/23/assisting-in-the-authorization-of-annual-supplemental-budget-s/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -2980,10 +2980,10 @@ export const services: Service[] = [
     "summary": "The City Budget Office reviews and consolidates changes in the budget of different departments and offices of the LGU through the Supplemental Budget as indicated in Article 417, IRR of RA…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Preparation-and-Submission-of-Supplemental-Budgets-REQUIREMENTS-CBOdocx.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Preparation-and-Submission-of-Supplemental-Budgets-STEPS-CBO.pdf"
+      "/forms/Preparation-and-Submission-of-Supplemental-Budgets-REQUIREMENTS-CBOdocx.pdf",
+      "/forms/Preparation-and-Submission-of-Supplemental-Budgets-STEPS-CBO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/23/preparation-and-submission-of-supplemental-budget-s/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -2999,10 +2999,10 @@ export const services: Service[] = [
     "summary": "The Office of the Municipal Engineer is responsible for the preventive maintenance of all city vehicles and heavy equipment.",
     "fees": "NO FEES TO BE PAID",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/10/Untitled21.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/10/Untitled22.pdf"
+      "/forms/Untitled21.pdf",
+      "/forms/Untitled22.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/06/preventive-maintenance-of-city-vehicles-and-heavy-equipment/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3018,10 +3018,10 @@ export const services: Service[] = [
     "summary": "One of the main roles of the Office of the Municipal Administrator is to provide support to the Office of the Municipal Mayor, the office receives, processes, and releases correspondence from…",
     "fees": "NO FEES AND CHARGES REQUIRED",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Processing-of-all-documents-REQUIREMENTS-ADM.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/STEPS-Processing-of-all-documents-ADM.pdf"
+      "/forms/Processing-of-all-documents-REQUIREMENTS-ADM.pdf",
+      "/forms/STEPS-Processing-of-all-documents-ADM.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/20/processing-of-all-documents/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3037,10 +3037,10 @@ export const services: Service[] = [
     "summary": "Republic Act 9184 and its 2016 Revised Implementing Rules and Regulations provides for a systematic procurement of Goods and Services and Infrastructure Projects to ensure transparency and…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Procurement-of-Goods-and-Services-and-Infrastructure-Projects-thru-Public-Bidding-REQUIREMENTS-BAC.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Procurement-of-Goods-and-Services-and-Infrastructure-Projects-thru-Public-Bidding-STEPS-BACdocx.pdf"
+      "/forms/Procurement-of-Goods-and-Services-and-Infrastructure-Projects-thru-Public-Bidding-REQUIREMENTS-BAC.pdf",
+      "/forms/Procurement-of-Goods-and-Services-and-Infrastructure-Projects-thru-Public-Bidding-STEPS-BACdocx.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/22/procurement-of-goods-and-services-and-infrastructure-projects-thru-public-bidding/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3056,10 +3056,10 @@ export const services: Service[] = [
     "summary": "Republic Act 9184 and its 2016 Revised Implementing Rules and Regulations provides for a systematic procurement of infrastructure, goods and services to ensure transparency and…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Procurement-of-Goods-or-Services-and-Infrastructure-for-Small-Value-Procurement-REQUIREMENTS-BAC.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Procurement-of-Goods-or-Services-and-Infrastructure-for-Small-Value-Procurement-STEPS-BAC.pdf"
+      "/forms/Procurement-of-Goods-or-Services-and-Infrastructure-for-Small-Value-Procurement-REQUIREMENTS-BAC.pdf",
+      "/forms/Procurement-of-Goods-or-Services-and-Infrastructure-for-Small-Value-Procurement-STEPS-BAC.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/22/procurement-of-goods-or-services-and-infrastructure-for-small-value-procurement/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3075,10 +3075,10 @@ export const services: Service[] = [
     "summary": "Republic Act 9184 and its 2016 Revised Implementing Rules and Regulations provides for a systematic procurement of infrastructure, goods and services to ensure transparency and…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Procurement-of-Goods-or-Services-for-Small-Value-Procurement-REQUIREMENTS-BACdocx.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Procurement-of-Goods-or-Services-for-Small-Value-Procurement-STEPS-BAC.pdf"
+      "/forms/Procurement-of-Goods-or-Services-for-Small-Value-Procurement-REQUIREMENTS-BACdocx.pdf",
+      "/forms/Procurement-of-Goods-or-Services-for-Small-Value-Procurement-STEPS-BAC.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/22/procurement-of-goods-or-services-for-small-value-procurement/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3094,10 +3094,10 @@ export const services: Service[] = [
     "summary": "The CITY SOCIAL WELFARE AND DEVELOPMENT OFFICE (CSWDO) through the Day Care Service provides temporary care to children aged 3 years to 4 years-11 months old in the four (4) areas of Child…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Program-On-Children-Enrollment-of-Daycare-Service-REQUIREMENTS-CSWDO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Program-On-Children-Enrollment-of-Daycare-Service-STEPS-CSWDO.pdf"
+      "/forms/Program-On-Children-Enrollment-of-Daycare-Service-REQUIREMENTS-CSWDO.pdf",
+      "/forms/Program-On-Children-Enrollment-of-Daycare-Service-STEPS-CSWDO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/06/01/program-on-children-enrollment-of-daycare-service/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3113,10 +3113,10 @@ export const services: Service[] = [
     "summary": "The CITY SOCIAL WELFARE AND DEVELOPMENT OFFICE (CSWDO) provides essential, appropriate, and timely humanitarian assistance to those affected by disaster, COVID-19 pandemic, typhoon and…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Program-on-Disaster-Food-and-Non-Food-Relief-Assistance-REQUIREMENTS-CSWDO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Program-on-Disaster-Food-and-Non-Food-Relief-Assistance-STEPS-CSWDO.pdf"
+      "/forms/Program-on-Disaster-Food-and-Non-Food-Relief-Assistance-REQUIREMENTS-CSWDO.pdf",
+      "/forms/Program-on-Disaster-Food-and-Non-Food-Relief-Assistance-STEPS-CSWDO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/06/01/program-on-disaster-food-and-non-food-relief-assistance/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3132,10 +3132,10 @@ export const services: Service[] = [
     "summary": "The City provides integrated services to individuals and families in crisis and difficult situations.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Aid-to-Individual-in-Crisis-Situation-AICS-REQUIREMENTS-CSWDO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Aid-to-Individual-in-Crisis-Situation-AICS-STEPS-CSWDO.pdf"
+      "/forms/Aid-to-Individual-in-Crisis-Situation-AICS-REQUIREMENTS-CSWDO.pdf",
+      "/forms/Aid-to-Individual-in-Crisis-Situation-AICS-STEPS-CSWDO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/06/01/program-on-family-aid-to-individual-in-crisis-situatioin-aics/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3151,10 +3151,10 @@ export const services: Service[] = [
     "summary": "The CITY SOCIAL WELFARE AND DEVELOPMENT OFFICE (CSWDO) provides assistive devices to persons with disabilities (PWDs) who are in dire need of such assistive devices (wheelchair, walker,…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Program-on-Persons-with-Disabilities-PWD-Provision-of-Assistive-Device-for-PWDs-REQUIREMENTS-CSWDO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Program-on-Persons-with-Disabilities-PWD-Provision-of-Assistive-Device-for-PWDs-STEPS-CSWDO.pdf"
+      "/forms/Program-on-Persons-with-Disabilities-PWD-Provision-of-Assistive-Device-for-PWDs-REQUIREMENTS-CSWDO.pdf",
+      "/forms/Program-on-Persons-with-Disabilities-PWD-Provision-of-Assistive-Device-for-PWDs-STEPS-CSWDO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/06/01/program-on-persons-with-disabilities-pwd-provision-of-assistive-device-for-pwds/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3170,10 +3170,10 @@ export const services: Service[] = [
     "summary": "The Office of the Senior Citizens Affairs (OSCA) issues identification cards/booklets to all senior citizens residing in the City to enable them to avail of the legally mandated discounts…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Issuance-of-Identification-Card-OSCA-ID-and-Booklets-for-Senior-Citizens-REQUIREMENTS-CSWDO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Issuance-of-Identification-Card-OSCA-ID-and-Booklets-for-Senior-Citizens-STEPS-CSWDO.pdf"
+      "/forms/Issuance-of-Identification-Card-OSCA-ID-and-Booklets-for-Senior-Citizens-REQUIREMENTS-CSWDO.pdf",
+      "/forms/Issuance-of-Identification-Card-OSCA-ID-and-Booklets-for-Senior-Citizens-STEPS-CSWDO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/06/01/program-on-senior-citizens-issuance-of-identification-card-osca-id-and-booklets-for-senior-citizens/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3189,10 +3189,10 @@ export const services: Service[] = [
     "summary": "The CITY SOCIAL WELFARE AND DEVELOPMENT OFFICE (CSWDO) provides educational assistance to the Out-of-School Youths and other unprivileged/needy youths assessed by the Social Workers who are…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Program-on-Youth-Educational-Assistance-REQUIREMENTS-CSWDO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Program-on-Youth-Educational-Assistance-STEPS-CSWDO.pdf"
+      "/forms/Program-on-Youth-Educational-Assistance-REQUIREMENTS-CSWDO.pdf",
+      "/forms/Program-on-Youth-Educational-Assistance-STEPS-CSWDO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/06/01/program-on-youth-educational-assistance/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3208,10 +3208,10 @@ export const services: Service[] = [
     "summary": "To treat disease and identify early indicators of health risk to the city’s workforce, the Municipal Health Office offers annual physical examinations to employees.",
     "fees": "Laboratory test Non-Philhealth Konsulta Package beneficiaries Philhealth Konsulta Package beneficiaries\nFecalysis for regular patient 30.00 free\nFecalysis for food handlers 30.00\nFecal Occult Blood Test (for Philhealth Enlisted patients) free\nUrinalysis 40.00 free\nSputum test (Acid Fast Bacilli Stain)- for health card applicants 30.00\nNS1 antigen duo (Dengue test kit) free\nBlood typing 20.00\nCBC/ Platelet 100.00 free\nVaginal/ urethral smear 50.00\nBlood chemistry\nFasting Blood Sugar 100.00 free\nCholesterol 100.00 free\nTriglyceride 100.00 free\nHDL 100.00 free\nUric acid 100.00\nUrea nitrogen 100.00\nCreatinine 100.00 free\nSerum Glutamic-oxaloacetic Transaminase 100.00\nSerum Glutamic Pyruvic Transaminase 100.00\nHbA1c (hemoglobin glycated) free free\nOGTT free free",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Provision-of-Annual-Physical-Examination-REQUIREMENTS-CHO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Provision-of-Annual-Physical-Examination-STEPS-CHO.pdf"
+      "/forms/Provision-of-Annual-Physical-Examination-REQUIREMENTS-CHO.pdf",
+      "/forms/Provision-of-Annual-Physical-Examination-STEPS-CHO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/26/provision-of-annual-physical-examination/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3227,10 +3227,10 @@ export const services: Service[] = [
     "summary": "The Municipal Health Office provides anti-rabies vaccination to prevent rabies infection in individuals who have been exposed to the rabies virus.",
     "fees": "Prescribed Fees: PhP 850.00",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Provision-of-Anti-Rabies-Vaccine-REQUIREMENTS-CHO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Provision-of-Anti-Rabies-Vaccine-STEPS-CHO.pdf"
+      "/forms/Provision-of-Anti-Rabies-Vaccine-REQUIREMENTS-CHO.pdf",
+      "/forms/Provision-of-Anti-Rabies-Vaccine-STEPS-CHO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/26/provision-of-anti-rabies-vaccine/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3246,10 +3246,10 @@ export const services: Service[] = [
     "summary": "The Human Resource Management Office accepts applications of all interested individuals who wish to apply for any job vacancy in the Municipal Government of Inabanga.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Provision-of-Assistance-to-Applicants-REQUIREMENTS-HRMO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Provision-of-Assistance-to-Applicants-STEPS-HRMO.pdf"
+      "/forms/Provision-of-Assistance-to-Applicants-REQUIREMENTS-HRMO.pdf",
+      "/forms/Provision-of-Assistance-to-Applicants-STEPS-HRMO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/25/provision-of-assistance-to-applicants/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3265,10 +3265,10 @@ export const services: Service[] = [
     "summary": "The Municipal Health Office provides basic immunization services, such as Bacillus Calmette Guerin (BCG), Oral Polio Vaccine (OPV), Diptheria, Pertusis, Tetanus (DPT), Hepa and Measles vaccine,…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Provision-of-Children-Immunization-0-11-Months-Old-REQUIREMENTS-CHO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Provision-of-Children-Immunization-0-11-Months-Old-STEPS-CHO.pdf"
+      "/forms/Provision-of-Children-Immunization-0-11-Months-Old-REQUIREMENTS-CHO.pdf",
+      "/forms/Provision-of-Children-Immunization-0-11-Months-Old-STEPS-CHO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/26/provision-of-children-immunization-0-11-months-old/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3284,10 +3284,10 @@ export const services: Service[] = [
     "summary": "The Office of the Municipal Planning and Development Office is the repository of all documents, data and information relative to planning and development.",
     "fees": "PhP 10.00 per page.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Provision-of-Copies-of-Official-Documents-REQUIREMENTS-CPDO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Provision-of-Copies-of-Official-Documents-STEPS-CPDO.pdf"
+      "/forms/Provision-of-Copies-of-Official-Documents-REQUIREMENTS-CPDO.pdf",
+      "/forms/Provision-of-Copies-of-Official-Documents-STEPS-CPDO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/23/provisiong-of-copies-of-official-documents/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3303,10 +3303,10 @@ export const services: Service[] = [
     "summary": "The Municipal Health Office provides recommended dental services to all residents of the City regardless of age to detect and prevent any potential dental problems.",
     "fees": "Dental Fee: PhP 50.00\nAnesthesia: PhP 40.00/pc\nMedical Certificate: PhP 70.00\nDocumentary Stamp: PhP 30.00",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Provision-of-Dental-Health-Care-and-Tooth-Extraction-REQUIREMENTS-CHO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Provision-of-Dental-Health-Care-and-Tooth-Extraction-STEPS-CHO.pdf"
+      "/forms/Provision-of-Dental-Health-Care-and-Tooth-Extraction-REQUIREMENTS-CHO.pdf",
+      "/forms/Provision-of-Dental-Health-Care-and-Tooth-Extraction-STEPS-CHO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/26/provision-of-dental-health-care-and-tooth-extraction/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3322,10 +3322,10 @@ export const services: Service[] = [
     "summary": "The Municipality of Inabanga Library is an essential repository of reading materials that provides print and non-print collection to enrich the nourishment of students toward broader thinking…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Provision-of-Educational-Materials-Print-and-Non-Print-Materials-REQUIREMENTS-LIB.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Provision-of-Educational-Materials-Print-and-Non-Print-Materials-STEPS-LIB.pdf"
+      "/forms/Provision-of-Educational-Materials-Print-and-Non-Print-Materials-REQUIREMENTS-LIB.pdf",
+      "/forms/Provision-of-Educational-Materials-Print-and-Non-Print-Materials-STEPS-LIB.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/27/provision-of-educational-materials-print-and-non-print-materials/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3341,10 +3341,10 @@ export const services: Service[] = [
     "summary": "The CITY SOCIAL WELFARE AND DEVELOPMENT OFFICE (CSWDO) provides basic educational materials and personal hygiene kits to enrolled Day Care Children in the Child Development Centers (CDCs)…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Provision-of-Educational-MaterialsPersonal-Hygiene-Kits-REQUIREMENTS-CSWDO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Provision-of-Educational-MaterialsPersonal-Hygiene-Kits-STEPS-CSWDO.pdf"
+      "/forms/Provision-of-Educational-MaterialsPersonal-Hygiene-Kits-REQUIREMENTS-CSWDO.pdf",
+      "/forms/Provision-of-Educational-MaterialsPersonal-Hygiene-Kits-STEPS-CSWDO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/06/01/provision-of-educational-materials-personal-hygiene-kits/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3360,10 +3360,10 @@ export const services: Service[] = [
     "summary": "The Municipal Health Office provides immediate services to all emergency medical cases within the City.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Provision-of-Emergency-Medical-Services-REQUIREMENTS-CHO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Provision-of-Emergency-Medical-Services-STEPS-CHO.pdf"
+      "/forms/Provision-of-Emergency-Medical-Services-REQUIREMENTS-CHO.pdf",
+      "/forms/Provision-of-Emergency-Medical-Services-STEPS-CHO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/26/provision-of-emergency-medical-services/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3379,10 +3379,10 @@ export const services: Service[] = [
     "summary": "The Municipal Health Office prescribes and provides all medically-approved safe, effective and legally acceptable modern family planning methods.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Provision-of-Family-Planning-Methods-REQUIREMENTS-CHO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Provision-of-Family-Planning-Methods-STEPS-CHO.pdf"
+      "/forms/Provision-of-Family-Planning-Methods-REQUIREMENTS-CHO.pdf",
+      "/forms/Provision-of-Family-Planning-Methods-STEPS-CHO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/26/provision-of-family-planning-methods/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3398,10 +3398,10 @@ export const services: Service[] = [
     "summary": "The Office of the City Agriculturist registers and issues identification cards to all farmers of the city and endorses the farmers and fisherfolks identification card to the City Mayor for…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Provision-of-Farmers-and-Fisher-Folks-Registration-and-Identification-REQUIREMENTS-AGR.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Provision-of-Farmers-and-Fisher-Folks-Registration-and-Identification-STEPS-AGR.pdf"
+      "/forms/Provision-of-Farmers-and-Fisher-Folks-Registration-and-Identification-REQUIREMENTS-AGR.pdf",
+      "/forms/Provision-of-Farmers-and-Fisher-Folks-Registration-and-Identification-STEPS-AGR.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/22/provision-of-farmers-and-fisher-folks-registration-and-identification/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3417,10 +3417,10 @@ export const services: Service[] = [
     "summary": "The Office of the City Agriculturist inspects fish catch and other sea products entering the City at the designated fish landing point at the SFC Public Market before these products are…",
     "fees": "High value fishes (tuna, talakitok, snapper, lapu- lapu, blue marlin, tanguigui, prawns, lobster, shrimps, crabs, squid (white): PhP 20.00 per 40kgs or 1 banyera\nOther fishes (bangus, tuna, bisugo, sapsap, snapper, anchovy, tilapia, hito, etc): PhP 20.00 per 40 kgs or 1 banyera\nSeaweeds: PhP 10.00 per sack\nShells: PhP 10.00 per sack (small) or 2 kerosene cans\nSea Urchin: PhP 15.00 per sack",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Provision-of-Fish-Landing-InspectionMarket-Denial-Operations-REQUIREMENTS-AGR.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Provision-of-Fish-Landing-InspectionMarket-Denial-Operations-STEPS-AGR.pdf"
+      "/forms/Provision-of-Fish-Landing-InspectionMarket-Denial-Operations-REQUIREMENTS-AGR.pdf",
+      "/forms/Provision-of-Fish-Landing-InspectionMarket-Denial-Operations-STEPS-AGR.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/22/provision-of-fish-landing-inspection-market-denial-operations/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3436,10 +3436,10 @@ export const services: Service[] = [
     "summary": "The Municipal Health Office provides recommended general medical consultation services to all residents of the City regardless of age to detect and prevent any potential medical problems.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Provision-of-General-Medical-Consultation-REQUIREMENTS-CHO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Provision-of-General-Medical-Consultation-STEPS-CHO.pdf"
+      "/forms/Provision-of-General-Medical-Consultation-REQUIREMENTS-CHO.pdf",
+      "/forms/Provision-of-General-Medical-Consultation-STEPS-CHO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/26/provision-of-general-medical-consultation/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3455,10 +3455,10 @@ export const services: Service[] = [
     "summary": "Provision of Internal Control and Accounting Services to Barangays at the Office of the Municipal Accountant.",
     "fees": "NO FEES AND CHARGES REQUIRED",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Provision-of-internal-control-REQUIREMENTS-ACA.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Provision-of-internal-control-STEPS-ACA.pdf"
+      "/forms/Provision-of-internal-control-REQUIREMENTS-ACA.pdf",
+      "/forms/Provision-of-internal-control-STEPS-ACA.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/03/provision-of-internal-control-and-accounting-services-to-barangays/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3474,10 +3474,10 @@ export const services: Service[] = [
     "summary": "The Municipal Health Office provides laboratory examinations to all residents needing urinalysis, fecalysis, complete blood count with platelet (CBC), sputum test, vaginal or urethral smear, and…",
     "fees": "Laboratory test Non-Philhealth Konsulta Package beneficiaries Philhealth Konsulta Package beneficiaries\nFecalysis for regular patient 30.00 free\nFecalysis for food handlers 30.00\nFecal Occult Blood Test (for Philhealth Enlisted patients) free\nUrinalysis 40.00 free\nSputum test (Acid Fast Bacilli Stain)- for health card applicants 30.00\nNS1 antigen duo (Dengue test kit) free\nBlood typing 20.00\nCBC/ Platelet 100.00 free\nVaginal/ urethral smear 50.00\nBlood chemistry\nFasting Blood Sugar 100.00 free\nCholesterol 100.00 free\nTriglyceride 100.00 free\nHDL 100.00 free\nUric acid 100.00\nUrea nitrogen 100.00\nCreatinine 100.00 free\nSerum Glutamic-oxaloacetic Transaminase 100.00\nSerum Glutamic Pyruvic Transaminase 100.00\nHbA1c (hemoglobin glycated) free free\nOGTT free free",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Provision-of-Laboratory-Examinations-REQUIREMENTS-CHO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Provision-of-Laboratory-Examinations-STEPS-CHO.pdf"
+      "/forms/Provision-of-Laboratory-Examinations-REQUIREMENTS-CHO.pdf",
+      "/forms/Provision-of-Laboratory-Examinations-STEPS-CHO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/26/provision-of-laboratory-examinations/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3493,10 +3493,10 @@ export const services: Service[] = [
     "summary": "One of the functions of the Secretary to the Sangguniang Bayan is to furnish, upon request of any interested party, copies of records of public character upon payment to the Office of…",
     "fees": "PhP 10.00 for photocopy per page\nPhP 60.00 for certified true/photocopy per page",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Provision-of-Legislative-Documents-REQUIREMENTS-OSSP.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Provision-of-Legislative-Documents-STEPS-OSSP.pdf"
+      "/forms/Provision-of-Legislative-Documents-REQUIREMENTS-OSSP.pdf",
+      "/forms/Provision-of-Legislative-Documents-STEPS-OSSP.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/27/provision-of-legislative-documents/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3512,10 +3512,10 @@ export const services: Service[] = [
     "summary": "Provision of Medical Certificate to Persons with Disabilities at the Municipal Health Office.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Provision-of-Medical-Certificate-to-Persons-with-Disabilities-REQUIREMENTS-CHO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Provision-of-Medical-Certificate-to-Persons-with-Disabilities-STEPS-CHO.pdf"
+      "/forms/Provision-of-Medical-Certificate-to-Persons-with-Disabilities-REQUIREMENTS-CHO.pdf",
+      "/forms/Provision-of-Medical-Certificate-to-Persons-with-Disabilities-STEPS-CHO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/26/provision-of-medical-certificate-to-persons-with-disabilities/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3531,10 +3531,10 @@ export const services: Service[] = [
     "summary": "Easy access to a variety of pharmaceuticals and healthcare necessities is guaranteed for the residents of Inabanga.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Provision-of-Medicines-andor-Medical-Supplies-REQUIREMENTS-CHO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Provision-of-Medicines-andor-Medical-Supplies-STEPS-CHO.pdf"
+      "/forms/Provision-of-Medicines-andor-Medical-Supplies-REQUIREMENTS-CHO.pdf",
+      "/forms/Provision-of-Medicines-andor-Medical-Supplies-STEPS-CHO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/26/provision-of-medicines-and-or-medical-supplies/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3550,10 +3550,10 @@ export const services: Service[] = [
     "summary": "The CITY SOCIAL WELFARE AND DEVELOPMENT OFFICE (CSWDO) provides Health Care Insurance to all duly certified and validated indigent families residing in the City.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Provision-of-PhilHealth-Insurance-REQUIREMENTS-CSWDO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Provision-of-PhilHealth-Insurance-STEPS-CSWDO.pdf"
+      "/forms/Provision-of-PhilHealth-Insurance-REQUIREMENTS-CSWDO.pdf",
+      "/forms/Provision-of-PhilHealth-Insurance-STEPS-CSWDO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/06/01/provision-of-philhealth-insurance/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3569,10 +3569,10 @@ export const services: Service[] = [
     "summary": "The Municipal Health Office provides recommended pre-natal care for women during pregnancy every Thursday to detect and prevent any potential problems that may affect the health of mothers and…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Provision-of-Pre-Natal-Consultation-REQUIREMENTS-CHO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Provision-of-Pre-Natal-Consultation-STEPS-CHO.pdf"
+      "/forms/Provision-of-Pre-Natal-Consultation-REQUIREMENTS-CHO.pdf",
+      "/forms/Provision-of-Pre-Natal-Consultation-STEPS-CHO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/26/provision-of-pre-natal-consultation/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3588,10 +3588,10 @@ export const services: Service[] = [
     "summary": "The Municipal Health Office provides pregnancy test in line with the support in improving maternal child care to residents of the City.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Provision-of-Pregnancy-Test-STEPS-CHO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/REQUIREMENTS-Pregnancy-test-CHO.pdf"
+      "/forms/Provision-of-Pregnancy-Test-STEPS-CHO.pdf",
+      "/forms/REQUIREMENTS-Pregnancy-test-CHO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/26/provision-of-pregnancy-test/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3607,10 +3607,10 @@ export const services: Service[] = [
     "summary": "Provision of Public Information Procedure at the Corporate Relations Office.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Provision-of-Public-Information-Procedure-REQUIREMENTS-CRO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Provision-of-Public-Information-Procedure-STEPS-CRO.pdf"
+      "/forms/Provision-of-Public-Information-Procedure-REQUIREMENTS-CRO.pdf",
+      "/forms/Provision-of-Public-Information-Procedure-STEPS-CRO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/23/provision-of-public-information-procedure/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3626,10 +3626,10 @@ export const services: Service[] = [
     "summary": "The Department Heads’ meeting is conducted to ensure alignment across departments/offices and create a venue to problem-solve collectively, learn and progress as a group.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Provision-of-Secretariat-Services-REQUIREMENTS-ADM.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/STEPS-Provision-of-Secretariat-ADM.pdf"
+      "/forms/Provision-of-Secretariat-Services-REQUIREMENTS-ADM.pdf",
+      "/forms/STEPS-Provision-of-Secretariat-ADM.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/20/provision-of-secretariat-services-in-the-management-of-department-heads-meeting/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3645,10 +3645,10 @@ export const services: Service[] = [
     "summary": "The Office of the City Environment and Natural Resources provides technical assistance through the following:",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Provision-of-Technical-Assistance-for-Environmental-Concerns-REQUIREMENTS-CENRO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Provision-of-Technical-Assistance-for-Environmental-Concerns-STEPS-CENRO.pdf"
+      "/forms/Provision-of-Technical-Assistance-for-Environmental-Concerns-REQUIREMENTS-CENRO.pdf",
+      "/forms/Provision-of-Technical-Assistance-for-Environmental-Concerns-STEPS-CENRO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/23/provision-of-technical-assistance-for-environmental-concerns/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3664,10 +3664,10 @@ export const services: Service[] = [
     "summary": "The Municipal Health Office provides health services through telephone consultation.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Provision-of-Telemedicine-Consultation-STEPS-CHO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/STEPS-Telemedecine-CHO.pdf"
+      "/forms/Provision-of-Telemedicine-Consultation-STEPS-CHO.pdf",
+      "/forms/STEPS-Telemedecine-CHO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/26/provision-of-telemedicine-consultation/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3683,10 +3683,10 @@ export const services: Service[] = [
     "summary": "The Municipal Health Office provides tuberculosis (TB) diagnostic and at least 6 months monitoring and medication /",
     "fees": "X-ray Fees\nChest APL (Adult): PhP 250.00\nChest APL (Pedia): PhP 150.00\nLaboratory Fees\nSputum Test (Acid Fast Bacilli Stain): PhP 30.00",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Provision-of-Tuberculosis-TB-Screening-Treatment-and-Management-REQUIREMENTS-CHO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Provision-of-Tuberculosis-TB-Screening-Treatment-and-Management-STEPS-CHO.pdf"
+      "/forms/Provision-of-Tuberculosis-TB-Screening-Treatment-and-Management-REQUIREMENTS-CHO.pdf",
+      "/forms/Provision-of-Tuberculosis-TB-Screening-Treatment-and-Management-STEPS-CHO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/26/provision-of-tuberculosis-tb-screening-treatment-and-management/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3702,10 +3702,10 @@ export const services: Service[] = [
     "summary": "The physician employs diagnostic tests (ultrasound, x-ray) to help with proper patient diagnosis and accurate treatment.",
     "fees": "X-ray Fees\nSERVICE Fees\n1. Skeletal Survey 1500\n2. Bilateral Leg APO/L 800\n3. Bilateral Shoulder Joint (Trauma Series) 800\n4. Bilateral Leg APL 500\n5. Bilateral Thigh APL 500\n6. Thoracolumbar Spine APL 450\n7. Bilateral Foot APO/L 400\n8. Bilateral Ankle APL + MORT 400\n9. Bilateral Hand APO/L 400\n10. Leg APOL 400\n11. Bilateral Forearm APL 350\n12. Bilateral Arm APL 350\n13. Abdomen APL (Adult) 250\n14. Abdomen S/U 250\n15. Bilateral Ankle APL 250\n16. Bilateral Elbow Joint APL 250\n17. Bilateral Foot APL 250\n18. Bilateral Hand APO 250\n19. Bilateral Shoulder Joint AP 250\n20. Bilateral Wrist APL 250\n21. Chest APL (Adult) 250\n22. Femur APL 250\n23. Flat Plate Abdomen (Upright/ Supine) 250\n24. Leg APL 250\n25. Mastoid Series 250\n26. Paranasal Sinuses 250\n27. Thigh APL 250\n28. Pelvimetry 250\n29. Ankle APL + Mortise 200\n30. Cervical R/L Obliques 200\n31. Coccyx APL 200\n32. Foot APOL 200\n33. Hand APOL 200\n34. Knee APO/L 200\n35. Lumbar Spine APL 200\n36. Lumbar Spine R&L Obliques 200\n37. Lumbosacral Spine APL 200\n38. Lumbosacral R&L Obliques 200\n39. Sacrum APL 200\n40. Thoracic Spine APL 200\n41. Sacrum APL 200\n42. Abdomen APL (Pedia) 150\n43. Arm APL 150\n44. Cervical APL 150\n45. Chest APL (Pedia) 150\n46. Forearm APL 150\n47. Mandible APO 150\n48. Orbital X-ray 150\n49. Skull APL 150\n50. TMJ APO 150\n51. Abdomen AP 100\n52. Abdomen Decubitus 100\n53. Ankle (Mortise) 100\n54. Ankle APL 100\n55. Chest AP/PA (Adult) 100\n56. Chest Apicolordotic View 100\n57. Chest R/L Lateral Decubitus 100\n58. Chest R/L Lateral 100\n59. Clavicle AP 100\n60. Cross-table Lateral (Hip Joint) 100\n61. Elbow Joint APL 100\n62. Fetogra…",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Provision-of-Ultrasound-and-X-ray-Services-REQUIREMENTS-CHO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Provision-of-Ultrasound-and-X-ray-Services-STEPS-CHO.pdf"
+      "/forms/Provision-of-Ultrasound-and-X-ray-Services-REQUIREMENTS-CHO.pdf",
+      "/forms/Provision-of-Ultrasound-and-X-ray-Services-STEPS-CHO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/26/provision-of-ultrasound-and-x-ray-services/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3721,10 +3721,10 @@ export const services: Service[] = [
     "summary": "The CITY SOCIAL WELFARE AND DEVELOPMENT (CSWDO) issues assessment reports for individuals needing referrals which is a prerequisite in availing financial/medical assistance from…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Referral-for-Financial-Assistance-to-Provincial-Government-of-Bohol-and-DepartSTEPS-CSWDO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Referral-for-Financial-Assistance-to-Provincial-Government-of-Bohol-andREQUIREMENTS-CSWDO.pdf"
+      "/forms/Referral-for-Financial-Assistance-to-Provincial-Government-of-Bohol-and-DepartSTEPS-CSWDO.pdf",
+      "/forms/Referral-for-Financial-Assistance-to-Provincial-Government-of-Bohol-andREQUIREMENTS-CSWDO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/06/01/referral-for-financial-assistance-to-provincial-government-of-bohol-and-department-of-social-welfare-and-development-office-dswd-fo1/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3740,10 +3740,10 @@ export const services: Service[] = [
     "summary": "The Nasudi Center for Women and Children provides temporary shelter and protective custody to disadvantaged and vulnerable individuals and families whose needs could not be adequately met…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Referral-for-Temporary-Shelter-REQUIREMENTS-CSWDO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Referral-for-Temporary-Shelter-STEPS-CSWDO.pdf"
+      "/forms/Referral-for-Temporary-Shelter-REQUIREMENTS-CSWDO.pdf",
+      "/forms/Referral-for-Temporary-Shelter-STEPS-CSWDO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/06/01/referral-for-temporary-shelter/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3759,10 +3759,10 @@ export const services: Service[] = [
     "summary": "The Office of the City Agriculturist registers all fishponds and endorses the fishery license to the City Mayor for his approval.",
     "fees": "Application Fee: PhP 20.00\nRegistration Fee: PhP 50.00\nFisherman’s License (per person): PhP 20.00\nFor fishpond owners: Php 50.00",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Registration-and-Renewal-of-Fishpond-License-REQUIREMENTS-AGR.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Registration-and-Renewal-of-Fishpond-License-STEPS-AGR.pdf"
+      "/forms/Registration-and-Renewal-of-Fishpond-License-REQUIREMENTS-AGR.pdf",
+      "/forms/Registration-and-Renewal-of-Fishpond-License-STEPS-AGR.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/22/registration-and-renewal-of-fishpond-license/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3778,10 +3778,10 @@ export const services: Service[] = [
     "summary": "In case of a court decree/order covering the status of a person, it shall be the duty of the Clerk of Court to advise the successful petitioner to have the decree/order registered in the…",
     "fees": "CHARGEABLE FEES\n● Pursuant to City Tax Ordinance No. 2015-01, Series of 2015\no Court Decree/Order (Registration Fee) P3,000.00\no Certification Fees P500.00\no Documentary Stamp Tax P 30.00\no Legal Residence Fee (UP Law Center P 10.00\no (Adoption, Correction of entry, Declaration of Presumptive Death, etc)",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Registration-of-Court-DecreeOrder-AdoptionRecession-of-Adoption-Annulment-of-Marriage-DeclaSTEPS-REG.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Registration-of-Court-DecreeOrder-AdoptionRecession-of-Adoption-Annulment-of-MarriageREQUIREMENTS-REG.pdf"
+      "/forms/Registration-of-Court-DecreeOrder-AdoptionRecession-of-Adoption-Annulment-of-Marriage-DeclaSTEPS-REG.pdf",
+      "/forms/Registration-of-Court-DecreeOrder-AdoptionRecession-of-Adoption-Annulment-of-MarriageREQUIREMENTS-REG.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/28/registration-of-court-decree-order-adoption-recession-of-adoption-annulment-of-marriage-declaration-of-absolute-nullity-of-marriage-legal-separation-correction-of-entry-civil-interdiction-decla/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3797,10 +3797,10 @@ export const services: Service[] = [
     "summary": "Foundling is a deserted or abandoned infant or child found with parents, guardians, or relatives being unknown or a child committed in an orphanage or similar institution with unknown facts…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Registration-of-Foundling-REQUIREMENTS-REG.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Registration-of-Foundling-STEPS-REG.pdf"
+      "/forms/Registration-of-Foundling-REQUIREMENTS-REG.pdf",
+      "/forms/Registration-of-Foundling-STEPS-REG.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/28/registration-of-foundling/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3816,10 +3816,10 @@ export const services: Service[] = [
     "summary": "As a general rule, all legal instruments shall be registered in the Civil Registry of the place when they were executed except the following:",
     "fees": "CHARGEABLE FEES\n● Pursuant to City Tax Ordinance No. 2015-01, Series of 2015\no Registration Fee–Legal Instrument P 500.00\no Certification Fee P 100.00\no Documentary Stamp Tax P 30.00",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Registration-of-Legal-Instruments-REQUIREMENTS-REG.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Registration-of-Legal-Instruments-STEPS-REG.pdf"
+      "/forms/Registration-of-Legal-Instruments-REQUIREMENTS-REG.pdf",
+      "/forms/Registration-of-Legal-Instruments-STEPS-REG.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/28/registration-of-legal-instruments/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3835,10 +3835,10 @@ export const services: Service[] = [
     "summary": "Document owner of legal age (18 years old or above) or his/her Authorized Representative;",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Registration-of-Live-Birth-Death-Marriage-and-Fetal-Death-REQUIREMENTS-REG.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Registration-of-Live-Birth-Death-Marriage-and-Fetal-Death-STEPS-REG.pdf"
+      "/forms/Registration-of-Live-Birth-Death-Marriage-and-Fetal-Death-REQUIREMENTS-REG.pdf",
+      "/forms/Registration-of-Live-Birth-Death-Marriage-and-Fetal-Death-STEPS-REG.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/28/registration-of-live-birth-death-marriage-and-fetal-death/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3854,10 +3854,10 @@ export const services: Service[] = [
     "summary": "The Office of the City Agriculturist registers, issues body numbers to all motorized and non-motorized fishing boats, and endorses the fishery license to the City Mayor for his approval.",
     "fees": "Application Fee: PhP 20.00\nRegistration Fee: PhP 50.00\nFisherman’s License (per person): PhP 20.00\nFor Motorized banca: PhP 300.00\nFor Non-motorized banca: PhP 150.00",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Registration-of-New-Fishing-Boat-REQUIREMENTS-AGR.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Registration-of-New-Fishing-Boat-STEPS-AGR.pdf"
+      "/forms/Registration-of-New-Fishing-Boat-REQUIREMENTS-AGR.pdf",
+      "/forms/Registration-of-New-Fishing-Boat-STEPS-AGR.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/22/registration-of-new-fishing-boat/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3873,10 +3873,10 @@ export const services: Service[] = [
     "summary": "The Office of the City Agriculturist shall facilitate the renewal of all registered fishing boats and endorse the fishery license to the City Mayor for approval.",
     "fees": "Application Fee: PhP 20.00\nRegistration Fee: PhP 50.00\nFisherman’s License (per person): PhP 20.00\nFor Motorized banca: PhP 300.00\nFor Non-motorized banca: PhP 150.00",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Renewal-of-Fishing-Boat-License-REQUIREMENTS-AGR.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Renewal-of-Fishing-Boat-License-STEPS-AGR.pdf"
+      "/forms/Renewal-of-Fishing-Boat-License-REQUIREMENTS-AGR.pdf",
+      "/forms/Renewal-of-Fishing-Boat-License-STEPS-AGR.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/22/renewal-of-fishing-boat-license/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3892,10 +3892,10 @@ export const services: Service[] = [
     "summary": "Interested residents of the Municipality of Inabanga",
     "fees": "Chairs -Php10/day/unit\nTables – Php50/day/unit\nAir Coolers – Php300/day/unit\nWater Delivery Fee – Php300/cu.m.\nChainsaw – Php2,500/unit/day\nTricycle – Php500/8hrs.\nGrass Cutter – Php300/4hrs.\nWelding Machine – Php100/hr",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Rental-of-other-City-Equipment-and-Materials-REQUIREMENTS-GSO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Rental-of-other-City-Equipment-and-Materials-STEPS-GSO.pdf"
+      "/forms/Rental-of-other-City-Equipment-and-Materials-REQUIREMENTS-GSO.pdf",
+      "/forms/Rental-of-other-City-Equipment-and-Materials-STEPS-GSO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/25/rental-of-other-city-equipment-and-materials/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3911,10 +3911,10 @@ export const services: Service[] = [
     "summary": "The Office of the City Agriculturist replaces identification cards to all the farmers of the city who lost their identification cards.",
     "fees": "Total Prescribed Fees (including the Php 30.00 documentary stamp): PhP 90.00",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Replacement-of-Identification-Card-REQUIREMENTS-AGR.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Replacement-of-Identification-Card-STEPS-AGR.pdf"
+      "/forms/Replacement-of-Identification-Card-REQUIREMENTS-AGR.pdf",
+      "/forms/Replacement-of-Identification-Card-STEPS-AGR.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/22/replacement-of-identification-card/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3930,10 +3930,10 @@ export const services: Service[] = [
     "summary": "The OSM is in-charge of the reports production and management of the Seal of Good Local Governance (SGLG), State of the Children Address (SOCHA), Seal of Good Education Governance (SGEG),…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Reports-Production-and-Management-REQUIREMENTS-OSM.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Reports-Production-and-Management-STEPS-OSM.pdf"
+      "/forms/Reports-Production-and-Management-REQUIREMENTS-OSM.pdf",
+      "/forms/Reports-Production-and-Management-STEPS-OSM.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/27/reports-production-and-management/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3949,10 +3949,10 @@ export const services: Service[] = [
     "summary": "The Municipal Government accepts On-the-Job Training and Work Immersion Students for a fixed period of time through the execution of a memorandum of agreement for which a resolution of authority…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Request-for-Accommodation-of-On-The-Job-Training-and-Work-Immersion-Students-REQUIREMENTS-HRMO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Request-for-Accommodation-of-On-The-Job-Training-and-Work-Immersion-Students-STEPS-HRMO.pdf"
+      "/forms/Request-for-Accommodation-of-On-The-Job-Training-and-Work-Immersion-Students-REQUIREMENTS-HRMO.pdf",
+      "/forms/Request-for-Accommodation-of-On-The-Job-Training-and-Work-Immersion-Students-STEPS-HRMO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/25/request-for-accommodation-of-on-the-job-training-and-work-immersion/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3968,10 +3968,10 @@ export const services: Service[] = [
     "summary": "The City Disaster Risk Reduction Management Office aims to provide quality service in all thematic areas of DRRM: Prevention and Mitigation, Preparedness, Response and Rehabilitation and…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Request-For-Closed-Circuit-Television-CCTV-Copy-REQUIREMENTS-CDRRMO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Request-For-Closed-Circuit-Television-CCTV-Copy-STEPS-CDRRMO.pdf"
+      "/forms/Request-For-Closed-Circuit-Television-CCTV-Copy-REQUIREMENTS-CDRRMO.pdf",
+      "/forms/Request-For-Closed-Circuit-Television-CCTV-Copy-STEPS-CDRRMO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/23/issuance-of-certification-of-availability-of-appropriation-and-processing-of-obligation-request-copy/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3987,10 +3987,10 @@ export const services: Service[] = [
     "summary": "The City Disaster Risk Reduction Management Office aims to provide quality service in all thematic areas of DRRM: Prevention and Mitigation, Preparedness, Response and Rehabilitation and…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Request-For-Documents-for-Research-Studies-Reports-REQUIREMENTS-CDRRMO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Request-For-Documents-for-Research-Studies-Reports-STEPS-CDRRMO.pdf"
+      "/forms/Request-For-Documents-for-Research-Studies-Reports-REQUIREMENTS-CDRRMO.pdf",
+      "/forms/Request-For-Documents-for-Research-Studies-Reports-STEPS-CDRRMO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/23/request-for-documents-for-research-studies-reports/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -4006,10 +4006,10 @@ export const services: Service[] = [
     "summary": "The City Disaster Risk Reduction Management Office aims to provide quality service in all thematic areas of DRRM: Prevention and Mitigation, Preparedness, Response and Rehabilitation and…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Request-For-DRRM-Related-Training-And-Activities-REQUIREMENTS-CDRRMO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Request-For-DRRM-Related-Training-And-Activities-STEPS-CDRRMO.pdf"
+      "/forms/Request-For-DRRM-Related-Training-And-Activities-REQUIREMENTS-CDRRMO.pdf",
+      "/forms/Request-For-DRRM-Related-Training-And-Activities-STEPS-CDRRMO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/23/request-for-drrm-related-training-and-activities/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -4025,10 +4025,10 @@ export const services: Service[] = [
     "summary": "The City Disaster Risk Reduction Management Office aims to provide quality service in all thematic areas of DRRM: Prevention and Mitigation, Preparedness, Response and Rehabilitation and…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Request-for-Manpower-Augmentation-during-Special-Events-CLIENT-STEPS-CDRRMO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Request-for-Manpower-Augmentation-during-Special-Events-REQUIREMENTS-CDRRMO.pdf"
+      "/forms/Request-for-Manpower-Augmentation-during-Special-Events-CLIENT-STEPS-CDRRMO.pdf",
+      "/forms/Request-for-Manpower-Augmentation-during-Special-Events-REQUIREMENTS-CDRRMO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/23/request-for-manpower-augmentation-during-special-events/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -4044,10 +4044,10 @@ export const services: Service[] = [
     "summary": "Prior to the filling up of vacant positions, a request for personnel duly approved by the City Mayor/City Vice Mayor has to be filed.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Request-for-Personnel-REQUIREMENTS-HRMO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Request-for-Personnel-STEPS-HRMO.pdf"
+      "/forms/Request-for-Personnel-REQUIREMENTS-HRMO.pdf",
+      "/forms/Request-for-Personnel-STEPS-HRMO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/25/request-for-personnel/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -4063,10 +4063,10 @@ export const services: Service[] = [
     "summary": "The City Disaster Risk Reduction Management Office aims to provide quality service in all thematic areas of DRRM: Prevention and Mitigation, Preparedness, Response and Rehabilitation and…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Request-for-Pruning-of-Trees-REQUIREMENTS-CDRRMO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Request-for-Pruning-of-Trees-STEPS-CDRRMO.pdf"
+      "/forms/Request-for-Pruning-of-Trees-REQUIREMENTS-CDRRMO.pdf",
+      "/forms/Request-for-Pruning-of-Trees-STEPS-CDRRMO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/23/request-for-pruning-of-trees/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -4082,10 +4082,10 @@ export const services: Service[] = [
     "summary": "The Office of the City General Services Officer is in charge in the issuance of commonly used supplies to all Offices/Departments of the City and its external partners.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Requisition-and-Issuance-of-Commonly-Used-Supplies-REQUIREMENTS-GSO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Requisition-and-Issuance-of-Commonly-Used-Supplies-STEPS-GSO.pdf"
+      "/forms/Requisition-and-Issuance-of-Commonly-Used-Supplies-REQUIREMENTS-GSO.pdf",
+      "/forms/Requisition-and-Issuance-of-Commonly-Used-Supplies-STEPS-GSO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/25/requisition-and-issuance-of-commonly-used-supplies/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -4101,10 +4101,10 @@ export const services: Service[] = [
     "summary": "All city drivers assigned drive on official business any vehicles owned by the Municipal Government of Inabanga",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Requisition-for-Petroleum-Oil-and-Lubricants-POL-REQUIREMENTS-GSO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Requisition-for-Petroleum-Oil-and-Lubricants-POL-STEPS-GSO.pdf"
+      "/forms/Requisition-for-Petroleum-Oil-and-Lubricants-POL-REQUIREMENTS-GSO.pdf",
+      "/forms/Requisition-for-Petroleum-Oil-and-Lubricants-POL-STEPS-GSO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/25/requisition-for-petroleum-oil-and-lubricants-pol/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -4120,10 +4120,10 @@ export const services: Service[] = [
     "summary": "The Office of City General Services Officer assists in the retrieval of borrowed events logistics.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Retrieval-of-Borrowed-Events-Logistics-REQUIREMENTS-GSO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Retrieval-of-Borrowed-Events-Logistics-STEPS-GSO.pdf"
+      "/forms/Retrieval-of-Borrowed-Events-Logistics-REQUIREMENTS-GSO.pdf",
+      "/forms/Retrieval-of-Borrowed-Events-Logistics-STEPS-GSO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/25/retrieval-of-borrowed-events-logistics/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -4139,10 +4139,10 @@ export const services: Service[] = [
     "summary": "The Office of the City General Services Officer is in charge in the retrieval of rented/borrowed City’s equipment and materials.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Retrieval-of-RentedBorrowed-City-Equipment-and-Materials-REQUIREMENTS-GSO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Retrieval-of-RentedBorrowed-City-Equipment-and-Materials-STEPS-GSO.pdf"
+      "/forms/Retrieval-of-RentedBorrowed-City-Equipment-and-Materials-REQUIREMENTS-GSO.pdf",
+      "/forms/Retrieval-of-RentedBorrowed-City-Equipment-and-Materials-STEPS-GSO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/25/retrieval-of-rented-borrowed-city-equipment-and-materials-2/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -4158,10 +4158,10 @@ export const services: Service[] = [
     "summary": "The law provides that the Sangguniang Bayan shall authorize expenditures in the barangays as well ensure that regulatory, supervisory and management controls/measures in the barangay…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Review-of-Barangay-Ordinances-REQUIREMENTS-OSSP.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Review-of-Barangay-Ordinances-STEPS-OSSP.pdf"
+      "/forms/Review-of-Barangay-Ordinances-REQUIREMENTS-OSSP.pdf",
+      "/forms/Review-of-Barangay-Ordinances-STEPS-OSSP.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/27/review-of-barangay-ordinances/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -4177,10 +4177,10 @@ export const services: Service[] = [
     "summary": "One of the duties and functions of the Municipal Legal Officer is to review ordinances, contracts, bonds, lease and other instruments involving any interest of the City when required by the City…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Review-of-Legal-Documents-REQUIREMENTS-CLO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Review-of-Legal-Documents-STEPS-CLO.pdf"
+      "/forms/Review-of-Legal-Documents-REQUIREMENTS-CLO.pdf",
+      "/forms/Review-of-Legal-Documents-STEPS-CLO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/23/review-of-legal-documents/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -4196,10 +4196,10 @@ export const services: Service[] = [
     "summary": "The CITY SOCIAL WELFARE AND DEVELOPMENT OFFICE (CSWDO) provides organizational services and orientation for the formation and strengthening of Persons with Disabilities.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Samahan-ng-may-Kapansanan-Inabanga-Bohol-SMKCSFLU-REQUIREMENTS-CSWDO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Samahan-ng-may-Kapansanan-Inabanga-Bohol-SMKCSFLU-STEPS-CSWDO.pdf"
+      "/forms/Samahan-ng-may-Kapansanan-Inabanga-Bohol-SMKCSFLU-REQUIREMENTS-CSWDO.pdf",
+      "/forms/Samahan-ng-may-Kapansanan-Inabanga-Bohol-SMKCSFLU-STEPS-CSWDO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/06/01/samahan-ng-may-kapansanan-inabanga-bohol-smkinabanga/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -4215,10 +4215,10 @@ export const services: Service[] = [
     "summary": "In line with Article III, Section 458 of Republic Act No.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Scholarship-Program-REQUIREMENTS-OCVM.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Scholarship-Program-STEPS-OCVM.pdf"
+      "/forms/Scholarship-Program-REQUIREMENTS-OCVM.pdf",
+      "/forms/Scholarship-Program-STEPS-OCVM.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/27/scholarship-program/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -4234,10 +4234,10 @@ export const services: Service[] = [
     "summary": "Scholarship Program (CITY ORDINANCE) at the Office of the Municipal Mayor.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Scholarship-Program-CITY-ORDINANCE-REQUIREMENTS-OCM.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Scholarship-Program-CITY-ORDINANCE-STEPS-OCM.pdf"
+      "/forms/Scholarship-Program-CITY-ORDINANCE-REQUIREMENTS-OCM.pdf",
+      "/forms/Scholarship-Program-CITY-ORDINANCE-STEPS-OCM.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/28/scholarship-program-city-ordinance/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -4253,10 +4253,10 @@ export const services: Service[] = [
     "summary": "Indigent high school and college students residing in the Municipality of Inabanga for at least 1 year may apply for the scholarship program.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Scholarship-Program-SIRIB-and-SIGLAT-REQUIREMENTS-OCM.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Scholarship-Program-SIRIB-and-SIGLAT-STEPS-OCM.pdf"
+      "/forms/Scholarship-Program-SIRIB-and-SIGLAT-REQUIREMENTS-OCM.pdf",
+      "/forms/Scholarship-Program-SIRIB-and-SIGLAT-STEPS-OCM.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/28/scholarship-program-sirib-and-siglat/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -4272,10 +4272,10 @@ export const services: Service[] = [
     "summary": "The Municipal Health Office through its Social Hygiene Clinic offers diagnostic and curative management of Sexually Transmitted Infections (STIs) and Human Immunodeficiency Virus/Acquired Immune…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Screening-of-Human-Immunodeficiency-VirusAcquired-Immune-Deficiency-Syndrome-HIV-AIDS-REQUIREMENTS-CHO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Screening-of-Human-Immunodeficiency-VirusAcquired-Immune-Deficiency-Syndrome-HIV-AIDS-STEPS-CHO.pdf"
+      "/forms/Screening-of-Human-Immunodeficiency-VirusAcquired-Immune-Deficiency-Syndrome-HIV-AIDS-REQUIREMENTS-CHO.pdf",
+      "/forms/Screening-of-Human-Immunodeficiency-VirusAcquired-Immune-Deficiency-Syndrome-HIV-AIDS-STEPS-CHO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/26/screening-of-human-immunodeficiency-virus-acquired-immune-deficiency-syndrome-hiv-aids/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -4291,10 +4291,10 @@ export const services: Service[] = [
     "summary": "Task Force Sagip Karagatan is the Coastal Law Enforcement Coordinating Agency on anti-illegal fishing activity in the Municipality of Inabanga in accordance with the City Ordinance No.",
     "fees": "Coastal Resource Management and Fisheries Code of 2010 (See Annex)",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Seaborne-Patrol-Operation-Through-the-Task-Force-Sagip-Karagatan-REQUIREMENTS-AGR.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Seaborne-Patrol-Operation-Through-the-Task-Force-Sagip-Karagatan-STEPS-AGR.pdf"
+      "/forms/Seaborne-Patrol-Operation-Through-the-Task-Force-Sagip-Karagatan-REQUIREMENTS-AGR.pdf",
+      "/forms/Seaborne-Patrol-Operation-Through-the-Task-Force-Sagip-Karagatan-STEPS-AGR.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/22/seaborne-patrol-operation-through-the-task-force-sagip-karagatan/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -4310,10 +4310,10 @@ export const services: Service[] = [
     "summary": "Residential, commercial, institutions/malls, and industrial establishments",
     "fees": "Free Service\nRegular desludging/pumping annual fees set for five (5) years:\nTYPE OF BLDG.\nANNUAL FEE\n(Real property tax payers)\nTOTAL SERVICE FEE\n(Non-real property tax payers)\nResidential\nPhp 600.00\nPhp3,000.00\nCommercial Establishments\nPhp1,000.00\nPhp5,000.00\nMalls & Institutions\nPhp1,500.00\nPhp7,500.00\nIndustrial\nPhp2,000.00\nPhp10,000.00\n*The above fees are only applicable for one (1) truck load (maximum of five (5) cubic meters only; regardless of the size of septic tank). Any excess of volume will be calculated accordingly.\nOut-of-Schedule/emergency desludging/pumping fees:\nTYPE OF BLDG.\nEMERGENCY FEE\n(Real and non-real property tax payers)\nResidential\nPhp 800.00\nCommercial Establishments\nPhp3,500.00\nMalls & Institutions\nPhp3,500.00\nIndustrial\nPhp3,500.00",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Septic-TankOther-Similar-Facilities-Desludging-Services-Request-REQUIREMENTS-CENRO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Septic-TankOther-Similar-Facilities-Desludging-Services-Request-STEPS-CENRO.pdf"
+      "/forms/Septic-TankOther-Similar-Facilities-Desludging-Services-Request-REQUIREMENTS-CENRO.pdf",
+      "/forms/Septic-TankOther-Similar-Facilities-Desludging-Services-Request-STEPS-CENRO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/23/plantation-design-and-management-project-plan-copy/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -4329,10 +4329,10 @@ export const services: Service[] = [
     "summary": "The Office for Public Safety spearhead in the implementation of traffic Ordinances and other local issuances related to public safety.",
     "fees": "A. VIOLATION IN CONNECTION WITH LICENSES\nMTC\nOTHERS\n1. Driving without a license\n1,000.00\n750.\n2. Driving with a delinquent, invalid, suspended,\nineffectual, improper or revoked license\n1,000.00\n300.00\n3. Failure to show license\n500.00\n150.00\n4. Failure to carry driver’s license\n500.00\n150.00\n5. Driving while under the influence of liquor or\nprohibited drugs or mere alcoholic breath after\nverification at the ITRMC and upon certification of the attending physician\n2,000.00\n2,000.00\n6. Allowing an unlicensed or improperly licensed person to drive\n1,000.00\n750.00\n7. Allowing another person to use his/ her license\n1,000.00\n500.00\n8. Using a motor vehicle in the commission of a crime\n1,500.00\n1,500.00\n9. A student driver operating a motor vehicle without being accompanied by a licensed driver\n200.00\n200.00\n10. Unlicensed conductor\n300.00\nB. VIOLATIONS IN CONNECTION WITH MOTOR VEHICLE\nREGISTRATION\nMTC\nOTHERS\n1. Unregistered/ improperly registered/ delinquent\nor invalid registration\n1,000.00\n900.00\n2. Unregistered substitute or replacement engine,\nengine block or chassis, change color, change\nbody or configuration. In addition, motor vehicle\nshall be properly impounded until such parts are\nproperly registered.\n1,000.00\n500.00\n3. Certificate of registration and official receipt\nnot carried (original or photocopies)\n1,000.00\n150.00\n4. Operating/allowing the operation of a motor\nvehicle with a suspended/revoked certificate\nof registration\n1,000.00\n450.00\n5. Tourist operating a non-Philippine registered\nvehicle beyond the 90-day period\n1,500.00\n6. Driving with fake tricycle registrati…",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Settlement-of-Traffic-Violation-REQUIREMENTS-OPS.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Settlement-of-Traffic-Violation-STEPS-OPS.pdf"
+      "/forms/Settlement-of-Traffic-Violation-REQUIREMENTS-OPS.pdf",
+      "/forms/Settlement-of-Traffic-Violation-STEPS-OPS.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/27/settlement-of-traffic-violation/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -4348,10 +4348,10 @@ export const services: Service[] = [
     "summary": "The Office for Public Safety implements City Ordinances on anti- smoking, anti- spitting, anti-defecating in public places, anti- littering and other issuances related to peace, order and…",
     "fees": "CITY ORDINANCES\nPENALTY\n1. CO No. 2008-002\n-Prohibiting owners, operators, proprietors and managers of all business establishments from using streets and sidewalks in the City as exclusive parking areas.\n2,000.00\n2. CO No. 2008-009\n-Ordinance regulating the use of streets and sidewalks\n1,000.00\n3. CO No. 2020-04\n-Mandatory use of facemask and practice of social distancing\n1,000.00\n4. CO No 2015-01\n-CCTV Installation Ordinance 2015\n5,000.00\n5. CO No. 2019-08\n-Drag racing ordinance of the Municipality of Inabanga, Bohol\n5,000.00\n6. CO No. 2020-13\n-Quarantine fare matrix for tricycles for hire in the Municipality of Inabanga\n500.00\n7. CO No 2020-16\n-Mandatory use of faceshield\n500.00",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Settlement-of-Violation-of-other-City-Ordinances-and-Local-Issuances-related-to-Public-Safety-REQUIREMENTS-OPS.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Settlement-of-Violation-of-other-City-Ordinances-and-Local-Issuances-related-to-Public-Safety-STEPS-OPS.pdf"
+      "/forms/Settlement-of-Violation-of-other-City-Ordinances-and-Local-Issuances-related-to-Public-Safety-REQUIREMENTS-OPS.pdf",
+      "/forms/Settlement-of-Violation-of-other-City-Ordinances-and-Local-Issuances-related-to-Public-Safety-STEPS-OPS.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/27/settlement-of-violation-of-other-city-ordinances-and-local-issuance-related-to-public-safety/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -4367,10 +4367,10 @@ export const services: Service[] = [
     "summary": "Settlement of Violations on Illegal Use of Streets and Sidewalks in the Municipality of Inabanga at the Office for Public Safety.",
     "fees": "Fees: PhP 1,000.00",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Settlement-of-Violations-on-Illegal-Use-of-Streets-and-Sidewalks-in-the-Municipality-of-Inabanga-REQUIREMENTS-OPS.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Settlement-of-Violations-on-Illegal-Use-of-Streets-and-Sidewalks-in-the-Municipality-of-Inabanga-STEPS-OPS.pdf"
+      "/forms/Settlement-of-Violations-on-Illegal-Use-of-Streets-and-Sidewalks-in-the-Municipality-of-Inabanga-REQUIREMENTS-OPS.pdf",
+      "/forms/Settlement-of-Violations-on-Illegal-Use-of-Streets-and-Sidewalks-in-the-Municipality-of-Inabanga-STEPS-OPS.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/27/settlement-of-violations-on-illegal-use-of-streets-and-sidewalks-in-the-municipality-of-inabanga/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -4386,10 +4386,10 @@ export const services: Service[] = [
     "summary": "This program is intended to help poor but deserving students pursue their education by means of a temporary employment during summer vacation.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Special-Program-for-the-Employment-of-Students-SPES-REQUIREMENTS-PESO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Special-Program-for-the-Employment-of-Students-SPES-STEPS-PESO.pdf"
+      "/forms/Special-Program-for-the-Employment-of-Students-SPES-REQUIREMENTS-PESO.pdf",
+      "/forms/Special-Program-for-the-Employment-of-Students-SPES-STEPS-PESO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/28/special-program-for-the-employment-of-students-spes/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -4405,10 +4405,10 @@ export const services: Service[] = [
     "summary": "Submission of Entries to award-giving entities like Galing Pook, DAP Government Best Practices Recognition (GBPR), etc.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Submission-of-Best-Practices-REQUIREMENTS-OSM.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Submission-of-Best-Practices-STEPS-OSM.pdf"
+      "/forms/Submission-of-Best-Practices-REQUIREMENTS-OSM.pdf",
+      "/forms/Submission-of-Best-Practices-STEPS-OSM.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/27/submission-of-best-practices/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -4424,10 +4424,10 @@ export const services: Service[] = [
     "summary": "Provide necessary technical assistance and support to various City Departments and Offices.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Technical-Assistance-and-Support-REQUIREMENTS-CICTO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Technical-Assistance-and-Support-STEPS-CICTO.pdf"
+      "/forms/Technical-Assistance-and-Support-REQUIREMENTS-CICTO.pdf",
+      "/forms/Technical-Assistance-and-Support-STEPS-CICTO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/23/technical-assistance-and-support/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -4443,10 +4443,10 @@ export const services: Service[] = [
     "summary": "All those who are interested in agriculture and aquaculture",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Technical-Consultation-Services-REQUIREMENTS-AGR.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Technical-Consultation-Services-STEPS-AGR.pdf"
+      "/forms/Technical-Consultation-Services-REQUIREMENTS-AGR.pdf",
+      "/forms/Technical-Consultation-Services-STEPS-AGR.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/21/technical-consultation-services-2/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -4462,10 +4462,10 @@ export const services: Service[] = [
     "summary": "The Inabanga Teen Center aims to complement and reinforce the role of schools in equipping and empowering students.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Teen-Center-Services-REQUIREMENTS-LYDO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Teen-Center-Services-STEPS-LYDO.pdf"
+      "/forms/Teen-Center-Services-REQUIREMENTS-LYDO.pdf",
+      "/forms/Teen-Center-Services-STEPS-LYDO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/27/teen-center-services/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -4481,10 +4481,10 @@ export const services: Service[] = [
     "summary": "The Office of the City Agriculturist or authorized personnel shall issue auxiliary invoice to all fish vendors, fishermen, shell vendors, and seaweed vendors who wish to transport fishes or…",
     "fees": "High value fishes (tuna, talakitok, snapper, lapu- lapu, blue marlin, tanguigui, prawns, lobster, shrimps, crabs, squid (white): PhP 20.00 per 40kgs or 1 banyera\nOther fishes (bangus, tuna, bisugo, sapsap, snapper, anchovy, tilapia, hito, etc): PhP 20.00 per 40 kgs or 1 banyera\nSeaweeds: PhP 10.00 per sack\nShells: PhP 10.00 per sack (small) or 2 kerosene cans\nSea Urchin: PhP 15.00 per sack",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Transportation-of-Sea-Products-to-Other-CitiesMunicipalities-REQUIREMENTS-AGR.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Transportation-of-Sea-Products-to-Other-CitiesMunicipalities-STEPS-AGR.pdf"
+      "/forms/Transportation-of-Sea-Products-to-Other-CitiesMunicipalities-REQUIREMENTS-AGR.pdf",
+      "/forms/Transportation-of-Sea-Products-to-Other-CitiesMunicipalities-STEPS-AGR.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/22/transportation-of-sea-products-to-other-cities-municipalities/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -4500,10 +4500,10 @@ export const services: Service[] = [
     "summary": "All Departments/Offices of the Municipal Government",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Transportation-Services-REQUIREMENTS-GSO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Transportation-Services-STEPS-GSO.pdf"
+      "/forms/Transportation-Services-REQUIREMENTS-GSO.pdf",
+      "/forms/Transportation-Services-STEPS-GSO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/25/transportation-services/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -4519,10 +4519,10 @@ export const services: Service[] = [
     "summary": "The Municipal Health Office provides examination and diagnosis to prevent and control communicable diseases and reporting to the City Epidemiologic Surveillance Unit to the Department of Health…",
     "fees": "Laboratory test Non-Philhealth Konsulta Package beneficiaries Philhealth Konsulta Package beneficiaries\nFecalysis for regular patient 30.00 free\nFecalysis for food handlers 30.00\nFecal Occult Blood Test (for Philhealth Enlisted patients) free\nUrinalysis 40.00 free\nSputum test (Acid Fast Bacilli Stain)- for health card applicants 30.00\nNS1 antigen duo (Dengue test kit) free\nBlood typing 20.00\nCBC/ Platelet 100.00 free\nVaginal/ urethral smear 50.00\nBlood chemistry\nFasting Blood Sugar 100.00 free\nCholesterol 100.00 free\nTriglyceride 100.00 free\nHDL 100.00 free\nUric acid 100.00\nUrea nitrogen 100.00\nCreatinine 100.00 free\nSerum Glutamic-oxaloacetic Transaminase 100.00\nSerum Glutamic Pyruvic Transaminase 100.00\nHbA1c (hemoglobin glycated) free free\nOGTT free free",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Treatment-of-Communicable-andor-Notifiable-Diseases-REQUIREMENTS-CHO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Treatment-of-Communicable-andor-Notifiable-Diseases-STEPS-CHO.pdf"
+      "/forms/Treatment-of-Communicable-andor-Notifiable-Diseases-REQUIREMENTS-CHO.pdf",
+      "/forms/Treatment-of-Communicable-andor-Notifiable-Diseases-STEPS-CHO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/26/treatment-of-communicable-and-or-notifiable-diseases/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -4538,10 +4538,10 @@ export const services: Service[] = [
     "summary": "Management of ICT hardware devices and peripherals officially used in the municipal government.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Troubleshooting-and-Repair-of-ICT-Hardware-Devices-REQUIREMENTS-CICTO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Troubleshooting-and-Repair-of-ICT-Hardware-Devices-STEPS-CICTO.pdf"
+      "/forms/Troubleshooting-and-Repair-of-ICT-Hardware-Devices-REQUIREMENTS-CICTO.pdf",
+      "/forms/Troubleshooting-and-Repair-of-ICT-Hardware-Devices-STEPS-CICTO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/23/environmental-issues-pollution-complaint-copy/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -4557,10 +4557,10 @@ export const services: Service[] = [
     "summary": "The Office of the Municipal Veterinarian provides free consultation and treatment to companion and farm animals.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Veterinary-Consultation-and-Treatment-REQUIREMENTS-VET.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Veterinary-Consultation-and-Treatment-STEPS-VET.pdf"
+      "/forms/Veterinary-Consultation-and-Treatment-REQUIREMENTS-VET.pdf",
+      "/forms/Veterinary-Consultation-and-Treatment-STEPS-VET.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/28/veterinary-consultation-and-treatment/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -4576,10 +4576,10 @@ export const services: Service[] = [
     "summary": "The Office of the Municipal Veterinarian provides Animal Health Services such as deworming, vitamin supplementation, castration and vaccination against:",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Vitamin-Supplementation-Vaccination-Deworming-and-Castration-Services-REQUIREMENTS-VET.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Vitamin-Supplementation-Vaccination-Deworming-and-Castration-Services-STEPS-VET.pdf"
+      "/forms/Vitamin-Supplementation-Vaccination-Deworming-and-Castration-Services-REQUIREMENTS-VET.pdf",
+      "/forms/Vitamin-Supplementation-Vaccination-Deworming-and-Castration-Services-STEPS-VET.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/28/vitamin-supplementation-vaccination-deworming-and-castration-services/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -4595,10 +4595,10 @@ export const services: Service[] = [
     "summary": "To involve more youth and promote equal and easy access to an array of project, programs, and activities for the youth that will enable them to develop and acquire more skills and enable…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Youth-Organization-and-Youth-Serving-Organization-Registration-REQUIREMENTS-LYDO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Youth-Organization-and-Youth-Serving-Organization-Registration-STEPS-LYDO.pdf"
+      "/forms/Youth-Organization-and-Youth-Serving-Organization-Registration-REQUIREMENTS-LYDO.pdf",
+      "/forms/Youth-Organization-and-Youth-Serving-Organization-Registration-STEPS-LYDO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/27/youth-organization-and-youth-serving-organization-registration/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-21"
   },
   {
@@ -4614,9 +4614,9 @@ export const services: Service[] = [
     "summary": "Request GAD-related data from the Gender and Development Office.",
     "fees": "NO FEES TO BE PAID.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2025/05/Provision-of-GAD-related-Data-Requirement.pdf"
+      "/forms/Provision-of-GAD-related-Data-Requirement.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/2025/05/20/provision-of-gad-related-data/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-24",
     "dataNote": "The detail page uses generic GAD text, and its steps attachment is titled for gender-sensitivity training. Only the requirements PDF is linked here; confirm the process with the GAD Office."
   },
@@ -4633,10 +4633,10 @@ export const services: Service[] = [
     "summary": "Ask the Gender and Development Office about gender-sensitivity training.",
     "fees": "NO FEES TO BE PAID.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2025/05/Provision-of-Gender-Sensitivity-Training-Requirements.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2025/05/Provision-of-Gender-Sensitivity-Training-Steps.pdf"
+      "/forms/Provision-of-Gender-Sensitivity-Training-Requirements.pdf",
+      "/forms/Provision-of-Gender-Sensitivity-Training-Steps.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/2025/05/20/provision-of-gender-sensitivity-training/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-24",
     "dataNote": "The detail page does not describe the training itself. Confirm scope and scheduling with the GAD Office before relying on the linked steps."
   },
@@ -4653,10 +4653,10 @@ export const services: Service[] = [
     "summary": "Contact the Gender and Development Office for referrals about women’s rights concerns.",
     "fees": "NO FEES TO BE PAID.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2025/05/Referral-to-Service-Providers-regarding-Concerns-on-Womens-Rights-Requirements.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2025/05/Referral-to-Service-Providers-regarding-Concerns-on-Womens-Rights-Steps.pdf"
+      "/forms/Referral-to-Service-Providers-regarding-Concerns-on-Womens-Rights-Requirements.pdf",
+      "/forms/Referral-to-Service-Providers-regarding-Concerns-on-Womens-Rights-Steps.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/2025/05/26/referral-to-service-providers-regarding-concerns-on-womens-rights/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-24",
     "dataNote": "The detail page does not explain the referral pathway. Confirm available providers and eligibility with the GAD Office."
   },
@@ -4673,10 +4673,10 @@ export const services: Service[] = [
     "summary": "Request repair of a city-issued vehicle or heavy equipment through the Office of the Municipal Engineer.",
     "fees": "NO FEES TO BE PAID.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/10/Untitled19.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/10/Untitled20.pdf"
+      "/forms/Untitled19.pdf",
+      "/forms/Untitled20.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/2024/10/04/repair-of-city-vehicles-and-heavy-equipment/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-24"
   },
   {
@@ -4692,10 +4692,10 @@ export const services: Service[] = [
     "summary": "Request help preparing a program of work and detailed estimate for an infrastructure project.",
     "fees": "NO FEES TO BE PAID.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/10/Untitled17.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/10/Untitled18.pdf"
+      "/forms/Untitled17.pdf",
+      "/forms/Untitled18.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/2024/10/04/preparation-of-individual-program-of-works/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-24"
   },
   {
@@ -4711,10 +4711,10 @@ export const services: Service[] = [
     "summary": "Request the required inspection report for a motorized tricycle for hire.",
     "fees": "Fee not reliably stated on the charter page; confirm any applicable fee with the Office of the Municipal Engineer.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/10/Untitled1.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/10/Untitled2.pdf"
+      "/forms/Untitled1.pdf",
+      "/forms/Untitled2.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/2024/09/27/issuance-of-motorized-tricycle-inspection-report-for-permit-to-operate-and-franchise/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-24",
     "dataNote": "The charter page shows building occupancy fees alongside this service. Those fees do not appear to apply to tricycle inspection."
   },
@@ -4731,10 +4731,10 @@ export const services: Service[] = [
     "summary": "Request a real-property-related certification from the Office of the Municipal Assessor.",
     "fees": "Certification fee: PhP 90.00 per certification.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Issuance-of-Real-Property-Related-Certifications-REQUIREMENTS-OCA.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/STEPS-Issuance-of-Real-Property-Related-Certifications-OCA.pdf"
+      "/forms/Issuance-of-Real-Property-Related-Certifications-REQUIREMENTS-OCA.pdf",
+      "/forms/STEPS-Issuance-of-Real-Property-Related-Certifications-OCA.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/2024/05/27/issuance-of-real-property-related-certifications/",
+    "sourceUrl": "https://inabanga.gov.ph/citizens-charter",
     "lastVerified": "2026-10-24"
   }
 ];

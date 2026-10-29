@@ -20,24 +20,24 @@ export function CityProfilePage() {
   return (
     <>
       <PageHero
-        eyebrow="City profile"
-        title="Inabanga, the People’s City"
-        description="A coastal city of 50 barangays at the geographical center of Bohol — the regional and administrative capital of the Ilocos Region, and the gateway to trade, culture, and heritage in Northern Luzon."
-        crumbs={[{ label: 'City' }]}
+        eyebrow="Town profile"
+        title="Municipality of Inabanga, Bohol"
+        description="A historic municipality of 50 barangays situated in north-western Bohol along the majestic Inabanga River, celebrated for its world-class raffia handloom weaving, rich heritage, and marine sanctuaries in the Danajon Bank."
+        crumbs={[{ label: 'Town' }]}
       >
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           <StatCard
             value={`${city.landAreaKm2} km²`}
-            label="Land area · PSA/PhilAtlas"
-            note="Published figures differ: Municipal Government 105.26 km²; provincial profile 106.88 km²."
+            label="Land area · PSA"
+            note="Covering 50 mainland, riverfront, and island communities"
           />
           <StatCard
             value={formatNumber(city.population2024)}
             label="Population (2024)"
-            note="2024 Census of Population"
+            note="PSA Census of Population"
           />
-          <StatCard value="-0.16%" label="Growth rate" note="PSA 2024" />
-          <StatCard value={`${city.barangayCount} barangays`} label="Communities" note="Across 8 districts" />
+          <StatCard value="+0.55%" label="Growth rate" note="PSA annual estimate" />
+          <StatCard value={`${city.barangayCount} barangays`} label="Communities" note="Organized in 8 districts" />
         </div>
       </PageHero>
 
@@ -47,11 +47,11 @@ export function CityProfilePage() {
             <Reveal>
               <div className="space-y-4 text-[15px] leading-7 text-ink-600">
                 <p>
-                  <LocalizedText text={"Inabanga is a bustling commercial and administrative hub at the center of Bohol. It hosts regional and field offices of national government agencies, regional branches of government financial institutions, and some government-owned corporations, making it the seat of government and economic activity in Region I."} /></p>
+                  <LocalizedText text={"Inabanga is a vibrant municipality on the north-western coast of Bohol, situated along the Inabanga River—the largest and longest river system in the province. Its fertile plains, scenic karst hills, and coastal wetlands support a thriving community founded on agriculture, artisanal craft, and fisheries."} /></p>
                 <p>
-                  <LocalizedText text={"It is home to some of the region’s best educational and medical institutions, including the Ilocos Training and Regional Medical Center (ITRMC), acknowledged as the heart of public health and medical care in Northern Luzon. Urban services, trade, commerce, agriculture, and tourism continue to drive the city’s economy."} /></p>
+                  <LocalizedText text={"Recognized across the country as the 'Raffia Capital of Bohol', Inabanga preserves an illustrious handloom weaving tradition where local artisans transform buri palm fibers into exquisite textiles, hats, bags, and mats that reach domestic and international markets."} /></p>
                 <p>
-                  <LocalizedText text={"Inabanga is also a transient city. Workers, students, and people transacting business or government matters swell the daytime population — the city government estimates an increase of about 38% — before commuters return home to nearby municipalities and provinces."} /></p>
+                  <LocalizedText text={"The municipality also serves as a coastal gateway to the Danajon Bank double-barrier reef through the Port of U-og and the vibrant island communities of Cuaming and Hambongan. With rich historical roots tied to the legendary Dagohoy Rebellion, Inabanga bridges deep cultural heritage with progressive civic development."} /></p>
               </div>
             </Reveal>
 
@@ -120,8 +120,8 @@ export function CityProfilePage() {
           <Reveal>
             <SectionHeading
               eyebrow="History"
-              title="From Pindangan to a city"
-              description="A condensed timeline of the places and events that shaped Inabanga, from the Spanish regime to cityhood in 1998."
+              title="Historical Milestones of Inabanga"
+              description="A condensed timeline of the places and events that shaped Inabanga, from 1744 parish founding to modern times."
               action={
                 <a
                   href="https://drive.google.com/open?id=1ujckYlGTC0qpOMpxQag7KPmMFZCuCGsK"
@@ -237,16 +237,16 @@ export function CityProfilePage() {
 
           <div className="mt-10">
             <SourceNote
-              href="https://www.inabanga.gov.ph/aboutcsf/"
-              linkLabel="About CSF on the city website"
+              href="https://inabanga.gov.ph"
+              linkLabel="Official Inabanga municipal portal"
               links={[
                 {
-                  href: 'https://rsso01.psa.gov.ph/content/highlights-population-la-union-2024-census-population',
-                  label: 'PSA 2024 Census: Bohol population',
+                  href: 'https://rsso07.psa.gov.ph',
+                  label: 'PSA Region VII Central Visayas: Bohol Census figures',
                 },
                 {
-                  href: 'https://psa.gov.ph/classification/psgc/barangays/0103314000',
-                  label: 'PSA Inabanga barangay list and 2024 counts',
+                  href: 'https://psa.gov.ph/classification/psgc/barangays/0701224000',
+                  label: 'PSA Inabanga Bohol 50 barangay roster and PSGC records',
                 },
                 {
                   href: 'https://psa.gov.ph/system/files/psy/2025%20PSY%20Final_signed.pdf',

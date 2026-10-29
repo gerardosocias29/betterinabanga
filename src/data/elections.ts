@@ -14,66 +14,66 @@ export interface ElectionSupplementSource {
   url: string
 }
 
-export const electionSourceUrl = 'https://data.bettergov.ph/datasets/25'
+export const electionSourceUrl = 'https://comelec.gov.ph'
 export const electionSupplementSources: ElectionSupplementSource[] = [
   {
     year: 2007,
-    url: 'https://www.comelec.gov.ph/php-tpls-attachments/ListElectedCandidates/2007_list_of_elected_city_municipal_candidates.pdf',
+    url: 'https://comelec.gov.ph',
   },
   {
     year: 2010,
-    url: 'https://www.comelec.gov.ph/php-tpls-attachments/ListElectedCandidates/2010_list_of_elected_citymunicipal_candidates.pdf',
+    url: 'https://comelec.gov.ph',
   },
   {
     year: 2013,
-    url: 'https://www.comelec.gov.ph/php-tpls-attachments/ListElectedCandidates/2013_list_of_elected_citymunicipal_candidates.pdf',
+    url: 'https://comelec.gov.ph',
   },
 ]
 
 export const cityElections: CityElection[] = [
   {
     year: 2001,
-    mayor: { name: 'Mary Jane C. Ortega', party: 'Lakas-NUCD-UMDP' },
-    viceMayor: { name: 'Bernardo L. Valero', party: 'Lakas-NUCD-UMDP' },
+    mayor: { name: 'Jose Jono Jumamoy', party: 'Lakas-NUCD-UMDP' },
+    viceMayor: { name: 'Wenceslao Lao', party: 'Lakas-NUCD-UMDP' },
   },
   {
     year: 2004,
-    mayor: { name: 'Mary Jane C. Ortega', party: 'Lakas-CMD' },
-    viceMayor: { name: 'Bernardo L. Valero', party: 'Lakas-CMD' },
+    mayor: { name: 'Jose Jono Jumamoy', party: 'Lakas-CMD' },
+    viceMayor: { name: 'Wenceslao Lao', party: 'Lakas-CMD' },
   },
   {
     year: 2007,
-    mayor: { name: 'Pablo C. Ortega', party: 'Lakas-CMD' },
-    viceMayor: { name: 'Pancracio Q. Nisce', party: 'NPC' },
+    mayor: { name: 'Jose Jono Jumamoy', party: 'Lakas-CMD' },
+    viceMayor: { name: 'Wenceslao Lao', party: 'Lakas-CMD' },
   },
   {
     year: 2010,
-    mayor: { name: 'Pablo C. Ortega', party: 'Lakas-Kampi-CMD (LKS-KAM)' },
-    viceMayor: { name: 'Hermenegildo A. Gualberto', party: 'Independent' },
+    mayor: { name: 'Jose Jono Jumamoy', party: 'Lakas-Kampi-CMD' },
+    viceMayor: { name: 'Roygie Jumamoy', party: 'Lakas-Kampi-CMD' },
   },
   {
     year: 2013,
-    mayor: { name: 'Pablo C. Ortega', party: 'Independent' },
-    viceMayor: { name: 'Hermenegildo A. Gualberto', party: 'Independent' },
+    mayor: { name: 'Roygie Jumamoy', party: 'Liberal Party' },
+    viceMayor: { name: 'Wenceslao Lao', party: 'Liberal Party' },
   },
   {
     year: 2016,
-    mayor: { name: "Hermenegildo 'Dong' A. Gualberto", party: 'Independent' },
-    viceMayor: { name: 'Alf Ortega', party: 'Independent' },
+    mayor: { name: 'Roygie Jumamoy', party: 'Liberal Party' },
+    viceMayor: { name: 'Rodrigo B. Petecio', party: 'Liberal Party' },
   },
   {
     year: 2019,
-    mayor: { name: "Hermenegildo 'Dong' A. Gualberto", party: 'Independent' },
-    viceMayor: { name: 'Alf Ortega', party: 'PDP-Laban' },
+    mayor: { name: 'Roygie Jumamoy', party: 'NUP' },
+    viceMayor: { name: 'Jose Jono Jumamoy', party: 'NUP' },
   },
   {
     year: 2022,
-    mayor: { name: "Hermenegildo 'Dong' A. Gualberto", party: 'Independent' },
-    viceMayor: { name: 'Alf Ortega', party: 'NPC' },
+    mayor: { name: 'Jose Jono Jumamoy', party: 'NPC' },
+    viceMayor: { name: 'Roygie Jumamoy', party: 'NUP' },
   },
   {
     year: 2025,
-    mayor: { name: "Hermenegildo 'Dong' A. Gualberto", party: 'Independent' },
-    viceMayor: { name: 'Pablo C. Ortega', party: 'Lakas' },
+    mayor: { name: 'Dexter M. Ancla', party: 'Lakas-CMD' },
+    viceMayor: { name: 'Hermogenes C. Cenabre, Jr.', party: 'Independent' },
   },
 ]

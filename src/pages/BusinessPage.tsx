@@ -6,7 +6,6 @@ import {
   Download,
   ExternalLink,
   Factory,
-  GraduationCap,
   HeartPulse,
   Landmark,
   Recycle,
@@ -27,29 +26,29 @@ import { usePageMeta } from '../lib/usePageMeta'
 
 const highlights = [
   {
-    title: 'Administrative seat of the Ilocos Region',
+    title: 'Raffia weaving capital of Bohol',
     icon: Landmark,
-    text: 'Inabanga hosts regional and field offices of national agencies, financial institutions, and government corporations — the center of governance and economic activity in Northern Luzon.',
+    text: 'Inabanga is world-renowned for its handloom weaving industry, producing natural buri palm raffia textiles, artisanal home decor, and sustainable fashion accessories exported globally.',
   },
   {
-    title: 'Among the most competitive component cities',
+    title: 'Agricultural basin & marine gateway',
+    icon: Sprout,
+    text: 'Blessed by the fertile Inabanga River delta, the town is a leading producer of irrigated rice, inland aquaculture, Danajon Bank seaweeds, and coastal fisheries.',
+  },
+  {
+    title: 'Port of U-og commercial hub',
     icon: Trophy,
-    text: 'Ranked 9th among 112 component cities nationwide in the 2024 Cities and Municipalities Competitiveness Index, and No. 1 in Region I.',
+    text: 'The Port of U-og provides seamless maritime connectivity between mainland Bohol, the bustling island communities of Cuaming and Hambongan, and nearby Cebu markets.',
   },
   {
-    title: 'No. 1 in government efficiency',
+    title: 'Eco-tourism & heritage destination',
     icon: TrendingUp,
-    text: 'Ranked first nationwide in the CMCI Government Efficiency pillar in 2024, reflecting institutional capacity and responsive governance.',
+    text: 'Home to the Inabanga River Nature Park, historic 1744 Saint Paul Parish, Macaban Cave, and rolling eco-trails drawing visitors and eco-cultural investors.',
   },
   {
-    title: 'Center of health care and higher education',
-    icon: GraduationCap,
-    text: 'Home to Centers of Excellence and Development in education and IT, and to ITRMC, the heart of public health and medical care in Northern Luzon.',
-  },
-  {
-    title: 'Livable, peaceful, and resilient',
+    title: 'Business-friendly LGU & one-stop shop',
     icon: ShieldCheck,
-    text: 'A consistent Seal of Good Local Governance recipient, recognized for disaster preparedness through the Gawad Kalasag Seal for Excellence in DRRM.',
+    text: 'Streamlined Business One-Stop Shop (BOSS) with transparent licensing, micro-enterprise support, and investor incentives under the Municipal Government of Inabanga.',
   },
 ]
 
@@ -318,41 +317,25 @@ export function BusinessPage() {
           <div className="mt-8 grid gap-4 lg:grid-cols-3">
             <Reveal className="h-full">
               <div className="h-full rounded-2xl border border-line bg-white p-5 shadow-card">
-                <h3 className="text-base font-extrabold tracking-tight text-ink-950"><LocalizedText text={"Poro Point Freeport Zone"} /></h3>
+                <h3 className="text-base font-extrabold tracking-tight text-ink-950"><LocalizedText text={"Port of U-og Trade and Maritime Gateway"} /></h3>
                 <p className="mt-2 text-sm leading-6 text-ink-600">
-                  <LocalizedText text={"An economic zone in Poro with infrastructure, incentives, an airport, a seaport, mixed-use development, and a 65.5-hectare tourism complex anchored by Thunderbird Resorts."} /></p>
+                  <LocalizedText text={"A strategic municipal seaport in Barangay U-og connecting Inabanga across the Camotes Sea to Cebu and neighboring coastal islands for cargo and passenger craft."} /></p>
               </div>
             </Reveal>
 
             <Reveal delay={0.05} className="h-full">
               <div className="h-full rounded-2xl border border-line bg-white p-5 shadow-card">
-                <h3 className="text-base font-extrabold tracking-tight text-ink-950"><LocalizedText text={"Central Business District — Biday"} /></h3>
+                <h3 className="text-base font-extrabold tracking-tight text-ink-950"><LocalizedText text={"Poblacion Commercial & Raffia Heritage Hub"} /></h3>
                 <p className="mt-2 text-sm leading-6 text-ink-600">
-                  <LocalizedText text={"Barangay Biday is anchored by CSI Mall and Manna Mall. SM City Bohol opened on October 17, 2025, adding to the area’s commercial activity."} /></p>
-                <a
-                  href="https://www.smprime.com/company_releases/sm-prime-opens-89th-mall-sm-city-la-union-to-feature-sandbox-outdoor-space/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="mt-3 inline-flex items-center gap-1.5 text-sm font-bold text-brand-700 hover:text-brand-800"
-                >
-                  <LocalizedText text={"SM Prime opening announcement"} /><ExternalLink aria-hidden="true" className="size-3.5" />
-                </a>
+                  <LocalizedText text={"Barangay Poblacion serves as the commercial center anchored by the Inabanga Public Market, municipal government complex, rural banking, and the Raffia Weaving Demonstration Center."} /></p>
               </div>
             </Reveal>
 
             <Reveal delay={0.1} className="h-full">
               <div className="h-full rounded-2xl border border-line bg-white p-5 shadow-card">
-                <h3 className="text-base font-extrabold tracking-tight text-ink-950"><LocalizedText text={"Digital Cities PH"} /></h3>
+                <h3 className="text-base font-extrabold tracking-tight text-ink-950"><LocalizedText text={"Inabanga River Eco-Tourism Corridor"} /></h3>
                 <p className="mt-2 text-sm leading-6 text-ink-600">
-                  <LocalizedText text={"Recognized by DICT, IBPAP, and Leechiu as a prime countryside hub for IT-BPM, digital services, and innovation-driven enterprises."} /></p>
-                <a
-                  href="https://drive.google.com/file/d/19eNjHV_bP7iRi9c5mBSSCtcxmjwUyTo2/view?usp=sharing"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="mt-3 inline-flex items-center gap-2 text-sm font-bold text-brand-700 hover:text-brand-800"
-                >
-                  <LocalizedText text={"View the roadmap"} /><ExternalLink aria-hidden="true" className="size-3.5" />
-                </a>
+                  <LocalizedText text={"The fertile Inabanga River basin and Danajon Bank coastal waters offer prime opportunities in community-based eco-tours, sustainable aquaculture, and high-value agriculture."} /></p>
               </div>
             </Reveal>
           </div>
@@ -362,9 +345,9 @@ export function BusinessPage() {
               <div>
                 <p className="text-[10px] font-bold uppercase tracking-[0.18em] text-white/60"><LocalizedText text={"Incentives"} /></p>
                 <h3 className="mt-1.5 text-lg font-extrabold tracking-tight">
-                  <LocalizedText text={"Investments and Incentives Code — Ordinance No. 2024-41"} /></h3>
+                  <LocalizedText text={"Inabanga Investments & Incentives Code — Ordinance No. 2024-41"} /></h3>
                 <p className="mt-1.5 text-sm text-white/60">
-                  <LocalizedText text={"The city’s incentive framework for qualified investments."} /></p>
+                  <LocalizedText text={"The municipality’s incentive framework for qualified local investments."} /></p>
               </div>
               <a
                 href="https://drive.google.com/file/d/1S5q2HOklGy4O692uYMgHrZNNXOpYqZ69/view?usp=sharing"

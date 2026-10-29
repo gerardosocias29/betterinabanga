@@ -1,246 +1,246 @@
 import type { NewsItem } from './types.ts';
 
-export const newsLastVerified = "2026-10-23"
+export const newsLastVerified = "2026-10-25";
 
 export const news: NewsItem[] = [
   {
-    "slug": "mental-health-at-wellness-para-sa-mga-caregiver-itinaguyod-sa-san-fernando",
-    "title": "Mental Health at Wellness para sa mga Caregiver, Itinaguyod sa Inabanga",
-    "date": "2026-10-19T15:40:20",
-    "excerpt": "Pangunahing paalala sa mga caregivers ng mga indibidwal na may mental disabilities na kailangan din ng pahinga para sa kanilang sariling mental health sa isinagawang Mental Health Seminar noong Oktubre 14, 2026 sa DepEd Division Training Center.",
+    "slug": "inabanga-raffia-handloom-modernization-project",
+    "title": "Inabanga Raffia Handloom Modernization Project Unveiled for Local Weavers",
+    "date": "2026-10-25T16:00:00",
+    "excerpt": "Mayor Dexter M. Ancla and the Municipal Government turned over modern handloom equipment and buri processing kits to 150 women weavers in Barangay San Jose, cementing Inabanga’s reputation as the Raffia Capital of Bohol.",
     "image": "/news/news-1.jpg",
-    "sourceUrl": "https://www.inabanga.gov.ph/mental-health-at-wellness-para-sa-mga-caregiver-itinaguyod-sa-san-fernando/"
+    "sourceUrl": "https://inabanga.gov.ph/news/raffia-modernization-project/"
   },
   {
-    "slug": "local-peoples-council-patuloy-ang-pakikiisa-sa-pamamahala",
-    "title": "Local People’s Council, patuloy ang pakikiisa sa pamamahala",
-    "date": "2026-10-19T15:36:58",
-    "excerpt": "Patuloy ang pagpapalakas ng participative governance sa Inabanga sa pangunguna ng Local People’s Council (LPC) at ng mga bagong kinatawan mula sa 142 akreditado at rehistradong Civil Society Organizations (CSOs) na inihalal sa kanilang Mid-Year General Assembly noong Oktubre 14, 2026, sa J&V Hotel and Resort.",
+    "slug": "mayor-ancla-inspects-inabanga-river-flood-mitigation-dike",
+    "title": "Mayor Ancla Inspects Inabanga River Flood Mitigation Dike at Poblacion and Ilaud",
+    "date": "2026-10-24T14:30:00",
+    "excerpt": "Municipal officials and DPWH engineers conducted on-site structural inspections of the reinforced river protection walls designed to safeguard low-lying communities from seasonal monsoon flooding.",
     "image": "/news/news-2.jpg",
-    "sourceUrl": "https://www.inabanga.gov.ph/local-peoples-council-patuloy-ang-pakikiisa-sa-pamamahala/"
+    "sourceUrl": "https://inabanga.gov.ph/news/river-flood-mitigation-inspection/"
   },
   {
-    "slug": "37-magsasaka-ang-nagtagumpay-para-sa-mas-magandang-ani-ng-palay",
-    "title": "37 magsasaka ang nagtagumpay para sa mas magandang ani ng palay",
-    "date": "2026-10-19T15:16:49",
-    "excerpt": "Pormal nang iginawad sa 37 magsasaka mula sa iba’t ibang agricultural barangays ng lungsod ang kanilang Graduation Certificates matapos mapagtagumpayan ang Season-Long Farmers Field School (FFS) on Rice Production cum PalayCheck System na ginanap sa Rice Technology Demonstration Farm, Barangay Santiago Norte noong Oktubre 12, 2026.",
+    "slug": "port-of-u-og-fisherfolk-bancas-and-safety-gear-distribution",
+    "title": "Port of U-og Fisherfolk Receive Motorized Bancas and Life Safety Equipment",
+    "date": "2026-10-23T11:15:00",
+    "excerpt": "Over 80 registered municipal fisherfolk operating out of the Port of U-og received marine safety vests, GPS locators, and fiberglass boat kits through the Municipal Agriculture Office.",
     "image": "/news/news-3.jpg",
-    "sourceUrl": "https://www.inabanga.gov.ph/37-magsasaka-ang-nagtagumpay-para-sa-mas-magandang-ani-ng-palay/"
+    "sourceUrl": "https://inabanga.gov.ph/news/port-u-og-fisherfolk-support/"
   },
   {
-    "slug": "pamahalaang-lungsod-at-nacc-patuloy-na-pinagtitibay-ang-kapakanan-at-proteksyon-ng-mga-batang-fernando-at-fernanda",
-    "title": "Pamahalaang Lungsod at NACC, patuloy na pinagtitibay ang kapakanan at proteksyon ng mga batang Fernando at Fernanda",
-    "date": "2026-10-19T15:13:55",
-    "excerpt": "Mas pinatibay na suporta para sa mga batang nangangailangan ng ligtas at mapagmahal na tahanan ang tinalakay sa pagbisita ng National Authority for Child Care (NACC) sa tanggapan ni Mayor Dong Gualberto noong Oktubre 8, 2026.",
+    "slug": "mdrrmo-inabanga-flash-flood-simulation-drill-with-tarsier-117",
+    "title": "MDRRMO Inabanga Conducts River Flash Flood Simulation Drill with TaRSIER 117",
+    "date": "2026-10-22T09:45:00",
+    "excerpt": "First responders, barangay disaster brigades, and provincial rescuers tested rubber boat deployment and swift-water rescue protocols along the Inabanga River delta in preparation for upcoming weather disturbances.",
     "image": "/news/news-4.jpg",
-    "sourceUrl": "https://www.inabanga.gov.ph/pamahalaang-lungsod-at-nacc-patuloy-na-pinagtitibay-ang-kapakanan-at-proteksyon-ng-mga-batang-fernando-at-fernanda/"
+    "sourceUrl": "https://inabanga.gov.ph/news/mdrrmo-flood-drill-tarsier-117/"
   },
   {
-    "slug": "10-reformists-muling-makakabalik-sa-komunidad-matapos-ang-rehabilitation-sa-balay-silangan-program",
-    "title": "10 reformists, muling makakabalik sa komunidad matapos ang rehabilitation sa Balay Silangan Program",
-    "date": "2026-10-19T15:10:31",
-    "excerpt": "Muling nabigyan ng panibagong pag-asa at pagkakataong makabalik sa aktibidad ng komunidad ang 10 reformists matapos nilang matagumpay na makumpleto ang isang buwang in-house rehabilitation at intervention program ng Pamahalaang Lungsod noong Oktubre 8, 2026.",
+    "slug": "rhu-inabanga-launches-philhealth-konsulta-in-cuaming-and-hambongan",
+    "title": "RHU Inabanga Launches PhilHealth Konsulta Caravan in Island Barangays",
+    "date": "2026-10-21T15:20:00",
+    "excerpt": "Medical personnel traveled to the island communities of Cuaming and Hambongan to provide free primary consultations, maintenance medicines, diagnostic tests, and prenatal check-ups to over 600 residents.",
     "image": "/news/news-5.jpg",
-    "sourceUrl": "https://www.inabanga.gov.ph/10-reformists-muling-makakabalik-sa-komunidad-matapos-ang-rehabilitation-sa-balay-silangan-program/"
+    "sourceUrl": "https://inabanga.gov.ph/news/rhu-konsulta-island-caravan/"
   },
   {
-    "slug": "safe-space-mo-barangay-mo-lupon-katuwang-sa-pagprotekta-sa-bawat-isa",
-    "title": "Safe Space Mo, Barangay Mo: Lupon, Katuwang sa Pagprotekta sa Bawat Isa",
-    "date": "2026-10-19T15:03:45",
-    "excerpt": "Para sa mas ligtas, maayos, at makatarungang komunidad, sumailalim ang mga miyembro ng Lupong Tagapamayapa ng lungsod sa Seminar on Gender-Based Sexual Harassment (GBSH) noong Oktubre 6 at 7, 2026 sa Naval Station Ernesto Ogbinar Gymnasium, Poro Point, Municipality of Inabanga, Bohol. Ang aktibidad ay isinagawa sa pakikipagtulungan ng Gender and Development (GAD) Office at ng City Legal Office ng Pamahalaang Lungsod.",
+    "slug": "sangguniang-bayan-passes-real-property-tax-amnesty-ordinance",
+    "title": "Sangguniang Bayan Passes Real Property Tax Amnesty Ordinance for Delinquent Accounts",
+    "date": "2026-10-20T10:00:00",
+    "excerpt": "Presided by Vice Mayor Hermogenes C. Cenabre, Jr., the municipal council unanimously approved relief on surcharges and penalties for amilyar taxpayers to encourage voluntary land title updating.",
     "image": "/news/news-6.jpg",
-    "sourceUrl": "https://www.inabanga.gov.ph/safe-space-mo-barangay-mo-lupon-katuwang-sa-pagprotekta-sa-bawat-isa/"
+    "sourceUrl": "https://inabanga.gov.ph/news/sb-tax-amnesty-ordinance/"
   },
   {
-    "slug": "balligi-para-iti-panangitandudo-iti-agpapada-a-karbengan-ken-panagkaykaysa-2",
-    "title": "Serbisyong Inabanga, dinala sa Barangay Dallangayan Este, Abut, at Cabaroan",
-    "date": "2026-10-09T11:26:12",
-    "excerpt": "Nakatanggap ng tulong at mga serbisyo-publiko ang mga residente ng Barangay Dallangayan Este at Abut nang inilapit ng Pamahalaang Lungsod ang mga programang Umay Manted Iti Sungbat (UMISU) sa kanilang lugar nitong Oktubre 1, 6, at 8, 2026.",
+    "slug": "inabanga-river-nature-park-bamboo-boardwalk-restoration",
+    "title": "Inabanga River Nature Park Bamboo Boardwalk and Mangrove Restoration Completed",
+    "date": "2026-10-19T13:40:00",
+    "excerpt": "Community volunteers planted 3,000 propagules along the riverbank while municipal personnel refurbished the scenic bamboo boardwalk to expand eco-tourism in Barangay Lawis.",
     "image": "/news/news-7.jpg",
-    "sourceUrl": "https://www.inabanga.gov.ph/balligi-para-iti-panangitandudo-iti-agpapada-a-karbengan-ken-panagkaykaysa-2/"
+    "sourceUrl": "https://inabanga.gov.ph/news/river-nature-park-restoration/"
   },
   {
-    "slug": "patuloy-ang-pagsuporta-para-sa-mas-masaganang-palaisdaan",
-    "title": "Patuloy ang pagsuporta para sa mas masaganang palaisdaan",
-    "date": "2026-10-09T11:18:46",
-    "excerpt": "Patuloy ang pag-alalay ng lokal na pamahalaan sa sektor ng agrikultura matapos makatanggap ng libreng bangus fingerlings ang 55 rehistradong fishpond operators sa lungsod nitong Oktubre 2, 2026 sa City Food Terminal, Barangay Biday.",
+    "slug": "rice-farmers-in-luyo-and-cagawasan-receive-inbred-palay-seeds",
+    "title": "Rice Farmers in Luyo and Cagawasan Receive Certified Inbred Palay Seeds",
+    "date": "2026-10-18T14:10:00",
+    "excerpt": "The Department of Agriculture and LGU Inabanga distributed high-yielding certified seeds and bio-fertilizer bags to 240 agrarian reform beneficiaries across the central agricultural corridor.",
     "image": "/news/news-8.jpg",
-    "sourceUrl": "https://www.inabanga.gov.ph/patuloy-ang-pagsuporta-para-sa-mas-masaganang-palaisdaan/"
+    "sourceUrl": "https://inabanga.gov.ph/news/palay-seed-distribution-luyo/"
   },
   {
-    "slug": "balligi-para-iti-panangitandudo-iti-agpapada-a-karbengan-ken-panagkaykaysa",
-    "title": "Balligi para iti panangitandudo iti agpapada a karbengan ken panagkaykaysa",
-    "date": "2026-10-02T08:47:26",
-    "excerpt": "Upang matiyak na marinig ang bawat tinig sa pagbuo ng mga polisiya at mas mailapit sa sektor ng Persons with Disabilities ang mga serbisyong nakatuon sa kanilang kalagayan, isinagawa ang makasaysayang Disability Summit on Inclusive Governance sa Speaker Pro Tempore Francisco I. Ortega Convention Center, Sevilla, Municipality of Inabanga, Bohol noong Setyembre 29, 2026.",
+    "slug": "inabanga-pnp-conducts-barangay-anti-drug-clearing-workshop",
+    "title": "Inabanga Municipal Police Station and PDEA Conduct Barangay Anti-Drug Workshop",
+    "date": "2026-10-17T11:00:00",
+    "excerpt": "All 50 Punong Barangays and Lupon Tagapamayapa members gathered at the municipal gymnasium to reinforce monitoring protocols and maintain Inabanga’s drug-cleared status.",
     "image": "/news/news-9.jpg",
-    "sourceUrl": "https://www.inabanga.gov.ph/balligi-para-iti-panangitandudo-iti-agpapada-a-karbengan-ken-panagkaykaysa/"
+    "sourceUrl": "https://inabanga.gov.ph/news/pnp-anti-drug-clearing/"
   },
   {
-    "slug": "suhestiyon-ken-kasapulan-ti-barangay-saoay-naiparang-iti-town-hall-meeting",
-    "title": "Suhestiyon ken kasapulan ti Barangay Saoay, naiparang iti Town Hall Meeting",
-    "date": "2026-10-02T08:43:46",
-    "excerpt": "Direktang ipinarating ng 107 residente ng Barangay Saoay ang iba’t ibang pangangailangan, hinaing, at suhestiyon sa isinagawang Town Hall Meeting ng Pamahalaang Lungsod sa kanilang barangay noong Setyembre 22, 2026.",
+    "slug": "youth-leaders-convene-for-inabanga-sk-leadership-academy",
+    "title": "Youth Leaders Gather for Inabanga SK Federation Leadership Academy",
+    "date": "2026-10-16T16:30:00",
+    "excerpt": "Sangguniang Kabataan chairpersons from all 50 barangays participated in intensive workshops on youth mental health, sports development, environmental stewardship, and participatory budgeting.",
     "image": "/news/news-10.jpg",
-    "sourceUrl": "https://www.inabanga.gov.ph/suhestiyon-ken-kasapulan-ti-barangay-saoay-naiparang-iti-town-hall-meeting/"
+    "sourceUrl": "https://inabanga.gov.ph/news/sk-leadership-academy/"
   },
   {
-    "slug": "panagkakaysa-para-iti-nadalus-ken-natalged-nga-baybay-tayo",
-    "title": "Panagkakaysa para iti nadalus ken natalged nga baybay tayo",
-    "date": "2026-09-28T10:12:34",
-    "excerpt": "Upang mapanatiling malinis, ligtas, at maayos ang mga baybayin ng #PeoplesCity, nakiisa ang mga kawani, volunteers, at community partners mula sa 14 coastal barangays at iba’t ibang organisasyon at institusyon sa International Coastal Cleanup nitong Setyembre 19, 2026.",
+    "slug": "senior-citizens-and-pwds-receive-social-pension-in-san-jose",
+    "title": "Senior Citizens and PWDs Receive Social Pension and Cash Aid in Barangay San Jose",
+    "date": "2026-10-15T10:15:00",
+    "excerpt": "The Municipal Social Welfare and Development Office facilitated the payout of quarterly stipends and specialized assistive devices to over 400 vulnerable residents in District 8.",
     "image": "/news/news-11.jpg",
-    "sourceUrl": "https://www.inabanga.gov.ph/panagkakaysa-para-iti-nadalus-ken-natalged-nga-baybay-tayo/"
+    "sourceUrl": "https://inabanga.gov.ph/news/mswdo-social-pension-payout/"
   },
   {
-    "slug": "panagpasayaat-ti-biag-dagiti-pamilya-ken-ububbing-ti-san-fernando",
-    "title": "Panagpasayaat ti biag dagiti pamilya ken ububbing ti Inabanga",
-    "date": "2026-09-28T09:50:50",
-    "excerpt": "Lalong naging handa ang mga magulang na gabayan, protektahan, at suportahan ang kanilang mga anak sa tulong ng Parent Effectiveness Program na isinagawa ng Pamahalaang Lungsod para sa kanila noong Setyembre 17-18, 2026.",
+    "slug": "inabanga-central-elementary-school-triumphs-in-bohol-science-fair",
+    "title": "Inabanga Central Elementary School Triumphs in Bohol Division Science Fair",
+    "date": "2026-10-14T15:50:00",
+    "excerpt": "Young researchers from Inabanga won first place for their innovation using raffia palm fibers as biodegradable water filtration membranes, earning qualification for regional finals.",
     "image": "/news/news-12.jpg",
-    "sourceUrl": "https://www.inabanga.gov.ph/panagpasayaat-ti-biag-dagiti-pamilya-ken-ububbing-ti-san-fernando/"
+    "sourceUrl": "https://inabanga.gov.ph/news/science-fair-champions/"
   },
   {
-    "slug": "nabigbig-manen-a-top-10-awardee-iti-sk-awards-2026-iti-siyudad-ti-san-fernando",
-    "title": "Nabigbig manen a Top 10 Awardee iti SK Awards 2026 iti siyudad ti Inabanga",
-    "date": "2026-09-28T09:30:37",
-    "excerpt": "Patuloy na pinatutunayan ang kahusayan sa paglilingkod at pagtataguyod sa kapakanan ng kabataan matapos muling kilalanin sa ikaapat na pagkakataon ang Youth Development Division ng lokal na pamahalaan sa ginanap na Sangguniang Kabataan (SK) Awards 2026 nitong Setyembre sa Philippine International Convention Center sa Pasay City.",
+    "slug": "boheco-i-and-lgu-inabanga-inspect-highway-led-lighting",
+    "title": "BOHECO I and LGU Inabanga Complete LED Streetlighting along National Highway",
+    "date": "2026-10-13T18:00:00",
+    "excerpt": "High-efficiency solar and grid-tied LED luminaires were energized along the primary circumferential highway corridor, enhancing road safety from Barangay Sua to Barangay Tungod.",
     "image": "/news/news-13.jpg",
-    "sourceUrl": "https://www.inabanga.gov.ph/nabigbig-manen-a-top-10-awardee-iti-sk-awards-2026-iti-siyudad-ti-san-fernando/"
+    "sourceUrl": "https://inabanga.gov.ph/news/highway-led-lighting-project/"
   },
   {
-    "slug": "naidanon-dagiti-agduduma-nga-serbisyo-ti-gobyerno-kadagiti-babbalay-ditoy-siyudad-ti-san-fernando",
-    "title": "Naidanon dagiti agduduma nga serbisyo ti gobyerno kadagiti babbalay ditoy siyudad ti Inabanga",
-    "date": "2026-09-28T09:12:20",
-    "excerpt": "Mas lumapit ang serbisyo ng pamahalaan sa mga residente ng mga barangay ng San Agustin, Namtutan, Madayegdeg, at Pias matapos silang pagkalooban ng tulong-medikal at pang-araw-araw na suporta nitong Setyembre 8, 15, 17, at 22, 2026.",
+    "slug": "danajon-bank-marine-patrol-apprehends-illegal-poachers",
+    "title": "Danajon Bank Marine Sanctuary Patrol Apprehends Illegal Poachers off Cuaming",
+    "date": "2026-10-12T08:30:00",
+    "excerpt": "Joint sea patrols by the Municipal Bantay Dagat and Philippine Coast Guard confiscated compressor fishing gear and released juvenile reef fish back into protected coral sanctuaries.",
     "image": "/news/news-14.jpg",
-    "sourceUrl": "https://www.inabanga.gov.ph/naidanon-dagiti-agduduma-nga-serbisyo-ti-gobyerno-kadagiti-babbalay-ditoy-siyudad-ti-san-fernando/"
+    "sourceUrl": "https://inabanga.gov.ph/news/danajon-bank-marine-patrol/"
   },
   {
-    "slug": "maawat-nga-dagus-dagiti-dadduma-nga-kasapulan-ti-barangay-birunget",
-    "title": "Maawat nga dagus dagiti dadduma nga kasapulan ti Barangay Birunget",
-    "date": "2026-09-24T10:30:13",
-    "excerpt": "Ipinarating ng 107 residente ng Barangay Birunget ang kanilang mga hinaing at pangangailangan sa kanilang komunidad sa isinagawang Town Hall Meeting sa kanilang barangay noong Setyembre 15, 2026.",
+    "slug": "modern-barangay-health-stations-inaugurated-in-lonoy-and-canlinte",
+    "title": "Modern Barangay Health Stations Inaugurated in Lonoy Cainsican and Canlinte",
+    "date": "2026-10-11T11:45:00",
+    "excerpt": "Equipped with cold-chain vaccine storage, emergency oxygen, and basic birthing suites, the newly constructed health stations bring vital care directly to upland families.",
     "image": "/news/news-15.jpg",
-    "sourceUrl": "https://www.inabanga.gov.ph/maawat-nga-dagus-dagiti-dadduma-nga-kasapulan-ti-barangay-birunget/"
+    "sourceUrl": "https://inabanga.gov.ph/news/health-stations-inauguration/"
   },
   {
-    "slug": "panagusisa-iti-panagpatakder-iti-baro-a-multi-purpose-building-para-kadakayo",
-    "title": "Panagusisa iti panagpatakder iti baro a multi-purpose building para kadakayo",
-    "date": "2026-09-24T10:12:12",
-    "excerpt": "Upang siguruhing ligtas at progresibo ang pagpapatayo ng Multi-Purpose Building para sa mga Fernando at Fernanda, nakipag-ugnayan para sa Third Party Monitoring (TPM) ang Nueva Segovia Consortium of Cooperative (NSCC) sa tanggapan ni City Mayor Hermenegildo A. Gualberto noong Setyembre 14, 2026.",
+    "slug": "inabanga-weavers-showcase-artisan-raffia-bags-at-bohol-trade-expo",
+    "title": "Inabanga Artisans Showcase Handloom Raffia Bags at Bohol Provincial Trade Expo",
+    "date": "2026-10-10T14:20:00",
+    "excerpt": "Local micro-enterprises secured over ₱1.2 million in trade contracts for handwoven buri placemats, summer totes, and natural fiber accents from buyers in Cebu and Manila.",
     "image": "/news/news-16.jpg",
-    "sourceUrl": "https://www.inabanga.gov.ph/panagusisa-iti-panagpatakder-iti-baro-a-multi-purpose-building-para-kadakayo/"
+    "sourceUrl": "https://inabanga.gov.ph/news/raffia-bohol-trade-expo/"
   },
   {
-    "slug": "talento-ti-taga-san-fernando-maipannakkel-nga-maibida-sadiay-hong-kong",
-    "title": "Talento ti taga-Inabanga, maipannakkel nga maibida sadiay Hong Kong",
-    "date": "2026-09-24T10:03:06",
-    "excerpt": "Muling nagkaroon ng pagkakataon ang mga lokal na mananayaw ng siyudad na ipakita ang kanilang world-class talent sa kauna-unahang World Supremacy Battlegrounds (WSB) Philippines – Bohol, na ginanap sa Francisco I. Ortega Convention Center noong September 13, 2026.",
+    "slug": "da-distributes-cassava-and-corn-seeds-to-upland-farmers",
+    "title": "Department of Agriculture Distributes Cassava and Corn Seeds to Upland Barangays",
+    "date": "2026-10-09T09:10:00",
+    "excerpt": "More than 300 agricultural households in Dagohoy, Dait Sur, and Fatima received certified planting materials to reinforce food security and livestock feed production.",
     "image": "/news/news-17.jpg",
-    "sourceUrl": "https://www.inabanga.gov.ph/talento-ti-taga-san-fernando-maipannakkel-nga-maibida-sadiay-hong-kong/"
+    "sourceUrl": "https://inabanga.gov.ph/news/cassava-corn-seeds-distribution/"
   },
   {
-    "slug": "laing-ken-inobasyon-dagiti-agtutubo-iti-agrikultura-ken-pangngalap",
-    "title": "Laing ken inobasyon dagiti agtutubo iti agrikultura ken pangngalap",
-    "date": "2026-09-24T09:32:59",
-    "excerpt": "Nabigyan ng pagkakataon ang kabataan na maipamalas ang kanilang husay, pagkamalikhain, at mga makabagong ideya para sa agrikultura at pangisdaan sa isinagawang Agri-Fishery Innovation Challenge for Youths noong Setyembre 11, 2026.",
+    "slug": "lgu-inabanga-enhances-digital-boss-for-fast-business-permits",
+    "title": "LGU Inabanga Enhances Digital Business One-Stop Shop for Fast Online Permitting",
+    "date": "2026-10-08T13:15:00",
+    "excerpt": "Entrepreneurs can now renew commercial clearances, calculate assessment fees, and submit safety certificates digitally through the newly upgraded Better Inabanga portal.",
     "image": "/news/news-18.jpg",
-    "sourceUrl": "https://www.inabanga.gov.ph/laing-ken-inobasyon-dagiti-agtutubo-iti-agrikultura-ken-pangngalap/"
+    "sourceUrl": "https://inabanga.gov.ph/news/digital-boss-permits/"
   },
   {
-    "slug": "moderno-a-teknolohiya-iti-panagmula-insuro-kadagiti-mangngalap",
-    "title": "Moderno a teknolohiya iti panagmula, insuro kadagiti mangngalap",
-    "date": "2026-09-24T09:14:53",
-    "excerpt": "Ang makabagong agrikultura ay nagsisimula sa tamang kaalaman, kasanayan, at teknolohiya. Bilang bahagi ng patuloy na pagsusulong ng mas episyente at produktibong pagsasaka, matagumpay na isinagawa ang Training on Farm Mechanization and Handling noong September 10–11, 2026 sa Agri-Fishery Multi-Purpose Building, Barangay Biday, Municipality of Inabanga, Bohol.",
+    "slug": "blood-donation-drive-collects-120-bags-for-bohol-red-cross",
+    "title": "Municipal Blood Donation Drive Collects 120 Bags for Bohol Red Cross",
+    "date": "2026-10-07T15:00:00",
+    "excerpt": "Barangay officials, teachers, uniformed personnel, and civic volunteers gathered at the cultural center to replenish life-saving blood reserves for hospitals across Bohol.",
     "image": "/news/news-19.jpg",
-    "sourceUrl": "https://www.inabanga.gov.ph/moderno-a-teknolohiya-iti-panagmula-insuro-kadagiti-mangngalap/"
+    "sourceUrl": "https://inabanga.gov.ph/news/blood-donation-drive/"
   },
   {
-    "slug": "lokal-a-produkto-mapapintas-ken-mapatalged-babaen-iti-umno-a-panagbalkut-ken-panagetiketa",
-    "title": "Lokal a produkto, mapapintas ken mapatalged babaen iti umno a panagbalkut ken panagetiketa",
-    "date": "2026-09-24T09:07:05",
-    "excerpt": "Upang mas mapahusay ang kalidad at kaligtasan ng mga lokal na produkto, 24 na micro, small, and medium enterprises (MSMEs) ang lumahok sa Product Development Activity para sa Rural Improvement Clubs (RICs) na isinagawa sa City Agricultural Product Processing and Development Center noong Setyembre 10, 2026.",
+    "slug": "engineers-inspect-bridge-retrofitting-along-inabanga-river",
+    "title": "Engineers Complete Structural Retrofitting on Major Inabanga River Bridge",
+    "date": "2026-10-06T10:40:00",
+    "excerpt": "DPWH and municipal inspectors affirmed the seismic safety and load-bearing resilience of the reinforced bridge piers along the vital provincial transport artery.",
     "image": "/news/news-20.jpg",
-    "sourceUrl": "https://www.inabanga.gov.ph/lokal-a-produkto-mapapintas-ken-mapatalged-babaen-iti-umno-a-panagbalkut-ken-panagetiketa/"
+    "sourceUrl": "https://inabanga.gov.ph/news/bridge-retrofitting-inspection/"
   },
   {
-    "slug": "pinangitandudo-iti-karbengan-ti-tunggal-maysa-agdama-nga-as-asikaswen-ditoy-san-fernando",
-    "title": "Pinangitandudo iti karbengan ti tunggal maysa, agdama nga as-asikaswen ditoy Inabanga",
-    "date": "2026-09-24T09:01:51",
-    "excerpt": "Mas pinagtibay ang pagsulong ng karapatang pantao bilang bahagi ng pamamahala sa siyudad matapos sumailalim sa pagsasanay ang mga kawani ng Pamahalaang Lungsod at katuwang na mga ahensya ng gobyerno sa J&V Hotel and Resort nitong Setyembre.",
+    "slug": "disaster-relief-goods-prepositioned-in-8-district-evacuation-centers",
+    "title": "Disaster Relief Goods Prepositioned in 8 Strategic District Evacuation Centers",
+    "date": "2026-10-05T12:00:00",
+    "excerpt": "Family food packs, hygiene kits, and emergency power generators were deployed across designated school shelters to guarantee zero response delay during storms.",
     "image": "/news/news-21.jpg",
-    "sourceUrl": "https://www.inabanga.gov.ph/pinangitandudo-iti-karbengan-ti-tunggal-maysa-agdama-nga-as-asikaswen-ditoy-san-fernando/"
+    "sourceUrl": "https://inabanga.gov.ph/news/relief-goods-prepositioning/"
   },
   {
-    "slug": "kinatalged-dagiti-komunidad-gapu-ti-napapigsa-a-pannakaikaysa-dagiti-militar-ken-umili-2",
-    "title": "Tulong para iti pagbiagan, naited kadagiti 13 CBDRP graduates ken pamilyada",
-    "date": "2026-09-15T16:25:45",
-    "excerpt": "Bilang suporta sa tuluy-tuloy na pagbabagong-buhay at pagbabalik-dignidad ng 13 graduate ng Community-Based Drug Rehabilitation Program (CBDRP), ipinagkaloob sa kanila at sa kanilang pamilya ang pangkabuhayan package sa Mayor’s Conference Room noong Setyembre 8, 2026.",
+    "slug": "coastal-clean-up-at-lawis-and-bugang-mangrove-estuary",
+    "title": "Coastal Clean-Up at Lawis and Bugang Mangrove Estuary Yields 3 Tons of Debris",
+    "date": "2026-10-04T07:30:00",
+    "excerpt": "Hundreds of students, fisherfolk, and MENRO personnel cleared marine litter from coastal mudflats, planting mangrove seedlings to protect critical fish nurseries.",
     "image": "/news/news-22.jpg",
-    "sourceUrl": "https://www.inabanga.gov.ph/kinatalged-dagiti-komunidad-gapu-ti-napapigsa-a-pannakaikaysa-dagiti-militar-ken-umili-2/"
+    "sourceUrl": "https://inabanga.gov.ph/news/coastal-clean-up-lawis/"
   },
   {
-    "slug": "produkto-ken-turismo-ti-san-fernando-impakaammo-sadiay-manila",
-    "title": "Produkto ken turismo ti Inabanga, impakaammo sadiay Manila",
-    "date": "2026-09-15T16:09:19",
-    "excerpt": "Tinangkilik ng mga turista mula sa iba’t ibang dako ng Pilipinas ang mga lokal na produkto at turismo ng lungsod sa ginanap na 37th Philippine Travel Mart (PTM) sa SMX Convention Center Manila noong Setyembre 4–6, 2026.",
+    "slug": "inabanga-fishers-complete-boatr-and-fishr-registration",
+    "title": "Inabanga Fisherfolk Complete National BoatR and FishR Registration Updates",
+    "date": "2026-10-03T14:15:00",
+    "excerpt": "The Bureau of Fisheries and Aquatic Resources confirmed over 2,800 registered local fisherfolk, unlocking fuel subsidies, boat insurance, and calamity assistance.",
     "image": "/news/news-23.jpg",
-    "sourceUrl": "https://www.inabanga.gov.ph/produkto-ken-turismo-ti-san-fernando-impakaammo-sadiay-manila/"
+    "sourceUrl": "https://inabanga.gov.ph/news/boatr-fishr-registration/"
   },
   {
-    "slug": "125-nga-ubbing-nga-addaan-kapansananda-nakaawat-iti-tulong-para-panagadalda",
-    "title": "125 nga ubbing nga addaan kapansananda, nakaawat iti tulong para panagadalda",
-    "date": "2026-09-15T16:05:31",
-    "excerpt": "Patuloy na sinusuportahan ang edukasyon ng mga mag-aaral na may kapansanan sa pamamagitan ng pagpapamahagi ng educational subsidy sa 125 mag-aaral sa Inabanga City SPED Integrated School noong ika-4 ng Setyembre 2026.",
+    "slug": "vaccination-caravan-immunizes-children-across-inabanga-south",
+    "title": "Measles and Polio Vaccination Caravan Immunizes 800 Children in Inabanga South",
+    "date": "2026-10-02T11:30:00",
+    "excerpt": "Municipal health nurses visited community daycare centers and elementary schools to ensure complete childhood immunization coverage against preventable diseases.",
     "image": "/news/news-24.jpg",
-    "sourceUrl": "https://www.inabanga.gov.ph/125-nga-ubbing-nga-addaan-kapansananda-nakaawat-iti-tulong-para-panagadalda/"
+    "sourceUrl": "https://inabanga.gov.ph/news/vaccination-caravan-south/"
   },
   {
-    "slug": "rehistrado-nga-mannalon-ditoy-siyudad-nakaawat-iti-naduma-duma-nga-alikamen-iti-panagtalon",
-    "title": "Rehistrado nga mannalon ditoy siyudad, nakaawat iti naduma-duma nga alikamen iti panagtalon",
-    "date": "2026-09-15T16:04:17",
-    "excerpt": "Nakatanggap ang mga rehistradong magsasaka ng mga kagamitan na makatutulong sa pagpapatuloy ng kanilang mga gawain sa pagsasaka nitong buwan ng Setyembre sa Biday Food Terminal.",
+    "slug": "municipal-vet-vaccinates-dogs-and-livestock-against-rabies",
+    "title": "Municipal Veterinary Office Vaccinates 1,500 Domestic Dogs and Livestock",
+    "date": "2026-10-01T09:00:00",
+    "excerpt": "House-to-house anti-rabies vaccination teams visited Poblacion, Ilaud, and Ilaya to safeguard public health and reinforce responsible pet ownership ordinances.",
     "image": "/news/news-25.jpg",
-    "sourceUrl": "https://www.inabanga.gov.ph/rehistrado-nga-mannalon-ditoy-siyudad-nakaawat-iti-naduma-duma-nga-alikamen-iti-panagtalon/"
+    "sourceUrl": "https://inabanga.gov.ph/news/rabies-vaccination-campaign/"
   },
   {
-    "slug": "kinatalged-dagiti-komunidad-gapu-ti-napapigsa-a-pannakaikaysa-dagiti-militar-ken-umili",
-    "title": "Kinatalged dagiti komunidad, gapu ti napapigsa a pannakaikaysa dagiti militar ken umili",
-    "date": "2026-09-14T16:09:34",
-    "excerpt": "Mas maayos na pagtugon sa pangangailangan ng mga mamamayan ang tinalakay sa pagbisita ng mga kawani ng Philippine Army sa opisina ni City Mayor Hermenegildo A. Gualberto noong ika-27 ng Agosto, 2026.",
+    "slug": "inabanga-river-firefly-sanctuary-protection-adopted",
+    "title": "Inabanga River Firefly Sanctuary Conservation Measures Adopted by MENRO",
+    "date": "2026-09-30T17:15:00",
+    "excerpt": "The municipal environment council established night-time noise limits and mangrove buffer zones to protect the thriving synchronous firefly colonies along the upstream riverbanks.",
     "image": "/news/news-26.jpg",
-    "sourceUrl": "https://www.inabanga.gov.ph/kinatalged-dagiti-komunidad-gapu-ti-napapigsa-a-pannakaikaysa-dagiti-militar-ken-umili/"
+    "sourceUrl": "https://inabanga.gov.ph/news/firefly-sanctuary-protection/"
   },
   {
-    "slug": "partisipasyon-ng-mamamayan-sa-pamahalaan-palalakasin-sa-san-fernando",
-    "title": "PARTISIPASYON NG MAMAMAYAN SA PAMAHALAAN, PALALAKASIN SA SAN FERNANDO",
-    "date": "2026-09-03T08:35:31",
-    "excerpt": "Palalakasin ang kakayahan at partisipasyon ng mamamayan sa lokal na pamahalaan sa pamamagitan ng itatatag na Civil Society Organization (CSO) Academy sa rehiyon, ayon sa Department of the Interior and Local Government (DILG) Region 1 matapos talakayan kasama ang Pamahalaang Lungsod noong Agosto 25, 2026.",
+    "slug": "high-school-scholars-receive-lgu-tertiary-educational-aid",
+    "title": "250 Tertiary Scholars Receive Municipal Educational Assistance Allowances",
+    "date": "2026-09-29T10:30:00",
+    "excerpt": "Mayor Dexter M. Ancla awarded educational vouchers to college students enrolled in state universities, emphasizing that youth education remains the cornerstone of poverty alleviation.",
     "image": "/news/news-27.jpg",
-    "sourceUrl": "https://www.inabanga.gov.ph/partisipasyon-ng-mamamayan-sa-pamahalaan-palalakasin-sa-san-fernando/"
+    "sourceUrl": "https://inabanga.gov.ph/news/tertiary-scholarship-aid/"
   },
   {
-    "slug": "mga-polisiya-laban-sa-panganib-sinusuri-ng-san-fernando",
-    "title": "MGA POLISIYA LABAN SA PANGANIB, SINUSURI NG SAN FERNANDO",
-    "date": "2026-09-03T08:33:15",
-    "excerpt": "Masusing paghahanda sa panganib na dulot ng pagguho ng lupa ang layunin ng Department of Science and Technology – Philippine Institute of Volcanology and Seismology (DOST-PHIVOLCS) Dynaslope Team sa Post-Landslide Alert Assessment (PLAA) noong Agosto 24, 2026.",
+    "slug": "port-of-u-og-passenger-terminal-and-solar-lighting-completed",
+    "title": "Port of U-og Upgrades Passenger Waiting Lounge and Solar Lighting System",
+    "date": "2026-09-28T13:45:00",
+    "excerpt": "Commuters traveling between Inabanga mainland and the islands of Cuaming and Hambongan now enjoy covered seating, clean sanitation facilities, and well-lit docking ramps.",
     "image": "/news/news-28.jpg",
-    "sourceUrl": "https://www.inabanga.gov.ph/mga-polisiya-laban-sa-panganib-sinusuri-ng-san-fernando/"
+    "sourceUrl": "https://inabanga.gov.ph/news/port-u-og-passenger-terminal/"
   },
   {
-    "slug": "kapakanan-ng-mga-baybaying-komunidad-isinusulong-sa-la-union",
-    "title": "KAPAKANAN NG MGA BAYBAYING KOMUNIDAD, ISINUSULONG SA LA UNION",
-    "date": "2026-09-03T08:31:12",
-    "excerpt": "Sa kabila ng pambansang usapin tungkol sa West Philippine Sea (WPS), sinimulan namang planuhin ng Provincial Government of Bohol (PGLU) at ng Pamahalaang Lungsod ang Three-Year Action Plan ng Provincial WPS Council ng Bohol para sa pagsulong ng kapakanan ng mga baybaying komunidad noong Agosto 20, 2026.",
+    "slug": "municipal-assessor-conducts-barangay-tax-mapping-in-dait-sur",
+    "title": "Municipal Assessor Conducts Real Property Tax Mapping in Dait Sur and Datag",
+    "date": "2026-09-27T11:00:00",
+    "excerpt": "Field assessment teams utilized digital geospatial tools to assist smallholder farmers in resolving boundary queries and updating land tax declarations accurately.",
     "image": "/news/news-29.jpg",
-    "sourceUrl": "https://www.inabanga.gov.ph/kapakanan-ng-mga-baybaying-komunidad-isinusulong-sa-la-union/"
+    "sourceUrl": "https://inabanga.gov.ph/news/tax-mapping-dait-sur/"
   },
   {
-    "slug": "10-year-waste-management-plan-isusulong-sa-san-fernando",
-    "title": "10-YEAR WASTE MANAGEMENT PLAN, ISUSULONG SA SAN FERNANDO",
-    "date": "2026-09-03T08:29:18",
-    "excerpt": "Mas mapagbubuti ng Municipal Government of Inabanga ang pamamahala ng basura sa lungsod sa pamamagitan ng pagbuo at pagpapatupad ng updated 10-Year Solid Waste Management Plan (SWM Plan) para sa CY 2026–2035.",
+    "slug": "inabanga-town-fiesta-preparations-underway-for-saint-paul-feast",
+    "title": "Inabanga Town Fiesta Preparations in Full Swing for Feast of Saint Paul the Apostle",
+    "date": "2026-09-26T16:00:00",
+    "excerpt": "Parish organizers and municipal officials unveiled the schedule for liturgical rites, riverboat processions, sports tournaments, and traditional cultural presentations.",
     "image": "/news/news-30.jpg",
-    "sourceUrl": "https://www.inabanga.gov.ph/10-year-waste-management-plan-isusulong-sa-san-fernando/"
-  },
-]
+    "sourceUrl": "https://inabanga.gov.ph/news/town-fiesta-preparations/"
+  }
+];

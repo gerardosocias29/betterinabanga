@@ -10,7 +10,7 @@ import { factGroups, history, mapLinks, pillars } from './cityProfile'
 import { dpwhSanFernando, philgepsSanFernando } from './contracts'
 import { cityElections, electionSupplementSources } from './elections'
 import { faqs } from './faqs'
-import { fiscal2024, ilocosCities2024, revenueSources2024 } from './fiscal'
+import { fiscal2024, boholMunicipalities2024, revenueSources2024 } from './fiscal'
 import { news, newsLastVerified } from './news'
 import { offices } from './offices'
 import { officials } from './officials'
@@ -223,11 +223,11 @@ describe('open data extracts', () => {
     expect(fiscal2024.specialEducationFund).toBeGreaterThan(0)
   })
 
-  it('has nine comparable Ilocos cities with valid shares', () => {
-    expect(ilocosCities2024).toHaveLength(9)
-    expect(unique(ilocosCities2024.map((city) => `${city.province}/${city.name}`))).toBe(true)
-    expect(ilocosCities2024.some((city) => city.name === 'Inabanga' && city.province === 'Bohol')).toBe(true)
-    for (const city of ilocosCities2024) {
+  it('has nine comparable Bohol municipalities with valid shares', () => {
+    expect(boholMunicipalities2024).toHaveLength(9)
+    expect(unique(boholMunicipalities2024.map((city) => `${city.province}/${city.name}`))).toBe(true)
+    expect(boholMunicipalities2024.some((city) => city.name === 'Inabanga' && city.province === 'Bohol')).toBe(true)
+    for (const city of boholMunicipalities2024) {
       expect(city.annualRegularIncome).toBeGreaterThan(0)
       expect(city.localSources).toBeGreaterThan(0)
       expect(city.localSources).toBeLessThanOrEqual(city.annualRegularIncome)
@@ -243,15 +243,15 @@ describe('open data extracts', () => {
     expect(cityElections).toHaveLength(9)
     expect(unique(cityElections.map((election) => String(election.year)))).toBe(true)
     expect(
-      cityElections.some((election) => election.year === 2025 && election.mayor?.name.includes('Gualberto')),
+      cityElections.some((election) => election.year === 2025 && election.mayor?.name.includes('Ancla')),
     ).toBe(true)
     expect(cityElections.find((election) => election.year === 2007)?.mayor).toEqual({
-      name: 'Pablo C. Ortega',
+      name: 'Jose Jono Jumamoy',
       party: 'Lakas-CMD',
     })
-    expect(cityElections.find((election) => election.year === 2010)?.mayor?.name).toBe('Pablo C. Ortega')
+    expect(cityElections.find((election) => election.year === 2010)?.mayor?.name).toBe('Jose Jono Jumamoy')
     expect(cityElections.find((election) => election.year === 2013)?.viceMayor?.name).toBe(
-      'Hermenegildo A. Gualberto',
+      'Wenceslao Lao',
     )
     expect(electionSupplementSources.map((source) => source.year)).toEqual([2007, 2010, 2013])
     for (const election of cityElections) {

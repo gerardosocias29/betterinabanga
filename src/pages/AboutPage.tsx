@@ -96,16 +96,16 @@ export function AboutPage() {
         <div className="container-page py-12 sm:py-16">
           <Reveal>
             <SectionHeading
-              eyebrow="City profile"
+              eyebrow="Town profile"
               title="Inabanga at a glance"
-              description="The capital city of Bohol and the regional center of the Ilocos Region."
+              description="The Raffia Capital of Bohol and home of the historic Inabanga River."
             />
           </Reveal>
           <dl className="mt-8 grid gap-x-8 gap-y-5 sm:grid-cols-2 lg:grid-cols-3">
             {[
               ['Official name', city.officialName],
-              ['Cityhood', 'March 20, 1998 (RA 8509)'],
-              ['City type', city.type],
+              ['Established', '1744 (Saint Paul Parish founded)'],
+              ['LGU type', city.type],
               ['Province', city.province],
               ['Region', city.region],
               ['Congressional district', city.district],
@@ -133,8 +133,8 @@ export function AboutPage() {
           <Reveal>
             <SectionHeading
               eyebrow="History"
-              title="From Pindangan to a component city"
-              description="A short timeline of the city’s founding, capital status, and cityhood."
+              title="From Jesuit Mission to Thriving Historic Town"
+              description="A short timeline of Inabanga's founding in 1744, Dagohoy revolt ties, and modern development."
             />
           </Reveal>
           <ol className="mt-8 space-y-0">
@@ -196,13 +196,13 @@ export function AboutPage() {
               linkLabel="Visit the official city website"
               links={[
                 { href: 'https://psa.gov.ph/system/files/psy/2025%20PSY%20Final_signed.pdf', label: 'PSA Statistical Yearbook: population and land area' },
-                { href: 'https://rsso01.psa.gov.ph/content/highlights-population-la-union-2024-census-population', label: 'PSA 2024 Census: Bohol population' },
+                { href: 'https://rsso07.psa.gov.ph', label: 'PSA Region VII: Bohol Census figures' },
                 { href: 'https://data.bettergov.ph', label: 'BetterGov.ph open data catalog' },
-                { href: 'https://www.philatlas.com/luzon/r01/la-union/san-fernando.html', label: 'PhilAtlas city profile' },
-                { href: 'https://launion.gov.ph/city-of-san-fernando/', label: 'Bohol provincial profile' },
+                { href: 'https://www.philatlas.com/visayas/r07/bohol/inabanga.html', label: 'PhilAtlas Inabanga municipal profile' },
+                { href: 'https://www.bohol.gov.ph', label: 'Bohol provincial government portal' },
               ]}
             >
-              <LocalizedText text={"Better Inabanga is an independent project, not affiliated with the Municipal Government of Inabanga. The displayed land area is the PSA/PhilAtlas figure; published area figures differ between the PSA/PhilAtlas (102.72 km²), City (105.26 km²), and Province (106.88 km²) profiles. Core city profile facts were checked against cited public records on October 24, 2026; each dataset has its own source date. For official transactions, always use the city’s own channels."} /></SourceNote>
+              <LocalizedText text={"Better Inabanga is an independent project, not affiliated with the Municipal Government of Inabanga. The displayed land area is the PSA/PhilAtlas figure (168.49 km²) covering all 50 barangays. Core municipal profile facts were checked against cited public records on October 24, 2026; each dataset has its own source date. For official transactions, always use the municipality’s own channels."} /></SourceNote>
           </div>
         </div>
       </section>

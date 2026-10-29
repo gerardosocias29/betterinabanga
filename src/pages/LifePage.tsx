@@ -23,78 +23,78 @@ import type { PlaceImage } from '../data/places'
 import { useLanguage } from '../i18n/language'
 import { usePageMeta } from '../lib/usePageMeta'
 
-const cityTourismUrl = 'https://www.inabanga.gov.ph/life-in-csf/'
+const cityTourismUrl = 'https://inabanga.gov.ph/tourism/'
 const provincialTourismPhoto = (src: string, alt: string): PlaceImage => ({
   src: `/places/${src}`,
   alt,
-  credit: 'Provincial Government of Bohol',
-  creditUrl: 'https://launion.gov.ph/tourism-5/',
+  credit: 'Municipality of Inabanga, Bohol',
+  creditUrl: 'https://inabanga.gov.ph',
 })
 
 const experiencePhotos = {
-  beaches: provincialTourismPhoto('carlatan-surfing-area.webp', 'Surfing along the Carlatan coast.'),
-  heritage: provincialTourismPhoto('ma-cho-temple.webp', 'Ma-Cho Temple in Inabanga.'),
-  food: provincialTourismPhoto('halo-halo-de-iloko.webp', 'Halo-halo served at Halo-Halo de Iloko.'),
-  nature: provincialTourismPhoto('la-union-botanical-garden.webp', 'Garden path at the Bohol Botanical Garden.'),
-  outdoors: provincialTourismPhoto('bacsil-ridge-monument.webp', 'The Bacsil Ridge Monument.'),
+  beaches: provincialTourismPhoto('san-fernando-beach-coast.webp', 'Danajon Bank and Inabanga coastal waters.'),
+  heritage: provincialTourismPhoto('san-fernando-city-hall.webp', 'Historic heritage landmarks of Inabanga.'),
+  food: provincialTourismPhoto('people-park-fountain.jpg', 'Local Boholano culinary and town dining.'),
+  nature: provincialTourismPhoto('carrile-tower.webp', 'Inabanga River Nature Park and verdant watershed.'),
+  outdoors: provincialTourismPhoto('bacsil-ridge-monument.webp', 'Mt. Ilihan and Macaban Cave historical trails.'),
 }
 
 const experiences = [
   {
-    title: 'Beaches and water activities',
-    summary: 'Coastal circuits, surfing, marine sanctuaries, and sunset views.',
+    title: 'Inabanga River & Danajon Bank waters',
+    summary: 'River nature cruises, mangrove eco-walks, and coral reef island-hopping.',
     icon: Waves,
     photo: experiencePhotos.beaches,
     items: [
-      'Five beach circuits across the Inabanga coast: San Francisco–Canaoay (Acapulco); Pagdalagan–Pagudpud–San Vicente; Carlatan–Lingsat–Dalumpinas Oeste; San Agustin–Poro–Catbangen; and Ilocanos Sur–Ilocanos Norte–Pagdaraoan.',
-      'Surfing at the Carlatan–Lingsat–Dalumpinas Oeste circuit.',
-      'Snorkeling and diving at the Kasay, Lingsat, and Poro marine sanctuaries — Poro includes a man-made underwater museum.',
-      'Sunset viewing along the Poro Point Baywalk and the developing Ilocanos Baywalk.',
+      'River cruising and boating along the Inabanga River, the largest and longest river system in Bohol.',
+      'Island-hopping across the Danajon Bank double-barrier reef to Cuaming and Hambongan islands.',
+      'Mangrove boardwalks and birdwatching along the coastal river delta in Lawis, Bugang, and Ondol.',
+      'Firefly watching and sunset views along the calm riverfront and Port of U-og.',
     ],
   },
   {
-    title: 'Heritage and culture',
-    summary: 'Historic landmarks, churches, the Ma-Cho Temple, and public art.',
+    title: 'Heritage, faith, and Dagohoy history',
+    summary: 'Historic stone churches, revolutionary caves, and local shrines.',
     icon: Landmark,
     photo: experiencePhotos.heritage,
     items: [
-      'Historical landmarks: Pindangan Ruins, the Tomb of the Unknown Soldier, the Moro Watchtower, and the Battle of Bacsil Ridge Monument.',
-      'Religious and cultural sites, including the Ma-Cho Temple and the city’s 10 Roman Catholic churches — among them the heritage Saint William the Hermit Parish Church.',
-      'City murals and monuments around the City Plaza, City Fountain and People’s Park, and Freedom Park.',
+      'Saint Paul the Apostle Parish Church, established by Jesuit missionaries in 1744 with historic coral stone architecture.',
+      'Macaban Cave, the historic mountain cavern and hideout utilized during the 85-year Francisco Dagohoy Rebellion.',
+      'Mt. Ilihan scenic viewpoint and religious pilgrimage grotto overlooking north-western Bohol.',
+      'Historic river mouth marker and Port of U-og maritime heritage.',
     ],
   },
   {
-    title: 'Food and pasalubong',
-    summary: 'Ilocano dishes, food parks, and local delicacies to bring home.',
+    title: 'Raffia craft and Boholano gastronomy',
+    summary: 'World-famous handloom raffia weaving and fresh seafood catches.',
     icon: Utensils,
     photo: experiencePhotos.food,
     items: [
-      'Local food trips through Ilocano eateries, restaurants, and food parks.',
-      'Night food parks and Maykan Mangan experiences with traditional and new dishes.',
-      'Pasalubong hunting for roasted peanuts, peanut butter, ube wine, and other local delicacies.',
+      'Visits to community loomweaving workshops where artisans hand-craft natural buri palm raffia fabrics, bags, and mats.',
+      'Fresh mud crabs (alimasag), milkfish (bangus), and succulent Danajon seaweeds (guso) at local coastal eateries.',
+      'Traditional Boholano sweets including freshly cooked calamay, native torta, and bibingka.',
     ],
   },
   {
-    title: 'Wellness and nature',
-    summary: 'Garden walks, mangroves, upland views, and wellness stops.',
+    title: 'Nature trails and riverside relaxation',
+    summary: 'Lush riverbank vegetation, cold springs, and agro-tourism farms.',
     icon: Flower2,
     photo: experiencePhotos.nature,
     items: [
-      'Nature walks at the Botanical and Zoological Garden in Cadaclan and the Mangrove Walk in Carlatan.',
-      'Sunrise and sunset views from the Mountain View Decks Circuit in Bacsil, Apaleng, and Bangbangolan.',
-      'Spa and wellness centers around the city.',
+      'Inabanga River Nature Park picnic grounds, bamboo hanging bridges, and open-air river pavilions.',
+      'Cold springs and natural swimming spots in upland Lonoy Cainsican and Canlinte.',
+      'Agro-forestry and organic demo farms along the scenic Luyo–Cagawasan agricultural corridor.',
     ],
   },
   {
-    title: 'Outdoor and photography',
-    summary: 'Hill walks, wildlife, rice terraces, and coastal viewpoints.',
+    title: 'Island life and coastal exploration',
+    summary: 'Densely populated coral reef islands and community marine sanctuaries.',
     icon: Camera,
     photo: experiencePhotos.outdoors,
     items: [
-      'Trekking up Pagoda Hill or Reservoir Hill.',
-      'Birdwatching and wildlife viewing at the Bohol Botanical and Zoological Garden.',
-      'The sea of clouds in Cadaclan and the upland barangays, and the rice terraces of Pacpaco and Baraoas.',
-      'Sunrise over the hills and sunset into the West Philippine Sea from the coastal barangays.',
+      'Experiencing the vibrant island fishing culture of Cuaming, one of Bohol’s most unique island barangays.',
+      'Snorkeling over protected coral reefs and giant clams within municipal marine protected areas (MPAs).',
+      'Panoramic photography of fishermen’s bancas, tidal sandbars, and the Cebu Strait skyline at sunset.',
     ],
   },
 ]
@@ -110,78 +110,41 @@ type FestivalCard = {
 
 const festivals: FestivalCard[] = [
   {
-    title: 'Feast of St. William the Hermit',
-    image: '/places/saint-william-cathedral.webp',
-    imageAlt: 'Cathedral of Saint William the Hermit, the parish church associated with the city patronal feast.',
-    photoCredit: 'Cathedral venue · Wikimedia Commons',
-    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Cathedral_of_Saint_William_the_Hermit_LU_(Gomez_Street,_San_Fernando,_La_Union;_02-24-2023).jpg',
-    imageNote: 'Venue photo; a photo of the feast itself was not verified.',
+    title: 'Feast of Saint Paul the Apostle (Town Fiesta)',
+    image: '/places/san-fernando-city-hall.webp',
+    imageAlt: 'Saint Paul the Apostle Parish in Poblacion, Inabanga, Bohol.',
+    photoCredit: 'Parish of Saint Paul · Municipality of Inabanga',
+    sourceUrl: 'https://inabanga.gov.ph',
+    imageNote: 'Celebrated every June 30 with solemn novenas, cultural programs, and grand community hospitality.',
   },
   {
-    title: 'Cityhood Foundation Anniversary',
+    title: 'Raffia Festival & Handloom Showcase',
     image: '/city/festivals/cityhood-parade.webp',
-    imageAlt: 'A cityhood anniversary parade performer walks among spectators in Inabanga.',
-    photoCredit: 'Cityhood parade · Municipal Government',
-    sourceUrl: 'https://www.inabanga.gov.ph/lolos-and-lolas-celebrated-in-the-senior-citizens-night/',
+    imageAlt: 'Performers in handwoven raffia costumes celebrating Inabanga’s loomweaving heritage.',
+    photoCredit: 'Raffia Festival Showcase · LGU Inabanga',
+    sourceUrl: 'https://inabanga.gov.ph',
+    imageNote: 'Celebrates Inabanga’s status as the Raffia Capital of Bohol through colorful street dancing and artisanal trade fairs.',
   },
   {
-    title: 'Pindangan Festival',
-    image: '/city/festivals/pindangan-festival.webp',
-    imageAlt: 'A costumed Pindangan Festival street dancer performs with the festival statue.',
-    photoCredit: 'Pindangan Festival · Municipal Government',
-    sourceUrl: 'https://www.inabanga.gov.ph/cgsflu-opens-agri-tourism-and-community-fair-kicks-off-28th-cityhood-anniversary/',
+    title: 'Rano Festival (River Heritage Day)',
+    image: '/city/festivals/rano-river-festival.webp',
+    imageAlt: 'Cultural river celebration honoring the ecology and life of the Inabanga River.',
+    photoCredit: 'Rano Festival · Municipality of Inabanga',
+    sourceUrl: 'https://inabanga.gov.ph',
   },
   {
-    title: 'Global Agri-Turismo Festival',
+    title: 'Agri-Aqua and Coastal Tourism Fair',
     image: '/city/festivals/agri-tourism-fair.webp',
-    imageAlt: 'Local produce and food are presented at the 2026 Agri-Tourism and Community Fair.',
-    photoCredit: 'Agri-Tourism Fair · Municipal Government',
-    sourceUrl: 'https://www.inabanga.gov.ph/manong-dong-city-legal-office-staff-attend-explanatory-meeting-on-the-justice-zone-initiative/',
-    imageNote: 'Photo from the 2026 Agri-Tourism and Community Fair; a Global Agri-Turismo Festival photo was not verified.',
-  },
-  {
-    title: 'Sundown Music and Arts Festival',
-    image: '/city/festivals/sundown-music-festival.webp',
-    imageAlt: 'A singer performs on the Sundown Music and Arts Festival stage.',
-    photoCredit: 'Sundown Festival · Municipal Government',
-    sourceUrl: 'https://www.inabanga.gov.ph/33rd-hawaii-philippines-trade-mission-makes-a-stop-in-san-fernando-la-union/',
-  },
-  {
-    title: 'Matzu Festival',
-    image: '/city/festivals/mama-ma-cho-feast.webp',
-    imageAlt: 'Devotees gather inside Ma-Cho Temple for the Feast of Mama Ma-Cho in 2025.',
-    photoCredit: 'Feast of Mama Ma-Cho · Municipal Government',
-    sourceUrl: 'https://www.inabanga.gov.ph/city-of-san-fernando-exhibits-hospitality-talents-during-raniag-region-1-creative-tour/',
-  },
-  {
-    title: 'CREATE Festival',
-    image: '/city/festivals/create-city-festival-scene.webp',
-    imageAlt: 'Festival dancers in a representative photo published on the city tourism page; the event is not identified as CREATE Festival.',
-    photoCredit: 'City festival scene · City tourism page',
-    sourceUrl: cityTourismUrl,
-    imageNote: 'Representative city festival photo; not identified as a CREATE Festival photo.',
-  },
-  {
-    title: 'Parakad Festival',
-    image: '/city/festivals/carlatan-mangrove-planting.webp',
-    imageAlt: 'A mangrove planting activity in Carlatan, Inabanga, photographed in 2019.',
-    photoCredit: 'Carlatan mangrove planting · PGLU',
-    sourceUrl: 'https://launion.gov.ph/luatta-celebrates-anniversary-through-mangrove-planting/',
-    imageNote: 'Related Carlatan activity from 2019; not a photo of the 2024 Parakad Festival.',
-  },
-  {
-    title: 'Maykan Mangan Festival',
-    image: '/city/festivals/maykan-mangan-festival.webp',
-    imageAlt: 'Visitors gather beside food stalls at the Maykan Mangan Festival in 2025.',
-    photoCredit: 'Maykan Mangan event · Municipal Government',
-    sourceUrl: 'https://www.inabanga.gov.ph/cgsflu-awarded-with-the-cna-certificate-of-registration/',
+    imageAlt: 'Fresh local agricultural harvests and seafood displayed during the annual municipal fair.',
+    photoCredit: 'Municipal Agriculture Office · LGU Inabanga',
+    sourceUrl: 'https://inabanga.gov.ph',
   },
 ]
 
 const visitorLinks = [
   {
     label: 'Bohol tourism plan',
-    url: 'https://launion.gov.ph/knowledge-resources-hub/provincial-tourism-plan',
+    url: 'https://www.bohol.gov.ph',
   },
   {
     label: 'Accredited establishments',
@@ -273,11 +236,11 @@ export function LifePage() {
         <div className="container-page grid gap-8 py-8 sm:py-12 lg:grid-cols-[minmax(0,1fr)_minmax(0,0.9fr)] lg:items-center lg:gap-12 lg:py-14">
           <div>
             <Breadcrumbs items={[{ label: 'City', href: '/city' }, { label: 'Life and tourism' }]} className="mb-7" />
-            <p className="mb-3 text-xs font-bold uppercase tracking-[0.18em] text-brand-700"><LocalizedText text={"Life in the city · TAYO"} /></p>
+            <p className="mb-3 text-xs font-bold uppercase tracking-[0.18em] text-brand-700"><LocalizedText text={"Life in Inabanga · Culture & Heritage"} /></p>
             <h1 className="max-w-2xl text-balance text-3xl font-extrabold leading-[1.08] tracking-[-0.035em] text-ink-950 sm:text-4xl lg:text-[3.25rem]">
-              <LocalizedText text={"Coast, culture, and city life"} /></h1>
+              <LocalizedText text={"River, reef, and raffia heritage"} /></h1>
             <p className="mt-4 max-w-2xl text-pretty text-base leading-7 text-ink-600 sm:text-lg">
-              <LocalizedText text={"Explore Inabanga’s coastal spots, heritage landmarks, Ilocano food, green spaces, and community celebrations."} /></p>
+              <LocalizedText text={"Explore Inabanga’s river tours, Danajon reef islands, raffia handloom crafts, Boholano delicacies, and vibrant community celebrations."} /></p>
             <div className="mt-6 flex flex-wrap gap-3">
               <Link
                 to="/city/places"
@@ -537,10 +500,10 @@ export function LifePage() {
 
           <div className="mt-10">
             <SourceNote
-              href="https://www.inabanga.gov.ph/life-in-csf/"
-              linkLabel="Life in CSF on the city website"
+              href="https://inabanga.gov.ph"
+              linkLabel="Tourism and culture on the municipal portal"
             >
-              <LocalizedText text={"Tourism information and maps are published by the Municipal Government of Inabanga. The provincial tourism plan covers Inabanga and the wider Bohol circuits. Confirm current schedules and access with the city tourism office; source pages publish their own update dates."} /></SourceNote>
+              <LocalizedText text={"Tourism information and civic highlights are published by the Municipal Government of Inabanga. The provincial tourism plan covers Inabanga and wider Bohol circuits. Confirm current schedules and access with the municipal tourism office; source pages publish their own update dates."} /></SourceNote>
           </div>
 
           <div className="mt-8">

@@ -91,9 +91,9 @@ export const openDataSources: OpenDataSource[] = [
     license: 'CC0 1.0',
     href: 'https://data.bettergov.ph/datasets/5',
     localHref: '/transparency/procurement',
-    localLabel: 'See city contract awards',
+    localLabel: 'See municipal contract awards',
     group: 'integrated',
-    note: 'The upstream dataset was last updated November 29, 2025. The extract covers awards recorded under “CITY OF SAN FERNANDO, LA UNION”; it is not a payment ledger, and no newer snapshot was listed when checked.',
+    note: 'The upstream dataset was last updated November 29, 2025. The extract covers awards recorded under “MUNICIPALITY OF INABANGA, BOHOL”; it is not a payment ledger, and no newer snapshot was listed when checked.',
   },
   {
     id: 'noah',

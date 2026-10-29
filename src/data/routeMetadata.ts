@@ -98,7 +98,7 @@ const staticRoutes: RouteMetadata[] = [
     path: '/government',
     title: 'Municipal government',
     description:
-      'Meet the mayor and city council, browse city offices and departments, explore all 59 barangays, and find published emergency contacts in Inabanga, Bohol.',
+      'Meet the mayor and Sangguniang Bayan, browse municipal offices and departments, explore all 50 barangays, and find published emergency contacts in Inabanga, Bohol.',
     priority: 0.9,
     changefreq: 'weekly',
     jsonLd: makeBreadcrumbs([
@@ -123,7 +123,7 @@ const staticRoutes: RouteMetadata[] = [
     path: '/government/offices',
     title: 'City offices',
     description:
-      'Browse all 38 city offices and departments of Inabanga, Bohol, with contacts, service counts, and links to the Citizens’ Charter.',
+      'Browse all 38 municipal offices and departments of Inabanga, Bohol, with contacts, service counts, and links to the Citizens’ Charter.',
     priority: 0.8,
     changefreq: 'monthly',
     jsonLd: makeBreadcrumbs([
@@ -136,7 +136,7 @@ const staticRoutes: RouteMetadata[] = [
     path: '/government/barangays',
     title: 'Barangays',
     description:
-      'All 59 barangays of Inabanga, Bohol, with an interactive boundary map, 2024 population, city share, change since 2020, rank, and elected barangay officials.',
+      'All 50 barangays of Inabanga, Bohol, with an interactive boundary map, 2024 population, city share, change since 2020, rank, and elected barangay officials.',
     priority: 0.8,
     changefreq: 'monthly',
     jsonLd: makeBreadcrumbs([

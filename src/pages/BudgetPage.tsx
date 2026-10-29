@@ -13,7 +13,7 @@ import { city } from '../data/city'
 import {
   fiscal2024,
   fiscalSourceUrl,
-  ilocosCities2024,
+  boholMunicipalities2024,
   revenueSources2024,
 } from '../data/fiscal'
 import { formatNumber, formatPeso } from '../lib/utils'
@@ -40,8 +40,8 @@ export function BudgetPage() {
   const operatingLocalShare = fiscal2024.totalLocalSources / fiscal2024.totalIncome
   const nationalShare = 1 - operatingLocalShare
   const disasterUse = fiscal2024.disasterFund.spent / fiscal2024.disasterFund.appropriation
-  const cityPeers = [...ilocosCities2024].sort((a, b) => b.ownSourceShare - a.ownSourceShare)
-  const sfPeer = ilocosCities2024.find((peer) => peer.name === 'Inabanga' && peer.province === 'Bohol')
+  const cityPeers = [...boholMunicipalities2024].sort((a, b) => b.ownSourceShare - a.ownSourceShare)
+  const sfPeer = boholMunicipalities2024.find((peer) => peer.name === 'Inabanga')
   const sfOwnSourceShare = sfPeer?.ownSourceShare ?? 0
   const sfNtaShare = sfPeer?.ntaShare ?? 0
   const sfLocalSources = sfPeer?.localSources ?? 0
@@ -217,7 +217,7 @@ export function BudgetPage() {
                 <h2 className="mt-2 text-xl font-extrabold tracking-tight text-ink-950">
                   <LocalizedText text={"How Inabanga compares"} /></h2>
               </div>
-              <p className="text-xs font-semibold text-ink-500"><LocalizedText text={"Nine cities in Ilocos Region"} /></p>
+              <p className="text-xs font-semibold text-ink-500"><LocalizedText text={"Peer municipalities in Bohol"} /></p>
             </div>
 
             <p className="mt-3 max-w-3xl text-sm leading-6 text-ink-600">
@@ -229,7 +229,7 @@ export function BudgetPage() {
                   {percent(sfOwnSourceShare)}
                 </p>
                 <p className="mt-1 text-xs font-semibold text-ink-700"><LocalizedText text={"Inabanga own-source share"} /></p>
-                <p className="mt-0.5 text-[11px] text-ink-500"><LocalizedText text={"Regional median"} trailingSpace />{percent(medianOwnSourceShare)}</p>
+                <p className="mt-0.5 text-[11px] text-ink-500"><LocalizedText text={"Provincial median"} trailingSpace />{percent(medianOwnSourceShare)}</p>
               </div>
               <div className="rounded-xl bg-surface p-4">
                 <p className="text-lg font-extrabold tracking-tight text-ink-950">
@@ -243,7 +243,7 @@ export function BudgetPage() {
                   {formatPeso(sfLocalSources)}
                 </p>
                 <p className="mt-1 text-xs font-semibold text-ink-700"><LocalizedText text={"Local-source revenue"} /></p>
-                <p className="mt-0.5 text-[11px] text-ink-500"><LocalizedText text={"Fourth among the nine cities"} /></p>
+                <p className="mt-0.5 text-[11px] text-ink-500"><LocalizedText text={"Among peer Bohol municipalities"} /></p>
               </div>
             </div>
 
@@ -256,11 +256,11 @@ export function BudgetPage() {
             >
               <table className="w-full min-w-[680px] text-left text-sm">
                 <caption className="sr-only">
-                  <LocalizedText text={"FY2024 own-source revenue shares for cities in the Ilocos Region"} /></caption>
+                  <LocalizedText text={"FY2024 own-source revenue shares for Bohol municipalities"} /></caption>
                 <thead className="bg-surface text-[11px] font-bold uppercase tracking-[0.1em] text-ink-500">
                   <tr>
                     <th scope="col" className="px-4 py-3">
-                      <LocalizedText text={"City"} /></th>
+                      <LocalizedText text={"Municipality"} /></th>
                     <th scope="col" className="px-4 py-3">
                       <LocalizedText text={"Province"} /></th>
                     <th scope="col" className="px-4 py-3 text-right">
@@ -273,14 +273,14 @@ export function BudgetPage() {
                 </thead>
                 <tbody className="divide-y divide-line">
                   {cityPeers.map((peer) => {
-                    const isSanFernando = peer.name === 'Inabanga' && peer.province === 'Bohol'
+                    const isInabanga = peer.name === 'Inabanga'
                     return (
-                      <tr key={`${peer.province}-${peer.name}`} className={isSanFernando ? 'bg-brand-50' : undefined}>
+                      <tr key={`${peer.province}-${peer.name}`} className={isInabanga ? 'bg-brand-50' : undefined}>
                         <th scope="row" className="px-4 py-3 font-semibold text-ink-950">
                           {peer.name}
-                          {isSanFernando ? (
+                          {isInabanga ? (
                             <span className="ml-2 rounded-full bg-brand-700 px-2 py-0.5 text-[10px] font-bold uppercase tracking-[0.08em] text-white">
-                              <LocalizedText text={"This city"} /></span>
+                              <LocalizedText text={"This municipality"} /></span>
                           ) : null}
                         </th>
                         <td className="px-4 py-3 text-ink-600">{peer.province}</td>
@@ -299,7 +299,7 @@ export function BudgetPage() {
             </div>
 
             <p className="mt-4 text-xs leading-5 text-ink-500">
-              <LocalizedText text={"Shares follow BLGF's regular-income categories. Large one-off national shares can make a city's percentage look unusual."} /></p>
+              <LocalizedText text={"Shares follow BLGF's regular-income categories. Large one-off national shares can make an LGU's percentage look unusual."} /></p>
           </section>
         </Reveal>
 
@@ -308,7 +308,7 @@ export function BudgetPage() {
             href={fiscalSourceUrl}
             linkLabel="BLGF local fiscal data on data.bettergov.ph"
           >
-            <LocalizedText text={"FY2024 figures from the Bureau of Local Government Finance (BLGF) are preliminary and cover the city government on its operating basis. The regional table compares the nine cities of Ilocos Region."} /></SourceNote>
+            <LocalizedText text={"FY2024 figures from the Bureau of Local Government Finance (BLGF) are preliminary and cover the municipal government on its operating basis. The comparative table benchmarks Inabanga against peer municipalities in Bohol."} /></SourceNote>
         </div>
 
         <div className="mt-12 space-y-12">

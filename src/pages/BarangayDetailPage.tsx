@@ -54,7 +54,7 @@ export function BarangayDetailPage() {
             {barangay.district}
           </span>
           <span className="inline-flex items-center gap-1.5 rounded-full bg-brand-700 px-3 py-1.5 text-xs font-bold text-white">
-            <LocalizedText text={"Rank"} trailingSpace />{barangay.rank} <LocalizedText text={"of 59"} /></span>
+            <LocalizedText text={"Rank"} trailingSpace />{barangay.rank} <LocalizedText text={"of 50"} /></span>
           {barangay.poblacion ? (
             <span className="rounded-full border border-line bg-white px-3 py-1.5 text-xs font-semibold text-ink-700">
               <LocalizedText text={"Poblacion"} /></span>

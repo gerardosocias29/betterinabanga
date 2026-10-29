@@ -2,28 +2,43 @@ import type { TimelineItem } from './types';
 
 export const timeline: TimelineItem[] = [
   {
-    "year": "1572",
-    "title": "Spanish regime",
-    "text": "Juan de Salcedo reached the Ilocos coast and demanded tribute from the communities that would become Inabanga. The first Ilocano resistance was remembered in the name Darigayos, \"where blood flowed.\""
+    "year": "Pre-Colonial",
+    "title": "Settlement of Inabangan",
+    "text": "Early Boholano communities flourished along the Inabanga River delta, living by fishing, agriculture, and trading with neighboring islands across the Danajon Bank and Cebu Strait."
   },
   {
-    "year": "1759",
-    "title": "Early settlements",
-    "text": "San Guillermo de Dalangdang and San Vicente de Balanac were threatened by headhunting raids and Moro pirates. An Augustinian priest, Fr. Jose Torres, urged the survivors to settle together for protection."
+    "year": "1744",
+    "title": "Saint Paul Parish established",
+    "text": "Jesuit missionaries officially founded the parish of Saint Paul the Apostle on the northern banks of the Inabanga River, establishing the permanent town center."
   },
   {
-    "year": "1762–1831",
-    "title": "Pindangan and Inabanga",
-    "text": "The merged settlements became Pindangan, a place for drying fish. On May 6, 1786, Fr. Fernando Rey founded Ministerio de Inabanga in honor of King Ferdinand of Spain."
+    "year": "1744–1829",
+    "title": "Dagohoy Rebellion stronghold",
+    "text": "Inabanga served as a vital sanctuary during the 85-year Dagohoy revolt. The limestone chambers of Macaban Cave and the thick river forests gave Boholano freedom fighters shelter and strategic defense."
   },
   {
-    "year": "1850",
-    "title": "Capital of Bohol",
-    "text": "Inabanga was declared the cabecera, or capital, of the newly organized Province of Bohol."
+    "year": "1768",
+    "title": "Recollect administration",
+    "text": "Following the royal expulsion of the Jesuits from the Spanish realm, the Augustinian Recollect Fathers assumed pastoral leadership of the parish, building roads and stone structures."
   },
   {
-    "year": "1998",
-    "title": "Cityhood",
-    "text": "Republic Act 8509 was signed on February 13, 1998. Residents ratified it in a plebiscite on March 20, 1998, converting the municipality into a component city."
+    "year": "1879",
+    "title": "Coral stone church constructed",
+    "text": "The landmark Saint Paul the Apostle Church was erected out of quarried coral stone blocks, overlooking the calm waters of the Inabanga River."
+  },
+  {
+    "year": "1942–1945",
+    "title": "World War II resistance",
+    "text": "Local volunteers and guerrillas of the Bohol Area Command protected Inabanga's rural food supplies and resisted Japanese patrols until liberation in 1945."
+  },
+  {
+    "year": "1980s",
+    "title": "Raffia capital of Bohol",
+    "text": "With hundreds of skilled women weavers extracting buri palm fibers, Inabanga became celebrated across the country as the premier center for Philippine handwoven raffia textiles."
+  },
+  {
+    "year": "Modern",
+    "title": "Eco-tourism and civic progress",
+    "text": "The municipality inaugurated the Inabanga River Nature Park, expanded port facilities at Port of U-og, and advanced civic public transparency for all 50 barangays."
   }
 ];

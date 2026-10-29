@@ -89,7 +89,7 @@ export const sources: Source[] = [
   {
     "name": "PSA Philippine Standard Geographic Code",
     "url": "https://psa.gov.ph/classification/psgc",
-    "note": "Current national PSGC masterlist dated September 30, 2026; the city page lists all 59 barangays and 2024 POPCEN counts"
+    "note": "Current national PSGC masterlist dated September 30, 2026; the city page lists all 50 barangays and 2024 POPCEN counts"
   },
   {
     "name": "PSA Inabanga barangay list and 2024 population",

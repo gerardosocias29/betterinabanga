@@ -196,7 +196,7 @@ export function GovernmentPage() {
                           {barangay.name}
                         </span>
                         <span className="block text-xs text-ink-500">
-                          {barangay.district} <LocalizedText text={"· Rank"} trailingSpace />{barangay.rank} <LocalizedText text={"of 59"} /></span>
+                          {barangay.district} <LocalizedText text={"· Rank"} trailingSpace />{barangay.rank} <LocalizedText text={"of 50"} /></span>
                       </span>
                       <span className="shrink-0 text-sm font-bold text-ink-700">
                         {formatNumber(barangay.population2024)}

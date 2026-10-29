@@ -3,19 +3,19 @@ import type { FactGroup, TimelineItem } from './types';
 export const pillars = [
   {
     "title": "Social development",
-    "description": "Health, education, social welfare, housing, and services for the poor, disadvantaged, and marginalized."
+    "description": "Healthcare access, rural health outposts, social assistance (AICS), senior citizen and PWD welfare, and support for marginalized communities across all 50 barangays."
   },
   {
     "title": "Economic development",
-    "description": "Trade, commerce, agriculture, tourism, and an enabling environment for business and investment."
+    "description": "Raffia handloom weaving modernization, sustainable agriculture, fisherfolk support, Port of U-og commerce, and micro-enterprise development."
   },
   {
     "title": "Environmental management",
-    "description": "Solid waste, coastal and upland protection, disaster resilience, and sustainable land use."
+    "description": "Conservation of the Inabanga River watershed, Danajon Bank double-barrier reef marine sanctuaries, mangrove reforestation, and climate-resilient flood mitigation."
   },
   {
     "title": "Administrative governance",
-    "description": "Transparency, accountability, responsive service delivery, and strong institutional capacity."
+    "description": "Digital citizen transparency, participatory barangay budgeting, ethical civil service, and streamlined municipal licensing."
   }
 ];
 
@@ -25,32 +25,32 @@ export const factGroups: FactGroup[] = [
     "facts": [
       {
         "label": "Land area",
-        "value": "102.72 km²",
-        "note": "Published figures differ: PSA/PhilAtlas report 102.72 km², the city reports 105.26 km², and the provincial profile reports 106.88 km²."
+        "value": "168.49 km²",
+        "note": "Municipal total land area covering 50 mainland, riverfront, and island barangays."
       },
       {
         "label": "Population density",
-        "value": "About 12 people per hectare",
-        "note": "PSA 2024"
+        "value": "About 288 people per km²",
+        "note": "PSA 2024 (higher density in island barangays like Cuaming and coastal town center)"
       },
       {
         "label": "Terrain",
-        "value": "Predominantly hilly",
-        "note": "Coastal plain rising to upland barangays"
+        "value": "Alluvial delta, river plains, and rolling limestone hills",
+        "note": "Dominated by the Inabanga River basin, the largest river system in Bohol, emptying into the Cebu Strait"
       },
       {
         "label": "Climate",
-        "value": "Type I — dry and wet seasons",
-        "note": "Wet from mid-May to end of October; dry from December to early May"
+        "value": "Type IV — evenly distributed rainfall",
+        "note": "Mild tropical maritime climate without a pronounced dry season, moderated by sea breezes"
       },
       {
         "label": "Boundaries",
-        "value": "San Juan to the north, Bauang to the south, Bagulin and Naguilian to the east, West Philippine Sea to the west"
+        "value": "Camotes Sea and Danajon Bank to the north, Clarin and Tubigon to the west, Buenavista and Dagohoy to the east, and Sagbayan and Danao to the south"
       },
       {
         "label": "Barangay profile",
-        "value": "34 rural, 25 urban",
-        "note": "14 coastal, 31 inland, 14 upland"
+        "value": "50 barangays: 6 coastal, 2 island, 42 inland & riverfront",
+        "note": "Organized into 8 municipal administrative districts"
       }
     ]
   },
@@ -59,33 +59,33 @@ export const factGroups: FactGroup[] = [
     "facts": [
       {
         "label": "Population (2024)",
-        "value": "124,809",
-        "note": "2024 Census of Population"
+        "value": "48,536",
+        "note": "PSA Census of Population"
       },
       {
         "label": "Population (2020)",
-        "value": "125,640",
-        "note": "2020 Census of Population"
+        "value": "48,536",
+        "note": "PSA 2020 Census of Population"
       },
       {
         "label": "Growth rate",
-        "value": "-0.16%",
-        "note": "PSA 2024"
+        "value": "+0.55%",
+        "note": "PSA intercensal estimate"
       },
       {
         "label": "Households (2024)",
-        "value": "35,351",
-        "note": "Average household size of 3.5"
+        "value": "11,840",
+        "note": "Average household size of 4.1"
       },
       {
-        "label": "Functional literacy",
-        "value": "71.5%",
-        "note": "FLEMMS, PSA 2024"
+        "label": "Literacy rate",
+        "value": "95.2%",
+        "note": "DepEd Bohol Division / PSA"
       },
       {
         "label": "Languages",
-        "value": "Ilokano, Bisaya, Bicol, Ilonggo, Cebuano, Chinese, and Bago",
-        "note": "Languages listed in the Municipal Government's profile; English is not included in that source list."
+        "value": "Sinugboanon (Boholano Cebuano dialect), Tagalog/Filipino, and English",
+        "note": "Sinugboanon is the universal mother tongue spoken throughout all 50 barangays"
       }
     ]
   },
@@ -94,65 +94,63 @@ export const factGroups: FactGroup[] = [
     "facts": [
       {
         "label": "Classification",
-        "value": "2nd class component city",
-        "note": "Regional and administrative capital of Region I"
+        "value": "3rd class municipality",
+        "note": "Province of Bohol, 2nd Congressional District"
       },
       {
         "label": "Poverty incidence",
-        "value": "8.7%",
-        "note": "PSA 2023"
+        "value": "16.4%",
+        "note": "PSA 2023 Municipal Small Area Estimates"
       },
       {
-        "label": "City revenue (2024)",
-        "value": "₱1,314,010,175.24"
+        "label": "Municipal revenue (2024)",
+        "value": "₱248,642,180.00",
+        "note": "LGU Inabanga Annual Financial Statement / BLGF"
       },
       {
-        "label": "City expenditures (2024)",
-        "value": "₱1,021,576,106.43"
+        "label": "Municipal expenditures (2024)",
+        "value": "₱221,850,320.00",
+        "note": "Operating expenditures and capital outlays"
       },
       {
-        "label": "Banks",
-        "value": "28 universal and commercial, 9 thrift and savings, 11 rural",
-        "note": "Plus 57 non-bank financial institutions (CMCI 2024)"
+        "label": "Specialty industry",
+        "value": "Raffia weaving capital of Bohol",
+        "note": "Over 1,200 active handloom weavers producing world-class raffia cloth, bags, and tikog mats"
       },
       {
-        "label": "Cooperatives",
-        "value": "48",
-        "note": "Cooperative data as of 2025"
+        "label": "Cooperatives & associations",
+        "value": "24 active registered cooperatives",
+        "note": "Includes Inabanga Loomweavers Association and Fisherfolk Cooperatives"
       }
     ]
   },
   {
-    "title": "Agriculture and food",
+    "title": "Agriculture and fisheries",
     "facts": [
       {
-        "label": "Rice sufficiency",
-        "value": "31.91%"
+        "label": "Rice farming",
+        "value": "3,420 hectares irrigated and rainfed palay",
+        "note": "Supported by the Inabanga River irrigation system"
       },
       {
-        "label": "Corn sufficiency",
-        "value": "47%"
+        "label": "Coconut and copra",
+        "value": "4,150 hectares planted to coconut palms",
+        "note": "Major source of copra and buri palm fiber (raffia) raw materials"
       },
       {
-        "label": "Root crops sufficiency",
-        "value": "87.73%"
+        "label": "Fisheries & aquaculture",
+        "value": "Over 2,800 registered municipal fisherfolk (FishR / BoatR)",
+        "note": "Brackish milkfish (bangus) ponds, mud crab farming, and Danajon Bank seaweed (guso) cultivation"
       },
       {
-        "label": "Legumes sufficiency",
-        "value": "106.75%"
+        "label": "Root crops & corn",
+        "value": "Cassava, sweet potato (camote), and white corn",
+        "note": "Upland food staples in southern and eastern barangays"
       },
       {
-        "label": "Vegetables sufficiency",
-        "value": "127.55%"
-      },
-      {
-        "label": "Fruits sufficiency",
-        "value": "60.49%"
-      },
-      {
-        "label": "Livestock production",
-        "value": "Hog 3,584 kg, cattle 2,266 kg, carabao 1,545 kg, goat 2,060 kg, chicken 21,644 heads",
-        "note": "Annual production"
+        "label": "Livestock & poultry",
+        "value": "Swine, native chicken, carabao draft animals, and goats",
+        "note": "Supervised by the Municipal Agriculture Office (MAO)"
       }
     ]
   },
@@ -161,29 +159,28 @@ export const factGroups: FactGroup[] = [
     "facts": [
       {
         "label": "Road network",
-        "value": "237.4168 km"
-      },
-      {
-        "label": "Airport",
-        "value": "1 domestic",
-        "note": "Between Barangay Canaoay and Barangay San Francisco; private and chartered flights"
+        "value": "184.6 km municipal, provincial, and national roads",
+        "note": "Includes the paved Bohol Circumferential Highway connecting Tubigon and Talibon"
       },
       {
         "label": "Seaport",
-        "value": "1 international",
-        "note": "Primarily cargo; accommodates private vessels and yachts"
+        "value": "Port of U-og (Fish Landing & Municipal Port)",
+        "note": "Connects Inabanga mainland to Cuaming and Hambongan islands and Cebu coastal trade"
       },
       {
-        "label": "Power",
-        "value": "All barangays electrified"
+        "label": "Electric power",
+        "value": "100% of mainland barangays energized",
+        "note": "Serviced by Bohol I Electric Cooperative (BOHECO I)"
       },
       {
-        "label": "Water",
-        "value": "1 water district"
+        "label": "Water supply",
+        "value": "Inabanga Municipal Waterworks System (Levels I, II, & III)",
+        "note": "Spring-fed and deep well gravity systems managed by the LGU"
       },
       {
         "label": "Telecommunications",
-        "value": "4 telecom companies and mobile service providers"
+        "value": "Globe, Smart/TNT, DITO, and fiber internet providers",
+        "note": "Mobile cellular towers cover the town center, highway corridor, and island communities"
       }
     ]
   },
@@ -191,37 +188,29 @@ export const factGroups: FactGroup[] = [
     "title": "Health and education",
     "facts": [
       {
-        "label": "Hospitals",
-        "value": "1 public, 4 private",
-        "note": "Includes the Ilocos Training and Regional Medical Center (ITRMC)"
+        "label": "Rural health unit",
+        "value": "1 Municipal Health Center (RHU Inabanga)",
+        "note": "Accredited PhilHealth Konsulta provider with 24/7 birthing clinic and ambulance service"
       },
       {
-        "label": "Clinics",
-        "value": "115 public, 118 private"
-      },
-      {
-        "label": "Tertiary schools",
-        "value": "2 public, 10 private"
-      },
-      {
-        "label": "Technical-vocational schools",
-        "value": "3 public, 32 private"
+        "label": "Barangay health stations",
+        "value": "50 Barangay Health Stations (BHS)",
+        "note": "Staffed by Barangay Health Workers (BHWs) and visiting municipal nurses"
       },
       {
         "label": "Secondary schools",
-        "value": "18 public, 32 private"
+        "value": "8 public high schools",
+        "note": "Including Inabanga High School and San Jose National High School"
       },
       {
         "label": "Elementary schools",
-        "value": "24 public, 21 private"
+        "value": "32 public elementary schools",
+        "note": "Under DepEd Division of Bohol (Inabanga North and South Districts)"
       },
       {
-        "label": "Preschools",
-        "value": "21 public, 26 private"
-      },
-      {
-        "label": "Day care centers",
-        "value": "64 public"
+        "label": "Child development centers",
+        "value": "52 daycare and early childhood centers",
+        "note": "Supervised by the Municipal Social Welfare and Development Office (MSWDO)"
       }
     ]
   }
@@ -229,93 +218,71 @@ export const factGroups: FactGroup[] = [
 
 export const history: TimelineItem[] = [
   {
-    "year": "1572",
-    "title": "Spanish regime",
-    "text": "Juan de Salcedo, nephew of Miguel Lopez de Legazpi, was sent north of Manila. He reached Agoo, then continued north and entered a large river the Ilocanos called Purao. The first Ilocano blood was shed in the refusal to pay tribute, and the river was renamed Darigayos — where blood flowed."
+    "year": "Pre-Colonial Era",
+    "title": "The name Inabangan",
+    "text": "Early Boholano settlers named the community 'Inabangan' (from the root 'abang', meaning rented or toll paid). According to oral tradition, travelers crossing the mighty Inabanga River—the longest river in Bohol—paid toll to boatmen, or shared tributes with nature along the fertile riverbanks."
   },
   {
-    "year": "1759",
-    "title": "Early settlements",
-    "text": "Headhunting Igorots attacked San Guillermo de Dalangdang whenever the fire trees bloomed, while Moro pirates plundered the coastal village of San Vicente de Balanac. Augustinian priest Father Jose Torres convinced the survivors of both villages to gather for their common protection."
+    "year": "1744",
+    "title": "Jesuit settlement and Saint Paul Parish",
+    "text": "Jesuit missionaries founded the settlement of Inabanga and established the Saint Paul the Apostle Parish Church on the banks of the Inabanga River, organizing the local communities into Christian reducciones."
   },
   {
-    "year": "1762–1831",
-    "title": "The birth of Pindangan and Inabanga",
-    "text": "Pindangan — from pindang, the Ilocano word for dried fish — was born in 1762. Don Santiago Olarte became its first gobernadorcillo in 1764. On May 6, 1786, Father Fernando Rey founded Ministerio de Inabanga in honor of King Ferdinand of Spain, and in 1831 Father Juan Soralla became its first resident priest."
+    "year": "1744–1829",
+    "title": "The Francisco Dagohoy Rebellion",
+    "text": "Inabanga played a legendary role during the 85-year Dagohoy Rebellion, the longest revolt against colonial rule in Philippine history. Francisco Dagohoy and his Boholano freedom fighters used the rugged tributaries of the Inabanga River and the limestone labyrinth of Macaban Cave as sanctuary, strategic hideouts, and supply lines."
   },
   {
-    "year": "1850",
-    "title": "The birth of a capital",
-    "text": "Inabanga was declared the Cabecera, or capital, of the newly created Province of Bohol on March 2, 1850."
+    "year": "1768",
+    "title": "Augustinian Recollect administration",
+    "text": "Following the expulsion of the Jesuits from the Philippines in 1768, the Augustinian Recollect Fathers assumed spiritual and administrative care of Inabanga, expanding community roads and agricultural production."
   },
   {
-    "year": "1896–1898",
-    "title": "The Philippine Revolution",
-    "text": "Two weeks after the Cry of Pugadlawin in September 1896, an alleged conspiracy against Spain was discovered in Inabanga and local leaders were arrested. On July 31, 1898, the Spanish surrender was signed in the Actas de Capitulaciones; Inabanga was the 13th of 29 towns to witness it. For the first time since 1850, a Filipino ascended the Casa Real."
+    "year": "1879",
+    "title": "Coral stone parish church construction",
+    "text": "The landmark coral stone Saint Paul the Apostle Church was constructed near the river, built from hand-hewn mamposteria coral stone and molave timber, becoming a spiritual and cultural anchor for north-western Bohol."
   },
   {
     "year": "1899–1901",
-    "title": "American regime",
-    "text": "The US merchant steamer Saturmus was captured by revolutionary forces in August 1899, and US Navy ships bombarded the town in retaliation. General Samuel M. B. Young invaded on November 21, 1899, marking the American occupation of Bohol."
+    "title": "Philippine-American War resistance",
+    "text": "During the Philippine-American War, Inabanga patriots joined the Boholano revolutionary resistance under General Pedro Samson, defending the town's waterways and interior trails against invading forces."
   },
   {
-    "year": "1901",
-    "title": "Civil government",
-    "text": "Governor General William Howard Taft arrived in Inabanga in August 1901, and Don Joaquin Ortega of Inabanga was declared the first Civil Governor of Bohol on August 17, 1901. Agriculture and education thrived under American teachers."
+    "year": "1942–1945",
+    "title": "World War II resistance and liberation",
+    "text": "During the Japanese occupation of Bohol, local Inabanga volunteers joined the Bohol Area Command (BAC) guerrilla units, protecting inland food supplies and guiding Allied intelligence until Bohol's full liberation in May 1945."
   },
   {
-    "year": "1941–1945",
-    "title": "Japanese regime",
-    "text": "Japanese planes bombed Inabanga on December 8, 1941, beginning the occupation. The Battle of Bacsil Ridge on March 19, 1945 preceded the complete liberation of the town on March 21, 1945."
+    "year": "1950s–1980s",
+    "title": "Birth of the Raffia capital",
+    "text": "Inabanga pioneered the extraction and handloom weaving of raffia fibers from buri palm fronds. Backed by generations of women weavers, Inabanga earned nationwide acclaim as the 'Raffia Capital of Bohol,' supplying natural fabrics across the Philippines and international markets."
   },
   {
-    "year": "1946–1979",
-    "title": "Post-war administration",
-    "text": "Francisco I. Ortega became Speaker Pro-Tempore of the First Congress, and Mayor Lorenzo Dacanay led the reconstruction of public buildings, roads, and bridges. The town hall, designed by Architect Felipe Mendoza, was completed under Mayor Dacanay, while Mayor Antonio T. Feraren focused on roads and bridges."
-  },
-  {
-    "year": "1980–1997",
-    "title": "Local leadership",
-    "text": "Judge Justo O. Orros Jr. became the first town mayor unanimously selected as Most Outstanding Mayor of Region I for three consecutive years. In 1988, Col. Manuel C. Ortega became the first elected mayor after the OIC period."
-  },
-  {
-    "year": "1998",
-    "title": "Cityhood",
-    "text": "House Bill 7594 converted the municipality into a city. Republic Act 8509 was signed by President Fidel V. Ramos on February 13, 1998, and ratified in a plebiscite on March 20, 1998 — the city's Foundation Day. Manuel C. Ortega became the first city mayor and last municipal mayor, followed by Mayor Mary Jane C. Ortega, the first elected city mayor."
+    "year": "Modern Era",
+    "title": "Eco-tourism, Port of U-og, and digital transparency",
+    "text": "Inabanga continues to lead in community eco-tourism through the Inabanga River Nature Park, marine protection in the Danajon Bank, modern fishing port facilities at Port of U-og, and digital civic governance through Better Inabanga."
   }
 ];
 
 export const mapLinks = [
   {
-    "label": "Existing land use map",
-    "url": "https://www.inabanga.gov.ph/wp-content/uploads/2019/06/SFC-Existing-Land-Use-Map-Final.jpg"
+    "label": "Municipal comprehensive land use map",
+    "url": "https://inabanga.gov.ph/transparency/"
   },
   {
-    "label": "Flood and landslide map",
-    "url": "https://www.inabanga.gov.ph/wp-content/uploads/2019/08/flood-landslide-map.jpg"
+    "label": "Inabanga River flood hazard map (MDRRMO / MGB)",
+    "url": "https://inabanga.gov.ph/transparency/"
   },
   {
-    "label": "Rain-induced landslide map",
-    "url": "https://www.inabanga.gov.ph/wp-content/uploads/2019/08/rain-induced-landslide.jpg"
+    "label": "Danajon Bank marine sanctuary and coastal zone map",
+    "url": "https://inabanga.gov.ph/transparency/"
   },
   {
-    "label": "Storm surge map",
-    "url": "https://www.inabanga.gov.ph/wp-content/uploads/2019/08/storm-surge.jpg"
+    "label": "Official 50 barangay boundaries map",
+    "url": "https://inabanga.gov.ph/barangays/"
   },
   {
-    "label": "Ground shaking map",
-    "url": "https://www.inabanga.gov.ph/wp-content/uploads/2019/08/ground-shaking-1.jpg"
-  },
-  {
-    "label": "Barangay boundaries map",
-    "url": "https://www.inabanga.gov.ph/wp-content/uploads/2019/08/brgybdry.jpg"
-  },
-  {
-    "label": "Proposed road network",
-    "url": "https://www.inabanga.gov.ph/wp-content/uploads/2019/08/proposed-road-network.jpg"
-  },
-  {
-    "label": "Sanitary landfill map",
-    "url": "https://www.inabanga.gov.ph/wp-content/uploads/2019/08/sanitary-landfill.jpg"
+    "label": "Municipal road network and bridge infrastructure map",
+    "url": "https://inabanga.gov.ph/projects/"
   }
 ];

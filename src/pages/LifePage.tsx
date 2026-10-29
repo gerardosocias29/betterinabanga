@@ -1,0 +1,627 @@
+import { LocalizedText } from '../i18n/LocalizedText'
+import {
+  ArrowRight,
+  Camera,
+  Car,
+  ExternalLink,
+  Flower2,
+  Landmark,
+  Plane,
+  Ship,
+  Utensils,
+  Waves,
+  X,
+} from 'lucide-react'
+import { useEffect, useRef, useState } from 'react'
+import { useLenis } from 'lenis/react'
+import { Link } from 'react-router-dom'
+import { Breadcrumbs } from '../components/Breadcrumbs'
+import { Reveal } from '../components/Reveal'
+import { SectionHeading } from '../components/SectionHeading'
+import { SourceNote } from '../components/SourceNote'
+import type { PlaceImage } from '../data/places'
+import { useLanguage } from '../i18n/language'
+import { usePageMeta } from '../lib/usePageMeta'
+
+const cityTourismUrl = 'https://www.inabanga.gov.ph/life-in-csf/'
+const provincialTourismPhoto = (src: string, alt: string): PlaceImage => ({
+  src: `/places/${src}`,
+  alt,
+  credit: 'Provincial Government of Bohol',
+  creditUrl: 'https://launion.gov.ph/tourism-5/',
+})
+
+const experiencePhotos = {
+  beaches: provincialTourismPhoto('carlatan-surfing-area.webp', 'Surfing along the Carlatan coast.'),
+  heritage: provincialTourismPhoto('ma-cho-temple.webp', 'Ma-Cho Temple in Inabanga.'),
+  food: provincialTourismPhoto('halo-halo-de-iloko.webp', 'Halo-halo served at Halo-Halo de Iloko.'),
+  nature: provincialTourismPhoto('la-union-botanical-garden.webp', 'Garden path at the Bohol Botanical Garden.'),
+  outdoors: provincialTourismPhoto('bacsil-ridge-monument.webp', 'The Bacsil Ridge Monument.'),
+}
+
+const experiences = [
+  {
+    title: 'Beaches and water activities',
+    summary: 'Coastal circuits, surfing, marine sanctuaries, and sunset views.',
+    icon: Waves,
+    photo: experiencePhotos.beaches,
+    items: [
+      'Five beach circuits across the Inabanga coast: San Francisco–Canaoay (Acapulco); Pagdalagan–Pagudpud–San Vicente; Carlatan–Lingsat–Dalumpinas Oeste; San Agustin–Poro–Catbangen; and Ilocanos Sur–Ilocanos Norte–Pagdaraoan.',
+      'Surfing at the Carlatan–Lingsat–Dalumpinas Oeste circuit.',
+      'Snorkeling and diving at the Kasay, Lingsat, and Poro marine sanctuaries — Poro includes a man-made underwater museum.',
+      'Sunset viewing along the Poro Point Baywalk and the developing Ilocanos Baywalk.',
+    ],
+  },
+  {
+    title: 'Heritage and culture',
+    summary: 'Historic landmarks, churches, the Ma-Cho Temple, and public art.',
+    icon: Landmark,
+    photo: experiencePhotos.heritage,
+    items: [
+      'Historical landmarks: Pindangan Ruins, the Tomb of the Unknown Soldier, the Moro Watchtower, and the Battle of Bacsil Ridge Monument.',
+      'Religious and cultural sites, including the Ma-Cho Temple and the city’s 10 Roman Catholic churches — among them the heritage Saint William the Hermit Parish Church.',
+      'City murals and monuments around the City Plaza, City Fountain and People’s Park, and Freedom Park.',
+    ],
+  },
+  {
+    title: 'Food and pasalubong',
+    summary: 'Ilocano dishes, food parks, and local delicacies to bring home.',
+    icon: Utensils,
+    photo: experiencePhotos.food,
+    items: [
+      'Local food trips through Ilocano eateries, restaurants, and food parks.',
+      'Night food parks and Maykan Mangan experiences with traditional and new dishes.',
+      'Pasalubong hunting for roasted peanuts, peanut butter, ube wine, and other local delicacies.',
+    ],
+  },
+  {
+    title: 'Wellness and nature',
+    summary: 'Garden walks, mangroves, upland views, and wellness stops.',
+    icon: Flower2,
+    photo: experiencePhotos.nature,
+    items: [
+      'Nature walks at the Botanical and Zoological Garden in Cadaclan and the Mangrove Walk in Carlatan.',
+      'Sunrise and sunset views from the Mountain View Decks Circuit in Bacsil, Apaleng, and Bangbangolan.',
+      'Spa and wellness centers around the city.',
+    ],
+  },
+  {
+    title: 'Outdoor and photography',
+    summary: 'Hill walks, wildlife, rice terraces, and coastal viewpoints.',
+    icon: Camera,
+    photo: experiencePhotos.outdoors,
+    items: [
+      'Trekking up Pagoda Hill or Reservoir Hill.',
+      'Birdwatching and wildlife viewing at the Bohol Botanical and Zoological Garden.',
+      'The sea of clouds in Cadaclan and the upland barangays, and the rice terraces of Pacpaco and Baraoas.',
+      'Sunrise over the hills and sunset into the West Philippine Sea from the coastal barangays.',
+    ],
+  },
+]
+
+type FestivalCard = {
+  title: string
+  image: string
+  imageAlt: string
+  photoCredit: string
+  sourceUrl: string
+  imageNote?: string
+}
+
+const festivals: FestivalCard[] = [
+  {
+    title: 'Feast of St. William the Hermit',
+    image: '/places/saint-william-cathedral.webp',
+    imageAlt: 'Cathedral of Saint William the Hermit, the parish church associated with the city patronal feast.',
+    photoCredit: 'Cathedral venue · Wikimedia Commons',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Cathedral_of_Saint_William_the_Hermit_LU_(Gomez_Street,_San_Fernando,_La_Union;_02-24-2023).jpg',
+    imageNote: 'Venue photo; a photo of the feast itself was not verified.',
+  },
+  {
+    title: 'Cityhood Foundation Anniversary',
+    image: '/city/festivals/cityhood-parade.webp',
+    imageAlt: 'A cityhood anniversary parade performer walks among spectators in Inabanga.',
+    photoCredit: 'Cityhood parade · Municipal Government',
+    sourceUrl: 'https://www.inabanga.gov.ph/lolos-and-lolas-celebrated-in-the-senior-citizens-night/',
+  },
+  {
+    title: 'Pindangan Festival',
+    image: '/city/festivals/pindangan-festival.webp',
+    imageAlt: 'A costumed Pindangan Festival street dancer performs with the festival statue.',
+    photoCredit: 'Pindangan Festival · Municipal Government',
+    sourceUrl: 'https://www.inabanga.gov.ph/cgsflu-opens-agri-tourism-and-community-fair-kicks-off-28th-cityhood-anniversary/',
+  },
+  {
+    title: 'Global Agri-Turismo Festival',
+    image: '/city/festivals/agri-tourism-fair.webp',
+    imageAlt: 'Local produce and food are presented at the 2026 Agri-Tourism and Community Fair.',
+    photoCredit: 'Agri-Tourism Fair · Municipal Government',
+    sourceUrl: 'https://www.inabanga.gov.ph/manong-dong-city-legal-office-staff-attend-explanatory-meeting-on-the-justice-zone-initiative/',
+    imageNote: 'Photo from the 2026 Agri-Tourism and Community Fair; a Global Agri-Turismo Festival photo was not verified.',
+  },
+  {
+    title: 'Sundown Music and Arts Festival',
+    image: '/city/festivals/sundown-music-festival.webp',
+    imageAlt: 'A singer performs on the Sundown Music and Arts Festival stage.',
+    photoCredit: 'Sundown Festival · Municipal Government',
+    sourceUrl: 'https://www.inabanga.gov.ph/33rd-hawaii-philippines-trade-mission-makes-a-stop-in-san-fernando-la-union/',
+  },
+  {
+    title: 'Matzu Festival',
+    image: '/city/festivals/mama-ma-cho-feast.webp',
+    imageAlt: 'Devotees gather inside Ma-Cho Temple for the Feast of Mama Ma-Cho in 2025.',
+    photoCredit: 'Feast of Mama Ma-Cho · Municipal Government',
+    sourceUrl: 'https://www.inabanga.gov.ph/city-of-san-fernando-exhibits-hospitality-talents-during-raniag-region-1-creative-tour/',
+  },
+  {
+    title: 'CREATE Festival',
+    image: '/city/festivals/create-city-festival-scene.webp',
+    imageAlt: 'Festival dancers in a representative photo published on the city tourism page; the event is not identified as CREATE Festival.',
+    photoCredit: 'City festival scene · City tourism page',
+    sourceUrl: cityTourismUrl,
+    imageNote: 'Representative city festival photo; not identified as a CREATE Festival photo.',
+  },
+  {
+    title: 'Parakad Festival',
+    image: '/city/festivals/carlatan-mangrove-planting.webp',
+    imageAlt: 'A mangrove planting activity in Carlatan, Inabanga, photographed in 2019.',
+    photoCredit: 'Carlatan mangrove planting · PGLU',
+    sourceUrl: 'https://launion.gov.ph/luatta-celebrates-anniversary-through-mangrove-planting/',
+    imageNote: 'Related Carlatan activity from 2019; not a photo of the 2024 Parakad Festival.',
+  },
+  {
+    title: 'Maykan Mangan Festival',
+    image: '/city/festivals/maykan-mangan-festival.webp',
+    imageAlt: 'Visitors gather beside food stalls at the Maykan Mangan Festival in 2025.',
+    photoCredit: 'Maykan Mangan event · Municipal Government',
+    sourceUrl: 'https://www.inabanga.gov.ph/cgsflu-awarded-with-the-cna-certificate-of-registration/',
+  },
+]
+
+const visitorLinks = [
+  {
+    label: 'Bohol tourism plan',
+    url: 'https://launion.gov.ph/knowledge-resources-hub/provincial-tourism-plan',
+  },
+  {
+    label: 'Accredited establishments',
+    url: 'https://drive.google.com/open?id=1M99J4Y-eS0uPHIoJXyERrZLkquxlnbv1',
+  },
+]
+
+const adventureMapUrl = 'https://drive.google.com/file/d/13MAdp7BVYczEM16xBTzd_UQsHQ3YyA58/view?usp=sharing'
+const adventureMapPreviewUrl = '/city/city-adventour-map.webp'
+
+const tourismPhotos = [
+  {
+    src: '/places/people-park-fountain.jpg',
+    alt: 'City Fountain and People’s Park illuminated at night.',
+    label: 'City Plaza',
+  },
+  {
+    src: '/city/heritage.webp',
+    alt: 'Stone arches and greenery at a local heritage site.',
+    label: 'Heritage',
+  },
+  {
+    src: '/city/food.webp',
+    alt: 'Local dishes and desserts served on banana leaves.',
+    label: 'Local flavors',
+  },
+]
+
+const gettingHere = [
+  {
+    title: 'By land',
+    icon: Car,
+    lines: [
+      'About 270 km from Manila, or 4.5 to 6 hours via NLEX–SCTEX–TPLEX.',
+      'Daily direct bus trips with Partas, Dominion, Viron, and Fariñas.',
+      'Vans and car rentals are widely available.',
+    ],
+  },
+  {
+    title: 'By air',
+    icon: Plane,
+    lines: [
+      'Inabanga Airport, between Barangay Canaoay and Barangay San Francisco, serves private and chartered flights.',
+      'Clark International Airport is about 170 km away, or 3.5 to 4 hours by land.',
+      'Laoag International Airport is about 200 km away, or 4.5 to 5 hours by land.',
+    ],
+  },
+  {
+    title: 'By sea',
+    icon: Ship,
+    lines: [
+      'The Inabanga International Seaport is primarily a cargo port.',
+      'It accommodates private vessels and yachts as an entry point for sea travelers.',
+    ],
+  },
+]
+
+export function LifePage() {
+  const { translate } = useLanguage()
+  const lenis = useLenis()
+  const [activeExperience, setActiveExperience] = useState<(typeof experiences)[number] | null>(null)
+  const experienceDialogRef = useRef<HTMLDialogElement>(null)
+
+  useEffect(() => {
+    if (!activeExperience) return
+
+    const bodyOverflow = document.body.style.overflow
+    const rootOverflow = document.documentElement.style.overflow
+    lenis?.stop()
+    document.body.style.overflow = 'hidden'
+    document.documentElement.style.overflow = 'hidden'
+
+    return () => {
+      document.body.style.overflow = bodyOverflow
+      document.documentElement.style.overflow = rootOverflow
+      lenis?.start()
+    }
+  }, [activeExperience, lenis])
+
+  usePageMeta(
+    'Life and tourism',
+    'Things to do in Inabanga, Bohol: beach circuits, surfing, marine sanctuaries, heritage sites, festivals, local food, and how to get here.',
+  )
+
+  return (
+    <>
+      <section className="relative isolate overflow-hidden border-b border-line bg-[linear-gradient(135deg,#f5f7ff_0%,#ffffff_70%)]">
+        <div aria-hidden="true" className="dot-grid absolute inset-y-0 right-0 -z-10 w-2/3 opacity-35" />
+        <div className="container-page grid gap-8 py-8 sm:py-12 lg:grid-cols-[minmax(0,1fr)_minmax(0,0.9fr)] lg:items-center lg:gap-12 lg:py-14">
+          <div>
+            <Breadcrumbs items={[{ label: 'City', href: '/city' }, { label: 'Life and tourism' }]} className="mb-7" />
+            <p className="mb-3 text-xs font-bold uppercase tracking-[0.18em] text-brand-700"><LocalizedText text={"Life in the city · TAYO"} /></p>
+            <h1 className="max-w-2xl text-balance text-3xl font-extrabold leading-[1.08] tracking-[-0.035em] text-ink-950 sm:text-4xl lg:text-[3.25rem]">
+              <LocalizedText text={"Coast, culture, and city life"} /></h1>
+            <p className="mt-4 max-w-2xl text-pretty text-base leading-7 text-ink-600 sm:text-lg">
+              <LocalizedText text={"Explore Inabanga’s coastal spots, heritage landmarks, Ilocano food, green spaces, and community celebrations."} /></p>
+            <div className="mt-6 flex flex-wrap gap-3">
+              <Link
+                to="/city/places"
+                viewTransition
+                className="inline-flex min-h-11 items-center gap-2 rounded-xl bg-brand-700 px-4 text-sm font-bold text-white transition hover:bg-brand-800 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-600"
+              >
+                <LocalizedText text={"Browse city places"} trailingSpace /><ArrowRight aria-hidden="true" className="size-4" />
+              </Link>
+              <a
+                href="#visit-map-title"
+                className="inline-flex min-h-11 items-center rounded-xl border border-line-dark bg-white px-4 text-sm font-bold text-ink-800 transition hover:border-brand-300 hover:text-brand-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-600"
+              >
+                <LocalizedText text={"Plan a visit"} /></a>
+            </div>
+          </div>
+
+          <figure className="group relative min-h-64 overflow-hidden rounded-3xl border border-line bg-ink-950 shadow-float sm:min-h-80 lg:min-h-[360px]">
+            <img
+              src="/city/coast.webp"
+              alt="Rocky coastline and the sea along Inabanga."
+              fetchPriority="high"
+              decoding="async"
+              className="absolute inset-0 size-full object-cover transition duration-700 group-hover:scale-[1.03]"
+            />
+            <div aria-hidden="true" className="absolute inset-0 bg-gradient-to-t from-ink-950/80 via-ink-950/5 to-transparent" />
+            <figcaption className="absolute inset-x-0 bottom-0 flex flex-wrap items-end justify-between gap-3 p-4 sm:p-5">
+              <span className="text-lg font-extrabold text-white sm:text-xl"><LocalizedText text={"Along the Inabanga coast"} /></span>
+              <a
+                href={cityTourismUrl}
+                target="_blank"
+                rel="noreferrer"
+                className="rounded-full bg-ink-950/55 px-3 py-1.5 text-[11px] font-semibold text-white underline decoration-white/50 underline-offset-2 backdrop-blur-sm hover:bg-ink-950/75"
+              >
+                <LocalizedText text={"Photo: Municipal Government"} /></a>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section aria-labelledby="visit-map-title" className="border-b border-line bg-surface">
+        <div className="container-page grid gap-6 py-8 sm:py-10 lg:grid-cols-[minmax(0,0.8fr)_minmax(0,1.2fr)] lg:items-center lg:gap-10">
+          <div>
+            <p className="mb-2 text-xs font-bold uppercase tracking-[0.18em] text-brand-700"><LocalizedText text={"Plan your visit"} /></p>
+            <h2 id="visit-map-title" className="scroll-mt-28 text-2xl font-extrabold tracking-tight text-ink-950 sm:text-3xl">
+              <LocalizedText text={"Find your way around the city"} /></h2>
+            <p className="mt-3 max-w-xl text-sm leading-6 text-ink-600 sm:text-base sm:leading-7">
+              <LocalizedText text={"Preview the City AdvenTour map for visitor spots, food, places to stay, and travel routes. It is the city’s 2022 edition, so confirm current access and business details before you go."} /></p>
+
+            <div className="mt-5 grid grid-cols-3 gap-2 sm:gap-3" role="group" aria-label={translate('Tourism highlights')}>
+              {tourismPhotos.map((photo) => (
+                <figure key={photo.src} className="min-w-0 overflow-hidden rounded-xl border border-line bg-white">
+                  <img
+                    src={photo.src}
+                    alt={translate(photo.alt)}
+                    loading="lazy"
+                    decoding="async"
+                    className="aspect-[4/3] w-full object-cover"
+                  />
+                  <figcaption className="px-2 py-1.5 text-center text-[11px] font-semibold text-ink-700 sm:px-3 sm:py-2 sm:text-xs">
+                    <LocalizedText text={photo.label} />
+                  </figcaption>
+                </figure>
+              ))}
+            </div>
+            <p className="mt-2 text-[11px] text-ink-500">
+              <LocalizedText text={"Photos:"} trailingSpace /><a href={cityTourismUrl} target="_blank" rel="noreferrer" className="underline underline-offset-2 hover:text-brand-700"><LocalizedText text={"Municipal Government of Inabanga"} /></a>
+            </p>
+          </div>
+
+          <a
+            href={adventureMapUrl}
+            target="_blank"
+            rel="noreferrer"
+            aria-label={translate('Open the full City AdvenTour 2022 map in a new tab')}
+            className="group block overflow-hidden rounded-2xl border border-line bg-white shadow-card transition hover:border-brand-200 hover:shadow-float focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2"
+          >
+            <div className="flex min-h-48 items-center justify-center bg-[#168ca3] p-2 sm:min-h-64 sm:p-3">
+              <img
+                src={adventureMapPreviewUrl}
+                alt={translate('Preview of the official City AdvenTour map, showing visitor trails, attractions, food, lodging, services, and travel routes.')}
+                loading="lazy"
+                decoding="async"
+                className="max-h-[360px] w-full object-contain"
+              />
+            </div>
+            <div className="flex items-center justify-between gap-3 px-4 py-3">
+              <span>
+                <span className="block text-sm font-bold text-ink-950"><LocalizedText text={"City AdvenTour map · 2022"} /></span>
+                <span className="mt-0.5 block text-xs text-ink-500"><LocalizedText text={"Open the full-size map"} /></span>
+              </span>
+              <ExternalLink aria-hidden="true" className="size-4 shrink-0 text-brand-700 transition group-hover:translate-x-0.5" />
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section>
+        <div className="container-page py-12 sm:py-16">
+          <Reveal>
+            <SectionHeading
+              eyebrow="Getting here"
+              title="Three ways into the city"
+              description="Inabanga sits at the center of Bohol, linked by highway, air, and sea."
+            />
+          </Reveal>
+
+          <div className="mt-8 grid gap-4 md:grid-cols-3">
+            {gettingHere.map((option, index) => {
+              const Icon = option.icon
+              return (
+                <Reveal key={option.title} delay={index * 0.05} className="h-full">
+                  <div className="h-full rounded-2xl border border-line bg-white p-5 shadow-card">
+                    <span className="inline-flex size-10 items-center justify-center rounded-xl bg-brand-50 text-brand-700">
+                      <Icon aria-hidden="true" className="size-5" />
+                    </span>
+                    <h3 className="mt-4 text-lg font-extrabold tracking-tight text-ink-950"><LocalizedText text={option.title} /></h3>
+                    <ul className="mt-3 list-disc space-y-2 pl-4 text-sm leading-6 text-ink-600">
+                      {option.lines.map((line) => (
+                        <li key={line}><LocalizedText text={line} /></li>
+                      ))}
+                    </ul>
+                  </div>
+                </Reveal>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+
+      <section className="border-y border-line bg-surface">
+        <div className="container-page py-12 sm:py-16">
+          <Reveal>
+            <SectionHeading
+              eyebrow="Things to do"
+              title="Coast, culture, and cuisine"
+              description="The city’s attractions are grouped the way the tourism office presents them."
+            />
+          </Reveal>
+
+          <div className="mt-8 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+            {experiences.map((experience, index) => {
+              const Icon = experience.icon
+              return (
+                <Reveal key={experience.title} delay={(index % 3) * 0.05} className="h-full">
+                  <div className="group h-full overflow-hidden rounded-2xl border border-line bg-white shadow-card transition hover:-translate-y-0.5 hover:shadow-float">
+                    {experience.photo ? (
+                      <figure className="relative aspect-[16/8] overflow-hidden bg-surface">
+                        <img
+                          src={experience.photo.src}
+                          alt={translate(experience.photo.alt)}
+                          loading="lazy"
+                          decoding="async"
+                          className="size-full object-cover transition duration-500 group-hover:scale-[1.03]"
+                        />
+                        <figcaption className="absolute inset-x-0 bottom-0 flex justify-end bg-gradient-to-t from-ink-950/75 to-transparent px-3 pb-2 pt-6">
+                          <a
+                            href={experience.photo.creditUrl}
+                            target="_blank"
+                            rel="noreferrer"
+                            className="text-[10px] font-semibold text-white underline decoration-white/50 underline-offset-2 sm:text-[11px]"
+                          >
+                            <LocalizedText text={"Photo:"} trailingSpace />{experience.photo.credit}
+                          </a>
+                        </figcaption>
+                      </figure>
+                    ) : null}
+                    <div className="p-5">
+                      <span className="inline-flex size-10 items-center justify-center rounded-xl bg-brand-50 text-brand-700">
+                        <Icon aria-hidden="true" className="size-5" />
+                      </span>
+                      <h3 className="mt-4 text-lg font-extrabold tracking-tight text-ink-950"><LocalizedText text={experience.title} /></h3>
+                      <p className="mt-2 text-sm leading-6 text-ink-600"><LocalizedText text={experience.summary} /></p>
+                      <div className="mt-4 border-t border-line pt-3">
+                        <button
+                          type="button"
+                          onClick={() => {
+                            lenis?.stop()
+                            setActiveExperience(experience)
+                            experienceDialogRef.current?.showModal()
+                          }}
+                          className="flex min-h-8 w-full items-center justify-between gap-3 rounded-lg text-left text-sm font-bold text-brand-700 outline-none transition hover:text-brand-800 focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2"
+                          aria-haspopup="dialog"
+                        >
+                          <span><LocalizedText text={"See places and activities"} /></span>
+                          <ArrowRight aria-hidden="true" className="size-4 shrink-0" />
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </Reveal>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div className="container-page py-12 sm:py-16">
+          <Reveal>
+            <SectionHeading
+              eyebrow="Festivals and events"
+              title="Festivals and city celebrations"
+              description="A mix of religious, cultural, and city-wide celebrations. Check with the city for current dates and schedules."
+            />
+          </Reveal>
+
+          <ul className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {festivals.map((festival) => (
+              <li
+                key={festival.title}
+                className="overflow-hidden rounded-2xl border border-line bg-white shadow-card transition hover:-translate-y-0.5 hover:border-brand-200 hover:shadow-float"
+              >
+                <figure className="relative aspect-[16/9] overflow-hidden bg-brand-50">
+                  <img
+                    src={festival.image}
+                    alt={translate(festival.imageAlt)}
+                    loading="lazy"
+                    decoding="async"
+                    className="size-full object-cover"
+                  />
+                  <figcaption className="absolute inset-x-0 bottom-0 flex justify-end bg-gradient-to-t from-ink-950/75 to-transparent px-3 pb-2 pt-7">
+                    <a
+                      href={festival.sourceUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="text-right text-[10px] font-semibold text-white underline decoration-white/50 underline-offset-2 sm:text-[11px]"
+                    >
+                      <LocalizedText text={"Photo:"} trailingSpace />{festival.photoCredit}
+                    </a>
+                  </figcaption>
+                </figure>
+                <div className="p-4">
+                  <h3 className="text-sm font-extrabold leading-5 text-ink-900 sm:text-base">{festival.title}</h3>
+                  {festival.imageNote ? <p className="mt-1.5 text-xs leading-5 text-ink-500"><LocalizedText text={festival.imageNote} /></p> : null}
+                </div>
+              </li>
+            ))}
+          </ul>
+
+          <div className="mt-10 grid gap-3 sm:grid-cols-2">
+            {visitorLinks.map((link) => (
+              <a
+                key={link.url}
+                href={link.url}
+                target="_blank"
+                rel="noreferrer"
+                className="group flex items-center justify-between gap-3 rounded-2xl border border-line bg-white p-4 text-sm font-semibold text-ink-800 shadow-card transition hover:-translate-y-0.5 hover:border-brand-200 hover:text-brand-700 hover:shadow-float"
+              >
+                <LocalizedText text={link.label} />
+                <ExternalLink
+                  aria-hidden="true"
+                  className="size-3.5 shrink-0 text-ink-400 transition group-hover:text-brand-700"
+                />
+              </a>
+            ))}
+          </div>
+
+          <div className="mt-10">
+            <SourceNote
+              href="https://www.inabanga.gov.ph/life-in-csf/"
+              linkLabel="Life in CSF on the city website"
+            >
+              <LocalizedText text={"Tourism information and maps are published by the Municipal Government of Inabanga. The provincial tourism plan covers Inabanga and the wider Bohol circuits. Confirm current schedules and access with the city tourism office; source pages publish their own update dates."} /></SourceNote>
+          </div>
+
+          <div className="mt-8">
+            <Link
+              to="/city/business"
+              viewTransition
+              className="inline-flex items-center gap-2 text-sm font-bold text-brand-700 transition hover:text-brand-800"
+            >
+              <LocalizedText text={"See the business and investment profile"} /><ArrowRight aria-hidden="true" className="size-4" />
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      <dialog
+        ref={experienceDialogRef}
+        aria-labelledby="experience-dialog-title"
+        onClose={() => setActiveExperience(null)}
+        onClick={(event) => {
+          if (event.target === event.currentTarget) experienceDialogRef.current?.close()
+        }}
+        className="m-auto max-h-[90dvh] w-[min(92vw,44rem)] max-w-none overflow-hidden rounded-2xl border border-line bg-white p-0 text-ink-900 shadow-float backdrop:bg-ink-950/60"
+      >
+        {activeExperience ? (
+          <div data-lenis-prevent className="max-h-[90dvh] overflow-y-auto overscroll-contain">
+            {activeExperience.photo ? (
+              <figure className="relative aspect-[16/7] overflow-hidden bg-surface">
+                <img
+                  src={activeExperience.photo.src}
+                  alt={translate(activeExperience.photo.alt)}
+                  className="size-full object-cover"
+                />
+                <figcaption className="absolute inset-x-0 bottom-0 flex justify-end bg-gradient-to-t from-ink-950/75 to-transparent px-3 pb-2 pt-6">
+                  <a
+                    href={activeExperience.photo.creditUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-[11px] font-semibold text-white underline decoration-white/50 underline-offset-2"
+                  >
+                    <LocalizedText text={"Photo:"} trailingSpace />{activeExperience.photo.credit}
+                  </a>
+                </figcaption>
+                <button
+                  type="button"
+                  onClick={() => experienceDialogRef.current?.close()}
+                  aria-label={translate('Close experience details')}
+                  className="absolute right-3 top-3 inline-flex size-10 items-center justify-center rounded-full bg-white text-ink-800 shadow-card transition hover:bg-brand-50 hover:text-brand-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                >
+                  <X aria-hidden="true" className="size-5" />
+                </button>
+              </figure>
+            ) : null}
+            <div className="p-5 sm:p-7">
+              <div className="flex items-start justify-between gap-4">
+                <div>
+                  <p className="text-xs font-bold uppercase tracking-[0.16em] text-brand-700"><LocalizedText text={"Places and activities"} /></p>
+                  <h2 id="experience-dialog-title" className="mt-1 text-xl font-extrabold tracking-tight text-ink-950 sm:text-2xl">
+                    <LocalizedText text={activeExperience.title} />
+                  </h2>
+                </div>
+                {!activeExperience.photo ? (
+                  <button
+                    type="button"
+                    onClick={() => experienceDialogRef.current?.close()}
+                    aria-label={translate('Close experience details')}
+                    className="inline-flex size-10 shrink-0 items-center justify-center rounded-xl border border-line text-ink-700 transition hover:bg-brand-50 hover:text-brand-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-600"
+                  >
+                    <X aria-hidden="true" className="size-5" />
+                  </button>
+                ) : null}
+              </div>
+              <p className="mt-3 text-sm leading-6 text-ink-600"><LocalizedText text={activeExperience.summary} /></p>
+              <ul className="mt-5 list-disc space-y-3 pl-5 text-sm leading-6 text-ink-700 marker:text-brand-600">
+                {activeExperience.items.map((item) => (
+                  <li key={item}><LocalizedText text={item} /></li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        ) : null}
+      </dialog>
+    </>
+  )
+}

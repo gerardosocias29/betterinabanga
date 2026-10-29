@@ -63,7 +63,7 @@ export const municipalBudget2025: {
     },
     {
       category: 'Local Disaster Risk Reduction & Management (5% LDRRMF)',
-      amount: 12432500,
+      amount: 12436329,
       percentage: 5,
       description: 'Disaster preparedness, quick response fund (QRF), rescue vehicles, and coastal relief supplies.',
       color: 'bg-rose-600',
@@ -71,7 +71,7 @@ export const municipalBudget2025: {
     },
     {
       category: 'Special Education Fund (SEF) & Youth Development',
-      amount: 12432500,
+      amount: 12436329,
       percentage: 5,
       description: 'Public elementary/secondary school facilities repair, instructional aids, and SK youth initiatives.',
       color: 'bg-sky-600',

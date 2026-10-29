@@ -1,95 +1,83 @@
-export interface Hotline {
-  id: string;
-  name: string;
-  agency: string;
-  category: 'emergency' | 'health' | 'security' | 'disaster' | 'utility';
-  landline?: string;
-  mobile: string[];
-  description: string;
-  available: string;
-  location?: string;
-  primary?: boolean;
-}
+import type { Hotline } from './types.ts';
 
-export const emergencyHotlines: Hotline[] = [
+export const hotlines: Hotline[] = [
   {
-    id: 'mdrrmo',
-    name: 'MDRRMO Inabanga',
-    agency: 'Municipal Disaster Risk Reduction & Management Office',
-    category: 'disaster',
-    landline: '(038) 510 8164',
-    mobile: ['0917-890-6442'],
-    description: '24/7 disaster response, emergency medical services, flood and typhoon rescues.',
-    available: '24/7 Always Open',
-    location: 'Municipal Compound, Poblacion, Inabanga, Bohol',
-    primary: true,
+    "label": "MDRRMO Inabanga Emergency Response",
+    "numbers": [
+      "(038) 510-8164",
+      "0917-814-4117",
+      "0920-945-8164"
+    ],
+    "email": "mdrrmo@inabanga.gov.ph",
+    "note": "24/7 Municipal Disaster Risk Reduction & Management Council emergency rescue, flood monitoring, and ambulance dispatch.",
+    "primary": true
   },
   {
-    id: 'pnp',
-    name: 'Inabanga Municipal Police Station',
-    agency: 'Philippine National Police (PNP)',
-    category: 'security',
-    landline: '(038) 512 9039',
-    mobile: ['0998-598-6423', '0926-202-7653'],
-    description: 'Law enforcement, peace and order, public safety assistance.',
-    available: '24/7 Always Open',
-    location: 'Poblacion, Inabanga, Bohol',
-    primary: true,
+    "label": "Inabanga Municipal Police Station (PNP)",
+    "numbers": [
+      "(038) 512-9039",
+      "0998-598-6395"
+    ],
+    "email": "inabangamps@yahoo.com",
+    "note": "24/7 Law enforcement, public safety, and immediate emergency response.",
+    "primary": true
   },
   {
-    id: 'bfp',
-    name: 'Inabanga Fire Station',
-    agency: 'Bureau of Fire Protection (BFP)',
-    category: 'emergency',
-    landline: '(038) 512 9038',
-    mobile: ['0927-528-1232', '0955-670-1162'],
-    description: 'Fire suppression, emergency rescue, fire hazard assessments.',
-    available: '24/7 Always Open',
-    location: 'Poblacion, Inabanga, Bohol',
-    primary: true,
+    "label": "Bureau of Fire Protection (BFP Inabanga)",
+    "numbers": [
+      "0927-528-1232",
+      "(038) 510-8111"
+    ],
+    "note": "24/7 Fire suppression, vehicular accident extrication, and rescue operations.",
+    "primary": true
   },
   {
-    id: 'rhu',
-    name: 'Rural Health Unit (RHU)',
-    agency: 'Municipal Health Office',
-    category: 'health',
-    landline: '(038) 512 9140',
-    mobile: ['0917-300-8452'],
-    description: 'Outpatient consultation, emergency first aid, maternal and child healthcare.',
-    available: 'Mon-Fri 8:00 AM - 5:00 PM (Emergency 24/7)',
-    location: 'Health Center Compound, Poblacion, Inabanga',
-    primary: true,
+    "label": "Bohol TaRSIER 117 (Provincial Emergency)",
+    "numbers": [
+      "117",
+      "(038) 411-0117",
+      "0949-795-5530"
+    ],
+    "note": "Bohol Provincial Telephone and Radio System Integrated Emergency Response 24/7 dispatch."
   },
   {
-    id: 'tarsier117',
-    name: 'TaRSIER 117 Bohol',
-    agency: 'Telephone and Radio System Integrated Emergency Response',
-    category: 'emergency',
-    landline: '117',
-    mobile: ['0925-830-0117', '0949-795-5530'],
-    description: 'Provincial command center for medical, trauma, and search & rescue operations.',
-    available: '24/7 Provincial Hotline',
-    location: 'Tagbilaran City, Bohol',
+    "label": "Inabanga Rural Health Unit (RHU / MHO)",
+    "numbers": [
+      "(038) 510-8118",
+      "0917-703-2415"
+    ],
+    "email": "rhu@inabanga.gov.ph",
+    "note": "Municipal Health Office, birthing clinic, maternal care, and emergency clinic triage."
   },
   {
-    id: 'nat911',
-    name: 'National Emergency Hotline',
-    agency: 'National Government Emergency Response',
-    category: 'emergency',
-    landline: '911',
-    mobile: [],
-    description: 'Nationwide dispatch for police, fire, medical, and disaster services.',
-    available: '24/7 Nationwide',
+    "label": "Inabanga Municipal Hall Trunkline",
+    "numbers": [
+      "(038) 510-8164",
+      "(038) 512-9035"
+    ],
+    "email": "lguinabangabohol@yahoo.com",
+    "note": "Municipal Mayor's Office, departments, and general citizen inquiries (Mon-Fri 8am-5pm)."
   },
   {
-    id: 'hall',
-    name: "Mayor's Office / Municipal Hall",
-    agency: 'LGU Inabanga Executive Office',
-    category: 'utility',
-    landline: '(038) 512 9035',
-    mobile: ['0917-123-4567'],
-    description: 'General administrative inquiries, executive assistance, public affairs.',
-    available: 'Mon-Fri 8:00 AM - 5:00 PM',
-    location: 'Municipal Hall, Poblacion, Inabanga, Bohol 6332',
+    "label": "Philippine Coast Guard (PCG Sub-Station Inabanga)",
+    "numbers": [
+      "0917-842-8324"
+    ],
+    "note": "Maritime safety, coastal fisheries enforcement, Port of U-og and island route advisories."
   },
+  {
+    "label": "BOHECO I Electric Cooperative (Inabanga Sub-Office)",
+    "numbers": [
+      "(038) 503-9005",
+      "0917-720-0014"
+    ],
+    "note": "Power outages, fallen lines, and electrical distribution emergencies."
+  },
+  {
+    "label": "Inabanga Municipal Waterworks System",
+    "numbers": [
+      "(038) 510-8164"
+    ],
+    "note": "Water service interruptions, pipeline leaks, and billing assistance."
+  }
 ];

@@ -97,7 +97,7 @@ const staticPages: SearchResult[] = [
     description: 'The mayor, vice mayor, Sangguniang Bayan members, and youth representative.',
     href: '/government/officials',
     meta: 'Government',
-    keywords: 'mayor vice mayor council sangguniang panlungsod',
+    keywords: 'mayor vice mayor council sangguniang bayan',
   },
   {
     kind: 'Page',
@@ -129,7 +129,7 @@ const staticPages: SearchResult[] = [
     description: 'Recent city ordinances, resolutions, and executive orders with official copies.',
     href: '/government/legislation',
     meta: 'Government',
-    keywords: 'ordinance resolution executive order sangguniang panlungsod legislation council laws',
+    keywords: 'ordinance resolution executive order sangguniang bayan legislation council laws',
   },
   {
     kind: 'Page',

@@ -39,7 +39,7 @@ export function AboutPage() {
                   description="This is not the official city website. It is an independent civic project that organizes public information and links back to the government sources behind every dataset."
                 />
                 <p className="mt-5 text-[15px] leading-7 text-ink-600">
-                  <LocalizedText text={"The guide covers city services from the Citizens’ Charter, the elected mayor and city council, all 50 barangays, and the budget and procurement records published under the Full Disclosure Policy. It does not process transactions, issue permits, or speak for the city government."} /></p>
+                  <LocalizedText text={"The guide covers municipal services from the Citizens’ Charter, the elected mayor and Sangguniang Bayan, all 50 barangays, and the budget and procurement records published under the Full Disclosure Policy. It does not process transactions, issue permits, or speak for the municipal government."} /></p>
                 <p className="mt-4 text-[15px] leading-7 text-ink-600">
                   <LocalizedText text={"Where records conflict or change, the official source takes precedence. Each dataset is dated so you can see when it was last checked."} /></p>
                 <div className="mt-6 flex flex-wrap gap-3">

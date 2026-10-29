@@ -34,12 +34,12 @@ const featuredOfficeSlugs = [
 export function GovernmentPage() {
   usePageMeta(
     'Municipal government',
-    'Meet the mayor and city council, browse city offices and departments, explore all 50 barangays, and find published emergency contacts in Inabanga, Bohol.',
+    'Meet the mayor and Sangguniang Bayan, browse municipal offices and departments, explore all 50 barangays, and find published emergency contacts in Inabanga, Bohol.',
   )
 
   const mayor = officials.find((official) => official.role === 'Municipal Mayor')
   const viceMayor = officials.find((official) => official.role === 'Municipal Vice Mayor')
-  const councilors = officials.filter((official) => official.role === 'Sangguniang Bayanor').slice(0, 4)
+  const councilors = officials.filter((official) => official.role === 'Sangguniang Bayan Member').slice(0, 4)
   const featuredOffices = featuredOfficeSlugs
     .map((slug) => offices.find((office) => office.slug === slug))
     .filter((office) => office !== undefined)
@@ -58,7 +58,7 @@ export function GovernmentPage() {
       <PageHero
         eyebrow="Municipal government"
         title="Who runs the city, and how to reach them"
-        description="Inabanga is led by an elected mayor, vice mayor, and 12 Sangguniang Bayan members, supported by city offices and 50 barangays."
+        description="Inabanga is led by an elected mayor, vice mayor, and 8 Sangguniang Bayan members, supported by municipal offices and 50 barangays."
         crumbs={[{ label: 'Government' }]}
       >
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
@@ -96,9 +96,9 @@ export function GovernmentPage() {
         <div className="container-page py-12 sm:py-16">
           <Reveal>
             <SectionHeading
-              eyebrow="City leadership"
+              eyebrow="Municipal leadership"
               title="Your elected officials"
-              description="The mayor and vice mayor lead the executive branch; the Sangguniang Panlungsod handles legislation."
+              description="The mayor and vice mayor lead the executive branch; the Sangguniang Bayan handles legislation."
               action={
                 <Link
                   to="/government/officials"

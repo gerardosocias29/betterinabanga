@@ -12,23 +12,23 @@ import { usePageMeta } from '../lib/usePageMeta'
 export function OfficialsPage() {
   const { translate } = useLanguage()
   usePageMeta(
-    'City officials',
-    'Meet the mayor, vice mayor, 12 Sangguniang Bayan members, and the SK Federation representative of Inabanga, Bohol, and review the city’s election history.',
+    'Municipal officials',
+    'Meet the mayor, vice mayor, 8 Sangguniang Bayan members, ABC President, and SK Federation representative of Inabanga, Bohol, and review the municipality’s election history.',
   )
 
   const mayor = officials.find((official) => official.role === 'Municipal Mayor')
   const viceMayor = officials.find((official) => official.role === 'Municipal Vice Mayor')
-  const councilors = officials.filter((official) => official.role === 'Sangguniang Bayanor')
-  const others = officials.filter(
-    (official) => !['Municipal Mayor', 'Municipal Vice Mayor', 'Sangguniang Bayanor'].includes(official.role),
+  const councilors = officials.filter((official) => official.role === 'Sangguniang Bayan Member')
+  const exOfficio = officials.filter(
+    (official) => !['Municipal Mayor', 'Municipal Vice Mayor', 'Sangguniang Bayan Member'].includes(official.role),
   )
 
   return (
     <>
       <PageHero
-        eyebrow="City officials"
-        title="The people in city hall"
-        description="The elected leadership of Inabanga: the mayor, vice mayor, 12 Sangguniang Bayan members, and the SK Federation representative. Profiles link to the official city website."
+        eyebrow="Municipal officials"
+        title="The people in municipal hall"
+        description="The elected leadership of Inabanga: the mayor, vice mayor, 8 Sangguniang Bayan members, the Liga ng mga Barangay (ABC) president, and the SK Federation representative. Profiles link to the official municipal website."
         crumbs={[{ label: 'Government', href: '/government' }, { label: 'Officials' }]}
       />
 
@@ -37,8 +37,8 @@ export function OfficialsPage() {
           <Reveal>
             <SectionHeading
               eyebrow="Executive"
-              title="City leadership"
-              description="The mayor leads the executive branch; the vice mayor presides over the Sangguniang Panlungsod."
+              title="Municipal leadership"
+              description="The mayor leads the executive branch; the vice mayor presides over the Sangguniang Bayan."
             />
           </Reveal>
           <div className="mt-8 grid gap-5 sm:grid-cols-2">
@@ -61,8 +61,8 @@ export function OfficialsPage() {
           <Reveal>
             <SectionHeading
               eyebrow={`${councilors.length} members`}
-              title="Sangguniang Panlungsod"
-              description="The city council reviews and approves ordinances, resolutions, and the annual budget."
+              title="Sangguniang Bayan"
+              description="The municipal council reviews and approves ordinances, resolutions, and the annual budget."
             />
           </Reveal>
           <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
@@ -158,18 +158,18 @@ export function OfficialsPage() {
         </div>
       </section>
 
-      {others.length ? (
+      {exOfficio.length ? (
         <section>
           <div className="container-page py-12 sm:py-16">
             <Reveal>
               <SectionHeading
                 eyebrow="Ex-officio"
-                title="Youth representation"
-                description="The SK Federation representative sits on the city council as an ex-officio member."
+                title="Barangay and youth representation"
+                description="The Liga ng mga Barangay (ABC) and SK Federation presidents sit on the municipal council as ex-officio members."
               />
             </Reveal>
-            <div className="mt-8 grid max-w-sm gap-5">
-              {others.map((official) => (
+            <div className="mt-8 grid gap-5 sm:grid-cols-2">
+              {exOfficio.map((official) => (
                 <OfficialCard key={official.slug} official={official} featured />
               ))}
             </div>

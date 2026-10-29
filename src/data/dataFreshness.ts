@@ -48,7 +48,7 @@ export const manuallyMaintainedData: DataFreshnessRow[] = [
   },
   {
     dataset: 'Elected officials',
-    source: 'Official city officials page and Sangguniang Panlungsod session records',
+    source: 'Official municipal officials page and Sangguniang Bayan session records',
     recordCount: officials.length,
     lastVerified: '2026-10-23',
     reviewEveryDays: 90,
@@ -111,7 +111,7 @@ export const manuallyMaintainedData: DataFreshnessRow[] = [
   },
   {
     dataset: 'Legislation sample',
-    source: 'City executive-order index and Sangguniang Panlungsod sources; sample, not a complete archive',
+    source: 'Municipal executive-order index and Sangguniang Bayan sources; sample, not a complete archive',
     recordCount: legislation.length,
     lastVerified: '2026-10-24',
     reviewEveryDays: 30,

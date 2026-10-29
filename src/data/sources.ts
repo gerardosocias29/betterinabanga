@@ -42,14 +42,14 @@ export const sources: Source[] = [
     "note": "Bid bulletins, addenda, and award results"
   },
   {
-    "name": "Sangguniang Panlungsod",
-    "url": "https://sp.inabanga.gov.ph",
+    "name": "Sangguniang Bayan",
+    "url": "https://inabanga.gov.ph/sangguniang-bayan",
     "note": "Ordinances, resolutions, legislative records"
   },
   {
     "name": "Ordinance e-Archives",
     "url": "https://archives.inabanga.gov.ph",
-    "note": "Archived city ordinances"
+    "note": "Archived municipal ordinances"
   },
   {
     "name": "PhilAtlas",

@@ -72,10 +72,10 @@ export const onlineServices: OnlineService[] = [
     "category": "Procurement"
   },
   {
-    "slug": "sp-e-archives",
+    "slug": "sb-e-archives",
     "name": "Ordinance E-Archives",
-    "shortName": "SP e-Archives",
-    "description": "Search the Sangguniang Panlungsod archive of city ordinances and resolutions.",
+    "shortName": "SB e-Archives",
+    "description": "Search the Sangguniang Bayan archive of municipal ordinances and resolutions.",
     "url": "https://archives.inabanga.gov.ph/",
     "category": "Government"
   },

@@ -57,7 +57,7 @@ export function LegislationPage() {
   const { translate } = useLanguage()
   usePageMeta(
     'Ordinances and executive orders',
-    'Recent ordinances, resolutions, and executive orders from the Inabanga Municipal Government and Sangguniang Panlungsod, with links to official copies.',
+    'Recent ordinances, resolutions, and executive orders from the Inabanga Municipal Government and Sangguniang Bayan, with links to official copies.',
   )
 
   const [query, setQuery] = useState('')
@@ -90,7 +90,7 @@ export function LegislationPage() {
       <PageHero
         eyebrow="Government"
         title="Ordinances and executive orders"
-        description="The most recent city laws, proposals, and mayoral orders we could verify, linked to the Sangguniang Panlungsod and the city government."
+        description="The most recent municipal laws, proposals, and mayoral orders we could verify, linked to the Sangguniang Bayan and the municipal government."
         crumbs={[
           { label: 'Government', href: '/government' },
           { label: 'Legislation' },
@@ -103,14 +103,14 @@ export function LegislationPage() {
             rel="noreferrer"
             className="inline-flex items-center gap-2 rounded-xl bg-brand-700 px-3.5 py-2 text-xs font-bold text-white transition hover:bg-brand-800"
           >
-            <LocalizedText text={"SP ordinance index"} /><ExternalLink aria-hidden="true" className="size-3.5" />
+            <LocalizedText text={"SB ordinance index"} /><ExternalLink aria-hidden="true" className="size-3.5" />
           </a>
           <Link
             to="/government/officials"
             viewTransition
             className="inline-flex items-center gap-2 rounded-xl border border-line bg-white px-3.5 py-2 text-xs font-bold text-ink-700 transition hover:border-brand-200 hover:text-brand-700"
           >
-            <LocalizedText text={"City officials"} /></Link>
+            <LocalizedText text={"Municipal officials"} /></Link>
         </div>
       </PageHero>
 
@@ -121,7 +121,7 @@ export function LegislationPage() {
               <StatCard value={formatNumber(legislation.length)} label="Recent records" note="2025–2026 sample · executive orders checked Oct 24, 2026" />
               <StatCard value={formatNumber(enacted)} label="Enacted ordinances" note="Official copies linked" />
               <StatCard value={formatNumber(issued)} label="Executive orders" note="Issued by the Municipal Mayor" />
-              <StatCard value={formatNumber(proposed)} label="Proposed ordinance" note="Still before the SP" />
+              <StatCard value={formatNumber(proposed)} label="Proposed ordinance" note="Still before the SB" />
             </div>
           </Reveal>
 
@@ -130,7 +130,7 @@ export function LegislationPage() {
               <SectionHeading
                 eyebrow="Legislative record"
                 title="Recent laws and orders"
-                description="This is a verified recent sample, not the complete ordinance archive. The Sangguniang Panlungsod index and the city archives hold the full record."
+                description="This is a verified recent sample, not the complete ordinance archive. The Sangguniang Bayan index and municipal archives hold the full record."
               />
             </Reveal>
 
@@ -221,12 +221,12 @@ export function LegislationPage() {
           </section>
 
           <div className="mt-10 grid gap-5 lg:grid-cols-[1.1fr_0.9fr]">
-            <SourceNote href={legislationSourceUrl} linkLabel="Sangguniang Panlungsod ordinances">
-              <LocalizedText text={"This page lists recent records with official copies where available. It is not a substitute for the official ordinance archive or the published minutes of the Sangguniang Panlungsod."} /></SourceNote>
+            <SourceNote href={legislationSourceUrl} linkLabel="Sangguniang Bayan ordinances">
+              <LocalizedText text={"This page lists recent records with official copies where available. It is not a substitute for the official ordinance archive or the published minutes of the Sangguniang Bayan."} /></SourceNote>
             <div className="rounded-2xl border border-line bg-surface p-5">
               <h2 className="text-sm font-bold text-ink-950"><LocalizedText text={"How laws move through the city"} /></h2>
               <p className="mt-2 text-sm leading-6 text-ink-600">
-                <LocalizedText text={"City ordinances are enacted by the Sangguniang Panlungsod, reviewed under national law, and published by the city. Executive orders are issued by the Municipal Mayor. Proposed ordinances remain drafts until the council acts."} /></p>
+                <LocalizedText text={"Municipal ordinances are enacted by the Sangguniang Bayan, reviewed under national law, and published by the municipality. Executive orders are issued by the Municipal Mayor. Proposed ordinances remain drafts until the council acts."} /></p>
               <Link to="/contact" viewTransition className="mt-3 inline-flex items-center gap-2 text-sm font-bold text-brand-700 hover:text-brand-800">
                 <LocalizedText text={"Ask for a public record"} /><ExternalLink aria-hidden="true" className="size-3.5" />
               </Link>

@@ -10,7 +10,7 @@ import { usePageMeta } from '../lib/usePageMeta'
 const officialLinks = [
   { label: 'Official city website', href: city.website, note: 'News, announcements, and city departments' },
   { label: 'Citizens’ Charter', href: city.citizensCharter, note: 'Service requirements, fees, and steps' },
-  { label: 'Sangguniang Panlungsod', href: city.sanggunian, note: 'Ordinances, resolutions, and legislative records' },
+  { label: 'Sangguniang Bayan', href: city.sanggunian, note: 'Ordinances, resolutions, and legislative records' },
   { label: 'Ordinance e-Archives', href: city.archives, note: 'Archived city ordinances' },
 ]
 

@@ -108,9 +108,9 @@ const staticRoutes: RouteMetadata[] = [
   },
   {
     path: '/government/officials',
-    title: 'City officials',
+    title: 'Municipal officials',
     description:
-      'Meet the mayor, vice mayor, 12 city councilors, and the SK Federation representative of Inabanga, Bohol, and review the city’s election history.',
+      'Meet the mayor, vice mayor, 8 Sangguniang Bayan members, ABC President, and SK Federation representative of Inabanga, Bohol, and review the municipality’s election history.',
     priority: 0.8,
     changefreq: 'monthly',
     jsonLd: makeBreadcrumbs([
@@ -162,7 +162,7 @@ const staticRoutes: RouteMetadata[] = [
     path: '/government/legislation',
     title: 'Ordinances and executive orders',
     description:
-      'Recent ordinances, resolutions, and executive orders from the Inabanga Municipal Government and Sangguniang Panlungsod, with links to official copies.',
+      'Recent ordinances, resolutions, and executive orders from the Inabanga Municipal Government and Sangguniang Bayan, with links to official copies.',
     priority: 0.8,
     changefreq: 'weekly',
     jsonLd: makeBreadcrumbs([

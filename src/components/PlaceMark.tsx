@@ -39,7 +39,6 @@ const imageMarks: Array<{ match: string; src: string; wide?: boolean; large?: bo
   { match: 'regional trial court', src: '/logos/gov-rtc.svg' },
   { match: 'department of the interior and local government', src: '/logos/gov-dilg.png' },
   { match: 'dilg ', src: '/logos/gov-dilg.png' },
-  { match: 'treatment and rehabilitation center', src: '/logos/trc-la-union.png' },
   { match: 'department of health', src: '/logos/gov-doh.svg' },
   { match: 'doh regional', src: '/logos/gov-doh.svg' },
   { match: 'department of public works and highways', src: '/logos/gov-dpwh.svg' },
@@ -84,20 +83,8 @@ const imageMarks: Array<{ match: string; src: string; wide?: boolean; large?: bo
   { match: 'philippine air force', src: '/logos/gov-paf.png' },
   { match: 'philippine navy', src: '/logos/gov-navy.png' },
   { match: 'bohol provincial capitol', src: '/logos/bettergov-emblem-inversed.svg' },
-  { match: 'bethany hospital', src: '/logos/bethany-hospital.png' },
-  { match: 'lorma medical center', src: '/logos/lorma-medical-center.png', wide: true },
-  { match: 'lumed', src: '/logos/lumed-hospital.png' },
-  { match: 'healthpro multi-specialty center', src: '/logos/healthpro-la-union.jpg' },
-  { match: 'smile city dental essentials', src: '/logos/smile-city-dental.jpg', wide: true },
-  { match: 'medisense laboratory center', src: '/logos/medisense-lab-center.jpg' },
-  { match: 'cicosat colleges', src: '/logos/cicosat-colleges.png' },
-  { match: 'central ilocandia college of science and technology', src: '/logos/cicosat-colleges.png' },
-  { match: 'don mariano marcos memorial state university', src: '/logos/dmmmsu-seal-2025.png' },
-  { match: 'union christian college', src: '/logos/union-christian-college.png' },
-  { match: 'lorma colleges', src: '/logos/lorma-colleges.png' },
-  { match: 'ama computer college', src: '/logos/ama-education-system.webp' },
-  { match: 'leading edge international aviation academy', src: '/logos/leading-edge-aviation.png' },
-  { match: 'partas bus terminal', src: '/logos/partas.png', wide: true },
+  { match: 'first consolidated bank', src: '/logos/bettergov-icon-primary.svg' },
+  { match: 'fcb ', src: '/logos/bettergov-icon-primary.svg' },
 ]
 
 function isCityOffice(item: PlaceRecord) {
@@ -111,7 +98,7 @@ export function PlaceMark({ item }: { item: PlaceRecord }) {
   if (isCityOffice(item)) {
     return (
       <span className="inline-flex size-10 shrink-0 items-center justify-center overflow-hidden rounded-xl border border-line bg-white p-1" aria-hidden="true">
-        <img src="/logos/san-fernando-city-seal.jpg" alt="" className="size-full object-contain" loading="lazy" />
+        <img src="/images/inabanga_logo.png" alt="" className="size-full object-contain" loading="lazy" />
       </span>
     )
   }

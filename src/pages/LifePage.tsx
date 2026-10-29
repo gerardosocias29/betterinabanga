@@ -32,8 +32,8 @@ const provincialTourismPhoto = (src: string, alt: string): PlaceImage => ({
 })
 
 const experiencePhotos = {
-  beaches: provincialTourismPhoto('san-fernando-beach-coast.webp', 'Danajon Bank and Inabanga coastal waters.'),
-  heritage: provincialTourismPhoto('san-fernando-city-hall.webp', 'Historic heritage landmarks of Inabanga.'),
+  beaches: provincialTourismPhoto('inabanga-beach-coast.webp', 'Danajon Bank and Inabanga coastal waters.'),
+  heritage: provincialTourismPhoto('inabanga-municipal-hall.webp', 'Historic heritage landmarks of Inabanga.'),
   food: provincialTourismPhoto('people-park-fountain.jpg', 'Local Boholano culinary and town dining.'),
   nature: provincialTourismPhoto('carrile-tower.webp', 'Inabanga River Nature Park and verdant watershed.'),
   outdoors: provincialTourismPhoto('bacsil-ridge-monument.webp', 'Mt. Ilihan and Macaban Cave historical trails.'),
@@ -111,7 +111,7 @@ type FestivalCard = {
 const festivals: FestivalCard[] = [
   {
     title: 'Feast of Saint Paul the Apostle (Town Fiesta)',
-    image: '/places/san-fernando-city-hall.webp',
+    image: '/places/inabanga-municipal-hall.webp',
     imageAlt: 'Saint Paul the Apostle Parish in Poblacion, Inabanga, Bohol.',
     photoCredit: 'Parish of Saint Paul · Municipality of Inabanga',
     sourceUrl: 'https://inabanga.gov.ph',

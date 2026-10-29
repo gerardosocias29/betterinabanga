@@ -356,7 +356,7 @@ export function BudgetPage() {
             links={[
               { href: 'https://blgf.gov.ph/lgu-fiscal-data/', label: 'BLGF fiscal data portal' },
               {
-                href: 'https://www.coa.gov.ph/wpfd_file/san-fernando-city-annual-audit-report-2024/',
+                href: 'https://www.coa.gov.ph/wpfd_file/inabanga-municipality-annual-audit-report-2024/',
                 label: 'COA 2024 city audit report',
               },
             ]}

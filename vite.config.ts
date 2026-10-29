@@ -71,7 +71,7 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       injectRegister: null,
-      includeAssets: ['favicon.png', 'apple-touch-icon.png', 'og.png', 'pwa-192.png', 'pwa-512.png'],
+      includeAssets: ['favicon.svg', 'favicon.png', 'apple-touch-icon.png', 'og.png', 'pwa-192.png', 'pwa-512.png'],
       manifest: {
         name: 'Better Inabanga, Bohol',
         short_name: 'Better Inabanga',

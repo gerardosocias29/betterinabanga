@@ -230,7 +230,7 @@ export const services: Service[] = [
     "lastVerified": "2026-10-21"
   },
   {
-    "slug": "arranging-a-tour-at-the-la-union-science-centrum-and-museum-luscm",
+    "slug": "arranging-a-tour-at-the-inabanga-raffia-weaving-and-heritage-museum-luscm",
     "title": "Arranging a Tour at the Bohol Science Centrum and Museum (LUSCM)",
     "office": "Bohol Science Centrum and Museum",
     "officeCode": "luscm",
@@ -242,10 +242,10 @@ export const services: Service[] = [
     "summary": "Arranging a Tour at the Bohol Science Centrum and Museum (LUSCM) at the Bohol Science Centrum and Museum.",
     "fees": "General Admission: PhP 10.00\nStudents/ Senior Citizens: PhP 5.00\n4 years old and below; Persons with Disability; Teachers: Free Admission",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Arranging-a-Tour-at-the-La-Union-Science-Centrum-And-Museum-LUSCM-REQUIREMENTS-LUSCM.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Arranging-a-Tour-at-the-La-Union-Science-Centrum-And-Museum-LUSCM-STEPS-LUSCM.pdf"
+      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Arranging-a-Tour-at-the-Inabanga-Raffia-Weaving-And-Heritage-Museum-LUSCM-REQUIREMENTS-LUSCM.pdf",
+      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Arranging-a-Tour-at-the-Inabanga-Raffia-Weaving-And-Heritage-Museum-LUSCM-STEPS-LUSCM.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/27/arranging-a-tour-at-the-la-union-science-centrum-and-museum-luscm/",
+    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/27/arranging-a-tour-at-the-inabanga-raffia-weaving-and-heritage-museum-luscm/",
     "lastVerified": "2026-10-21"
   },
   {
@@ -3709,7 +3709,7 @@ export const services: Service[] = [
     "lastVerified": "2026-10-21"
   },
   {
-    "slug": "referral-for-financial-assistance-to-provincial-government-of-la-union-pglu-and-department",
+    "slug": "referral-for-financial-assistance-to-provincial-government-of-bohol-and-department",
     "title": "Referral for Financial Assistance to Provincial Government of Bohol (PGLU) and Department of Social Welfare and Development Office (DSWD) FO1",
     "office": "Municipal Social Welfare and Development Office",
     "officeCode": "cswdo",
@@ -3721,10 +3721,10 @@ export const services: Service[] = [
     "summary": "The CITY SOCIAL WELFARE AND DEVELOPMENT (CSWDO) issues assessment reports for individuals needing referrals which is a prerequisite in availing financial/medical assistance from…",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Referral-for-Financial-Assistance-to-Provincial-Government-of-La-Union-PGLU-and-DepartSTEPS-CSWDO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Referral-for-Financial-Assistance-to-Provincial-Government-of-La-Union-PGLU-andREQUIREMENTS-CSWDO.pdf"
+      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Referral-for-Financial-Assistance-to-Provincial-Government-of-Bohol-and-DepartSTEPS-CSWDO.pdf",
+      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Referral-for-Financial-Assistance-to-Provincial-Government-of-Bohol-andREQUIREMENTS-CSWDO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/06/01/referral-for-financial-assistance-to-provincial-government-of-la-union-pglu-and-department-of-social-welfare-and-development-office-dswd-fo1/",
+    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/06/01/referral-for-financial-assistance-to-provincial-government-of-bohol-and-department-of-social-welfare-and-development-office-dswd-fo1/",
     "lastVerified": "2026-10-21"
   },
   {
@@ -4184,7 +4184,7 @@ export const services: Service[] = [
     "lastVerified": "2026-10-21"
   },
   {
-    "slug": "samahan-ng-may-kapansanan-city-of-san-fernando-la-union-smkinabanga",
+    "slug": "samahan-ng-may-kapansanan-inabanga-bohol-smkinabanga",
     "title": "Samahan ng may Kapansanan Municipality of Inabanga Bohol (SMKCSFLU)",
     "office": "Municipal Social Welfare and Development Office",
     "officeCode": "cswdo",
@@ -4196,10 +4196,10 @@ export const services: Service[] = [
     "summary": "The CITY SOCIAL WELFARE AND DEVELOPMENT OFFICE (CSWDO) provides organizational services and orientation for the formation and strengthening of Persons with Disabilities.",
     "fees": "NO FEES AND CHARGES REQUIRED.",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Samahan-ng-may-Kapansanan-City-of-San-Fernando-La-Union-SMKCSFLU-REQUIREMENTS-CSWDO.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Samahan-ng-may-Kapansanan-City-of-San-Fernando-La-Union-SMKCSFLU-STEPS-CSWDO.pdf"
+      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Samahan-ng-may-Kapansanan-Inabanga-Bohol-SMKCSFLU-REQUIREMENTS-CSWDO.pdf",
+      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/06/Samahan-ng-may-Kapansanan-Inabanga-Bohol-SMKCSFLU-STEPS-CSWDO.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/06/01/samahan-ng-may-kapansanan-city-of-san-fernando-la-union-smkinabanga/",
+    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/06/01/samahan-ng-may-kapansanan-inabanga-bohol-smkinabanga/",
     "lastVerified": "2026-10-21"
   },
   {
@@ -4367,10 +4367,10 @@ export const services: Service[] = [
     "summary": "Settlement of Violations on Illegal Use of Streets and Sidewalks in the Municipality of Inabanga at the Office for Public Safety.",
     "fees": "Fees: PhP 1,000.00",
     "pdfs": [
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Settlement-of-Violations-on-Illegal-Use-of-Streets-and-Sidewalks-in-the-City-of-San-Fernando-REQUIREMENTS-OPS.pdf",
-      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Settlement-of-Violations-on-Illegal-Use-of-Streets-and-Sidewalks-in-the-City-of-San-Fernando-STEPS-OPS.pdf"
+      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Settlement-of-Violations-on-Illegal-Use-of-Streets-and-Sidewalks-in-the-Municipality-of-Inabanga-REQUIREMENTS-OPS.pdf",
+      "https://cc.inabanga.gov.ph/wp-content/uploads/2024/05/Settlement-of-Violations-on-Illegal-Use-of-Streets-and-Sidewalks-in-the-Municipality-of-Inabanga-STEPS-OPS.pdf"
     ],
-    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/27/settlement-of-violations-on-illegal-use-of-streets-and-sidewalks-in-the-city-of-san-fernando/",
+    "sourceUrl": "https://cc.inabanga.gov.ph/wordpress/2024/05/27/settlement-of-violations-on-illegal-use-of-streets-and-sidewalks-in-the-municipality-of-inabanga/",
     "lastVerified": "2026-10-21"
   },
   {

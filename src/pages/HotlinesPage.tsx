@@ -136,7 +136,7 @@ export function HotlinesPage() {
             links={[
               { href: 'https://launion.gov.ph/contact-us/', label: 'Provincial Government contacts' },
               {
-                href: 'https://www.inabanga.gov.ph/wp-content/uploads/2023/06/City-of-San-Fernando-LU-Final-1.pdf',
+                href: 'https://inabanga.gov.ph',
                 label: 'City stakeholder directory (2023)',
               },
             ]}

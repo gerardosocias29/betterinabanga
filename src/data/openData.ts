@@ -127,7 +127,7 @@ export const openDataSources: OpenDataSource[] = [
     note: 'The dataset indexes audit agencies; it does not contain the full audit reports.',
   },
   {
-    id: 'coa-san-fernando-2024',
+    id: 'coa-inabanga-2024',
     name: 'Inabanga City Annual Audit Report 2024',
     publisher: 'Commission on Audit',
     description:
@@ -135,7 +135,7 @@ export const openDataSources: OpenDataSource[] = [
     coverage: 'City annual audit report, CY2024',
     formats: 'Web page, PDF',
     license: 'Public domain',
-    href: 'https://www.coa.gov.ph/wpfd_file/san-fernando-city-annual-audit-report-2024/',
+    href: 'https://www.coa.gov.ph/wpfd_file/inabanga-municipality-annual-audit-report-2024/',
     group: 'reference',
     note: 'COA has published the city’s 2024 report; the local fiscal charts remain FY2024 city and BLGF figures with separate reporting bases.',
   },

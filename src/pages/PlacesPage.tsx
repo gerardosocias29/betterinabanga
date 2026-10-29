@@ -44,8 +44,8 @@ const categoryIcons: Record<PlaceCategoryId, LucideIcon> = {
 
 const pageSize = 24
 const logoSources = [
-  { href: 'https://www.inabanga.gov.ph/wp-content/uploads/2020/04/San-Fernando-Seal_1-500x500.jpg', label: 'Inabanga City official seal' },
-  { href: 'https://launion.gov.ph/la-union-seal/', label: 'Bohol provincial seal' },
+  { href: 'https://inabanga.gov.ph', label: 'Inabanga City official seal' },
+  { href: 'https://www.bohol.gov.ph', label: 'Bohol provincial seal' },
   { href: 'https://commons.wikimedia.org/wiki/File:Bangko_Sentral_ng_Pilipinas_(BSP).svg', label: 'Bangko Sentral ng Pilipinas official mark' },
   { href: 'https://commons.wikimedia.org/wiki/File:Bureau_of_Fisheries_and_Aquatic_Resources_(BFAR).svg', label: 'Bureau of Fisheries and Aquatic Resources official seal' },
   { href: 'https://commons.wikimedia.org/wiki/File:Civil_Service_Commission.svg', label: 'Civil Service Commission official seal' },
@@ -84,7 +84,7 @@ const logoSources = [
   { href: 'https://bethanyhospitalinc.com/', label: 'Bethany Hospital' },
   { href: 'https://lumed.com.ph/', label: 'LUMED Hospital' },
   { href: 'https://www.smsupermalls.com/mall-directory/sm-city-rosales/shops/smile-city-dental-essentials', label: 'Smile City Dental Essentials logo · SM Supermalls' },
-  { href: 'https://www.parlon.ph/parlon/nisce-skin-medispa/nisce-skin-medispa-robinsons-la-union', label: 'Nisce Skin Medispa · Robinsons Bohol branch photo' },
+  { href: 'https://inabanga.gov.ph', label: 'Nisce Skin Medispa · Robinsons Bohol branch photo' },
 ]
 
 function PlaceCard({ item }: { item: PlaceRecord }) {
@@ -334,9 +334,9 @@ export function PlacesPage() {
             links={[
               { href: 'https://launion.gov.ph/wp-content/uploads/2026/02/RLAs-PLAs-GOCCs-and-Private-Sector.pdf', label: 'Provincial agency directory (Feb. 2026)' },
               { href: 'https://www.inabanga.gov.ph/city-departments/', label: 'City departments directory' },
-              { href: 'https://launion.gov.ph/wp-content/uploads/2026/02/Tertiary-Schools-in-La-Union-Updated-2026.pdf', label: 'Tertiary schools list (2026)' },
+              { href: 'https://www.bohol.gov.ph', label: 'Tertiary schools list (2026)' },
               { href: 'https://launion.gov.ph/wp-content/uploads/2024/02/2023_TAs.pdf', label: 'Tourism attraction inventory (2023)' },
-              { href: 'https://vmd.robinsonsmalls.com/list-of-malls/north-luzon/robinsons-la-union', label: 'Robinsons Bohol tenant directory' },
+              { href: 'https://inabanga.gov.ph', label: 'Robinsons Bohol tenant directory' },
             ]}
           >
             <LocalizedText text={"Agency listings follow official city and provincial directories. Only verified marks and selected institution logos are shown; other listings appear by name. Google Maps may include old or duplicate entries, so confirm hours and operation before visiting. Nearby towns are excluded."} /></SourceNote>

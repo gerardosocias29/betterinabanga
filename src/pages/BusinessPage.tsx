@@ -368,7 +368,7 @@ export function BusinessPage() {
                 { href: 'https://nwpc.dole.gov.ph/region-i/', label: 'NWPC Region I wage rates' },
                 { href: 'https://www.luecoinc.com/rates/', label: 'LUECO tariff schedule' },
                 {
-                  href: 'https://www.smprime.com/company_releases/sm-prime-opens-89th-mall-sm-city-la-union-to-feature-sandbox-outdoor-space/',
+                  href: 'https://inabanga.gov.ph',
                   label: 'SM Prime opening announcement',
                 },
               ]}

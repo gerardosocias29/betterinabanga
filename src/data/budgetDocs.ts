@@ -93,7 +93,7 @@ export const budgetDocs: BudgetDoc[] = [
   },
   {
     "title": "Inabanga City Annual Audit Report 2024",
-    "url": "https://www.coa.gov.ph/wpfd_file/san-fernando-city-annual-audit-report-2024/",
+    "url": "https://www.coa.gov.ph/wpfd_file/inabanga-municipality-annual-audit-report-2024/",
     "category": "Audit & accountability",
     "description": "Commission on Audit annual audit report for the Municipality of Inabanga, Bohol, CY2024."
   },

@@ -482,7 +482,7 @@ export const offices: Office[] = [
     "sourceUrl": "https://www.inabanga.gov.ph/city-departments/"
   },
   {
-    "slug": "la-union-science-centrum-and-museum",
+    "slug": "inabanga-raffia-weaving-and-heritage-museum",
     "name": "Bohol Science Centrum and Museum",
     "code": "luscm",
     "sector": "Social welfare",

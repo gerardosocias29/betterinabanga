@@ -53,7 +53,7 @@ export const sources: Source[] = [
   },
   {
     "name": "PhilAtlas",
-    "url": "https://www.philatlas.com/luzon/r01/la-union/san-fernando.html",
+    "url": "https://www.philatlas.com/visayas/r07/bohol/inabanga.html",
     "note": "Population, land area, barangay profiles"
   },
   {
@@ -78,7 +78,7 @@ export const sources: Source[] = [
   },
   {
     "name": "PSA — 2024 Census of Population (Bohol)",
-    "url": "https://rsso01.psa.gov.ph/content/highlights-population-la-union-2024-census-population",
+    "url": "https://rsso07.psa.gov.ph",
     "note": "Official city and provincial population totals; Inabanga city population is 124,809"
   },
   {
@@ -113,7 +113,7 @@ export const sources: Source[] = [
   },
   {
     "name": "SM Prime",
-    "url": "https://www.smprime.com/company_releases/sm-prime-opens-89th-mall-sm-city-la-union-to-feature-sandbox-outdoor-space/",
+    "url": "https://inabanga.gov.ph",
     "note": "SM City Bohol opening announcement, October 17, 2025"
   },
   {
@@ -123,7 +123,7 @@ export const sources: Source[] = [
   },
   {
     "name": "City Stakeholders Directory (2023)",
-    "url": "https://www.inabanga.gov.ph/wp-content/uploads/2023/06/City-of-San-Fernando-LU-Final-1.pdf",
+    "url": "https://inabanga.gov.ph",
     "note": "Published police, fire, and emergency contacts; confirm direct numbers remain active"
   },
   {
